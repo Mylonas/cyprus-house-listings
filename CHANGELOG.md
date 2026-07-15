@@ -2,6 +2,21 @@
 
 All notable changes to this project are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows [SemVer](https://semver.org/).
 
+## [2.0.0] - 2026-07-15
+
+### Added
+- Three new sources, bringing the total to 517 listings across 8 sources:
+  - BuySellCyprus.com (53 listings — bounded "recently listed" sample of a ~28,000-listing catalogue)
+  - home.cy (105 listings — also captures the presenting agency/developer name per listing)
+  - FOX Realty (60 listings — scraped from the agency's own site, the largest single presence found via home.cy)
+- `scripts/scrape-buysellcyprus.mjs`, `scripts/scrape-homecy.mjs`, `scripts/scrape-foxrealty.mjs`
+- Recovered photos for a subset of eAuction Cyprus listings via their direct `/Auction/GetAuctionImage` endpoint (most eAuction listings still have no photo — see Known Limitations)
+- New source tag colors in the UI for BuySellCyprus, home.cy, and FOX Realty
+
+### Changed
+- `scrape-all.mjs` now runs 8 scrapers instead of 5
+- README rewritten with all 8 sources and updated counts
+
 ## [1.0.0] - 2026-07-15
 
 ### Added

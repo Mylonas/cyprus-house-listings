@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * scrape-all.mjs
- * Runs all four source scrapers, merges the results, writes src/data/listings.json,
+ * Runs all eight source scrapers, merges the results, writes src/data/listings.json,
  * then rebuilds public/index.html via build-page.mjs.
  *
  * This is the script GitHub Actions runs on the update-listings.yml schedule.
@@ -17,6 +17,9 @@ import { scrapeBazaraki } from './scrape-bazaraki.mjs';
 import { scrapeEauction } from './scrape-eauction.mjs';
 import { scrapeZyprus } from './scrape-zyprus.mjs';
 import { scrapeBidx1 } from './scrape-bidx1.mjs';
+import { scrapeBuySellCyprus } from './scrape-buysellcyprus.mjs';
+import { scrapeHomeCy } from './scrape-homecy.mjs';
+import { scrapeFoxRealty } from './scrape-foxrealty.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -28,6 +31,9 @@ const sources = [
   ['eAuction', scrapeEauction],
   ['Zyprus', scrapeZyprus],
   ['BidX1', scrapeBidx1],
+  ['BuySellCyprus', scrapeBuySellCyprus],
+  ['home.cy', scrapeHomeCy],
+  ['FOX Realty', scrapeFoxRealty],
 ];
 
 const results = [];
@@ -53,4 +59,5 @@ if (successCount === 0) {
 writeFileSync(outPath, JSON.stringify(results, null, 1), 'utf-8');
 console.log(`Wrote ${results.length} total listings to src/data/listings.json (${successCount}/${sources.length} sources succeeded).`);
 
-// Re
+// Rebuild the static page from the fresh data
+await import('./build-page.mjs');
