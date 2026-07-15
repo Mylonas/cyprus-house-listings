@@ -1,0 +1,54 @@
+name: Watchdog
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  check-freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check listings.json freshness
+        id: freshness
+        run: |
+          LAST_COMMIT_EPOCH=$(git log -1 --format=%ct -- src/data/listings.json)
+          NOW_EPOCH=$(date +%s)
+          AGE_HOURS=$(( (NOW_EPOCH - LAST_COMMIT_EPOCH) / 3600 ))
+          echo "age_hours=$AGE_HOURS" >> "$GITHUB_OUTPUT"
+          echo "Listings data is $AGE_HOURS hours old."
+
+      - name: Re-trigger update workflow if stale
+        if: ${{ fromJSON(steps.freshness.outputs.age_hours) > 18 }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'update-listings.yml',
+              ref: 'master',
+            });
+
+      - name: Open an Issue if still stale after re-trigger attempts
+        if: ${{ fromJSON(steps.freshness.outputs.age_hours) > 30 }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'data-stale',
+            });
+            if (issues.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: 'Listings data is stale (>30h old)',
+                body: 'The update-listings workflow has not successfully refreshed src/data/listings.json in over 30 hours. Check the Actions tab for recent failures on all four scrapers (Altamira, Bazaraki, eAuction, Zyprus) — likely a source site changed its markup.',
+                labels: ['data-stale'],
+              });
+            }

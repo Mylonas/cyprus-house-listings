@@ -1,0 +1,42 @@
+name: Update Cyprus house listings
+
+on:
+  schedule:
+    # Every 6 hours. Real-estate inventory doesn't move hourly like fuel
+    # prices, so this is deliberately less aggressive than deals-blog's
+    # hourly crons — tune via cron string if you want it more/less frequent.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape all sources and rebuild page
+        run: npm run scrape
+
+      - name: Commit and push if listings changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/listings.json public/index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh listings data [skip ci]"
+            git push
+          fi

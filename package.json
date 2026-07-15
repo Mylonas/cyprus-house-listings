@@ -1,0 +1,20 @@
+{
+  "name": "cyprus-house-listings",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internal reference page tracking Cyprus house-for-sale listings across Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, and BidX1.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-all.mjs",
+    "scrape:altamira": "node scripts/scrape-altamira.mjs",
+    "scrape:bazaraki": "node scripts/scrape-bazaraki.mjs",
+    "scrape:eauction": "node scripts/scrape-eauction.mjs",
+    "scrape:zyprus": "node scripts/scrape-zyprus.mjs",
+    "scrape:bidx1": "node scripts/scrape-bidx1.mjs",
+    "build": "node scripts/build-page.mjs",
+    "dev": "npx serve public"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
