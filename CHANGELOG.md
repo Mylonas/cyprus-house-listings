@@ -26,6 +26,9 @@ All notable changes to this project are documented here. Format loosely follows 
 ### Known Limitations
 - Bazaraki, Zyprus, and BuySellCyprus now serve a Cloudflare bot-verification challenge to automated browsers and cannot currently be scraped; their scrapers remain in place and resume automatically if the sites relax the protection
 
+### Rollback
+- Redeploy the `v2.0.0` tag via the Cloudflare Pages dashboard, or revert the release merge commit on `master` and push — `deploy.yml` republishes the previous page automatically
+
 ## [2.0.0] - 2026-07-15
 
 ### Added

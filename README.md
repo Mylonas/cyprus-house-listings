@@ -1,6 +1,6 @@
 # 🏠 Cyprus House Listings
 
-> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)**
+> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.1.0** — Realting + A Place in the Sun sources, cross-source dedup, plot/build-year filters
 
 Internal reference page aggregating house-for-sale listings from ten sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
@@ -116,15 +116,15 @@ All workflows that commit back to the repo use `[skip ci]` on their commits to a
 | Workflow | Trigger | What it does |
 |---|---|---|
 | `deploy.yml` | Push to `master` | Deploys `public/` to Cloudflare Pages |
-| `update-listings.yml` | Every 6 hours | Runs all 8 scrapers, merges results, rebuilds `public/index.html`, commits if changed |
+| `update-listings.yml` | Every 6 hours | Runs all 10 scrapers, dedupes across sources, rebuilds `public/index.html`, commits if changed, deploys to Cloudflare Pages |
 | `watchdog.yml` | Every 12 hours | Checks `src/data/listings.json` freshness; re-triggers `update-listings.yml` if stale; opens a GitHub Issue if still stale after ~30h |
 
 ### Required Secrets
 
 | Secret | Required | Used by |
 |---|---|---|
-| `CLOUDFLARE_API_TOKEN` | ✅ | `deploy.yml` |
-| `CLOUDFLARE_ACCOUNT_ID` | ✅ | `deploy.yml` |
+| `CLOUDFLARE_API_TOKEN` | ✅ | `deploy.yml`, `update-listings.yml` |
+| `CLOUDFLARE_ACCOUNT_ID` | ✅ | `deploy.yml`, `update-listings.yml` |
 
 `GITHUB_TOKEN` for `watchdog.yml`'s workflow-dispatch/Issue-creation is provided automatically by GitHub Actions — no setup needed.
 
