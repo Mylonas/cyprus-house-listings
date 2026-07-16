@@ -8,6 +8,11 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch: {}
 
+# The refresh commit is pushed back to master with GITHUB_TOKEN, which is
+# read-only by default.
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
