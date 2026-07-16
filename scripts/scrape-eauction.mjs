@@ -26,7 +26,8 @@ export async function scrapeEauction() {
 
   for (let p = 1; p <= Math.max(totalPages, 1) && p <= MAX_PAGES; p++) {
     const url = `${BASE}/en/Home/HlektronikoiPleistiriasmoi?sortAsc=true&sortId=1&page=${p}&type=5`;
-    await page.goto(url, { waitUntil: 'networkidle' });
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.waitForFunction(() => /Status:/.test(document.body.innerText), { timeout: 30000 }).catch(() => {});
 
     if (p === 1) {
       const pageInfo = await page.evaluate(() => {
