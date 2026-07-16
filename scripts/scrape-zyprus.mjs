@@ -18,7 +18,8 @@ export async function scrapeZyprus() {
 
   for (let p = 1; p <= MAX_PAGES; p++) {
     const url = `${BASE}/search/sale/grid?type_top%5B%5D=3&page=${p}`;
-    await page.goto(url, { waitUntil: 'networkidle' });
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('a[href*="/property/"]', { timeout: 30000 }).catch(() => {});
 
     const items = await page.evaluate(() => {
       const links = [...new Set(

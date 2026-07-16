@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * scrape-all.mjs
- * Runs all eight source scrapers, merges the results, writes src/data/listings.json,
- * then rebuilds public/index.html via build-page.mjs.
+ * Runs all ten source scrapers, merges and deduplicates the results, writes
+ * src/data/listings.json, then rebuilds public/index.html via build-page.mjs.
  *
  * This is the script GitHub Actions runs on the update-listings.yml schedule.
  * It is intentionally resilient: if one source fails (site down, markup change),
@@ -20,6 +20,8 @@ import { scrapeBidx1 } from './scrape-bidx1.mjs';
 import { scrapeBuySellCyprus } from './scrape-buysellcyprus.mjs';
 import { scrapeHomeCy } from './scrape-homecy.mjs';
 import { scrapeFoxRealty } from './scrape-foxrealty.mjs';
+import { scrapeRealting } from './scrape-realting.mjs';
+import { scrapeAPITS } from './scrape-apits.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -34,7 +36,98 @@ const sources = [
   ['BuySellCyprus', scrapeBuySellCyprus],
   ['home.cy', scrapeHomeCy],
   ['FOX Realty', scrapeFoxRealty],
+  ['Realting', scrapeRealting],
+  ['A Place in the Sun', scrapeAPITS],
 ];
+
+// ---------------------------------------------------------------------------
+// Cross-source deduplication
+//
+// Aggregators/resellers (Realting, A Place in the Sun, BuySellCyprus) carry
+// stock that the direct portals also list. When two listings from different
+// sources describe the same property, keep the one from the higher-priority
+// source: direct portals and auction sites first, resellers last.
+//
+// Two listings are considered the same property when bedrooms and asking
+// price match exactly AND either (a) both have a covered area within 5% of
+// each other, or (b) at least one lacks a covered area but the districts
+// match — the (beds, exact price) collision alone is too weak, the area or
+// district agreement is what confirms it (same rule as nicosia-house-prices'
+// combine.py).
+// ---------------------------------------------------------------------------
+
+const SOURCE_PRIORITY = [
+  'Bazaraki', 'Zyprus', 'Altamira Real Estate', 'Altamira', 'eAuction Cyprus',
+  'eAuction', 'BidX1', 'home.cy', 'FOX Realty', 'BuySellCyprus', 'Realting',
+  'A Place in the Sun',
+];
+
+const DISTRICT_CANON = {
+  Pafos: 'Paphos', Lefkosia: 'Nicosia', Ammochostos: 'Famagusta',
+  Germasogeia: 'Limassol', Lemesos: 'Limassol',
+};
+
+function normalizeDistrict(listing) {
+  if (listing.district && DISTRICT_CANON[listing.district]) {
+    listing.district = DISTRICT_CANON[listing.district];
+  }
+  return listing;
+}
+
+function sameProperty(a, b) {
+  if (a.beds == null || a.price == null) return false;
+  if (a.beds !== b.beds || a.price !== b.price) return false;
+  if (a.houseSqm != null && b.houseSqm != null) {
+    return Math.abs(a.houseSqm - b.houseSqm) / Math.max(a.houseSqm, b.houseSqm) <= 0.05;
+  }
+  return a.district != null && a.district === b.district;
+}
+
+function dedupe(listings) {
+  const rank = s => {
+    const i = SOURCE_PRIORITY.indexOf(s);
+    return i === -1 ? SOURCE_PRIORITY.length : i;
+  };
+  const ordered = [...listings].sort((a, b) => rank(a.source) - rank(b.source));
+
+  const kept = [];
+  const byLink = new Set();
+  const byBedsPrice = new Map(); // "beds|price" -> kept listings
+
+  let linkDupes = 0;
+  let crossDupes = 0;
+
+  for (const l of ordered) {
+    const linkKey = (l.link || '').toLowerCase().replace(/\/+$/, '');
+    if (linkKey && byLink.has(linkKey)) { linkDupes++; continue; }
+
+    const sig = `${l.beds}|${l.price}`;
+    const bucket = byBedsPrice.get(sig);
+    const dupe = bucket?.find(k => k.source !== l.source && sameProperty(k, l));
+    if (dupe) { crossDupes++; continue; }
+
+    kept.push(l);
+    if (linkKey) byLink.add(linkKey);
+    if (!byBedsPrice.has(sig)) byBedsPrice.set(sig, []);
+    byBedsPrice.get(sig).push(l);
+  }
+
+  if (linkDupes || crossDupes) {
+    console.log(`Deduplication: removed ${linkDupes} same-link and ${crossDupes} cross-source duplicates.`);
+  }
+  return kept;
+}
+
+// Hard per-source ceiling: a scraper that neither returns nor throws (site
+// hanging mid-pagination) must not stall the whole run.
+const SOURCE_TIMEOUT_MS = 10 * 60 * 1000;
+const withTimeout = promise =>
+  Promise.race([
+    promise,
+    new Promise((_, reject) => {
+      setTimeout(() => reject(new Error(`timed out after ${SOURCE_TIMEOUT_MS / 60000} min`)), SOURCE_TIMEOUT_MS).unref();
+    }),
+  ]);
 
 const results = [];
 let successCount = 0;
@@ -42,7 +135,7 @@ let successCount = 0;
 for (const [name, fn] of sources) {
   try {
     console.log(`Scraping ${name}...`);
-    const data = await fn();
+    const data = await withTimeout(fn());
     console.log(`  -> ${data.length} listings`);
     results.push(...data);
     successCount++;
@@ -56,8 +149,15 @@ if (successCount === 0) {
   process.exit(1);
 }
 
-writeFileSync(outPath, JSON.stringify(results, null, 1), 'utf-8');
-console.log(`Wrote ${results.length} total listings to src/data/listings.json (${successCount}/${sources.length} sources succeeded).`);
+const deduped = dedupe(results.map(normalizeDistrict));
+
+writeFileSync(outPath, JSON.stringify(deduped, null, 1), 'utf-8');
+console.log(`Wrote ${deduped.length} listings (${results.length} scraped) to src/data/listings.json (${successCount}/${sources.length} sources succeeded).`);
 
 // Rebuild the static page from the fresh data
 await import('./build-page.mjs');
+
+// Scrapers that failed mid-navigation never reach their browser.close(),
+// and the zombie Chromium keeps the event loop alive — exit explicitly so
+// the CI step ends when the work ends.
+process.exit(0);

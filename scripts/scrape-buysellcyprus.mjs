@@ -23,7 +23,8 @@ export async function scrapeBuySellCyprus() {
 
   for (let p = 1; p <= MAX_PAGES; p++) {
     const url = `${BASE}/properties-for-sale/type-house/sort-rl/page-${p}`;
-    await page.goto(url, { waitUntil: 'networkidle' });
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('div.bs-card-title', { timeout: 30000 }).catch(() => {});
 
     const items = await page.evaluate(() => {
       const titles = document.querySelectorAll('div.bs-card-title');

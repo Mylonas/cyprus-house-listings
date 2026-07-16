@@ -52,6 +52,8 @@
   .source-BuySellCyprus { background:#fce7f3; color:#831843; }
   .source-home\\.cy { background:#e0f2fe; color:#075985; }
   .source-FOX { background:#fef9c3; color:#713f12; }
+  .source-Realting { background:#d1fae5; color:#065f46; }
+  .source-APITS { background:#ffedd5; color:#9a3412; }
   .card-link { font-size:12.5px; color:var(--accent); text-decoration:none; font-weight:600; }
   .card-link:hover { text-decoration:underline; }
   .posted { font-size:11px; color:#9ca3af; }
@@ -62,7 +64,7 @@
 
 <header>
   <h1>Cyprus House Listings — Internal Reference</h1>
-  <p>Compiled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, and FOX Realty. For internal review only — verify all details on the source site before acting.</p>
+  <p>Compiled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun. Cross-source duplicates removed automatically. For internal review only — verify all details on the source site before acting.</p>
   <div class="stats" id="statsBar"></div>
 </header>
 
@@ -86,6 +88,18 @@
   <div class="filter-group">
     <label>Min house m²</label>
     <input type="number" id="minSqm" placeholder="0">
+  </div>
+  <div class="filter-group">
+    <label>Min plot m²</label>
+    <input type="number" id="minPlot" placeholder="0">
+  </div>
+  <div class="filter-group">
+    <label>Max plot m²</label>
+    <input type="number" id="maxPlot" placeholder="No limit">
+  </div>
+  <div class="filter-group">
+    <label>Built after</label>
+    <input type="number" id="minYear" placeholder="Any year" min="1900" max="2030">
   </div>
   <div class="filter-group">
     <label>Min bedrooms</label>
@@ -124,9 +138,9 @@ const LISTINGS = __DATA__;
 const sources = [...new Set(LISTINGS.map(l => l.source))];
 const districts = [...new Set(LISTINGS.map(l => l.district).filter(Boolean))].sort();
 
-const state = { sources: new Set(sources), district: '', minPrice: null, maxPrice: null, minSqm: null, minBeds: null, sort: 'price_asc', q: '' };
+const state = { sources: new Set(sources), district: '', minPrice: null, maxPrice: null, minSqm: null, minPlot: null, maxPlot: null, minYear: null, minBeds: null, sort: 'price_asc', q: '' };
 
-function shortSource(s){ return s.split(' ')[0]; }
+function shortSource(s){ if (s === 'A Place in the Sun') return 'APITS'; return s.split(' ')[0]; }
 
 function renderChips(){
   const el = document.getElementById('sourceChips');
@@ -204,6 +218,9 @@ function applyFilters(){
   if (state.minPrice != null) items = items.filter(l => l.price == null || l.price >= state.minPrice);
   if (state.maxPrice != null) items = items.filter(l => l.price == null || l.price <= state.maxPrice);
   if (state.minSqm != null) items = items.filter(l => l.houseSqm != null && l.houseSqm >= state.minSqm);
+  if (state.minPlot != null) items = items.filter(l => l.plotSqm != null && l.plotSqm >= state.minPlot);
+  if (state.maxPlot != null) items = items.filter(l => l.plotSqm != null && l.plotSqm <= state.maxPlot);
+  if (state.minYear != null) items = items.filter(l => l.buildYear != null && l.buildYear >= state.minYear);
   if (state.minBeds != null) items = items.filter(l => l.beds != null && l.beds >= state.minBeds);
   if (state.q) {
     const q = state.q.toLowerCase();
@@ -247,12 +264,16 @@ document.getElementById('districtFilter').addEventListener('change', e => { stat
 document.getElementById('minPrice').addEventListener('input', e => { state.minPrice = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('maxPrice').addEventListener('input', e => { state.maxPrice = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('minSqm').addEventListener('input', e => { state.minSqm = e.target.value ? Number(e.target.value) : null; applyFilters(); });
+document.getElementById('minPlot').addEventListener('input', e => { state.minPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
+document.getElementById('maxPlot').addEventListener('input', e => { state.maxPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
+document.getElementById('minYear').addEventListener('input', e => { state.minYear = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('minBeds').addEventListener('change', e => { state.minBeds = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('sortBy').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
 document.getElementById('resetBtn').addEventListener('click', () => {
-  state.sources = new Set(sources); state.district=''; state.minPrice=null; state.maxPrice=null; state.minSqm=null; state.minBeds=null; state.sort='price_asc'; state.q='';
+  state.sources = new Set(sources); state.district=''; state.minPrice=null; state.maxPrice=null; state.minSqm=null; state.minPlot=null; state.maxPlot=null; state.minYear=null; state.minBeds=null; state.sort='price_asc'; state.q='';
   document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value='';
   document.getElementById('minPrice').value=''; document.getElementById('maxPrice').value=''; document.getElementById('minSqm').value='';
+  document.getElementById('minPlot').value=''; document.getElementById('maxPlot').value=''; document.getElementById('minYear').value='';
   document.getElementById('minBeds').value=''; document.getElementById('sortBy').value='price_asc';
   renderChips(); applyFilters();
 });

@@ -19,10 +19,13 @@ const DISTRICTS = [
 ];
 
 async function scrapeDistrict(page, district) {
+  // 'networkidle' never settles on modern ad/analytics-heavy pages; wait for
+  // the listing links themselves instead.
   await page.goto(
     `https://www.bazaraki.com/real-estate-for-sale/houses/${district.slug}/`,
-    { waitUntil: 'networkidle' }
+    { waitUntil: 'domcontentloaded' }
   );
+  await page.waitForSelector('a[href*="/adv/"]', { timeout: 30000 });
 
   for (let i = 0; i < SCROLLS; i++) {
     await page.mouse.wheel(0, 4000);
