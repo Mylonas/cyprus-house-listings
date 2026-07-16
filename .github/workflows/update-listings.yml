@@ -11,6 +11,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # A hung scraper should fail fast, not burn the 6-hour Actions limit.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
