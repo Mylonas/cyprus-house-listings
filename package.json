@@ -1,8 +1,8 @@
 {
   "name": "cyprus-house-listings",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
-  "description": "Internal reference page tracking Cyprus house-for-sale listings across Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, and FOX Realty.",
+  "description": "Internal reference page tracking Cyprus house-for-sale listings across Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun, with cross-source deduplication.",
   "type": "module",
   "scripts": {
     "scrape": "node scripts/scrape-all.mjs",
@@ -14,6 +14,8 @@
     "scrape:buysellcyprus": "node scripts/scrape-buysellcyprus.mjs",
     "scrape:homecy": "node scripts/scrape-homecy.mjs",
     "scrape:foxrealty": "node scripts/scrape-foxrealty.mjs",
+    "scrape:realting": "node scripts/scrape-realting.mjs",
+    "scrape:apits": "node scripts/scrape-apits.mjs",
     "build": "node scripts/build-page.mjs",
     "dev": "npx serve public"
   },

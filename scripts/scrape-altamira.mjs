@@ -16,9 +16,13 @@ const BASE = 'https://www.altamirarealestate.com.cy';
 export async function scrapeAltamira() {
   const browser = await chromium.launch();
   const page = await browser.newPage();
-  await page.goto(`${BASE}/houses-for-sale`, { waitUntil: 'networkidle' });
+  await page.goto(`${BASE}/houses-for-sale`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('article', { timeout: 30000 });
 
   for (let i = 0; i < MAX_CLICKS; i++) {
+    // The cookie-consent overlay intercepts pointer events over the whole
+    // page; strip it so "View more" is clickable (no consent is given).
+    await page.evaluate(() => document.querySelector('#cookiescript_injected_wrapper')?.remove());
     const btn = await page.$('input[type="submit"][value="View more"]');
     if (!btn) break;
     await btn.click();

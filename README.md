@@ -1,8 +1,10 @@
 # 🏠 Cyprus House Listings
 
-> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** *(update once the Cloudflare Pages project is created — see Deploy below)*
+> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)**
 
-Internal reference page aggregating house-for-sale listings from eight Cyprus sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, and FOX Realty — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
+Internal reference page aggregating house-for-sale listings from ten sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
+
+**Source availability note:** Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
 
 **For internal/personal use only.** This aggregates publicly listed data for convenience; it is not a substitute for checking each source site directly, and redistribution or commercial use should respect each site's own terms of service.
 
@@ -12,11 +14,12 @@ Internal reference page aggregating house-for-sale listings from eight Cyprus so
 
 | Feature | Details |
 |---|---|
-| **Multi-source aggregation** | 517 listings pulled from Altamira Real Estate (99), Bazaraki (125), eAuction Cyprus (43), Zyprus (24), BidX1 (8), BuySellCyprus.com (53), home.cy (105), and FOX Realty (60) |
-| **Filterable grid** | District, min/max price, min house size, min bedrooms, source site, free-text search |
+| **Multi-source aggregation** | ~900 listings pulled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun (counts vary per refresh) |
+| **Cross-source deduplication** | Resellers/aggregators carry stock the direct portals also list; duplicates (exact bedrooms + price, confirmed by covered area within 5% or district) are removed, keeping the direct portal's copy |
+| **Filterable grid** | District, min/max price, min house size, min/max plot size, built-after year, min bedrooms, source site, free-text search |
 | **Sortable** | Price (asc/desc), house size, plot size, most recently posted |
 | **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
-| **Scheduled refresh** | GitHub Actions re-scrapes all eight sources every 6 hours and rebuilds the static page |
+| **Scheduled refresh** | GitHub Actions re-scrapes all ten sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 
 ---
@@ -44,7 +47,9 @@ cyprus-house-listings/
 │   ├── scrape-buysellcyprus.mjs  # buysellcyprus.com — "recently listed" house search, bounded page walk
 │   ├── scrape-homecy.mjs         # home.cy — houses-for-sale search, captures presenting agent/developer
 │   ├── scrape-foxrealty.mjs      # foxrealty.com.cy — largest agency found via home.cy, one page per district
-│   ├── scrape-all.mjs            # runs all 8, merges into src/data/listings.json, rebuilds the page
+│   ├── scrape-realting.mjs       # realting.com — international aggregator, plain fetch, EUR via ?currency=EUR
+│   ├── scrape-apits.mjs          # aplaceinthesun.com — reseller portal, plain fetch via /property/cyprus/page/N
+│   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
 ├── src/
 │   ├── data/
