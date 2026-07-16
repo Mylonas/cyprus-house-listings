@@ -1,6 +1,6 @@
 # Cyprus House Listings — Wiki
 
-Developer/user wiki for the Cyprus house-listings aggregator. (Kept in-repo under `docs/` because GitHub wikis are unavailable on private free-plan repos — these pages can be pushed to a real wiki unchanged if the repo ever goes public.)
+Developer/user wiki for the Cyprus house-listings aggregator. These pages are mirrored to the [GitHub wiki](https://github.com/Mylonas/cyprus-house-listings/wiki) — keep both in sync when editing.
 
 **Live site:** [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)
 **Repository:** [github.com/Mylonas/cyprus-house-listings](https://github.com/Mylonas/cyprus-house-listings)

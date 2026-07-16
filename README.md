@@ -36,7 +36,7 @@ Internal reference page aggregating house-for-sale listings from ten sources —
 
 ## Documentation
 
-Wiki-style docs live in [`docs/`](docs/Home.md) — [Data Sources](docs/Data-Sources.md) · [Filters & UI](docs/Filters-and-UI.md) · [GitHub Actions](docs/GitHub-Actions.md). (In-repo rather than a GitHub wiki because wikis aren't available on private free-plan repos.)
+Full documentation on the [project wiki](https://github.com/Mylonas/cyprus-house-listings/wiki) — [Data Sources](https://github.com/Mylonas/cyprus-house-listings/wiki/Data-Sources) · [Filters & UI](https://github.com/Mylonas/cyprus-house-listings/wiki/Filters-and-UI) · [GitHub Actions](https://github.com/Mylonas/cyprus-house-listings/wiki/GitHub-Actions). The same pages are mirrored in [`docs/`](docs/Home.md); keep both in sync when editing.
 
 ---
 
