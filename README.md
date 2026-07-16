@@ -1,10 +1,10 @@
 # 🏠 Cyprus House Listings
 
-> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.1.0** — Realting + A Place in the Sun sources, cross-source dedup, plot/build-year filters
+> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.1.1** — eAuction scraper fix, wiki documentation
 
 Internal reference page aggregating house-for-sale listings from ten sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
-**Source availability note:** Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
+**Source availability note:** eAuction Cyprus is blocked by Imperva/Incapsula on its search endpoint, and Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
 
 **For internal/personal use only.** This aggregates publicly listed data for convenience; it is not a substitute for checking each source site directly, and redistribution or commercial use should respect each site's own terms of service.
 
