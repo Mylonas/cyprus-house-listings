@@ -8,7 +8,7 @@ Ten sources as of v2.1.0. Each has a scraper in `scripts/scrape-<name>.mjs`; `sc
 |---|---|---|---|
 | Altamira Real Estate | `scrape-altamira.mjs` | Playwright — clicks "View more" (cookie overlay stripped first) | ✅ working |
 | Bazaraki | `scrape-bazaraki.mjs` | Playwright — infinite scroll per district | ⛔ Cloudflare bot challenge |
-| eAuction Cyprus | `scrape-eauction.mjs` | Playwright — paginated search, photo recovery via `GetAuctionImage` | ✅ working (occasionally slow) |
+| eAuction Cyprus | `scrape-eauction.mjs` | Playwright — paginated search, photo recovery via `GetAuctionImage` | ⛔ Imperva/Incapsula 403 on the search endpoint |
 | Zyprus | `scrape-zyprus.mjs` | Playwright — paginated grid | ⛔ Cloudflare bot challenge |
 | BidX1 | `scrape-bidx1.mjs` | Playwright — Cyprus/Houses filter | ✅ working |
 | home.cy | `scrape-homecy.mjs` | Playwright — includes agency/developer name | ✅ working |
@@ -35,11 +35,12 @@ The survivor is chosen by source priority: direct portals and auction sites firs
 
 District names are normalized before dedup (Pafos→Paphos, Lefkosia→Nicosia, Germasogeia→Limassol, Ammochostos→Famagusta), so the page's district filter shows exactly the five canonical districts.
 
-## The Cloudflare-blocked sources
+## The bot-blocked sources
 
-Bazaraki, Zyprus, and BuySellCyprus serve a bot-verification interstitial ("Just a moment…") to automated browsers that does not auto-clear for headless Chromium. We do not attempt to bypass bot protection. The scrapers stay in the rotation and resume automatically if the sites relax it. Practical effects while blocked:
+Bazaraki, Zyprus, and BuySellCyprus serve a Cloudflare bot-verification interstitial ("Just a moment…") to automated browsers that does not auto-clear for headless Chromium; eAuction Cyprus returns an Imperva/Incapsula 403 on its search endpoint (its homepage still loads). We do not attempt to bypass bot protection. The scrapers stay in the rotation and resume automatically if the sites relax it. Practical effects while blocked:
 
 - Total listings ~870 after dedup instead of ~1,100+
+- No foreclosure-auction lots while eAuction is blocked (BidX1 still covers a small number of auction properties)
 - `buildYear` is absent from the data (Zyprus and BuySellCyprus were its only providers), so the *Built after* filter matches nothing until they return
 
 ## Failure containment
