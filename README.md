@@ -34,6 +34,12 @@ Internal reference page aggregating house-for-sale listings from ten sources —
 
 ---
 
+## Documentation
+
+Wiki-style docs live in [`docs/`](docs/Home.md) — [Data Sources](docs/Data-Sources.md) · [Filters & UI](docs/Filters-and-UI.md) · [GitHub Actions](docs/GitHub-Actions.md). (In-repo rather than a GitHub wiki because wikis aren't available on private free-plan repos.)
+
+---
+
 ## Project Structure
 
 ```
