@@ -2,6 +2,20 @@
 
 All notable changes to this project are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows [SemVer](https://semver.org/).
 
+## [2.1.1] - 2026-07-16
+
+### Fixed
+- eAuction scraper still used the broken `networkidle` wait missed in v2.1.0 — switched to `domcontentloaded` + content wait (it was silently returning 0 listings)
+
+### Added
+- Wiki documentation: `docs/` pages (Home, Data-Sources, Filters-and-UI, GitHub-Actions), mirrored to the GitHub wiki now that the repo is public
+
+### Known Limitations
+- eAuction Cyprus now returns an Imperva/Incapsula 403 on its search endpoint — joins Bazaraki/Zyprus/BuySellCyprus as bot-blocked; scraper kept and resumes automatically if the block lifts
+
+### Rollback
+- Redeploy the `v2.1.0` tag via the Cloudflare Pages dashboard, or revert the release merge commit on `master` and push
+
 ## [2.1.0] - 2026-07-16
 
 ### Added

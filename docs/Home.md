@@ -4,7 +4,7 @@ Developer/user wiki for the Cyprus house-listings aggregator. These pages are mi
 
 **Live site:** [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)
 **Repository:** [github.com/Mylonas/cyprus-house-listings](https://github.com/Mylonas/cyprus-house-listings)
-**Current version:** v2.1.0
+**Current version:** v2.1.1
 
 ---
 
