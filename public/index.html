@@ -13,6 +13,9 @@
   header { background:#111827; color:#fff; padding:20px 28px; }
   header h1 { margin:0 0 4px; font-size:22px; }
   header p { margin:0; color:#9ca3af; font-size:13px; }
+  .nav { margin-bottom:10px; font-size:13px; }
+  .nav a { color:#93c5fd; text-decoration:none; font-weight:600; margin-right:14px; }
+  .nav a.current { color:#fff; text-decoration:underline; }
   .stats { display:flex; gap:18px; margin-top:12px; flex-wrap:wrap; }
   .stat { background:#1f2937; padding:6px 12px; border-radius:6px; font-size:12px; color:#e5e7eb; }
   .stat b { color:#fff; font-size:14px; }
@@ -63,6 +66,7 @@
 <body>
 
 <header>
+  <div class="nav"><a href="index.html" class="current">🏠 Houses</a><a href="plots.html">🟩 Plots &amp; Land</a></div>
   <h1>Cyprus House Listings — Internal Reference</h1>
   <p>Compiled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun. Cross-source duplicates removed automatically. For internal review only — verify all details on the source site before acting.</p>
   <div class="stats" id="statsBar"></div>

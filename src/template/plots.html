@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cyprus House Listings — Internal Reference</title>
+<title>Cyprus Plot & Land Listings — Internal Reference</title>
 <style>
   :root {
     --bg: #f4f5f7; --card-bg: #ffffff; --border: #e2e4e8; --text: #1c1f26;
@@ -10,14 +10,14 @@
   }
   * { box-sizing: border-box; }
   body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
-  header { background:#111827; color:#fff; padding:20px 28px; }
+  header { background:#0f3d2e; color:#fff; padding:20px 28px; }
   header h1 { margin:0 0 4px; font-size:22px; }
-  header p { margin:0; color:#9ca3af; font-size:13px; }
+  header p { margin:0; color:#a7c4b5; font-size:13px; }
   .nav { margin-bottom:10px; font-size:13px; }
-  .nav a { color:#93c5fd; text-decoration:none; font-weight:600; margin-right:14px; }
+  .nav a { color:#a7f3d0; text-decoration:none; font-weight:600; margin-right:14px; }
   .nav a.current { color:#fff; text-decoration:underline; }
   .stats { display:flex; gap:18px; margin-top:12px; flex-wrap:wrap; }
-  .stat { background:#1f2937; padding:6px 12px; border-radius:6px; font-size:12px; color:#e5e7eb; }
+  .stat { background:#14532d; padding:6px 12px; border-radius:6px; font-size:12px; color:#e5e7eb; }
   .stat b { color:#fff; font-size:14px; }
 
   .filters { position: sticky; top:0; z-index: 10; background:#fff; border-bottom:1px solid var(--border); padding:14px 28px; display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; }
@@ -45,16 +45,12 @@
   .card-loc { font-size:12.5px; color:var(--muted); }
   .card-meta { display:flex; gap:10px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-top:2px; }
   .card-meta span { background:#f3f4f6; padding:3px 7px; border-radius:5px; }
+  .card-meta span.plot { background:#dcfce7; color:#14532d; font-weight:600; }
   .card-footer { margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:8px; border-top:1px solid #f0f1f3; }
-  .source-tag { font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 8px; border-radius:4px; }
-  .source-Altamira { background:#dbeafe; color:#1e3a8a; }
+  .source-tag { font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 8px; border-radius:4px; background:#e5e7eb; color:#374151; }
   .source-Bazaraki { background:#dcfce7; color:#14532d; }
   .source-eAuction { background:#fee2e2; color:#7f1d1d; }
-  .source-Zyprus { background:#fef3c7; color:#78350f; }
-  .source-BidX1 { background:#ede9fe; color:#4c1d95; }
-  .source-BuySellCyprus { background:#fce7f3; color:#831843; }
-  .source-home\\.cy { background:#e0f2fe; color:#075985; }
-  .source-FOX { background:#fef9c3; color:#713f12; }
+  .source-Kadis { background:#e0e7ff; color:#3730a3; }
   .source-Realting { background:#d1fae5; color:#065f46; }
   .source-APITS { background:#ffedd5; color:#9a3412; }
   .card-link { font-size:12.5px; color:var(--accent); text-decoration:none; font-weight:600; }
@@ -66,9 +62,9 @@
 <body>
 
 <header>
-  <div class="nav"><a href="index.html" class="current">🏠 Houses</a><a href="plots.html">🟩 Plots &amp; Land</a></div>
-  <h1>Cyprus House Listings — Internal Reference</h1>
-  <p>Compiled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun. Cross-source duplicates removed automatically. For internal review only — verify all details on the source site before acting.</p>
+  <div class="nav"><a href="index.html">🏠 Houses</a><a href="plots.html" class="current">🟩 Plots &amp; Land</a></div>
+  <h1>Cyprus Plot &amp; Land Listings — Internal Reference</h1>
+  <p>Residential, commercial and agricultural plots compiled across sources. Cross-source duplicates removed automatically. For internal review only — verify all details on the source site before acting.</p>
   <div class="stats" id="statsBar"></div>
 </header>
 
@@ -82,16 +78,16 @@
     <select id="districtFilter"><option value="">All</option></select>
   </div>
   <div class="filter-group">
+    <label>Plot type</label>
+    <select id="typeFilter"><option value="">All</option></select>
+  </div>
+  <div class="filter-group">
     <label>Min price (€)</label>
     <input type="number" id="minPrice" placeholder="0">
   </div>
   <div class="filter-group">
     <label>Max price (€)</label>
     <input type="number" id="maxPrice" placeholder="No limit">
-  </div>
-  <div class="filter-group">
-    <label>Min house m²</label>
-    <input type="number" id="minSqm" placeholder="0">
   </div>
   <div class="filter-group">
     <label>Min plot m²</label>
@@ -102,27 +98,12 @@
     <input type="number" id="maxPlot" placeholder="No limit">
   </div>
   <div class="filter-group">
-    <label>Built after</label>
-    <input type="number" id="minYear" placeholder="Any year" min="1900" max="2030">
-  </div>
-  <div class="filter-group">
-    <label>Min bedrooms</label>
-    <select id="minBeds">
-      <option value="">Any</option>
-      <option value="1">1+</option>
-      <option value="2">2+</option>
-      <option value="3">3+</option>
-      <option value="4">4+</option>
-      <option value="5">5+</option>
-    </select>
-  </div>
-  <div class="filter-group">
     <label>Sort by</label>
     <select id="sortBy">
+      <option value="plot_desc">Plot size: largest first</option>
+      <option value="plot_asc">Plot size: smallest first</option>
       <option value="price_asc">Price: low to high</option>
       <option value="price_desc">Price: high to low</option>
-      <option value="sqm_desc">House size: largest first</option>
-      <option value="plot_desc">Plot size: largest first</option>
       <option value="recent">Most recently posted</option>
     </select>
   </div>
@@ -141,10 +122,11 @@ const LISTINGS = __DATA__;
 
 const sources = [...new Set(LISTINGS.map(l => l.source))];
 const districts = [...new Set(LISTINGS.map(l => l.district).filter(Boolean))].sort();
+const plotTypes = [...new Set(LISTINGS.map(l => l.plotType).filter(Boolean))].sort();
 
-const state = { sources: new Set(sources), district: '', minPrice: null, maxPrice: null, minSqm: null, minPlot: null, maxPlot: null, minYear: null, minBeds: null, sort: 'price_asc', q: '' };
+const state = { sources: new Set(sources), district: '', plotType: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '' };
 
-function shortSource(s){ if (s === 'A Place in the Sun') return 'APITS'; return s.split(' ')[0]; }
+function shortSource(s){ if (s === 'A Place in the Sun') return 'APITS'; if (s === 'eAuction Cyprus') return 'eAuction'; if (s === 'Kadis Estates') return 'Kadis'; return s.split(' ')[0]; }
 
 function renderChips(){
   const el = document.getElementById('sourceChips');
@@ -161,19 +143,12 @@ function renderChips(){
   });
 }
 
-function renderDistrictOptions(){
-  const sel = document.getElementById('districtFilter');
-  districts.forEach(d => {
-    const opt = document.createElement('option');
-    opt.value = d; opt.textContent = d;
-    sel.appendChild(opt);
-  });
+function fillSelect(id, values){
+  const sel = document.getElementById(id);
+  values.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
 }
 
-function fmtPrice(n){
-  if (n == null) return 'Price on request';
-  return '€' + n.toLocaleString('en-US');
-}
+function fmtPrice(n){ return n == null ? 'Price on request' : '€' + n.toLocaleString('en-US'); }
 
 function postedRank(p){
   if (!p) return 999;
@@ -183,35 +158,25 @@ function postedRank(p){
   if (s === 'yesterday') return 1;
   const m = s.match(/(\\d+)\\s*day/); if (m) return parseInt(m[1]);
   const w = s.match(/(\\d+)\\s*week/); if (w) return parseInt(w[1])*7;
-  // date formats DD/MM/YYYY for eAuction posted dates -> treat as far past, rank by recency desc later separately
   return 500;
 }
-
-// Effective age in days (smaller = more recent). Prefers a precise postedTs
-// epoch when a source provides one (e.g. Bazaraki's created_dt); otherwise
-// falls back to parsing the relative posted string.
-function effAge(l){
-  if (l.postedTs) return (Date.now() - l.postedTs) / 86400000;
-  return postedRank(l.posted);
-}
+function effAge(l){ return l.postedTs ? (Date.now() - l.postedTs) / 86400000 : postedRank(l.posted); }
 
 function cardHtml(l){
   const img = l.image
     ? `<img class="card-img" src="${l.image}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-img placeholder\\'>No photo available<\\/div>'">`
     : `<div class="card-img placeholder">${l.source === 'eAuction Cyprus' ? 'No photo published<br>(auction listing)' : 'No photo available'}</div>`;
   const meta = [];
-  if (l.beds) meta.push(`<span>${l.beds} bed</span>`);
-  if (l.baths) meta.push(`<span>${l.baths} bath</span>`);
-  if (l.houseSqm) meta.push(`<span>${l.houseSqm} m² house</span>`);
-  if (l.plotSqm) meta.push(`<span>${l.plotSqm} m² plot</span>`);
-  if (l.buildYear) meta.push(`<span>Built ${l.buildYear}</span>`);
+  if (l.plotSqm) meta.push(`<span class="plot">${l.plotSqm.toLocaleString('en-US')} m² plot</span>`);
+  if (l.plotType) meta.push(`<span>${l.plotType}</span>`);
+  if (l.zone) meta.push(`<span>Zone ${l.zone}</span>`);
   if (l.auctionDate) meta.push(`<span>Auction ${l.auctionDate}</span>`);
   const sourceClass = 'source-' + shortSource(l.source);
   const posted = l.posted ? `<span class="posted">Posted: ${l.posted}</span>` : `<span class="posted">Posted: not shown by source</span>`;
   return `<div class="card">
     ${img}
     <div class="card-body">
-      <div class="card-price">${l.priceDisplay ? '€'+l.price?.toLocaleString('en-US')+(l.priceDisplay.includes('reserve')?' (reserve)':'') : fmtPrice(l.price)}</div>
+      <div class="card-price">${fmtPrice(l.price)}${l.priceDisplay && l.priceDisplay.includes('reserve') ? ' (reserve)' : ''}</div>
       <div class="card-title">${l.title}</div>
       <div class="card-loc">${l.location}${l.ref ? ' · Ref '+l.ref : ''}</div>
       <div class="card-meta">${meta.join('')}</div>
@@ -227,13 +192,11 @@ function cardHtml(l){
 function applyFilters(){
   let items = LISTINGS.filter(l => state.sources.has(l.source));
   if (state.district) items = items.filter(l => l.district === state.district);
+  if (state.plotType) items = items.filter(l => l.plotType === state.plotType);
   if (state.minPrice != null) items = items.filter(l => l.price == null || l.price >= state.minPrice);
   if (state.maxPrice != null) items = items.filter(l => l.price == null || l.price <= state.maxPrice);
-  if (state.minSqm != null) items = items.filter(l => l.houseSqm != null && l.houseSqm >= state.minSqm);
   if (state.minPlot != null) items = items.filter(l => l.plotSqm != null && l.plotSqm >= state.minPlot);
   if (state.maxPlot != null) items = items.filter(l => l.plotSqm != null && l.plotSqm <= state.maxPlot);
-  if (state.minYear != null) items = items.filter(l => l.buildYear != null && l.buildYear >= state.minYear);
-  if (state.minBeds != null) items = items.filter(l => l.beds != null && l.beds >= state.minBeds);
   if (state.q) {
     const q = state.q.toLowerCase();
     items = items.filter(l => (l.title||'').toLowerCase().includes(q) || (l.location||'').toLowerCase().includes(q) || (l.ref||'').toLowerCase().includes(q));
@@ -242,16 +205,14 @@ function applyFilters(){
   items = items.slice();
   if (state.sort === 'price_asc') items.sort((a,b) => (a.price ?? 1e15) - (b.price ?? 1e15));
   else if (state.sort === 'price_desc') items.sort((a,b) => (b.price ?? -1) - (a.price ?? -1));
-  else if (state.sort === 'sqm_desc') items.sort((a,b) => (b.houseSqm ?? -1) - (a.houseSqm ?? -1));
   else if (state.sort === 'plot_desc') items.sort((a,b) => (b.plotSqm ?? -1) - (a.plotSqm ?? -1));
+  else if (state.sort === 'plot_asc') items.sort((a,b) => (a.plotSqm ?? 1e15) - (b.plotSqm ?? 1e15));
   else if (state.sort === 'recent') items.sort((a,b) => effAge(a) - effAge(b));
 
-  document.getElementById('resultsBar').textContent = `Showing ${items.length} of ${LISTINGS.length} listings`;
+  document.getElementById('resultsBar').textContent = `Showing ${items.length} of ${LISTINGS.length} plots`;
   const grid = document.getElementById('grid');
   if (items.length === 0) {
-    grid.innerHTML = '';
-    grid.insertAdjacentHTML('afterend', '');
-    document.getElementById('grid').innerHTML = '<div class="empty-state" style="grid-column:1/-1">No listings match these filters. Try widening your search.</div>';
+    grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1">No plots match these filters. Try widening your search.</div>';
     return;
   }
   grid.innerHTML = items.map(cardHtml).join('');
@@ -263,7 +224,7 @@ function renderStats(){
   const priced = LISTINGS.filter(l=>l.price!=null);
   const avg = priced.length ? Math.round(priced.reduce((s,l)=>s+l.price,0)/priced.length) : 0;
   el.innerHTML = `
-    <div class="stat"><b>${LISTINGS.length}</b> total listings</div>
+    <div class="stat"><b>${LISTINGS.length}</b> total plots</div>
     <div class="stat"><b>${sources.length}</b> sources</div>
     <div class="stat"><b>${withPhoto}</b> with photos</div>
     <div class="stat"><b>€${avg.toLocaleString('en-US')}</b> average asking price</div>
@@ -273,26 +234,24 @@ function renderStats(){
 
 document.getElementById('searchInput').addEventListener('input', e => { state.q = e.target.value; applyFilters(); });
 document.getElementById('districtFilter').addEventListener('change', e => { state.district = e.target.value; applyFilters(); });
+document.getElementById('typeFilter').addEventListener('change', e => { state.plotType = e.target.value; applyFilters(); });
 document.getElementById('minPrice').addEventListener('input', e => { state.minPrice = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('maxPrice').addEventListener('input', e => { state.maxPrice = e.target.value ? Number(e.target.value) : null; applyFilters(); });
-document.getElementById('minSqm').addEventListener('input', e => { state.minSqm = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('minPlot').addEventListener('input', e => { state.minPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('maxPlot').addEventListener('input', e => { state.maxPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
-document.getElementById('minYear').addEventListener('input', e => { state.minYear = e.target.value ? Number(e.target.value) : null; applyFilters(); });
-document.getElementById('minBeds').addEventListener('change', e => { state.minBeds = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('sortBy').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
 document.getElementById('resetBtn').addEventListener('click', () => {
-  state.sources = new Set(sources); state.district=''; state.minPrice=null; state.maxPrice=null; state.minSqm=null; state.minPlot=null; state.maxPlot=null; state.minYear=null; state.minBeds=null; state.sort='price_asc'; state.q='';
-  document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value='';
-  document.getElementById('minPrice').value=''; document.getElementById('maxPrice').value=''; document.getElementById('minSqm').value='';
-  document.getElementById('minPlot').value=''; document.getElementById('maxPlot').value=''; document.getElementById('minYear').value='';
-  document.getElementById('minBeds').value=''; document.getElementById('sortBy').value='price_asc';
+  state.sources = new Set(sources); state.district=''; state.plotType=''; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
+  document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value=''; document.getElementById('typeFilter').value='';
+  document.getElementById('minPrice').value=''; document.getElementById('maxPrice').value=''; document.getElementById('minPlot').value=''; document.getElementById('maxPlot').value='';
+  document.getElementById('sortBy').value='plot_desc';
   renderChips(); applyFilters();
 });
 
 renderStats();
 renderChips();
-renderDistrictOptions();
+fillSelect('districtFilter', districts);
+fillSelect('typeFilter', plotTypes);
 applyFilters();
 </script>
 </body>
