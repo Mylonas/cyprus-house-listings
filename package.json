@@ -18,6 +18,7 @@
     "scrape:realting": "node scripts/scrape-realting.mjs",
     "scrape:apits": "node scripts/scrape-apits.mjs",
     "scrape:kadis": "node scripts/scrape-kadis.mjs",
+    "scrape:estatebud": "node scripts/scrape-estatebud.mjs",
     "build": "node scripts/build-page.mjs",
     "build:plots": "node scripts/build-plots-page.mjs",
     "dev": "npx serve public"
