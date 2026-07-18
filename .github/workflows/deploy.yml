@@ -3,6 +3,9 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [master]
+  # Manual trigger so a refresh pushed with "[skip ci]" (which suppresses the
+  # push event) can still be deployed on demand: `gh workflow run deploy.yml`.
+  workflow_dispatch: {}
 
 jobs:
   deploy:
