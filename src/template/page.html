@@ -205,6 +205,8 @@ function cardHtml(l){
   if (l.houseSqm) meta.push(`<span>${l.houseSqm} m² house</span>`);
   if (l.plotSqm) meta.push(`<span>${l.plotSqm} m² plot</span>`);
   if (l.buildYear) meta.push(`<span>Built ${l.buildYear}</span>`);
+  if (l.propertyType) meta.push(`<span>${l.propertyType}</span>`);
+  if (l.share && l.share !== '1/1') meta.push(`<span>Share ${l.share}</span>`);
   if (l.auctionDate) meta.push(`<span>Auction ${l.auctionDate}</span>`);
   const sourceClass = 'source-' + shortSource(l.source);
   const posted = l.posted ? `<span class="posted">Posted: ${l.posted}</span>` : `<span class="posted">Posted: not shown by source</span>`;
