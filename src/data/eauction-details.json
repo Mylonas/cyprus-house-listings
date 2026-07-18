@@ -1,95 +1,239 @@
 {
  "PSW0LRXUYQ": {
   "plotSqm": 203,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=7jJub%2fiJ8e8%3d&fileId=XXFQ4CV2NTA%3d&thumb=false"
+  "image": "/eauction-photos/PSW0LRXUYQ-1.jpg",
+  "images": [
+   "/eauction-photos/PSW0LRXUYQ-1.jpg",
+   "/eauction-photos/PSW0LRXUYQ-2.jpg",
+   "/eauction-photos/PSW0LRXUYQ-3.jpg",
+   "/eauction-photos/PSW0LRXUYQ-4.jpg",
+   "/eauction-photos/PSW0LRXUYQ-5.jpg",
+   "/eauction-photos/PSW0LRXUYQ-6.jpg"
+  ]
  },
  "TVKEDQUPSN": {
   "plotSqm": 157,
-  "image": null
+  "image": "/eauction-photos/TVKEDQUPSN-1.jpg",
+  "images": [
+   "/eauction-photos/TVKEDQUPSN-1.jpg"
+  ],
+  "registration": "33/118",
+  "share": "33/118",
+  "propertyType": "Residence"
  },
  "CCX3WEQ48L": {
   "plotSqm": 107,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6M1f%2bk1jmWE%3d&fileId=h9lz3ritJaE%3d&thumb=false"
+  "image": "/eauction-photos/CCX3WEQ48L-1.jpg",
+  "images": [
+   "/eauction-photos/CCX3WEQ48L-1.jpg",
+   "/eauction-photos/CCX3WEQ48L-2.jpg",
+   "/eauction-photos/CCX3WEQ48L-3.jpg",
+   "/eauction-photos/CCX3WEQ48L-4.jpg",
+   "/eauction-photos/CCX3WEQ48L-5.jpg",
+   "/eauction-photos/CCX3WEQ48L-6.jpg"
+  ]
  },
  "Q3BTZ1416A": {
   "plotSqm": 827,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=HUCOfBXmVuQ%3d&fileId=Im0sRESyWHQ%3d&thumb=false"
+  "image": "/eauction-photos/Q3BTZ1416A-1.jpg",
+  "images": [
+   "/eauction-photos/Q3BTZ1416A-1.jpg",
+   "/eauction-photos/Q3BTZ1416A-2.jpg",
+   "/eauction-photos/Q3BTZ1416A-3.jpg",
+   "/eauction-photos/Q3BTZ1416A-4.jpg",
+   "/eauction-photos/Q3BTZ1416A-5.jpg",
+   "/eauction-photos/Q3BTZ1416A-6.jpg"
+  ]
  },
  "VBOGLQR8DQ": {
   "plotSqm": 202,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=rPnYT%2fNwQew%3d&fileId=TRLwdy7hQeo%3d&thumb=false"
+  "image": "/eauction-photos/VBOGLQR8DQ-1.jpg",
+  "images": [
+   "/eauction-photos/VBOGLQR8DQ-1.jpg",
+   "/eauction-photos/VBOGLQR8DQ-2.jpg",
+   "/eauction-photos/VBOGLQR8DQ-3.jpg",
+   "/eauction-photos/VBOGLQR8DQ-4.jpg",
+   "/eauction-photos/VBOGLQR8DQ-5.jpg",
+   "/eauction-photos/VBOGLQR8DQ-6.jpg"
+  ]
  },
  "WYV20Y9KFF": {
   "plotSqm": 260,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=kJsDEmh%2b7t8%3d&fileId=BOHMpYWpavU%3d&thumb=false"
+  "image": "/eauction-photos/WYV20Y9KFF-1.jpg",
+  "images": [
+   "/eauction-photos/WYV20Y9KFF-1.jpg",
+   "/eauction-photos/WYV20Y9KFF-2.jpg",
+   "/eauction-photos/WYV20Y9KFF-3.jpg",
+   "/eauction-photos/WYV20Y9KFF-4.jpg",
+   "/eauction-photos/WYV20Y9KFF-5.jpg",
+   "/eauction-photos/WYV20Y9KFF-6.jpg"
+  ]
  },
  "CCHNPSPG85": {
   "plotSqm": 90,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=JFmBt%2fICaGM%3d&fileId=SJ%2fmyiPM1lw%3d&thumb=false"
+  "image": "/eauction-photos/CCHNPSPG85-1.jpg",
+  "images": [
+   "/eauction-photos/CCHNPSPG85-1.jpg",
+   "/eauction-photos/CCHNPSPG85-2.jpg",
+   "/eauction-photos/CCHNPSPG85-3.jpg",
+   "/eauction-photos/CCHNPSPG85-4.jpg",
+   "/eauction-photos/CCHNPSPG85-5.jpg",
+   "/eauction-photos/CCHNPSPG85-6.jpg"
+  ]
  },
  "EAEKYRQ5ZK-001": {
   "plotSqm": null,
-  "image": null
+  "image": "/eauction-photos/EAEKYRQ5ZK-001-1.jpg",
+  "images": [
+   "/eauction-photos/EAEKYRQ5ZK-001-1.jpg"
+  ],
+  "share": "1/1",
+  "propertyType": "Residence",
+  "registration": "3/464"
  },
  "9SB63RT3CH": {
   "plotSqm": 759,
-  "image": null
+  "image": null,
+  "share": "1/1",
+  "propertyType": "Residence"
  },
  "NAQ34UOOQN-001": {
   "plotSqm": 377,
-  "image": null
+  "image": null,
+  "propertyType": "Residence",
+  "registration": "0/6622"
  },
  "1H164R9B0G": {
   "plotSqm": 261,
-  "image": null
+  "image": null,
+  "propertyType": "Residence",
+  "registration": "3/747"
  },
  "NSNFV4D72S-001": {
-  "plotSqm": null,
-  "image": null
+  "plotSqm": 4,
+  "image": "/eauction-photos/NSNFV4D72S-001-1.jpg",
+  "images": [
+   "/eauction-photos/NSNFV4D72S-001-1.jpg",
+   "/eauction-photos/NSNFV4D72S-001-2.jpg"
+  ],
+  "share": "1/1",
+  "propertyType": "Residence",
+  "registration": "0/24520"
  },
  "CGKOJJ2EL5": {
   "plotSqm": 357,
-  "image": null
+  "image": null,
+  "propertyType": "Residence",
+  "registration": "0/4414"
  },
  "2FZ6IMC8ZL": {
   "plotSqm": 261,
-  "image": null
+  "image": "/eauction-photos/2FZ6IMC8ZL-1.jpg",
+  "images": [
+   "/eauction-photos/2FZ6IMC8ZL-1.jpg"
+  ],
+  "share": "1/3",
+  "propertyType": "Residence",
+  "registration": "13/2009"
  },
  "G66CDX3IT5": {
   "plotSqm": 270,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=5QzAdaa%2fBfo%3d&fileId=QOUFYGMK8DY%3d&thumb=false"
+  "image": "/eauction-photos/G66CDX3IT5-1.jpg",
+  "images": [
+   "/eauction-photos/G66CDX3IT5-1.jpg",
+   "/eauction-photos/G66CDX3IT5-2.jpg",
+   "/eauction-photos/G66CDX3IT5-3.jpg",
+   "/eauction-photos/G66CDX3IT5-4.jpg",
+   "/eauction-photos/G66CDX3IT5-5.jpg",
+   "/eauction-photos/G66CDX3IT5-6.jpg"
+  ]
  },
  "B8N19MK5WR": {
   "plotSqm": 238,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=FIdJ0lsRzYc%3d&fileId=EDp16nnEEJU%3d&thumb=false"
+  "image": "/eauction-photos/B8N19MK5WR-1.jpg",
+  "images": [
+   "/eauction-photos/B8N19MK5WR-1.jpg",
+   "/eauction-photos/B8N19MK5WR-2.jpg",
+   "/eauction-photos/B8N19MK5WR-3.jpg",
+   "/eauction-photos/B8N19MK5WR-4.jpg",
+   "/eauction-photos/B8N19MK5WR-5.jpg",
+   "/eauction-photos/B8N19MK5WR-6.jpg"
+  ]
  },
  "QIB8NUMVWS": {
   "plotSqm": 173,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=%2fqUl%2fCtvKfs%3d&fileId=8vR%2fmOx%2fx64%3d&thumb=false"
+  "image": "/eauction-photos/QIB8NUMVWS-1.jpg",
+  "images": [
+   "/eauction-photos/QIB8NUMVWS-1.jpg",
+   "/eauction-photos/QIB8NUMVWS-2.jpg",
+   "/eauction-photos/QIB8NUMVWS-3.jpg",
+   "/eauction-photos/QIB8NUMVWS-4.jpg",
+   "/eauction-photos/QIB8NUMVWS-5.jpg",
+   "/eauction-photos/QIB8NUMVWS-6.jpg"
+  ]
  },
  "E91UQU0JFQ": {
   "plotSqm": 99,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=pK5%2b4hHN7qw%3d&fileId=1SvHomn3a0Y%3d&thumb=false"
+  "image": "/eauction-photos/E91UQU0JFQ-1.jpg",
+  "images": [
+   "/eauction-photos/E91UQU0JFQ-1.jpg",
+   "/eauction-photos/E91UQU0JFQ-2.jpg",
+   "/eauction-photos/E91UQU0JFQ-3.jpg",
+   "/eauction-photos/E91UQU0JFQ-4.jpg",
+   "/eauction-photos/E91UQU0JFQ-5.jpg",
+   "/eauction-photos/E91UQU0JFQ-6.jpg"
+  ]
  },
  "87YLSA8MI5": {
   "plotSqm": 300,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=WXp53bIypl8%3d&fileId=JmHMEIPFsvs%3d&thumb=false"
+  "image": "/eauction-photos/87YLSA8MI5-1.jpg",
+  "images": [
+   "/eauction-photos/87YLSA8MI5-1.jpg",
+   "/eauction-photos/87YLSA8MI5-2.jpg",
+   "/eauction-photos/87YLSA8MI5-3.jpg",
+   "/eauction-photos/87YLSA8MI5-4.jpg",
+   "/eauction-photos/87YLSA8MI5-5.jpg",
+   "/eauction-photos/87YLSA8MI5-6.jpg"
+  ]
  },
  "N6HWABFKRX": {
   "plotSqm": 163,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=mejv5WcWB5A%3d&fileId=K3s1Ha7NMLM%3d&thumb=false"
+  "image": "/eauction-photos/N6HWABFKRX-1.jpg",
+  "images": [
+   "/eauction-photos/N6HWABFKRX-1.jpg",
+   "/eauction-photos/N6HWABFKRX-2.jpg",
+   "/eauction-photos/N6HWABFKRX-3.jpg",
+   "/eauction-photos/N6HWABFKRX-4.jpg",
+   "/eauction-photos/N6HWABFKRX-5.jpg",
+   "/eauction-photos/N6HWABFKRX-6.jpg"
+  ]
  },
  "5OP81CP2XM": {
   "plotSqm": 119,
-  "image": null
+  "image": "/eauction-photos/5OP81CP2XM-1.jpg",
+  "images": [
+   "/eauction-photos/5OP81CP2XM-1.jpg"
+  ],
+  "propertyType": "Residence"
  },
  "XB7LVMBKXO": {
   "plotSqm": 403,
-  "image": null
+  "image": "/eauction-photos/XB7LVMBKXO-1.jpg",
+  "images": [
+   "/eauction-photos/XB7LVMBKXO-1.jpg"
+  ],
+  "share": "32/301",
+  "propertyType": "Residence",
+  "registration": "32/301"
  },
  "THB6DVBYIM": {
   "plotSqm": 1094,
-  "image": null
+  "image": "/eauction-photos/THB6DVBYIM-1.jpg",
+  "images": [
+   "/eauction-photos/THB6DVBYIM-1.jpg"
+  ],
+  "propertyType": "Residence",
+  "registration": "32/8"
  },
  "8YSSRUYQYC": {
   "plotSqm": 209,
@@ -97,66 +241,150 @@
  },
  "D3FTVHL7L7": {
   "plotSqm": 129,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=IcX%2fOnTfOmg%3d&fileId=QhZ5qoZl4IY%3d&thumb=false"
+  "image": "/eauction-photos/D3FTVHL7L7-1.jpg",
+  "images": [
+   "/eauction-photos/D3FTVHL7L7-1.jpg",
+   "/eauction-photos/D3FTVHL7L7-2.jpg",
+   "/eauction-photos/D3FTVHL7L7-3.jpg",
+   "/eauction-photos/D3FTVHL7L7-4.jpg",
+   "/eauction-photos/D3FTVHL7L7-5.jpg",
+   "/eauction-photos/D3FTVHL7L7-6.jpg"
+  ]
  },
  "JU7YXPJBJN": {
   "plotSqm": 140,
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=bHgEvOXqj%2b4%3d&fileId=f%2bJS7nZXhNg%3d&thumb=false"
+  "image": "/eauction-photos/JU7YXPJBJN-1.jpg",
+  "images": [
+   "/eauction-photos/JU7YXPJBJN-1.jpg",
+   "/eauction-photos/JU7YXPJBJN-2.jpg",
+   "/eauction-photos/JU7YXPJBJN-3.jpg",
+   "/eauction-photos/JU7YXPJBJN-4.jpg",
+   "/eauction-photos/JU7YXPJBJN-5.jpg",
+   "/eauction-photos/JU7YXPJBJN-6.jpg"
+  ]
  },
  "E8UMLRQ87I": {
   "plotSqm": null,
-  "image": null
+  "image": "/eauction-photos/E8UMLRQ87I-1.jpg",
+  "images": [
+   "/eauction-photos/E8UMLRQ87I-1.jpg",
+   "/eauction-photos/E8UMLRQ87I-2.jpg",
+   "/eauction-photos/E8UMLRQ87I-3.jpg",
+   "/eauction-photos/E8UMLRQ87I-4.jpg",
+   "/eauction-photos/E8UMLRQ87I-5.jpg",
+   "/eauction-photos/E8UMLRQ87I-6.jpg"
+  ]
  },
  "E1J6O73ZY0": {
   "plotSqm": 359,
-  "image": null
+  "image": "/eauction-photos/E1J6O73ZY0-1.jpg",
+  "images": [
+   "/eauction-photos/E1J6O73ZY0-1.jpg"
+  ],
+  "share": "2/894",
+  "propertyType": "Residence",
+  "registration": "2/894"
  },
  "X0CWNB46WV-001": {
   "plotSqm": 196,
-  "image": null
+  "image": "/eauction-photos/X0CWNB46WV-001-1.jpg",
+  "images": [
+   "/eauction-photos/X0CWNB46WV-001-1.jpg"
+  ],
+  "propertyType": "Residence",
+  "registration": "0/3531"
  },
  "CSYJQTWCH8-003": {
-  "plotSqm": null,
-  "image": null
+  "plotSqm": 456,
+  "image": "/eauction-photos/CSYJQTWCH8-003-1.jpg",
+  "images": [
+   "/eauction-photos/CSYJQTWCH8-003-1.jpg",
+   "/eauction-photos/CSYJQTWCH8-003-2.jpg"
+  ],
+  "share": "1/1",
+  "propertyType": "Building plot",
+  "registration": "0/31627"
  },
  "5UXZCCZZSR": {
   "plotSqm": 664,
-  "image": null
+  "image": null,
+  "propertyType": "Residence",
+  "registration": "0/7658"
  },
  "2497XY72Z1-001": {
   "plotSqm": null,
-  "image": null
+  "image": "/eauction-photos/2497XY72Z1-001-1.jpg",
+  "images": [
+   "/eauction-photos/2497XY72Z1-001-1.jpg",
+   "/eauction-photos/2497XY72Z1-001-2.jpg"
+  ]
  },
  "2497XY72Z1-002": {
   "plotSqm": null,
-  "image": null
+  "image": "/eauction-photos/2497XY72Z1-002-1.jpg",
+  "images": [
+   "/eauction-photos/2497XY72Z1-002-1.jpg",
+   "/eauction-photos/2497XY72Z1-002-2.jpg"
+  ]
  },
  "N1PNMRQB50-003": {
   "plotSqm": 233,
-  "image": null
+  "image": "/eauction-photos/N1PNMRQB50-003-1.jpg",
+  "images": [
+   "/eauction-photos/N1PNMRQB50-003-1.jpg",
+   "/eauction-photos/N1PNMRQB50-003-2.jpg",
+   "/eauction-photos/N1PNMRQB50-003-3.jpg"
+  ]
  },
  "N1PNMRQB50-010": {
   "plotSqm": 270,
-  "image": null
+  "image": "/eauction-photos/N1PNMRQB50-010-1.jpg",
+  "images": [
+   "/eauction-photos/N1PNMRQB50-010-1.jpg",
+   "/eauction-photos/N1PNMRQB50-010-2.jpg",
+   "/eauction-photos/N1PNMRQB50-010-3.jpg"
+  ]
  },
  "N1PNMRQB50-016": {
   "plotSqm": 251,
-  "image": null
+  "image": "/eauction-photos/N1PNMRQB50-016-1.jpg",
+  "images": [
+   "/eauction-photos/N1PNMRQB50-016-1.jpg",
+   "/eauction-photos/N1PNMRQB50-016-2.jpg",
+   "/eauction-photos/N1PNMRQB50-016-3.jpg"
+  ]
  },
  "JLO2G9937X": {
   "plotSqm": null,
-  "image": null
+  "image": "/eauction-photos/JLO2G9937X-1.jpg",
+  "images": [
+   "/eauction-photos/JLO2G9937X-1.jpg"
+  ]
  },
  "EIJMWP87YP": {
   "plotSqm": 222,
-  "image": null
+  "image": "/eauction-photos/EIJMWP87YP-1.jpg",
+  "images": [
+   "/eauction-photos/EIJMWP87YP-1.jpg"
+  ],
+  "share": "1/1",
+  "propertyType": "Residence",
+  "registration": "0/4211"
  },
  "EE734A8GRH-002": {
   "plotSqm": 507,
-  "image": null
+  "image": null,
+  "propertyType": "Residence",
+  "registration": "0/4261"
  },
  "HNN0PT1LR6": {
   "plotSqm": 107,
-  "image": null
+  "image": "/eauction-photos/HNN0PT1LR6-1.jpg",
+  "images": [
+   "/eauction-photos/HNN0PT1LR6-1.jpg",
+   "/eauction-photos/HNN0PT1LR6-2.jpg",
+   "/eauction-photos/HNN0PT1LR6-3.jpg",
+   "/eauction-photos/HNN0PT1LR6-4.jpg"
+  ]
  }
 }

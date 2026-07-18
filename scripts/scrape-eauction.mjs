@@ -166,6 +166,7 @@ export async function scrapeEauction() {
       location: i.location,
       district: i.district,
       image: enr.image ?? null,
+      images: enr.images ?? null,
       link: i.link || `${BASE}/en/Home/HlektronikoiPleistiriasmoi?type=5`,
       houseSqm: enr.houseSqm ?? null,
       plotSqm: enr.plotSqm ?? null,
@@ -176,6 +177,10 @@ export async function scrapeEauction() {
       ref: i.code,
       auctionDate: i.auctionDate,
       status: i.status,
+      // Ingested from the auction's legal-notice PDF (Greek form FR.08):
+      share: enr.share ?? null,               // Εγγεγραμμένο συμφέρον (e.g. 1/1, 33/118)
+      propertyType: enr.propertyType ?? null, // Είδος (Residence / Apartment / Plot …)
+      registration: enr.registration ?? null, // Αριθμός Εγγραφής
     };
   });
 }
