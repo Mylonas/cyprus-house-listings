@@ -26,7 +26,7 @@ import stealth from 'puppeteer-extra-plugin-stealth';
 
 chromium.use(stealth());
 
-const PAGES = Number(process.env.BAZARAKI_PAGES ?? 10);
+const PAGES = Number(process.env.BAZARAKI_PAGES ?? 30);
 
 // Houses category on Bazaraki is rubric 678. `city` filters by district; the
 // numeric ids map to Cyprus districts as follows (confirmed against the API).

@@ -12,7 +12,7 @@
  *   REALTING_MAX_PAGES - result pages to walk, 30 listings/page (default 12)
  */
 
-const MAX_PAGES = Number(process.env.REALTING_MAX_PAGES ?? 12);
+const MAX_PAGES = Number(process.env.REALTING_MAX_PAGES ?? 20);
 const BASE = 'https://realting.com';
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +

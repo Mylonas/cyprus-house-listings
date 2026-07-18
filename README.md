@@ -2,7 +2,7 @@
 
 > **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.1.1** — eAuction scraper fix, wiki documentation
 
-Internal reference page aggregating house-for-sale listings from ten sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
+Internal reference page aggregating house-for-sale listings from eleven sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, and Kadis Estates — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
 **Source availability note:** eAuction Cyprus serves an Imperva/Incapsula JS challenge on its HTML pages that headless browsers can't clear, but its `POST /Home/HomeListAuctions` XHR endpoint is not challenged — the scraper hits that directly with a plain fetch, so eAuction now works from CI. Per-listing plot area and photos live only on the challenge-protected detail pages, so they are merged from a committed enrichment cache (`src/data/eauction-details.json`) rather than fetched live. Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
 
@@ -14,12 +14,12 @@ Internal reference page aggregating house-for-sale listings from ten sources —
 
 | Feature | Details |
 |---|---|
-| **Multi-source aggregation** | ~900 listings pulled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, and A Place in the Sun (counts vary per refresh) |
+| **Multi-source aggregation** | ~900 listings pulled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, and Kadis Estates (counts vary per refresh) |
 | **Cross-source deduplication** | Resellers/aggregators carry stock the direct portals also list; duplicates (exact bedrooms + price, confirmed by covered area within 5% or district) are removed, keeping the direct portal's copy |
 | **Filterable grid** | District, min/max price, min house size, min/max plot size, built-after year, min bedrooms, source site, free-text search |
 | **Sortable** | Price (asc/desc), house size, plot size, most recently posted |
 | **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
-| **Scheduled refresh** | GitHub Actions re-scrapes all ten sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
+| **Scheduled refresh** | GitHub Actions re-scrapes all eleven sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 
 ---

@@ -8,7 +8,7 @@
  */
 import { chromium } from 'playwright';
 
-const MAX_PAGES = Number(process.env.ZYPRUS_MAX_PAGES ?? 3);
+const MAX_PAGES = Number(process.env.ZYPRUS_MAX_PAGES ?? 6);
 const BASE = 'https://www.zyprus.com';
 
 export async function scrapeZyprus() {
