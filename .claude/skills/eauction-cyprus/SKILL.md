@@ -114,19 +114,33 @@ browser and **stay gentle** — see rate-limits below. A serial pass with delays
 is slower but survives; parallel iframe workers hammering the renderer are what
 triggered the last IP block.
 
-## Photos hidden in PDF attachments (advanced, usually skip)
+## Photos + data hidden in PDF attachments — now ingested (harvest-eauction-pdfs.mjs)
 
-**Field note (2026-07-18):** a harvest attempt over the 25 then-photoless
-biddable Residence lots found the yield is very low — the lots sampled had **no
-photos at all**: no `GetAuctionImage` carousel and only the legal-notice PDF (no
-`ph.pdf` photo appendix). Foreclosure lots are frequently photoless by nature.
-Worse, the detail-page harvest started drawing **progressively longer Imperva
-challenges** (a "Please Wait…" that stopped clearing) after only ~3 detail loads
-— the early IP-throttle signal — so the pass was aborted before any block. Net:
-the PDF-photo route costs a real IP-reputation risk to the working list scraper
-for a handful of photos at best. Prefer to leave photoless auctions photoless.
-Plot sizes, by contrast, are already ~72% covered in the cache; the few missing
-are mostly co-owned-building units whose area field is blank on the site anyway.
+**Update (2026-07-19): this works and is implemented.** The earlier pessimism was
+wrong on two counts — (1) **stealth Playwright now clears eAuction's Imperva**
+(homepage + detail pages), so the whole harvest runs automated in Node, no manual
+browser needed; and (2) the `ph.pdf` appendix does carry real photos AND the
+legal table. [`scripts/harvest-eauction-pdfs.mjs`](../../../scripts/harvest-eauction-pdfs.mjs)
+is the harvester: it lists biddable Residences via the XHR endpoint, then serially
+(gentle, ~1.5 s between listings) loads each detail page, downloads its GetFile
+PDF same-origin, and with `pdfjs-dist` + `sharp` extracts:
+
+- **Photos** — embedded image XObjects, kept when the HSV discriminator says
+  photo (**saturation mean ≥ 12 and white-fraction ≤ 0.5**, min 200×200); the
+  form banner (sat ≈ 4) and cadastral maps are dropped. Saved as static assets
+  `public/eauction-photos/<code>-<n>.jpg`; the cache `image` points at the local
+  path. **Result: 33/40 lots got real photos (was 15).**
+- **Greek FR.08 legal table**, read by **column x-position** (find the header
+  labels `Εγγραφή`, `Έκταση`, `συμφέρον`, `Είδος` and read each row's cells in
+  those x-ranges — a flat text join mixes the fraction columns up): ownership
+  **share** (Εγγεγραμμένο συμφέρον, e.g. 33/118 — validate numerator ∈ (0,denom]),
+  plot **area** (Έκταση τ.μ.), **property type** (Είδος), registration number.
+
+Run it out-of-band (`node scripts/harvest-eauction-pdfs.mjs`), **not in CI** — it
+needs the stealth browser and is IP-block sensitive. The committed photos go stale
+when the auction set turns over, so re-run when the biddable set changes. Some
+lots are image-only scans (no text layer) → photos but no table data; that's
+expected. `EAUCTION_HARVEST_LIMIT` caps listings for testing.
 
 Every listing carries PDF attachments (legal notice, "additional information",
 Greek + English copies). Some carry a **`...ph.pdf` photo appendix**, and a few
