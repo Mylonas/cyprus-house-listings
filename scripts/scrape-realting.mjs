@@ -115,10 +115,54 @@ export async function scrapeRealting() {
     await new Promise(r => setTimeout(r, 600));
   }
 
+  await enrichFromDetails(all);
   return all;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Result cards give covered area + beds but no plot, baths or year. The detail
+// page carries a characteristics table ("Land area", "Total area", "Bathrooms",
+// "The year of construction") plus a JSON-LD RealEstateListing block. Fetch each
+// detail page and fill the gaps; the table is the primary source, JSON-LD the
+// fallback. (Realting exposes no listing date.)
+async function enrichFromDetails(listings) {
+  const tableVal = (h, label) => {
+    const m = h.match(new RegExp(`>${label}</div>\\s*<div>\\s*([\\d,]+)`, 'i'));
+    if (!m) return null;
+    const n = Number(m[1].replace(/,/g, ''));
+    return Number.isFinite(n) && n > 0 ? n : null;
+  };
+
+  const CONCURRENCY = 5;
+  let i = 0;
+  async function worker() {
+    while (i < listings.length) {
+      const l = listings[i++];
+      try {
+        const res = await fetch(l.link, { headers: { 'User-Agent': UA } });
+        if (!res.ok) continue;
+        const h = await res.text();
+
+        let ld = null;
+        for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+          try { const j = JSON.parse(m[1]); if (j.floorSize || j.yearBuilt) { ld = j; break; } } catch { /* skip */ }
+        }
+
+        l.plotSqm = tableVal(h, 'Land area');
+        if (l.houseSqm == null) l.houseSqm = tableVal(h, 'Total area') ?? (ld?.floorSize?.value ?? null);
+        l.baths = tableVal(h, 'Bathrooms') ?? (ld?.numberOfFullBathrooms ?? null);
+        const year = tableVal(h, 'The year of construction') ?? (ld?.yearBuilt ? Number(ld.yearBuilt) : null);
+        l.buildYear = year && year > 1800 && year < 2100 ? year : null;
+      } catch {
+        /* leave fields as-is on a failed detail fetch */
+      }
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+}
+
+import { pathToFileURL } from 'node:url';
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeRealting();
   console.log(JSON.stringify(data, null, 1));
   console.error(`Scraped ${data.length} Realting listings.`);
