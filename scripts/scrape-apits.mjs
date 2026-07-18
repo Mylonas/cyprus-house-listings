@@ -79,10 +79,48 @@ export async function scrapeAPITS() {
     await new Promise(r => setTimeout(r, 600));
   }
 
+  await enrichFromDetails(all);
   return all;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Result cards carry no covered/plot area — those live on the detail page
+// ("Property Size", "Land Area"/"Plot size", "Bathrooms"). Fetch each detail
+// page (plain server-rendered GET) and fill the sizes so listings are sortable
+// by house/plot area. Kept gentle: a small worker pool with per-request spacing.
+async function enrichFromDetails(listings) {
+  const num = re => h => {
+    const m = h.match(re);
+    if (!m) return null;
+    const n = Number(m[1].replace(/[,.]/g, ''));
+    return Number.isFinite(n) && n > 0 ? n : null;
+  };
+  const houseOf = num(/Property Size:\s*([\d,]+)/i);
+  const plotOf = h => num(/Land Area:\s*([\d,]+)/i)(h) ?? num(/Plot size:\s*([\d,]+)/i)(h);
+  const bathsOf = num(/Bathrooms:\s*(\d+)/i);
+
+  const CONCURRENCY = 5;
+  let i = 0;
+  async function worker() {
+    while (i < listings.length) {
+      const l = listings[i++];
+      try {
+        const res = await fetch(l.link, { headers: { 'User-Agent': UA } });
+        if (!res.ok) continue;
+        const h = await res.text();
+        l.houseSqm = houseOf(h);
+        l.plotSqm = plotOf(h);
+        if (l.baths == null) l.baths = bathsOf(h);
+      } catch {
+        /* leave fields null on a failed detail fetch */
+      }
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+}
+
+import { pathToFileURL } from 'node:url';
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeAPITS();
   console.log(JSON.stringify(data, null, 1));
   console.error(`Scraped ${data.length} A Place in the Sun listings.`);

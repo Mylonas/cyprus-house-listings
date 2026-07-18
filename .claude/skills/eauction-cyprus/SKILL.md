@@ -116,6 +116,18 @@ triggered the last IP block.
 
 ## Photos hidden in PDF attachments (advanced, usually skip)
 
+**Field note (2026-07-18):** a harvest attempt over the 25 then-photoless
+biddable Residence lots found the yield is very low — the lots sampled had **no
+photos at all**: no `GetAuctionImage` carousel and only the legal-notice PDF (no
+`ph.pdf` photo appendix). Foreclosure lots are frequently photoless by nature.
+Worse, the detail-page harvest started drawing **progressively longer Imperva
+challenges** (a "Please Wait…" that stopped clearing) after only ~3 detail loads
+— the early IP-throttle signal — so the pass was aborted before any block. Net:
+the PDF-photo route costs a real IP-reputation risk to the working list scraper
+for a handful of photos at best. Prefer to leave photoless auctions photoless.
+Plot sizes, by contrast, are already ~72% covered in the cache; the few missing
+are mostly co-owned-building units whose area field is blank on the site anyway.
+
 Every listing carries PDF attachments (legal notice, "additional information",
 Greek + English copies). Some carry a **`...ph.pdf` photo appendix**, and a few
 of those belong to listings that have *no* `GetAuctionImage` photo — so the PDFs
