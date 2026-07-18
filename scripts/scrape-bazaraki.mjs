@@ -1,133 +1,139 @@
 #!/usr/bin/env node
 /**
  * scrape-bazaraki.mjs
- * Scrapes house listings from bazaraki.com for each Cyprus district.
- * Bazaraki uses an infinite-scroll grid, so we scroll N times per district
- * before reading the rendered cards out of the DOM.
+ * Scrapes house listings from bazaraki.com via its JSON API.
+ *
+ * Why the API and not the DOM:
+ *   Bazaraki moved every human-facing page (including the old infinite-scroll
+ *   grid this scraper used to read) behind a Cloudflare "Just a moment" managed
+ *   challenge. Headless Chromium can't clear it, so the DOM scraper started
+ *   returning zero. The site's React front-end talks to an internal JSON API at
+ *   `/api/items/`, which is far richer than the cards ever were — it carries the
+ *   covered area, plot area, bedrooms, bathrooms, construction year, every photo,
+ *   and crucially the real `created_dt` (the date the ad went live).
+ *
+ * The Cloudflare wall still guards `/api/`, so we clear the challenge once with a
+ * stealth-patched headless browser (playwright-extra + puppeteer-extra-plugin-
+ * stealth), then read the API from inside that cleared page context — same-origin
+ * `fetch()` carries the cf_clearance cookie. This is the Bazaraki analogue of the
+ * eAuction "clear the challenge in a real browser, then fetch same-origin" trick.
  *
  * Env:
- *   BAZARAKI_SCROLLS - how many scroll passes per district (default 6)
+ *   BAZARAKI_PAGES - API pages (10 listings each) to pull per district (default 10)
  */
-import { chromium } from 'playwright';
+import { chromium } from 'playwright-extra';
+import stealth from 'puppeteer-extra-plugin-stealth';
 
-const SCROLLS = Number(process.env.BAZARAKI_SCROLLS ?? 6);
+chromium.use(stealth());
+
+const PAGES = Number(process.env.BAZARAKI_PAGES ?? 10);
+
+// Houses category on Bazaraki is rubric 678. `city` filters by district; the
+// numeric ids map to Cyprus districts as follows (confirmed against the API).
+const HOUSES_RUBRIC = 678;
 const DISTRICTS = [
-  { slug: 'lefkosia-district-nicosia', name: 'Nicosia' },
-  { slug: 'lemesos-district-limassol', name: 'Limassol' },
-  { slug: 'larnaka-district-larnaca', name: 'Larnaca' },
-  { slug: 'pafos-district-paphos', name: 'Paphos' },
+  { city: 12, name: 'Limassol' },
+  { city: 11, name: 'Nicosia' },
+  { city: 10, name: 'Larnaca' },
+  { city: 13, name: 'Paphos' },
+  { city: 8, name: 'Famagusta' },
 ];
 
-async function scrapeDistrict(page, district) {
-  // 'networkidle' never settles on modern ad/analytics-heavy pages; wait for
-  // the listing links themselves instead.
-  await page.goto(
-    `https://www.bazaraki.com/real-estate-for-sale/houses/${district.slug}/`,
-    { waitUntil: 'domcontentloaded' }
-  );
-  await page.waitForSelector('a[href*="/adv/"]', { timeout: 30000 });
+// attrs__number-of-bedrooms is sometimes a "studio" code rather than a count.
+function toInt(v) {
+  if (v == null) return null;
+  const n = Number(String(v).replace(/[^\d.]/g, ''));
+  return Number.isFinite(n) && n > 0 ? Math.round(n) : null;
+}
 
-  for (let i = 0; i < SCROLLS; i++) {
-    await page.mouse.wheel(0, 4000);
-    await page.waitForTimeout(1200);
-  }
+function mapItem(raw, districtName) {
+  const a = raw.attrs || {};
+  const created = raw.created_dt ? new Date(raw.created_dt) : null;
+  const validCreated = created && !Number.isNaN(created.getTime()) ? created : null;
+  const priceNum = Number(String(raw.price ?? '').replace(/[^\d.]/g, '')) || null;
+  const img = raw.images?.[0];
 
-  return page.evaluate((districtName) => {
-    const links = [...new Set(
-      [...document.querySelectorAll('a[href*="/adv/"]')].map(a => a.href)
-    )];
-
-    function extractFor(href) {
-      const anchors = [...document.querySelectorAll('a')].filter(a => a.href === href);
-      for (const a of anchors) {
-        let el = a;
-        for (let i = 0; i < 8; i++) {
-          if (!el) break;
-          const txt = el.innerText || '';
-          const imgs = el.querySelectorAll ? [...el.querySelectorAll('img')] : [];
-          if (txt.includes('€') && imgs.length) {
-            const priceMatch = txt.match(/€\s?[\d.,]+/);
-            const lines = txt.split('\n').map(s => s.trim()).filter(Boolean);
-            const titleLine = lines.find(l => /for sale/i.test(l)) || '';
-            const locLine = lines.find(l => l.includes(districtName)) || '';
-            const dateLine = lines.find(l =>
-              /today|yesterday|days? ago|weeks? ago|hours? ago|minutes? ago/i.test(l)
-            ) || '';
-            const sqms = [...txt.matchAll(/(\d[\d,]*)\s?m²/g)].map(m => m[1]);
-            const bedMatch = txt.match(/(\d+)-bedroom/i);
-            const bestImg = imgs.find(im => im.naturalWidth > 150) || imgs[imgs.length - 1];
-            return {
-              href, price: priceMatch ? priceMatch[0] : null,
-              img: bestImg ? (bestImg.src || bestImg.getAttribute('data-src')) : null,
-              title: titleLine, loc: locLine, date: dateLine,
-              sqm1: sqms[0] || null, sqm2: sqms[1] || null,
-              beds: bedMatch ? Number(bedMatch[1]) : null,
-            };
-          }
-          el = el.parentElement;
-        }
-      }
-      return null;
-    }
-
-    const seen = new Set();
-    return links
-      .map(extractFor)
-      .filter(Boolean)
-      .filter(d => d.loc && d.loc.length > 0)
-      .filter(d => {
-        const key = [d.price, d.title, d.loc, d.img].join('|');
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      })
-      .map(d => ({
-        id: (d.href.match(/adv\/(\d+)_/) || [])[1] || null,
-        href: d.href,
-        price: d.price,
-        title: d.title,
-        loc: d.loc,
-        date: d.date,
-        sqm1: d.sqm1,
-        sqm2: d.sqm2,
-        beds: d.beds,
-        img: d.img,
-      }));
-  }, district.name);
+  return {
+    source: 'Bazaraki',
+    title: raw.title || null,
+    price: priceNum,
+    priceDisplay: priceNum ? `${raw.currency || '€'}${priceNum.toLocaleString('en-US')}` : null,
+    location: districtName,
+    district: districtName,
+    image: img ? (img.url || img.orig) : null,
+    images: (raw.images || []).map(i => i.url || i.orig).filter(Boolean),
+    link: `https://www.bazaraki.com/adv/${raw.id}_${raw.slug || ''}/`,
+    houseSqm: toInt(a['attrs__area']),
+    plotSqm: toInt(a['attrs__plot-area']),
+    beds: toInt(a['attrs__number-of-bedrooms']),
+    baths: toInt(a['attrs__number-of-bathrooms']),
+    posted: validCreated
+      ? validCreated.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+      : null,
+    postedTs: validCreated ? validCreated.getTime() : null,
+    buildYear: toInt(a['attrs__construction'] ?? a['attrs__construction-year']),
+    ref: String(raw.id),
+  };
 }
 
 export async function scrapeBazaraki() {
-  const browser = await chromium.launch();
-  const page = await browser.newPage();
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    viewport: { width: 1366, height: 768 },
+    locale: 'en-US',
+  });
+  const page = await ctx.newPage();
+
+  // Clear the Cloudflare challenge once on the homepage; the cf_clearance cookie
+  // then lets same-origin API fetches through for the rest of the session.
+  await page.goto('https://www.bazaraki.com/', { waitUntil: 'domcontentloaded' });
+  for (let i = 0; i < 20; i++) {
+    await page.waitForTimeout(1000);
+    const title = await page.title();
+    if (!/just a moment/i.test(title)) break;
+  }
+
   const all = [];
+  const seen = new Set();
 
   for (const district of DISTRICTS) {
-    const items = await scrapeDistrict(page, district);
-    all.push(...items);
+    for (let pg = 1; pg <= PAGES; pg++) {
+      const url =
+        `/api/items/?rubric=${HOUSES_RUBRIC}&city=${district.city}` +
+        `&page=${pg}&ordering=-created_dt`;
+      let payload;
+      try {
+        payload = await page.evaluate(async (u) => {
+          const r = await fetch(u, { headers: { 'X-Requested-With': 'XMLHttpRequest' } });
+          if (!r.ok) return { error: r.status };
+          return r.json();
+        }, url);
+      } catch (err) {
+        console.error(`  Bazaraki ${district.name} p${pg} fetch error: ${err.message}`);
+        break;
+      }
+      if (!payload || payload.error || !Array.isArray(payload.results)) {
+        if (payload?.error) console.error(`  Bazaraki ${district.name} p${pg} -> HTTP ${payload.error}`);
+        break;
+      }
+      for (const raw of payload.results) {
+        if (seen.has(raw.id)) continue;
+        seen.add(raw.id);
+        all.push(mapItem(raw, district.name));
+      }
+      if (payload.results.length < 10 || !payload.next) break;
+      await page.waitForTimeout(400); // gentle, mirrors eAuction's self-throttle
+    }
   }
 
   await browser.close();
-
-  return all.map(d => ({
-    source: 'Bazaraki',
-    title: d.title,
-    price: Number((d.price || '').replace('€', '').replace(/\./g, '')) || null,
-    priceDisplay: d.price,
-    location: d.loc,
-    district: d.loc.split(',')[0].trim(),
-    image: d.img,
-    link: d.href,
-    houseSqm: d.sqm1 ? Number(d.sqm1.replace(/,/g, '')) : null,
-    plotSqm: d.sqm2 ? Number(d.sqm2.replace(/,/g, '')) : null,
-    beds: d.beds,
-    baths: null,
-    posted: d.date,
-    buildYear: null,
-    ref: d.id,
-  }));
+  return all;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+import { pathToFileURL } from 'node:url';
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeBazaraki();
   console.log(JSON.stringify(data, null, 1));
   console.error(`Scraped ${data.length} Bazaraki listings.`);

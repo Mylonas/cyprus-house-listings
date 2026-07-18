@@ -183,6 +183,14 @@ function postedRank(p){
   return 500;
 }
 
+// Effective age in days (smaller = more recent). Prefers a precise postedTs
+// epoch when a source provides one (e.g. Bazaraki's created_dt); otherwise
+// falls back to parsing the relative posted string.
+function effAge(l){
+  if (l.postedTs) return (Date.now() - l.postedTs) / 86400000;
+  return postedRank(l.posted);
+}
+
 function cardHtml(l){
   const img = l.image
     ? `<img class="card-img" src="${l.image}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-img placeholder\\'>No photo available<\\/div>'">`
@@ -232,7 +240,7 @@ function applyFilters(){
   else if (state.sort === 'price_desc') items.sort((a,b) => (b.price ?? -1) - (a.price ?? -1));
   else if (state.sort === 'sqm_desc') items.sort((a,b) => (b.houseSqm ?? -1) - (a.houseSqm ?? -1));
   else if (state.sort === 'plot_desc') items.sort((a,b) => (b.plotSqm ?? -1) - (a.plotSqm ?? -1));
-  else if (state.sort === 'recent') items.sort((a,b) => postedRank(a.posted) - postedRank(b.posted));
+  else if (state.sort === 'recent') items.sort((a,b) => effAge(a) - effAge(b));
 
   document.getElementById('resultsBar').textContent = `Showing ${items.length} of ${LISTINGS.length} listings`;
   const grid = document.getElementById('grid');
