@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "scrape": "node scripts/scrape-all.mjs",
+    "scrape:plots": "node scripts/scrape-plots.mjs",
     "scrape:altamira": "node scripts/scrape-altamira.mjs",
     "scrape:bazaraki": "node scripts/scrape-bazaraki.mjs",
     "scrape:eauction": "node scripts/scrape-eauction.mjs",
@@ -16,7 +17,9 @@
     "scrape:foxrealty": "node scripts/scrape-foxrealty.mjs",
     "scrape:realting": "node scripts/scrape-realting.mjs",
     "scrape:apits": "node scripts/scrape-apits.mjs",
+    "scrape:kadis": "node scripts/scrape-kadis.mjs",
     "build": "node scripts/build-page.mjs",
+    "build:plots": "node scripts/build-plots-page.mjs",
     "dev": "npx serve public"
   },
   "dependencies": {
