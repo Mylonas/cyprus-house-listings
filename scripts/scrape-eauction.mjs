@@ -30,7 +30,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
 
-const MAX_PAGES = Number(process.env.EAUCTION_MAX_PAGES ?? 10);
+const MAX_PAGES = Number(process.env.EAUCTION_MAX_PAGES ?? 15);
 const BASE = 'https://www.eauction-cy.com';
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +

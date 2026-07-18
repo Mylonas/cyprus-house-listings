@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * scrape-all.mjs
- * Runs all ten source scrapers, merges and deduplicates the results, writes
+ * Runs all eleven source scrapers, merges and deduplicates the results, writes
  * src/data/listings.json, then rebuilds public/index.html via build-page.mjs.
  *
  * This is the script GitHub Actions runs on the update-listings.yml schedule.
@@ -22,6 +22,7 @@ import { scrapeHomeCy } from './scrape-homecy.mjs';
 import { scrapeFoxRealty } from './scrape-foxrealty.mjs';
 import { scrapeRealting } from './scrape-realting.mjs';
 import { scrapeAPITS } from './scrape-apits.mjs';
+import { scrapeKadis } from './scrape-kadis.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -38,6 +39,7 @@ const sources = [
   ['FOX Realty', scrapeFoxRealty],
   ['Realting', scrapeRealting],
   ['A Place in the Sun', scrapeAPITS],
+  ['Kadis Estates', scrapeKadis],
 ];
 
 // ---------------------------------------------------------------------------
@@ -58,8 +60,8 @@ const sources = [
 
 const SOURCE_PRIORITY = [
   'Bazaraki', 'Zyprus', 'Altamira Real Estate', 'Altamira', 'eAuction Cyprus',
-  'eAuction', 'BidX1', 'home.cy', 'FOX Realty', 'BuySellCyprus', 'Realting',
-  'A Place in the Sun',
+  'eAuction', 'BidX1', 'Kadis Estates', 'home.cy', 'FOX Realty', 'BuySellCyprus',
+  'Realting', 'A Place in the Sun',
 ];
 
 const DISTRICT_CANON = {
@@ -120,7 +122,7 @@ function dedupe(listings) {
 
 // Hard per-source ceiling: a scraper that neither returns nor throws (site
 // hanging mid-pagination) must not stall the whole run.
-const SOURCE_TIMEOUT_MS = 10 * 60 * 1000;
+const SOURCE_TIMEOUT_MS = 15 * 60 * 1000;
 const withTimeout = promise =>
   Promise.race([
     promise,

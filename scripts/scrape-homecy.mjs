@@ -10,7 +10,7 @@
  */
 import { chromium } from 'playwright';
 
-const MAX_PAGES = Number(process.env.HOMECY_MAX_PAGES ?? 12);
+const MAX_PAGES = Number(process.env.HOMECY_MAX_PAGES ?? 20);
 const BASE = 'https://home.cy';
 
 export async function scrapeHomeCy() {

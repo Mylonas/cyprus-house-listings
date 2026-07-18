@@ -12,7 +12,7 @@
  *   APITS_MAX_PAGES - result pages to walk, 28 listings/page (default 10)
  */
 
-const MAX_PAGES = Number(process.env.APITS_MAX_PAGES ?? 10);
+const MAX_PAGES = Number(process.env.APITS_MAX_PAGES ?? 15);
 const BASE = 'https://www.aplaceinthesun.com';
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +

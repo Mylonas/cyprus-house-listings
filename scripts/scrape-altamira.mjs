@@ -11,7 +11,7 @@
 import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 
-const MAX_CLICKS = Number(process.env.ALTAMIRA_MAX_CLICKS ?? 15);
+const MAX_CLICKS = Number(process.env.ALTAMIRA_MAX_CLICKS ?? 25);
 const BASE = 'https://www.altamirarealestate.com.cy';
 
 export async function scrapeAltamira() {

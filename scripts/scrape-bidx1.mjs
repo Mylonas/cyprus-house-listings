@@ -14,7 +14,7 @@
  */
 import { chromium } from 'playwright';
 
-const SCROLLS = Number(process.env.BIDX1_MAX_SCROLLS ?? 4);
+const SCROLLS = Number(process.env.BIDX1_MAX_SCROLLS ?? 8);
 const BASE = 'https://bidx1.com';
 // division=80 -> Cyprus, propertytypes=2 -> Houses (discovered via the site's own filter UI)
 const URL = `${BASE}/en/cyprus?division=80&region=4&propertytypes=2`;
