@@ -5,13 +5,43 @@
  * (https://home.cy/real-estate-for-sale/houses?p=N). Also captures the
  * "Presented by" agency/developer name for each listing.
  *
+ * ACCESS NOTE (2026-07-19)
+ * ------------------------
+ * home.cy now gates its listing pages behind an *interactive* Cloudflare
+ * Turnstile challenge (the search page loops on challenge-platform 401s and the
+ * `div.item.standard` grid never renders), and its robots.txt / Terms &
+ * Conditions explicitly prohibit automated scraping without prior written
+ * approval. We therefore do NOT try to defeat the challenge. The scraper is kept
+ * intact and simply *detects the wall and returns nothing gracefully* — fast,
+ * with a clear log — so the source degrades cleanly within scrape-all instead of
+ * hanging on a 30s-per-page `networkidle` timeout. If access is ever restored
+ * (challenge removed, or written approval + an allow-listed IP), the parsing
+ * below resumes working unchanged.
+ *
  * Env:
- *   HOMECY_MAX_PAGES - how many result pages to walk, 16 listings/page (default 12)
+ *   HOMECY_MAX_PAGES - how many result pages to walk, 16 listings/page (default 20)
  */
 import { chromium } from 'playwright';
+import { pathToFileURL } from 'node:url';
 
 const MAX_PAGES = Number(process.env.HOMECY_MAX_PAGES ?? 20);
 const BASE = 'https://home.cy';
+
+// Quick probe: is the listing grid reachable, or are we hitting the Turnstile
+// wall? Returns true only if real listing cards render.
+async function gridIsReachable(page) {
+  try {
+    await page.goto(`${BASE}/real-estate-for-sale/houses?p=1`, { waitUntil: 'domcontentloaded', timeout: 25000 });
+  } catch {
+    return false;
+  }
+  try {
+    await page.waitForSelector('div.item.standard', { timeout: 12000 });
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export async function scrapeHomeCy() {
   const browser = await chromium.launch();
@@ -19,9 +49,23 @@ export async function scrapeHomeCy() {
   const all = [];
   const seen = new Set();
 
+  if (!(await gridIsReachable(page))) {
+    await browser.close();
+    console.error(
+      'home.cy: listing grid unreachable (Cloudflare Turnstile challenge / ' +
+      'ToS-prohibited scraping) — returning 0 listings. Not attempting to bypass.'
+    );
+    return [];
+  }
+
   for (let p = 1; p <= MAX_PAGES; p++) {
     const url = `${BASE}/real-estate-for-sale/houses?p=${p}`;
-    await page.goto(url, { waitUntil: 'networkidle' });
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
+      await page.waitForSelector('div.item.standard', { timeout: 12000 });
+    } catch {
+      break; // wall re-appeared or no more pages
+    }
 
     const items = await page.evaluate(() => {
       const results = [];
@@ -89,7 +133,7 @@ export async function scrapeHomeCy() {
   });
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeHomeCy();
   console.log(JSON.stringify(data, null, 1));
   console.error(`Scraped ${data.length} home.cy listings.`);
