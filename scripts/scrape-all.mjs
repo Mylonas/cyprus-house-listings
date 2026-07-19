@@ -23,7 +23,7 @@ import { scrapeFoxRealty } from './scrape-foxrealty.mjs';
 import { scrapeRealting } from './scrape-realting.mjs';
 import { scrapeAPITS } from './scrape-apits.mjs';
 import { scrapeKadis } from './scrape-kadis.mjs';
-import { scrapeEstateBudHouses } from './scrape-estatebud.mjs';
+import { estateBudSources } from './scrape-estatebud.mjs';
 import { scrapeEstateBudWpHouses } from './scrape-estatebud-wp.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -42,7 +42,8 @@ const sources = [
   ['Realting', scrapeRealting],
   ['A Place in the Sun', scrapeAPITS],
   ['Kadis Estates', scrapeKadis],
-  ['EstateBud agencies', scrapeEstateBudHouses],
+  // Each EstateBud SPA agency is its own source (own timeout budget).
+  ...estateBudSources('house'),
   ['EstateBud-WP agencies', scrapeEstateBudWpHouses],
 ];
 

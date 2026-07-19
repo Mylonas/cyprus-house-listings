@@ -24,6 +24,9 @@ import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 
 const PAGES = Number(process.env.ESTATEBUD_PAGES ?? 250);
+// Per-agency wall-clock cap for the SPA walk (default 12 min, comfortably under
+// the aggregators' 15-min per-source hard timeout).
+const WALK_BUDGET_MS = Number(process.env.ESTATEBUD_WALK_BUDGET_MS ?? 12 * 60 * 1000);
 
 // Each agency: a rendered EstateBud list URL. `kind` picks the output schema.
 export const AGENCIES = [
@@ -185,8 +188,14 @@ async function scrapeAgency(page, agency) {
     return added;
   };
 
+  // Wall-clock budget: return whatever we have well before any outer per-source
+  // hard timeout, so a slow deep walk degrades to partial data instead of being
+  // discarded entirely.
+  const deadline = Date.now() + WALK_BUDGET_MS;
+
   await collect();
   for (let pg = 2; pg <= PAGES; pg++) {
+    if (Date.now() > deadline) break;
     const firstBefore = await page.evaluate(() => (document.querySelector('img[src*="estbd.io"]')?.src.match(/estbd\.io\/[^/]+\/(\d+)\//) || [])[1]);
     // Click the pager element whose visible text is exactly this page number.
     const clicked = await page.evaluate((n) => {
@@ -209,12 +218,13 @@ async function scrapeAgency(page, agency) {
   return all;
 }
 
-export async function scrapeEstateBud(kind = null) {
+export async function scrapeEstateBud(kind = null, sourceName = null) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   const all = [];
   for (const agency of AGENCIES) {
     if (kind && agency.kind !== kind) continue;
+    if (sourceName && agency.source !== sourceName) continue;
     try {
       const items = await scrapeAgency(page, agency);
       console.error(`  ${agency.source} (${agency.kind}): ${items.length}`);
@@ -230,6 +240,13 @@ export async function scrapeEstateBud(kind = null) {
 // Houses / plots entry points for the two aggregators.
 export const scrapeEstateBudHouses = () => scrapeEstateBud('house');
 export const scrapeEstateBudPlots = () => scrapeEstateBud('plot');
+
+// One aggregator source per agency, so each deep SPA walk gets its own
+// per-source timeout budget and one slow agency can't sink the others.
+export function estateBudSources(kind) {
+  const names = [...new Set(AGENCIES.filter(a => a.kind === kind).map(a => a.source))];
+  return names.map(name => [`${name}`, () => scrapeEstateBud(kind, name)]);
+}
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeEstateBud(process.argv[2] || null);

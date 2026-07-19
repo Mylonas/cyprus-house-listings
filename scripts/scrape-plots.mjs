@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { scrapeBazarakiPlots } from './scrape-bazaraki-plots.mjs';
 import { scrapeKadisPlots } from './scrape-kadis-plots.mjs';
-import { scrapeEstateBudPlots } from './scrape-estatebud.mjs';
+import { estateBudSources } from './scrape-estatebud.mjs';
 import { scrapeEstateBudWpPlots } from './scrape-estatebud-wp.mjs';
 
 // Note: eAuction currently exposes no biddable land/plot subtype (only
@@ -28,7 +28,7 @@ const outPath = path.join(root, 'src/data/plots.json');
 const sources = [
   ['Bazaraki', scrapeBazarakiPlots],
   ['Kadis Estates', scrapeKadisPlots],
-  ['EstateBud agencies', scrapeEstateBudPlots],
+  ...estateBudSources('plot'),
   ['EstateBud-WP agencies', scrapeEstateBudWpPlots],
 ];
 
