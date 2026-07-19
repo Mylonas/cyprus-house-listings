@@ -149,8 +149,10 @@ async function scrapeAgency(page, agency) {
     for (const c of cards) {
       if (seen.has(c.id)) continue;
       seen.add(c.id);
-      all.push(parseCard(c, agency.kind, agency.source));
-      added++;
+      added++; // count every distinct card so the pager loop keeps advancing
+      const item = parseCard(c, agency.kind, agency.source);
+      if (item.price == null) continue; // skip "price on request" listings
+      all.push(item);
     }
     return added;
   };
