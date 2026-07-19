@@ -40,21 +40,9 @@ export const AGENCIES = [
     kind: 'plot',
     base: 'https://kazo.com.cy/real-estate?category=land&main_category=sale&area_1[]=CY',
   },
-  {
-    // Cyprus Properties (A. Chrysostomou) — a different EstateBud theme:
-    // detail links are /property/<id>, price is written "1,234,000€". Its
-    // for-sale grid mixes buildings and land, so the house pass keeps only
-    // items with a bedroom count and the plot pass uses the ?type=land filter.
-    source: 'Cyprus Properties',
-    kind: 'house',
-    base: 'https://www.cyprusproperties.com.cy/properties',
-    filter: item => item.beds != null,
-  },
-  {
-    source: 'Cyprus Properties',
-    kind: 'plot',
-    base: 'https://www.cyprusproperties.com.cy/properties?type=land',
-  },
+  // Cyprus Properties (cyprusproperties.com.cy) also runs EstateBud, but it has
+  // a clean server-side pagination endpoint, so it is scraped far faster and to
+  // full depth by scrape-cyprusproperties.mjs rather than this SPA walk.
 ];
 
 const DISTRICTS = ['Nicosia', 'Limassol', 'Larnaca', 'Paphos', 'Famagusta'];

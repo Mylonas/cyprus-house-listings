@@ -123,6 +123,8 @@
       <option value="price_desc">Price: high to low</option>
       <option value="sqm_desc">House size: largest first</option>
       <option value="plot_desc">Plot size: largest first</option>
+      <option value="ppsqm_asc">Price per plot m²: low to high</option>
+      <option value="ppsqm_desc">Price per plot m²: high to low</option>
       <option value="recent">Most recently posted</option>
     </select>
   </div>
@@ -195,6 +197,17 @@ function effAge(l){
   return postedRank(l.posted);
 }
 
+// Price per plot m² (asking price ÷ plot area). Listings without both a price
+// and a plot area sort to the end via the caller-supplied fallback.
+function ppSqm(l, fallback){
+  return (l.price && l.plotSqm) ? l.price / l.plotSqm : fallback;
+}
+// Format €/m² with enough precision for large cheap plots without noise.
+function fmtPerSqm(v){
+  const s = v >= 10 ? Math.round(v).toLocaleString('en-US') : v >= 1 ? v.toFixed(1) : v.toFixed(2);
+  return `€${s}/m²`;
+}
+
 function cardHtml(l){
   const img = l.image
     ? `<img class="card-img" src="${l.image}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-img placeholder\\'>No photo available<\\/div>'">`
@@ -204,6 +217,7 @@ function cardHtml(l){
   if (l.baths) meta.push(`<span>${l.baths} bath</span>`);
   if (l.houseSqm) meta.push(`<span>${l.houseSqm} m² house</span>`);
   if (l.plotSqm) meta.push(`<span>${l.plotSqm} m² plot</span>`);
+  if (l.price && l.plotSqm) meta.push(`<span class="ppsqm">${fmtPerSqm(l.price / l.plotSqm)} plot</span>`);
   if (l.buildYear) meta.push(`<span>Built ${l.buildYear}</span>`);
   if (l.propertyType) meta.push(`<span>${l.propertyType}</span>`);
   if (l.share && l.share !== '1/1') meta.push(`<span>Share ${l.share}</span>`);
@@ -246,6 +260,8 @@ function applyFilters(){
   else if (state.sort === 'price_desc') items.sort((a,b) => (b.price ?? -1) - (a.price ?? -1));
   else if (state.sort === 'sqm_desc') items.sort((a,b) => (b.houseSqm ?? -1) - (a.houseSqm ?? -1));
   else if (state.sort === 'plot_desc') items.sort((a,b) => (b.plotSqm ?? -1) - (a.plotSqm ?? -1));
+  else if (state.sort === 'ppsqm_asc') items.sort((a,b) => ppSqm(a, 1e15) - ppSqm(b, 1e15));
+  else if (state.sort === 'ppsqm_desc') items.sort((a,b) => ppSqm(b, -1) - ppSqm(a, -1));
   else if (state.sort === 'recent') items.sort((a,b) => effAge(a) - effAge(b));
 
   document.getElementById('resultsBar').textContent = `Showing ${items.length} of ${LISTINGS.length} listings`;

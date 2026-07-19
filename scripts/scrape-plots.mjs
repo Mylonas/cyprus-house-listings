@@ -15,6 +15,7 @@ import { scrapeBazarakiPlots } from './scrape-bazaraki-plots.mjs';
 import { scrapeKadisPlots } from './scrape-kadis-plots.mjs';
 import { estateBudSources } from './scrape-estatebud.mjs';
 import { scrapeEstateBudWpPlots } from './scrape-estatebud-wp.mjs';
+import { scrapeCyprusPropertiesPlots } from './scrape-cyprusproperties.mjs';
 
 // Note: eAuction currently exposes no biddable land/plot subtype (only
 // Residence/Commercial/Office are populated), so it contributes no plots and is
@@ -29,6 +30,7 @@ const sources = [
   ['Bazaraki', scrapeBazarakiPlots],
   ['Kadis Estates', scrapeKadisPlots],
   ...estateBudSources('plot'),
+  ['Cyprus Properties', scrapeCyprusPropertiesPlots],
   ['EstateBud-WP agencies', scrapeEstateBudWpPlots],
 ];
 
