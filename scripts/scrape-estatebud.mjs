@@ -16,12 +16,14 @@
  * category/type query params baked into that URL.
  *
  * Env:
- *   ESTATEBUD_PAGES - pages (16/page) to walk per agency (default 15)
+ *   ESTATEBUD_PAGES - max pages to walk per agency (default 250; the loop
+ *                     stops early once the pager runs out, so this is just a
+ *                     safety cap — 250 covers Kazo's full ~240-page inventory)
  */
 import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 
-const PAGES = Number(process.env.ESTATEBUD_PAGES ?? 15);
+const PAGES = Number(process.env.ESTATEBUD_PAGES ?? 250);
 
 // Each agency: a rendered EstateBud list URL. `kind` picks the output schema.
 export const AGENCIES = [
