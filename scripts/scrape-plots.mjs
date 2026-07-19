@@ -14,6 +14,7 @@ import path from 'node:path';
 import { scrapeBazarakiPlots } from './scrape-bazaraki-plots.mjs';
 import { scrapeKadisPlots } from './scrape-kadis-plots.mjs';
 import { scrapeEstateBudPlots } from './scrape-estatebud.mjs';
+import { scrapeEstateBudWpPlots } from './scrape-estatebud-wp.mjs';
 
 // Note: eAuction currently exposes no biddable land/plot subtype (only
 // Residence/Commercial/Office are populated), so it contributes no plots and is
@@ -28,9 +29,10 @@ const sources = [
   ['Bazaraki', scrapeBazarakiPlots],
   ['Kadis Estates', scrapeKadisPlots],
   ['EstateBud agencies', scrapeEstateBudPlots],
+  ['EstateBud-WP agencies', scrapeEstateBudWpPlots],
 ];
 
-const SOURCE_PRIORITY = ['Bazaraki', 'eAuction Cyprus', 'Kadis Estates', 'Kazo Real Estate', 'Realting', 'A Place in the Sun'];
+const SOURCE_PRIORITY = ['Bazaraki', 'eAuction Cyprus', 'Kadis Estates', 'Kazo Real Estate', 'Cyprus Properties', 'NCH Real Estate', 'Realting', 'A Place in the Sun'];
 
 const DISTRICT_CANON = {
   Pafos: 'Paphos', Lefkosia: 'Nicosia', Ammochostos: 'Famagusta',
