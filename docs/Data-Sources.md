@@ -1,6 +1,6 @@
 # Data Sources
 
-Ten sources as of v2.1.0. Each has a scraper in `scripts/scrape-<name>.mjs`; `scrape-all.mjs` runs them all, merges, deduplicates, and rebuilds the page. A source failing never fails the run — the merge degrades gracefully to whatever succeeded.
+Ten sources as of v2.1.0; the EstateBud agencies (Kazo, Cyprus Properties, NCH) were added post-v2.1.0, and DOM real estate, Pafilia and Giovani Homes in v2.2.0 — seventeen source scrapers in total. Each has a scraper in `scripts/scrape-<name>.mjs`; `scrape-all.mjs` runs them all, merges, deduplicates, and rebuilds the page. A source failing never fails the run — the merge degrades gracefully to whatever succeeded.
 
 ## Direct portals & auction sites
 
@@ -78,6 +78,19 @@ fires (nonce included), then page by `offset`/`category`. Parses both the
 | Kadis Estates | WP admin-ajax | houses + plots | original hand-rolled scraper (`scrape-kadis.mjs`) |
 | NCH Real Estate (nchrealestate.com) | WP admin-ajax | houses + plots | map-mode endpoint, icon card template |
 
+## Portal & developer sources (added in v2.2.0)
+
+A deep-scan pass over the remaining big portals and the island's major
+property developers. Most developer sites (Leptos, Cybarco, Karma, Aristo,
+Cyfield) market whole *projects* without per-unit prices, or hide results
+behind JS-only search forms — not ingestible. Three were:
+
+| Source | What it covers | Method | Notes |
+|---|---|---|---|
+| [DOM real estate](https://dom.com.cy) (`scrape-dom.mjs`) | Prime Property Group portal, ~4.5k houses all districts | Plain fetch — server-rendered Bitrix catalog, `/en/catalog/sale/type-house/?page=page-N`, 20 cards/page | schema.org Product cards: price meta, total/plot area, bedrooms, slider images. The earlier "403 to plain fetch" finding no longer holds — the catalog now serves plain fetches |
+| [Pafilia](https://www.pafilia.com) (`scrape-pafilia.mjs`) | Developer — Paphos/Limassol new builds | WP REST — Houzez `property` CPT with full `property_meta` (price/size/beds/baths), `_embed` for photos | Posts are duplicated per language (en/de/pl/ru/vi/zh) and include Greece projects; filtered to English + Cyprus cities + sale-side |
+| [Giovani Homes](https://www.giovani.com.cy) (`scrape-giovani.mjs`) | Developer — east coast (Protaras/Paralimni/Ayia Napa), Larnaca, Nicosia | WP REST list (WP Residence `estate_property` CPT) + per-property page fetch | WP Residence keeps price/size/beds in postmeta the REST API hides, so each property page's `listing_detail` blocks are parsed (8 in parallel); Shop category and rentals excluded |
+
 ## Source-discovery backlog (feasibility triage)
 
 A sweep of Cyprus agency sites, ranked by ingest cost vs. unique value. Probed
@@ -87,7 +100,7 @@ render server-side.
 | Candidate | Finding | Verdict |
 |---|---|---|
 | propertyincyprus.com (Blue Sky) | EstateBud URL-mode, but detail links `/…-for-sale/<area>/<id>` don't contain `/propert`; JS-rendered | **Feasible** — add once the URL-mode link matcher is generalised |
-| dom.com.cy | Large (~4.6k), no platform fingerprint, JS-rendered, returns 403 to plain fetch | Feasible but needs bespoke browser scraper + R&D |
+| dom.com.cy | ~~Returns 403 to plain fetch~~ — re-probed 2026-07: server-rendered catalog answers plain fetches | **Done** — live as `scrape-dom.mjs` (v2.2.0) |
 | index.cy | Biggest marketplace (60k+/100 cos) but an **aggregator** — stock overlaps sources we already carry; Cloudflare | Low unique value; skip |
 | myrealestatecyprus.com, properties-in-cyprus.com, galaxiaestates.com, cyprusestateagency.com | WordPress, prices in raw HTML, no EstateBud | Feasible as bespoke direct scrapers; medium effort each |
 | land.cy, stephensons.eu, cypruspropertyfinder.com | Cloudflare / 403 wall (like home.cy) | Blocked; do not bypass |

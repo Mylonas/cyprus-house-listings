@@ -26,6 +26,9 @@ import { scrapeKadis } from './scrape-kadis.mjs';
 import { estateBudSources } from './scrape-estatebud.mjs';
 import { scrapeEstateBudWpHouses } from './scrape-estatebud-wp.mjs';
 import { scrapeCyprusPropertiesHouses } from './scrape-cyprusproperties.mjs';
+import { scrapeDom } from './scrape-dom.mjs';
+import { scrapePafilia } from './scrape-pafilia.mjs';
+import { scrapeGiovani } from './scrape-giovani.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -47,6 +50,9 @@ const sources = [
   ...estateBudSources('house'),
   ['Cyprus Properties', scrapeCyprusPropertiesHouses],
   ['EstateBud-WP agencies', scrapeEstateBudWpHouses],
+  ['DOM real estate', scrapeDom],
+  ['Pafilia', scrapePafilia],
+  ['Giovani Homes', scrapeGiovani],
 ];
 
 // ---------------------------------------------------------------------------
@@ -67,8 +73,9 @@ const sources = [
 
 const SOURCE_PRIORITY = [
   'Bazaraki', 'Zyprus', 'Altamira Real Estate', 'Altamira', 'eAuction Cyprus',
-  'eAuction', 'BidX1', 'Kadis Estates', 'Kazo Real Estate', 'Cyprus Properties',
-  'NCH Real Estate', 'home.cy', 'FOX Realty', 'BuySellCyprus', 'Realting',
+  'eAuction', 'BidX1', 'Kadis Estates', 'Pafilia', 'Giovani Homes',
+  'Kazo Real Estate', 'Cyprus Properties', 'NCH Real Estate', 'DOM real estate',
+  'home.cy', 'FOX Realty', 'BuySellCyprus', 'Realting',
   'A Place in the Sun',
 ];
 
