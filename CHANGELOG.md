@@ -2,6 +2,35 @@
 
 All notable changes to this project are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows [SemVer](https://semver.org/).
 
+## [2.2.0] - 2026-07-19
+
+### Added
+- **Seven new sources** since v2.1.1, bringing the total to seventeen scrapers:
+  - Kadis Estates (`scrape-kadis.mjs`) — WordPress admin-ajax EstateBud endpoint, houses + plots
+  - Kazo Real Estate (`scrape-estatebud.mjs`) — generic EstateBud SPA-mode scraper, full ~240-page walk, houses + plots
+  - Cyprus Properties (`scrape-cyprusproperties.mjs`) — EstateBud with a clean server-side pager; full-depth in seconds without a browser
+  - NCH Real Estate (`scrape-estatebud-wp.mjs`) — generic WordPress-EstateBud admin-ajax scraper (map-mode endpoint)
+  - DOM real estate (`scrape-dom.mjs`) — Prime Property Group portal, ~4.5k houses via the server-rendered Bitrix catalog pager, plain fetch
+  - Pafilia (`scrape-pafilia.mjs`) — developer; Houzez `property` post type on the public WP REST API (full price/size/beds meta), filtered to English + Cyprus + sale-side
+  - Giovani Homes (`scrape-giovani.mjs`) — developer; WP REST list + per-property detail-page parse for the postmeta the API hides
+- **Plots & Land companion page** (`plots.html`) — parallel pipeline (`npm run scrape:plots` → `src/data/plots.json` → `build-plots-page.mjs`) aggregating plot/land listings with plot size, type, planning zone; cross-linked with the houses page
+- eAuction Cyprus integration via its unprotected `POST /Home/HomeListAuctions` XHR endpoint + PDF ingest (photos and Greek legal-table fields merged from an enrichment cache)
+- Bazaraki scraper rebuilt on the `/api/items/` JSON API through a stealth browser — full photos, plot size, build year, real go-live dates
+- Detail-page enrichment for Realting, Altamira, and A Place in the Sun (plot/covered areas)
+- Price-per-plot-m² sort on both pages; source tag colors for all new sources
+- `eauction-cyprus` operating-manual skill; wiki `docs/` expanded (EstateBud platform notes, source-discovery backlog, portal & developer sources)
+
+### Changed
+- Cross-source dedupe priority extended: developers (Pafilia, Giovani Homes) rank just after the direct portals; DOM real estate ranks with the agency portals
+- Price-on-request listings are excluded across EstateBud, DOM, Pafilia, and Giovani sources
+- Per-source hard timeout (15 min) with per-agency walk budgets for the EstateBud SPA scrapers
+
+### Fixed
+- home.cy scraper fails fast against its Cloudflare wall instead of burning its timeout
+
+### Rollback
+- Redeploy the `v2.1.1` tag via the Cloudflare Pages dashboard, or revert the release merge commit on `master` and push
+
 ## [2.1.1] - 2026-07-16
 
 ### Fixed

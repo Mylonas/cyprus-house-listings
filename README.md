@@ -1,8 +1,8 @@
 # 🏠 Cyprus House Listings
 
-> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.1.1** — eAuction scraper fix, wiki documentation
+> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.2.0** — seven new sources (EstateBud agencies, DOM real estate, Pafilia, Giovani Homes), Plots & Land page
 
-Internal reference page aggregating house-for-sale listings from eleven sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, and Kadis Estates — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
+Internal reference page aggregating house-for-sale listings from seventeen sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, Kadis Estates, Kazo Real Estate, Cyprus Properties, NCH Real Estate, DOM real estate, Pafilia, and Giovani Homes — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
 A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)** view aggregates plot/land listings (Bazaraki + Kadis Estates) with plot size, type, planning zone, price, go-live date and photos — same pipeline (`npm run scrape:plots` → `src/data/plots.json` → `public/plots.html`). The two pages cross-link in the header.
 
@@ -21,7 +21,7 @@ A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)
 | **Filterable grid** | District, min/max price, min house size, min/max plot size, built-after year, min bedrooms, source site, free-text search |
 | **Sortable** | Price (asc/desc), house size, plot size, most recently posted |
 | **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
-| **Scheduled refresh** | GitHub Actions re-scrapes all eleven sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
+| **Scheduled refresh** | GitHub Actions re-scrapes all seventeen sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 
 ---
@@ -57,6 +57,9 @@ cyprus-house-listings/
 │   ├── scrape-foxrealty.mjs      # foxrealty.com.cy — largest agency found via home.cy, one page per district
 │   ├── scrape-realting.mjs       # realting.com — international aggregator, plain fetch, EUR via ?currency=EUR
 │   ├── scrape-apits.mjs          # aplaceinthesun.com — reseller portal, plain fetch via /property/cyprus/page/N
+│   ├── scrape-dom.mjs            # dom.com.cy — Prime Property Group portal, plain-fetch catalog pager
+│   ├── scrape-pafilia.mjs        # pafilia.com — developer, WP REST API (Houzez property meta)
+│   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
 ├── src/
@@ -86,6 +89,9 @@ cyprus-house-listings/
 | [BuySellCyprus.com](https://www.buysellcyprus.com) | Cyprus' largest property marketplace — ~28,000 house listings total | Playwright — "recently listed" sort, bounded page walk (~15 pages / 360 listings by default) | Not exhaustive by design given the catalogue size; samples the most recently listed houses |
 | [home.cy](https://home.cy) | Agency/developer-listed houses for sale | Playwright — paginated houses search | Captures the presenting agency/developer name per listing (`agent` field) |
 | [FOX Realty](https://foxrealty.com.cy) | FOX Smart Estate Agency's own site — the largest single agency presence found via home.cy | Playwright — one page per district (their pagination is AJAX-only, no stable URL beyond page 1) | Own-site listings, distinct IDs from their home.cy postings |
+| [DOM real estate](https://dom.com.cy) | Prime Property Group portal — ~4.5k houses across all districts | Plain fetch — server-rendered catalog pager (`/en/catalog/sale/type-house/?page=page-N`) | schema.org Product cards: price, total area, plot size, bedrooms, slider photos |
+| [Pafilia](https://www.pafilia.com) | Major developer — Paphos/Limassol new builds | Plain fetch — WP REST API (Houzez `property` post type incl. full meta) | Filtered to English posts, Cyprus cities (Greece projects excluded), sale-side only |
+| [Giovani Homes](https://www.giovani.com.cy) | Major east-coast developer — Protaras/Paralimni/Ayia Napa, Larnaca, Nicosia | Plain fetch — WP REST list + per-property detail pages for price/size/beds | Rentals and commercial (Shop) excluded; price-on-request units skipped |
 
 ---
 
@@ -95,7 +101,7 @@ cyprus-house-listings/
 npm install
 npx playwright install --with-deps chromium
 
-npm run scrape        # re-scrape all 8 sources → src/data/listings.json, rebuilds public/index.html
+npm run scrape        # re-scrape all sources → src/data/listings.json, rebuilds public/index.html
 npm run build          # rebuild public/index.html from the current src/data/listings.json only
 npm run dev             # serve public/ locally
 ```
