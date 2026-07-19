@@ -24,6 +24,9 @@ import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 
 const PAGES = Number(process.env.ESTATEBUD_PAGES ?? 250);
+// Per-agency wall-clock cap for the SPA walk (default 12 min, comfortably under
+// the aggregators' 15-min per-source hard timeout).
+const WALK_BUDGET_MS = Number(process.env.ESTATEBUD_WALK_BUDGET_MS ?? 12 * 60 * 1000);
 
 // Each agency: a rendered EstateBud list URL. `kind` picks the output schema.
 export const AGENCIES = [
@@ -36,6 +39,21 @@ export const AGENCIES = [
     source: 'Kazo Real Estate',
     kind: 'plot',
     base: 'https://kazo.com.cy/real-estate?category=land&main_category=sale&area_1[]=CY',
+  },
+  {
+    // Cyprus Properties (A. Chrysostomou) — a different EstateBud theme:
+    // detail links are /property/<id>, price is written "1,234,000€". Its
+    // for-sale grid mixes buildings and land, so the house pass keeps only
+    // items with a bedroom count and the plot pass uses the ?type=land filter.
+    source: 'Cyprus Properties',
+    kind: 'house',
+    base: 'https://www.cyprusproperties.com.cy/properties',
+    filter: item => item.beds != null,
+  },
+  {
+    source: 'Cyprus Properties',
+    kind: 'plot',
+    base: 'https://www.cyprusproperties.com.cy/properties?type=land',
   },
 ];
 
@@ -82,24 +100,36 @@ function extractCards() {
     seen.add(id);
     const txt = (card.innerText || '').replace(/\s+/g, ' ').trim();
     const images = [...new Set([...card.querySelectorAll('img[src*="estbd.io"]')].map(i => i.src))];
-    out.push({
-      id, link, txt,
-      title: (linkEl.getAttribute('title') || linkEl.innerText || '').replace(/\s+/g, ' ').trim() || null,
-      images,
-    });
+    // Title: prefer the anchor's own text/title; some themes carry no slug in
+    // the link (…/property/<id>) and put the name in a heading instead.
+    const headingEl = card.querySelector('h1, h2, h3, h4, [class*="title" i], [class*="name" i]');
+    const title = (linkEl.getAttribute('title') || linkEl.innerText || (headingEl ? headingEl.textContent : ''))
+      .replace(/\s+/g, ' ').trim() || null;
+    out.push({ id, link, txt, title, images });
   }
   return out;
 }
 
 function parseCard(c, kind, source) {
   const txt = c.txt || '';
-  const priceM = txt.match(/€\s?([\d.,]+)/);
+  // Price appears as either "€70,000" (symbol first) or "3,995,000€" (symbol
+  // last, sometimes "+VAT") depending on the EstateBud theme.
+  // Require >=4 digit/separator chars so a bare bed count next to a trailing €
+  // ("3,995,000€ 5 …") is never mistaken for the price.
+  const priceM = txt.match(/€\s?(\d[\d.,]{3,})/) || txt.match(/(\d[\d.,]{3,})\s?€/);
   const price = priceM ? Number(priceM[1].replace(/[.,]/g, '')) : null;
-  const areaM = txt.match(/([\d.,]+)\s*m²/);
+  // Area is written "93 m²" or "272sqm"/"272 m2" across themes.
+  const areaM = txt.match(/([\d.,]+)\s*(?:m²|m2|sqm)/i);
   const area = areaM ? Math.round(Number(areaM[1].replace(/[.,]/g, ''))) : null;
-  const beds = (txt.match(/(\d+)\s*(?:Beds?|bed)/) || [])[1];
-  const baths = (txt.match(/(\d+)\s*(?:Baths?|bath)/) || [])[1];
-  // Title from the detail-link slug (…-<id>) if the anchor had none.
+  // Beds/baths: labelled ("3 Beds 2 Baths") on some themes; on others they are
+  // two bare integers sitting between the price and the area ("… € 5 5 272sqm").
+  let beds = (txt.match(/(\d+)\s*(?:Beds?|bed)/i) || [])[1];
+  let baths = (txt.match(/(\d+)\s*(?:Baths?|bath)/i) || [])[1];
+  if (beds == null && baths == null) {
+    const posM = txt.match(/€\s*(\d+)\s+(\d+)\s+[\d.,]+\s*(?:m²|m2|sqm)/i);
+    if (posM) { beds = posM[1]; baths = posM[2]; }
+  }
+  // Title from the detail-link slug (…-<id>) if neither anchor nor heading had one.
   let title = c.title;
   if (!title) {
     const slug = (c.link.match(/\/([a-z0-9-]+?)-\d+\/?$/i) || [])[1];
@@ -152,13 +182,20 @@ async function scrapeAgency(page, agency) {
       added++; // count every distinct card so the pager loop keeps advancing
       const item = parseCard(c, agency.kind, agency.source);
       if (item.price == null) continue; // skip "price on request" listings
+      if (agency.filter && !agency.filter(item)) continue; // e.g. drop land from a house pass
       all.push(item);
     }
     return added;
   };
 
+  // Wall-clock budget: return whatever we have well before any outer per-source
+  // hard timeout, so a slow deep walk degrades to partial data instead of being
+  // discarded entirely.
+  const deadline = Date.now() + WALK_BUDGET_MS;
+
   await collect();
   for (let pg = 2; pg <= PAGES; pg++) {
+    if (Date.now() > deadline) break;
     const firstBefore = await page.evaluate(() => (document.querySelector('img[src*="estbd.io"]')?.src.match(/estbd\.io\/[^/]+\/(\d+)\//) || [])[1]);
     // Click the pager element whose visible text is exactly this page number.
     const clicked = await page.evaluate((n) => {
@@ -181,12 +218,13 @@ async function scrapeAgency(page, agency) {
   return all;
 }
 
-export async function scrapeEstateBud(kind = null) {
+export async function scrapeEstateBud(kind = null, sourceName = null) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   const all = [];
   for (const agency of AGENCIES) {
     if (kind && agency.kind !== kind) continue;
+    if (sourceName && agency.source !== sourceName) continue;
     try {
       const items = await scrapeAgency(page, agency);
       console.error(`  ${agency.source} (${agency.kind}): ${items.length}`);
@@ -202,6 +240,13 @@ export async function scrapeEstateBud(kind = null) {
 // Houses / plots entry points for the two aggregators.
 export const scrapeEstateBudHouses = () => scrapeEstateBud('house');
 export const scrapeEstateBudPlots = () => scrapeEstateBud('plot');
+
+// One aggregator source per agency, so each deep SPA walk gets its own
+// per-source timeout budget and one slow agency can't sink the others.
+export function estateBudSources(kind) {
+  const names = [...new Set(AGENCIES.filter(a => a.kind === kind).map(a => a.source))];
+  return names.map(name => [`${name}`, () => scrapeEstateBud(kind, name)]);
+}
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeEstateBud(process.argv[2] || null);
