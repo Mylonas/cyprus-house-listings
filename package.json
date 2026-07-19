@@ -20,6 +20,7 @@
     "scrape:kadis": "node scripts/scrape-kadis.mjs",
     "scrape:estatebud": "node scripts/scrape-estatebud.mjs",
     "scrape:estatebud-wp": "node scripts/scrape-estatebud-wp.mjs",
+    "scrape:cyprusproperties": "node scripts/scrape-cyprusproperties.mjs",
     "build": "node scripts/build-page.mjs",
     "build:plots": "node scripts/build-plots-page.mjs",
     "dev": "npx serve public"
