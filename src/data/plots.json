@@ -20754,6 +20754,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large 4060m2 Field for Sale in Limnatis",
+  "price": 65000,
+  "priceDisplay": "€65,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/31767/6a5e06d9bbb48.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31767/6a5e06d9bbb48.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-4060m2-field-for-sale-in-limnatis-31767",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31767",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4060,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "(Share) Mixed zone field in Kato Polemidia, Limassol",
   "price": 65000,
   "priceDisplay": "€65,000",
@@ -23365,30 +23389,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 827,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "For sale 456 m2 field in peaceful Akrounta (Public Road)",
-  "price": 125000,
-  "priceDisplay": "€125,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/28831/69148d2066e62.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/28831/69148d2066e62.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/for-sale-456-m2-field-in-peaceful-akrounta-(public-road)-28831",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28831",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 456,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -45568,30 +45568,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "LAND FOR SALE IN OROKLINI LARNACA",
-  "price": 2000000,
-  "priceDisplay": "€2,000,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/38127/6880afd8dd93b.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/38127/6880afd8dd93b.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/38127",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "38127",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 13338,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Field (Share) - Dali, Nicosia",
   "price": 14000,
   "priceDisplay": "€14,000",
@@ -62411,30 +62387,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3596,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "30% Building Density Residential Field in Aradippou, Larnaca",
-  "price": 2500000,
-  "priceDisplay": "€2,500,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/14796/65bf354c0adea.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/14796/65bf354c0adea.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/14796",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "14796",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 22901,
   "plotType": "Residential",
   "zone": null
  },
