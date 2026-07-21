@@ -34794,6 +34794,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Building Plot for Rent in Agios Dometios",
+  "price": 500,
+  "priceDisplay": "€500",
+  "location": "Cyprus",
+  "district": "Building Plot for Rent in Agios Dometios",
+  "image": "https://estbd.io/1:8ff481ee/42511/6a5f355d0785b.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42511/6a5f355d0785b.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42511",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42511",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 586,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Residential Field in Pedoulas",
   "price": 60000,
   "priceDisplay": "€60,000",
