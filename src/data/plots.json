@@ -17082,6 +17082,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Agricultural field in Kathikas, Paphos",
+  "price": 15000,
+  "priceDisplay": "€15,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/31775/6a5ed63ee2927.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31775/6a5ed63ee2927.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-kathikas-paphos-31775",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31775",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2174,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Agricultural Field in Skarinou, Larnaca",
   "price": 15000,
   "priceDisplay": "€15,000",
@@ -24469,6 +24493,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 11821,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Field in Kissonerga, Paphos",
+  "price": 180000,
+  "priceDisplay": "€180,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/31774/6a5ed63ce9881.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31774/6a5ed63ce9881.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/field-in-kissonerga-paphos-31774",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31774",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2007,
   "plotType": "Agricultural",
   "zone": null
  },
