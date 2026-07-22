@@ -17650,6 +17650,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Agricultural Field in Deftera, Nicosia",
+  "price": 20000,
+  "priceDisplay": "€20,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/25602/6a602f1589d0d.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/25602/6a602f1589d0d.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-deftera-nicosia-25602",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "25602",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 7396,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Field, Kallepeia, Paphos",
   "price": 20000,
   "priceDisplay": "€20,000",
@@ -18202,6 +18226,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Agricultural Field in Alaminos, Larnaca",
+  "price": 27000,
+  "priceDisplay": "€27,000",
+  "location": "Larnaca",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:0e5c2d14/22728/6a602f173e474.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/22728/6a602f173e474.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-alaminos-larnaca-22728",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22728",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 33111,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Residenital Field for Sale in Filousa Kelokedaron",
   "price": 28000,
   "priceDisplay": "€28,000",
@@ -18394,6 +18442,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Agricultural Land with Road Access in Laneia, Limassol",
+  "price": 30000,
+  "priceDisplay": "€30,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/29817/6a602f1e52d09.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/29817/6a602f1e52d09.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-land-with-road-access-in-laneia-limassol-29817",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "29817",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 13974,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large 14047 m2 Field for Sale in Pachna (Landlocked)",
   "price": 30000,
   "priceDisplay": "€30,000",
@@ -18509,6 +18581,54 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 4127,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Agricultural field, Pelathousa, Paphos",
+  "price": 30000,
+  "priceDisplay": "€30,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/23516/6a602f1c2ba24.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/23516/6a602f1c2ba24.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-pelathousa-paphos-23516",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "23516",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8529,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "(Share) Field, Makounta, Paphos",
+  "price": 30000,
+  "priceDisplay": "€30,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/23485/6a602f1bdc530.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/23485/6a602f1bdc530.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/(share)-field-makounta-paphos-23485",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "23485",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 15534,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -18750,6 +18870,30 @@
   "houseSqm": null,
   "plotSqm": 3011,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Residential field in Palaiometocho, Nicosia",
+  "price": 35000,
+  "priceDisplay": "€35,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/23530/6a602f1c89247.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/23530/6a602f1c89247.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-field-in-palaiometocho-nicosia-23530",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "23530",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1872,
+  "plotType": "Residential",
   "zone": null
  },
  {
@@ -19450,30 +19594,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural Field in Deftera, Nicosia",
-  "price": 45000,
-  "priceDisplay": "€45,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/25602/6a59745dedae3.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/25602/6a59745dedae3.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-in-deftera-nicosia-25602",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "25602",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 7396,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "(Share) Field in Paralimni, Ammochostos",
   "price": 45000,
   "priceDisplay": "€45,000",
@@ -20098,30 +20218,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural Field in Alaminos, Larnaca",
-  "price": 54000,
-  "priceDisplay": "€54,000",
-  "location": "Larnaca",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:0e5c2d14/22728/6973983e7445d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/22728/6973983e7445d.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-in-alaminos-larnaca-22728",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "22728",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 33111,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large 1431 m2 Field For Sale Arakapas Village",
   "price": 55000,
   "priceDisplay": "€55,000",
@@ -20453,54 +20549,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 11037,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Agricultural field, Pelathousa, Paphos",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23516/6970cadb88bcb.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23516/6970cadb88bcb.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-pelathousa-paphos-23516",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23516",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8529,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "(Share) Field, Makounta, Paphos",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23485/698bca269696c.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23485/698bca269696c.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/(share)-field-makounta-paphos-23485",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23485",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 15534,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -20842,30 +20890,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural Land with Road Access in Laneia, Limassol",
-  "price": 65000,
-  "priceDisplay": "€65,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/29817/69851748ca892.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/29817/69851748ca892.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-land-with-road-access-in-laneia-limassol-29817",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "29817",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 13974,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large Field for Sale in Peaceful Asgata Village",
   "price": 65000,
   "priceDisplay": "€65,000",
@@ -21078,30 +21102,6 @@
   "houseSqm": null,
   "plotSqm": 7358,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Residential field in Palaiometocho, Nicosia",
-  "price": 70000,
-  "priceDisplay": "€70,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/23530/68a5d1a64e7e7.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23530/68a5d1a64e7e7.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/residential-field-in-palaiometocho-nicosia-23530",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23530",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1872,
-  "plotType": "Residential",
   "zone": null
  },
  {
@@ -22527,9 +22527,9 @@
   "priceDisplay": "€100,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23542/6a516239dd133.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/23542/6a602f1caeacc.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/23542/6a516239dd133.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/23542/6a602f1caeacc.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/residential-field-argaka-paphos-23542",
   "beds": null,
@@ -39368,6 +39368,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Agricultural Land with Road Access in Laneia, Limassol",
+  "price": 65000,
+  "priceDisplay": "€65,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/40200/69851790820e1.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/40200/69851790820e1.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/40200",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "40200",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 13974,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "90% Building Density Residential Building Plot in Perivolia, Larnaca",
   "price": 137800,
   "priceDisplay": "€137,800",
@@ -52400,6 +52424,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Residential field in Palaiometocho, Nicosia",
+  "price": 70000,
+  "priceDisplay": "€70,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/32568/66581a3a3e8b5.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/32568/66581a3a3e8b5.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/32568",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32568",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1872,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Three residential fields in Pera Pedi, Limassol",
   "price": 260000,
   "priceDisplay": "€260,000",
@@ -52611,6 +52659,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3042,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Agricultural field, Pelathousa, Paphos",
+  "price": 60000,
+  "priceDisplay": "€60,000",
+  "location": "Cyprus",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:8ff481ee/32475/664edc225fd4a.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/32475/664edc225fd4a.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/32475",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32475",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8529,
   "plotType": "Agricultural",
   "zone": null
  },
