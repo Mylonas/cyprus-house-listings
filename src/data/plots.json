@@ -2,6 +2,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Land in Avgorou",
+  "price": 150000,
+  "priceDisplay": "€150,000",
+  "location": "Famagusta, Avgorou",
+  "district": "Famagusta",
+  "image": "https://estbd.io/1:3cc426e5/20489/6a608907a7e2f.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20489/6a608907a7e2f.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20489/residential-land-in-avgorou",
+  "houseSqm": null,
+  "plotSqm": 2284,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20489"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Kiti, Larnaca",
   "price": 110000,
   "priceDisplay": "€110,000",
@@ -127,13 +151,13 @@
   "priceDisplay": "€395,000",
   "location": "Limassol, Moni",
   "district": "Limassol",
-  "image": "https://estbd.io/1:3cc426e5/15305/69b7e3bef040c.jpg/thumb",
+  "image": "https://estbd.io/1:3cc426e5/15305/6a60cdd623327.jpg/thumb",
   "images": [
-   "https://estbd.io/1:3cc426e5/15305/69b7e3bef040c.jpg/thumb"
+   "https://estbd.io/1:3cc426e5/15305/6a60cdd623327.jpg/thumb"
   ],
   "link": "https://kadis.com.cy/property-15305/residential-land-in-moni-limassol",
   "houseSqm": null,
-  "plotSqm": 1696,
+  "plotSqm": 1985,
   "plotType": "Residential",
   "zone": null,
   "beds": null,
@@ -4123,8 +4147,8 @@
   "source": "Kadis Estates",
   "kind": "plot",
   "title": "Residential Plot close to Senior School - G.S.P",
-  "price": 185000,
-  "priceDisplay": "€185,000",
+  "price": 187000,
+  "priceDisplay": "€187,000",
   "location": "Nicosia, GSP Area",
   "district": "Nicosia",
   "image": "https://estbd.io/1:3cc426e5/18107/69df83e74c423.jpg/thumb",
@@ -4148,8 +4172,8 @@
   "source": "Kadis Estates",
   "kind": "plot",
   "title": "Residential Corner Plot close to Senior School - G.S.P",
-  "price": 175000,
-  "priceDisplay": "€175,000",
+  "price": 180000,
+  "priceDisplay": "€180,000",
   "location": "Nicosia, GSP Area",
   "district": "Nicosia",
   "image": "https://estbd.io/1:3cc426e5/18106/69df83774bfa4.jpg/thumb",
@@ -15609,30 +15633,6 @@
   "ref": "10518"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Commercial Building Plot in Strovolos, Nicosia",
-  "price": null,
-  "priceDisplay": null,
-  "location": "Nicosia, Strovolos",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10501/67b5e252587b9.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10501/67b5e252587b9.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-10501/commercial-building-plot-in-strovolos-nicosia",
-  "houseSqm": null,
-  "plotSqm": 558,
-  "plotType": "Commercial",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10501"
- },
- {
   "source": "Kazo Real Estate",
   "title": "Share of a Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -23046,6 +23046,30 @@
   "houseSqm": null,
   "plotSqm": 2091,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Two Development Land Plots for Sale in Scenic Laneia",
+  "price": 120000,
+  "priceDisplay": "€120,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/31800/6a60b150a51eb.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31800/6a60b150a51eb.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/two-development-land-plots-for-sale-in-scenic-laneia-31800",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31800",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4785,
+  "plotType": null,
   "zone": null
  },
  {
