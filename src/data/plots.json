@@ -2,6 +2,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Industrial Land in Pentakomo",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Limassol, Pentakomo / Governor's Beach",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/20329/6a58e06dac1a7.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20329/6a58e06dac1a7.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20329/industrial-land-in-pentakomo",
+  "houseSqm": null,
+  "plotSqm": 26323,
+  "plotType": "Industrial",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20329"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land in Avgorou",
   "price": 150000,
   "priceDisplay": "€150,000",
@@ -15609,30 +15633,6 @@
   "ref": "10520"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot in Strovolos close to Cineplex next to Green Area",
-  "price": 400000,
-  "priceDisplay": "€400,000",
-  "location": "Strovolos, Strovolos - Chryseleousa",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10518/67b6f4fe8c791.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10518/67b6f4fe8c791.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-10518/residential-plot-in-strovolos-close-to-cineplex-next-to-green-area",
-  "houseSqm": null,
-  "plotSqm": 708,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10518"
- },
- {
   "source": "Kazo Real Estate",
   "title": "Share of a Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -17962,30 +17962,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural Field in Agios Theodoros, Laranca",
-  "price": 25000,
-  "priceDisplay": "€25,000",
-  "location": "Larnaca",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:0e5c2d14/23243/69fb6992aa8b1.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23243/69fb6992aa8b1.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-in-agios-theodoros-laranca-23243",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23243",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 34449,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Share of a Residential Field in Vavla, Larnaca",
   "price": 25000,
   "priceDisplay": "€25,000",
@@ -19666,6 +19642,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Field for Sale in Peaceful Agios Ambrosios",
+  "price": 48000,
+  "priceDisplay": "€48,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/31806/6a61bcf87d252.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31806/6a61bcf87d252.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-field-for-sale-in-peaceful-agios-ambrosios-31806",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31806",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 976,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large 3066 m2 Field for Sale in Kalopanayiotis (Landlocked)",
   "price": 48000,
   "priceDisplay": "€48,000",
@@ -19762,16 +19762,16 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Residential Filed in Pano Panagia, Paphos",
+  "title": "Residential Field in Pano Panagia, Paphos",
   "price": 49000,
   "priceDisplay": "€49,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22825/69a2ab2060d18.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22825/6a61878ba7a2c.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22825/69a2ab2060d18.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22825/6a61878ba7a2c.jpg/thumb"
   ],
-  "link": "https://kazo.com.cy/properties/residential-filed-in-pano-panagia-paphos-22825",
+  "link": "https://kazo.com.cy/properties/residential-field-in-pano-panagia-paphos-22825",
   "beds": null,
   "baths": null,
   "posted": null,
@@ -20885,6 +20885,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 5922,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Distributed share of a Residential Field in Parekklisia, Limassol",
+  "price": 65000,
+  "priceDisplay": "€65,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/29557/6a61879356be7.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/29557/6a61879356be7.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/distributed-share-of-a-residential-field-in-parekklisia-limassol-29557",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "29557",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 7485,
   "plotType": "Residential",
   "zone": null
  },
@@ -23055,9 +23079,9 @@
   "priceDisplay": "€120,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/31800/6a60b150a51eb.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/31800/6a61c5358f483.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/31800/6a60b150a51eb.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/31800/6a61c5358f483.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/two-development-land-plots-for-sale-in-scenic-laneia-31800",
   "beds": null,
@@ -34734,6 +34758,78 @@
   "houseSqm": null,
   "plotSqm": 620509,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Large Field in Mosfili Village - Nicosia District",
+  "price": 65000,
+  "priceDisplay": "€65,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/42596/6a61c224374d4.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42596/6a61c224374d4.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42596",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42596",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 7284,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Large Field for Sale in Peaceful Flasou Area",
+  "price": 296000,
+  "priceDisplay": "€296,000",
+  "location": "Cyprus",
+  "district": "Large Field for Sale in Peaceful Flasou Area",
+  "image": "https://estbd.io/1:8ff481ee/42488/6a61ba2642740.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42488/6a61ba2642740.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42488",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42488",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 72924,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "2 Commercial plots, Agios Nikolaos, Larnaca Municipality, Larnaca",
+  "price": 1250000,
+  "priceDisplay": "€1,250,000",
+  "location": "Cyprus",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:8ff481ee/42489/6a597b2ac4aef.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42489/6a597b2ac4aef.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42489",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42489",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1051,
+  "plotType": "Commercial",
   "zone": null
  },
  {
@@ -52040,30 +52136,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "120% Building Density Residential Building Plot in Larnaca - Chrysopolitissa, Larnaca",
-  "price": 470000,
-  "priceDisplay": "€470,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/33016/6728eac95a484.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/33016/6728eac95a484.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/33016",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "33016",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 506,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Building Plots for Sale in Larnaca Agios Nikolaos",
   "price": 800000,
   "priceDisplay": "€800,000",
@@ -54964,30 +55036,6 @@
   "houseSqm": null,
   "plotSqm": 4348,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Agricultural Field in Agios Theodoros, Laranca",
-  "price": 57000,
-  "priceDisplay": "€57,000",
-  "location": "Cyprus",
-  "district": "Laranca",
-  "image": "https://estbd.io/1:8ff481ee/30687/65bf536c62abf.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/30687/65bf536c62abf.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/30687",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30687",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 34449,
-  "plotType": "Agricultural",
   "zone": null
  },
  {
