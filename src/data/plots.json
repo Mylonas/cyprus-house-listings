@@ -34738,6 +34738,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Building Plot in Engomi - Nicosia",
+  "price": 675000,
+  "priceDisplay": "€675,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/42603/6a622a82aab54.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42603/6a622a82aab54.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42603",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42603",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 652,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Large Field in Mosfili Village - Nicosia District",
   "price": 65000,
   "priceDisplay": "€65,000",
