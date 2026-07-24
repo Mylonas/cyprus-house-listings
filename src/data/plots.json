@@ -15663,9 +15663,9 @@
   "priceDisplay": "€4,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22817/6985173d1c9c5.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22817/6a62e01316374.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22817/6985173d1c9c5.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22817/6a62e01316374.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/(share)-agricultural-field-kato-akourdaleia-paphos-22817",
   "beds": null,
@@ -16143,9 +16143,9 @@
   "priceDisplay": "€8,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22608/6a329736f2634.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22608/6a62e0121caf8.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22608/6a329736f2634.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22608/6a62e0121caf8.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/(distributed-share)-agricultural-field-episkopi-paphos-22608",
   "beds": null,
@@ -16306,30 +16306,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Seven Agricultural Fields, Sykopetra, Limassol",
-  "price": 9000,
-  "priceDisplay": "€9,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/22616/6970cac7aa9c3.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/22616/6970cac7aa9c3.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/seven-agricultural-fields-sykopetra-limassol-22616",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "22616",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 28672,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Agricultural field in Pigenia, Nicosia",
   "price": 9000,
   "priceDisplay": "€9,000",
@@ -16359,9 +16335,9 @@
   "priceDisplay": "€9,000",
   "location": "Platanistasa",
   "district": "Platanistasa",
-  "image": "https://estbd.io/1:0e5c2d14/22508/68ef5f947d9fe.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22508/6a62e01169d40.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22508/68ef5f947d9fe.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22508/6a62e01169d40.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-platanistasa-22508",
   "beds": null,
@@ -16815,9 +16791,9 @@
   "priceDisplay": "€12,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22823/6985173d73d87.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22823/6a62e01336fe6.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22823/6985173d73d87.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22823/6a62e01336fe6.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/(share)-residential-field-peristerona-paphos-22823",
   "beds": null,
@@ -17271,9 +17247,9 @@
   "priceDisplay": "€16,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/22547/68ef5f95c50ed.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22547/6a62e011bdcff.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22547/68ef5f95c50ed.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22547/6a62e011bdcff.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-agrokipia-nicosia-22547",
   "beds": null,
@@ -18150,30 +18126,6 @@
   "houseSqm": null,
   "plotSqm": 40541,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "(Share) Residential Field, Praitori, Paphos",
-  "price": 27000,
-  "priceDisplay": "€27,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23460/69851741d050a.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23460/69851741d050a.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/(share)-residential-field-praitori-paphos-23460",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23460",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 2342,
-  "plotType": "Residential",
   "zone": null
  },
  {
@@ -19762,30 +19714,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Residential Field in Pano Panagia, Paphos",
-  "price": 49000,
-  "priceDisplay": "€49,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22825/6a61878ba7a2c.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/22825/6a61878ba7a2c.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/residential-field-in-pano-panagia-paphos-22825",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "22825",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 4896,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large 17728 m2 Field for Sale Nata Village",
   "price": 50000,
   "priceDisplay": "€50,000",
@@ -20069,6 +19997,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 14716,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Agricultural field in Ergates, Nicosia",
+  "price": 50000,
+  "priceDisplay": "€50,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/23510/6a62e01686d69.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/23510/6a62e01686d69.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-ergates-nicosia-23510",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "23510",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6095,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -20885,30 +20837,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 5922,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Distributed share of a Residential Field in Parekklisia, Limassol",
-  "price": 65000,
-  "priceDisplay": "€65,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/29557/6a61879356be7.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/29557/6a61879356be7.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/distributed-share-of-a-residential-field-in-parekklisia-limassol-29557",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "29557",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 7485,
   "plotType": "Residential",
   "zone": null
  },
@@ -21922,30 +21850,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "(Share) Agricultural Field in Pegeia, Paphos",
-  "price": 85000,
-  "priceDisplay": "€85,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/30863/69f3564f3da16.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/30863/69f3564f3da16.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/(share)-agricultural-field-in-pegeia-paphos-30863",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30863",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 17392,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large 7320 m2 Field for Sale in Arakapas",
   "price": 85000,
   "priceDisplay": "€85,000",
@@ -22085,30 +21989,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3011,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Mixed Zone Field, Agios Amvrosios, Limassol",
-  "price": 89000,
-  "priceDisplay": "€89,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/23826/6a5974678076d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23826/6a5974678076d.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/mixed-zone-field-agios-amvrosios-limassol-23826",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23826",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 6355,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -23622,30 +23502,6 @@
   "houseSqm": null,
   "plotSqm": 1338,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Distributed share of a residential field, situated in Agia Napa, Ammochostos",
-  "price": 135000,
-  "priceDisplay": "€135,000",
-  "location": "Famagusta",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:0e5c2d14/23595/6973984a917ff.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23595/6973984a917ff.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/distributed-share-of-a-residential-field-situated-in-agia-napa-ammochostos-23595",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23595",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 25449,
-  "plotType": "Residential",
   "zone": null
  },
  {
@@ -26895,9 +26751,9 @@
   "priceDisplay": "€365,000",
   "location": "Larnaca",
   "district": "Larnaca",
-  "image": "https://estbd.io/1:0e5c2d14/30041/6a1a5da14d83d.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/30041/6a62e01a107c1.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/30041/6a1a5da14d83d.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/30041/6a62e01a107c1.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/light-industrial-field-in-agios-theodoros-larnaca-30041",
   "beds": null,
@@ -34781,30 +34637,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 7284,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Large Field for Sale in Peaceful Flasou Area",
-  "price": 296000,
-  "priceDisplay": "€296,000",
-  "location": "Cyprus",
-  "district": "Large Field for Sale in Peaceful Flasou Area",
-  "image": "https://estbd.io/1:8ff481ee/42488/6a61ba2642740.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/42488/6a61ba2642740.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/42488",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "42488",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 72924,
   "plotType": null,
   "zone": null
  },
@@ -52160,30 +51992,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Distributed share of a residential field, situated in Agia Napa, Ammochostos",
-  "price": 135000,
-  "priceDisplay": "€135,000",
-  "location": "Cyprus",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:8ff481ee/32939/66a1ec7985e14.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/32939/66a1ec7985e14.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/32939",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32939",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1591,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "90% Building Density Residential Building Plot in Strovolos, Nicosia",
   "price": 570000,
   "priceDisplay": "€570,000",
@@ -55371,30 +55179,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3345,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Agricultural Field in Agia Varvara, Nicosia",
-  "price": 165000,
-  "priceDisplay": "€165,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/30428/65bf52686e86d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/30428/65bf52686e86d.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/30428",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30428",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 22000,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -66800,6 +66584,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Field For Sale in Klirou, Nicosia",
+  "price": 32000,
+  "priceDisplay": "€32,000",
+  "location": "Nicosia, Klirou",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/58473/6a2bc361b342a.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/58473/6a2bc361b342a.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-58468/plot-for-sale-in-deftera-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "58468",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2680,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Plot For Sale in Deftera, Nicosia",
   "price": 89000,
   "priceDisplay": "€89,000",
@@ -67073,30 +66881,6 @@
   "images": [
    "https://estbd.io/1:1e4b4ca5/58449/6a2936b28088b.jpg/thumb"
   ],
-  "link": "https://nchrealestate.com/property-58443/building-plot-for-sale-in-germasogeia-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "58443",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 554,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Building Plot For Sale in Germasogeia, Limassol",
-  "price": 360000,
-  "priceDisplay": "€360,000",
-  "location": "Limassol, Germasogeia",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/58443/6a291886305d9.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/58443/6a291886305d9.jpg/thumb"
-  ],
   "link": "https://nchrealestate.com/property-58440/residential-plot-for-sale-in-astromeritis-nicosia",
   "beds": null,
   "baths": null,
@@ -67106,7 +66890,7 @@
   "ref": "58440",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 520,
+  "plotSqm": 554,
   "plotType": null,
   "zone": null
  },
