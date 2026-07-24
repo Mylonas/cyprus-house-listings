@@ -9667,30 +9667,6 @@
   "source": "Kadis Estates",
   "kind": "plot",
   "title": "Residential Plot in Pera Chorio/Nisou",
-  "price": 105000,
-  "priceDisplay": "€105,000",
-  "location": "Nicosia, Pera Chorio / Nisou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/14415/68e8a16d6434e.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/14415/68e8a16d6434e.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-14415/residential-plot-in-pera-chorionisou",
-  "houseSqm": null,
-  "plotSqm": 620,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "14415"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot in Pera Chorio/Nisou",
   "price": null,
   "priceDisplay": null,
   "location": "Nicosia, Pera Chorio / Nisou",
@@ -15631,6 +15607,30 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "10520"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot in Strovolos close to Cineplex next to Green Area",
+  "price": 400000,
+  "priceDisplay": "€400,000",
+  "location": "Strovolos, Strovolos - Chryseleousa",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/10518/67b6f4fe8c791.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/10518/67b6f4fe8c791.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-10518/residential-plot-in-strovolos-close-to-cineplex-next-to-green-area",
+  "houseSqm": null,
+  "plotSqm": 708,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "10518"
  },
  {
   "source": "Kazo Real Estate",
@@ -34590,6 +34590,30 @@
   "houseSqm": null,
   "plotSqm": 620509,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Large Maroni Field for Sale 10034 m2",
+  "price": 325000,
+  "priceDisplay": "€325,000",
+  "location": "Cyprus",
+  "district": "Large Maroni Field for Sale 10034 m2",
+  "image": "https://estbd.io/1:8ff481ee/42611/6a632f7aa0010.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42611/6a632f7aa0010.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42611",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42611",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 10034,
+  "plotType": null,
   "zone": null
  },
  {
@@ -60489,8 +60513,8 @@
  {
   "source": "Cyprus Properties",
   "title": "90% Building Density Industrial Building Plot in Tseri, Nicosia",
-  "price": 483000,
-  "priceDisplay": "€483,000",
+  "price": 520000,
+  "priceDisplay": "€520,000",
   "location": "Cyprus",
   "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/24205/65bf3e780a36b.jpg/thumb",
