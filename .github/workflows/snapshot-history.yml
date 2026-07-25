@@ -1,0 +1,39 @@
+name: Snapshot listing history
+
+on:
+  schedule:
+    # Weekly, Mondays 05:30 UTC — an hour after the 04:00 refresh, so the
+    # snapshot captures fresh data rather than week-old data.
+    - cron: '30 5 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No npm install: snapshot-history.mjs is stdlib-only, and skipping the
+      # Playwright install keeps this job under a minute.
+      - name: Record snapshot and diff
+        run: npm run snapshot
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history
+          if git diff --cached --quiet; then
+            echo "No snapshot changes to commit."
+          else
+            git commit -m "chore: weekly listing snapshot [skip ci]"
+            git push
+          fi
