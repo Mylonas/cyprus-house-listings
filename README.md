@@ -61,7 +61,7 @@ cyprus-house-listings/
 │   ├── scrape-pafilia.mjs        # pafilia.com — developer, WP REST API (Houzez property meta)
 │   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
-│   ├── refresh-local.mjs         # laptop-only refresh of Bazaraki + Zyprus, merged in place
+│   ├── refresh-local.mjs         # laptop-only refresh of Bazaraki houses+plots + Zyprus
 │   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
 │   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
 │   ├── lib/curl-fetch.mjs        # curl-backed fetch — gets past Cloudflare's TLS fingerprinting
@@ -113,7 +113,7 @@ npx playwright install --with-deps chromium
 
 npm run scrape        # re-scrape all sources → src/data/listings.json, rebuilds public/index.html
 npm run build          # rebuild public/index.html from the current src/data/listings.json only
-npm run refresh:local   # re-scrape Bazaraki + Zyprus only (laptop-only, see below)
+npm run refresh:local   # re-scrape Bazaraki houses+plots and Zyprus (laptop-only, see below)
 npm run snapshot        # record history/<today>/ + changes.md vs the previous snapshot
 npm run analyze         # print €/m² stats by district, bedrooms and source
 npm run dev             # serve public/ locally
@@ -266,9 +266,11 @@ these two scrapers back to `fetch()`**, it will look cleaner and return 403s.
 What this means in practice:
 
 - The 6-hourly CI refresh covers 15 of the 17 sources and always will.
-- Bazaraki and Zyprus refresh from the laptop with `npm run refresh:local`, which
-  scrapes just those two, merges them into `src/data/listings.json`, rebuilds the
-  page and leaves the result staged for you to commit.
+- Bazaraki (houses **and** plots) and Zyprus refresh from the laptop with
+  `npm run refresh:local`, which scrapes just those, merges them into
+  `src/data/listings.json` and `src/data/plots.json`, rebuilds both pages and
+  leaves the result staged for you to commit. A full run walks the entire
+  Bazaraki catalogue (~9,000 houses, ~6,200 plots) and takes 15-20 minutes.
 - `scrape-all.mjs` counts a source that returns zero as *failed*, not succeeded.
   Before that, this exact outage reported "17/17 sources succeeded" for weeks.
 

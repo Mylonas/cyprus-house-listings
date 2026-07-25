@@ -49,19 +49,30 @@ export async function curlFetch(url, opts = {}) {
   // 403 challenge and a DNS failure produce the same opaque "Command failed".
   args.push('-w', '\\n%{http_code}');
 
-  let stdout;
-  try {
-    ({ stdout } = await execFileAsync('curl', args, { maxBuffer, encoding: 'utf-8' }));
-  } catch (err) {
-    const tail = String(err.stdout ?? '').trim().split('\n').pop();
-    throw new Error(`curl failed (HTTP ${tail || '?'}) for ${url}`);
+  // curl reports connection-level failures (timeout, reset, DNS) as status 000.
+  // Those are transient and worth retrying; a 4xx is the server's considered
+  // answer and retrying it just burns requests. Getting this wrong is expensive:
+  // the scrapers stop walking a district on error, so one dropped connection
+  // used to cost a whole district — Larnaca came back empty exactly this way.
+  let lastStatus = '?';
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    let stdout;
+    try {
+      ({ stdout } = await execFileAsync('curl', args, { maxBuffer, encoding: 'utf-8' }));
+    } catch (err) {
+      stdout = String(err.stdout ?? '');
+    }
+
+    const nl = stdout.lastIndexOf('\n');
+    const status = nl === -1 ? '000' : stdout.slice(nl + 1).trim();
+    if (/^2\d\d$/.test(status)) return stdout.slice(0, nl);
+
+    lastStatus = status || '000';
+    if (lastStatus !== '000') break; // a real HTTP status — do not retry
+    if (attempt < 3) await new Promise((r) => setTimeout(r, attempt * 1500));
   }
 
-  const nl = stdout.lastIndexOf('\n');
-  const status = stdout.slice(nl + 1).trim();
-  const body = stdout.slice(0, nl);
-  if (!/^2\d\d$/.test(status)) throw new Error(`HTTP ${status} for ${url}`);
-  return body;
+  throw new Error(`HTTP ${lastStatus} for ${url}`);
 }
 
 export async function curlFetchJson(url, opts = {}) {

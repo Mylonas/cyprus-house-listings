@@ -22,12 +22,15 @@
  * challenged, so this source refreshes via `npm run refresh:local` instead of
  * the 6-hourly workflow. See README.md.
  *
+ * Walks the full catalogue by default — ~9,000 houses across the five districts
+ * — rather than the bounded 30-page sample it used to take.
+ *
  * Env:
- *   BAZARAKI_PAGES - API pages (10 listings each) to pull per district (default 10)
+ *   BAZARAKI_PAGES - cap on API pages (10 listings each) per district (default: no cap)
  */
 import { curlFetchJson } from './lib/curl-fetch.mjs';
 
-const PAGES = Number(process.env.BAZARAKI_PAGES ?? 30);
+const PAGES = Number(process.env.BAZARAKI_PAGES ?? 0) || Infinity;
 
 // Houses category on Bazaraki is rubric 678. `city` filters by district; the
 // numeric ids map to Cyprus districts as follows (confirmed against the API).

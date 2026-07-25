@@ -2,23 +2,23 @@
 /**
  * scrape-bazaraki-plots.mjs
  * Scrapes plot / land listings from bazaraki.com via its JSON API — the plots
- * counterpart of scrape-bazaraki.mjs. Same access model: clear the Cloudflare
- * challenge once with a stealth browser, then read the `/api/items/` API
- * same-origin.
+ * counterpart of scrape-bazaraki.mjs, and it shares that file's access model:
+ * read `/api/items/` with curl (see lib/curl-fetch.mjs), no browser.
  *
  * Houses are rubric 678; residential plots are rubric 141. The plot cards carry
  * the plot area (attrs__plot-area), plot/land type, planning zone, all photos
  * and the real created_dt go-live date.
  *
+ * Walks the full catalogue by default — ~6,200 plots — rather than a bounded
+ * sample. Only works from a residential IP, so it runs via `npm run
+ * refresh:local`, not the plots workflow. See README.md.
+ *
  * Env:
- *   BAZARAKI_PLOTS_PAGES - API pages (10 each) per district (default 30)
+ *   BAZARAKI_PLOTS_PAGES - cap on API pages (10 each) per district (default: no cap)
  */
-import { chromium } from 'playwright-extra';
-import stealth from 'puppeteer-extra-plugin-stealth';
+import { curlFetchJson } from './lib/curl-fetch.mjs';
 
-chromium.use(stealth());
-
-const PAGES = Number(process.env.BAZARAKI_PLOTS_PAGES ?? 30);
+const PAGES = Number(process.env.BAZARAKI_PLOTS_PAGES ?? 0) || Infinity;
 const PLOTS_RUBRIC = 141;
 const DISTRICTS = [
   { city: 12, name: 'Limassol' },
@@ -80,51 +80,33 @@ function mapItem(raw, districtName) {
 }
 
 export async function scrapeBazarakiPlots() {
-  const browser = await chromium.launch({ headless: true });
-  const ctx = await browser.newContext({
-    userAgent:
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    viewport: { width: 1366, height: 768 },
-    locale: 'en-US',
-  });
-  const page = await ctx.newPage();
-
-  await page.goto('https://www.bazaraki.com/', { waitUntil: 'domcontentloaded' });
-  for (let i = 0; i < 20; i++) {
-    await page.waitForTimeout(1000);
-    if (!/just a moment/i.test(await page.title())) break;
-  }
-
   const all = [];
   const seen = new Set();
 
   for (const district of DISTRICTS) {
     for (let pg = 1; pg <= PAGES; pg++) {
       const url =
-        `/api/items/?rubric=${PLOTS_RUBRIC}&city=${district.city}` +
+        `https://www.bazaraki.com/api/items/?rubric=${PLOTS_RUBRIC}&city=${district.city}` +
         `&page=${pg}&ordering=-created_dt`;
       let payload;
       try {
-        payload = await page.evaluate(async (u) => {
-          const r = await fetch(u, { headers: { 'X-Requested-With': 'XMLHttpRequest' } });
-          if (!r.ok) return { error: r.status };
-          return r.json();
-        }, url);
-      } catch {
+        payload = await curlFetchJson(url);
+      } catch (err) {
+        console.error(`  Bazaraki plots ${district.name} p${pg}: ${err.message}`);
         break;
       }
-      if (!payload || payload.error || !Array.isArray(payload.results)) break;
+      if (!payload || !Array.isArray(payload.results)) break;
       for (const raw of payload.results) {
         if (seen.has(raw.id)) continue;
         seen.add(raw.id);
         all.push(mapItem(raw, district.name));
       }
       if (payload.results.length < 10 || !payload.next) break;
-      await page.waitForTimeout(400);
+      await new Promise((r) => setTimeout(r, 400));
     }
+    console.error(`  Bazaraki plots ${district.name}: ${all.length} so far`);
   }
 
-  await browser.close();
   return all;
 }
 
