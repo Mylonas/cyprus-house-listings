@@ -12,19 +12,21 @@
  *   covered area, plot area, bedrooms, bathrooms, construction year, every photo,
  *   and crucially the real `created_dt` (the date the ad went live).
  *
- * The Cloudflare wall still guards `/api/`, so we clear the challenge once with a
- * stealth-patched headless browser (playwright-extra + puppeteer-extra-plugin-
- * stealth), then read the API from inside that cleared page context — same-origin
- * `fetch()` carries the cf_clearance cookie. This is the Bazaraki analogue of the
- * eAuction "clear the challenge in a real browser, then fetch same-origin" trick.
+ * The Cloudflare wall in front of `/api/` turns out to be TLS-fingerprint based,
+ * not behaviour based: curl walks straight through it, while both headless
+ * Chromium and Node's own `fetch()` get a 403 challenge. So this reads the API
+ * with curl (see lib/curl-fetch.mjs) and needs no browser at all.
+ *
+ * That replaced a stealth-patched Playwright session (playwright-extra +
+ * puppeteer-extra-plugin-stealth) that cleared the challenge on the homepage and
+ * fetched same-origin from the cleared context. It worked until Cloudflare began
+ * flagging the stealth browser too, at which point this source silently returned
+ * zero. curl is both more reliable here and ~40s/run faster.
  *
  * Env:
  *   BAZARAKI_PAGES - API pages (10 listings each) to pull per district (default 10)
  */
-import { chromium } from 'playwright-extra';
-import stealth from 'puppeteer-extra-plugin-stealth';
-
-chromium.use(stealth());
+import { curlFetchJson } from './lib/curl-fetch.mjs';
 
 const PAGES = Number(process.env.BAZARAKI_PAGES ?? 30);
 
@@ -77,58 +79,33 @@ function mapItem(raw, districtName) {
 }
 
 export async function scrapeBazaraki() {
-  const browser = await chromium.launch({ headless: true });
-  const ctx = await browser.newContext({
-    userAgent:
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    viewport: { width: 1366, height: 768 },
-    locale: 'en-US',
-  });
-  const page = await ctx.newPage();
-
-  // Clear the Cloudflare challenge once on the homepage; the cf_clearance cookie
-  // then lets same-origin API fetches through for the rest of the session.
-  await page.goto('https://www.bazaraki.com/', { waitUntil: 'domcontentloaded' });
-  for (let i = 0; i < 20; i++) {
-    await page.waitForTimeout(1000);
-    const title = await page.title();
-    if (!/just a moment/i.test(title)) break;
-  }
-
   const all = [];
   const seen = new Set();
 
   for (const district of DISTRICTS) {
     for (let pg = 1; pg <= PAGES; pg++) {
       const url =
-        `/api/items/?rubric=${HOUSES_RUBRIC}&city=${district.city}` +
+        `https://www.bazaraki.com/api/items/?rubric=${HOUSES_RUBRIC}&city=${district.city}` +
         `&page=${pg}&ordering=-created_dt`;
       let payload;
       try {
-        payload = await page.evaluate(async (u) => {
-          const r = await fetch(u, { headers: { 'X-Requested-With': 'XMLHttpRequest' } });
-          if (!r.ok) return { error: r.status };
-          return r.json();
-        }, url);
+        payload = await curlFetchJson(url);
       } catch (err) {
         console.error(`  Bazaraki ${district.name} p${pg} fetch error: ${err.message}`);
         break;
       }
-      if (!payload || payload.error || !Array.isArray(payload.results)) {
-        if (payload?.error) console.error(`  Bazaraki ${district.name} p${pg} -> HTTP ${payload.error}`);
-        break;
-      }
+      if (!payload || !Array.isArray(payload.results)) break;
+
       for (const raw of payload.results) {
         if (seen.has(raw.id)) continue;
         seen.add(raw.id);
         all.push(mapItem(raw, district.name));
       }
       if (payload.results.length < 10 || !payload.next) break;
-      await page.waitForTimeout(400); // gentle, mirrors eAuction's self-throttle
+      await new Promise((r) => setTimeout(r, 400)); // gentle, mirrors eAuction's self-throttle
     }
   }
 
-  await browser.close();
   return all;
 }
 
