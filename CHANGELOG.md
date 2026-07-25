@@ -5,6 +5,7 @@ All notable changes to this project are documented here. Format loosely follows 
 ## [Unreleased]
 
 ### Fixed
+- **District resolution** (`scripts/lib/districts.mjs`) — 194 listings carried a `district` that was not a district: listing titles leaked in by scrapers falling back on an empty location field (`Studio`, `Property`, `Sea caves luxury villas`), town names used in place of their parent district (`Aradippou`, `Peyia`, `Pyrgos`), spelling variants (`Larnaka`), and plain `null`. All of them were silently dropped by the page's district filter and by `npm run analyze`. Resolution now happens once in `scrape-all.mjs` — district, then location, then title, then link, then a town→district map — recovering 189 of the 194 with no regressions; the remaining 5 come from sources that publish no location at all. `src/data/listings.json` was backfilled and the page rebuilt.
 - **Bazaraki and Zyprus scrape again.** Both had been returning zero behind Cloudflare. The block is TLS-fingerprint based, so header tweaks and a stealth headless browser both fail where plain `curl` passes; both scrapers now fetch via `scripts/lib/curl-fetch.mjs`. Bazaraki drops its Playwright dependency entirely (~40s/run faster) and Zyprus parses the server-rendered `<article>` cards directly.
 
 ### Added

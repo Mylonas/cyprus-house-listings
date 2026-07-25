@@ -63,6 +63,8 @@ cyprus-house-listings/
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
 │   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
 │   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
+│   ├── lib/curl-fetch.mjs        # curl-backed fetch — gets past Cloudflare's TLS fingerprinting
+│   ├── lib/districts.mjs         # resolves any source's location text to one of the five districts
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
 ├── history/
 │   └── YYYY-MM-DD/
@@ -205,6 +207,34 @@ feature/my-feature  →  dev  →  master
 See [CHANGELOG.md](./CHANGELOG.md) for full history.
 
 Latest: **v2.0.0** — added BuySellCyprus.com, home.cy, and FOX Realty; 517 listings across 8 sources; recovered photos for a subset of eAuction listings via their direct image endpoint.
+
+---
+
+## District resolution
+
+Sources disagree about what "district" means. Some publish the district, some the
+town, some the neighbourhood — and a few publish the listing title, because their
+location field was empty and the scraper fell back to it. That produced districts
+like `Studio`, `Property` and `Sea caves luxury villas`, which then silently
+vanished from the district filter and the `npm run analyze` breakdown.
+
+`scripts/lib/districts.mjs` resolves this once, centrally, in `scrape-all.mjs`
+rather than per scraper. Order matters:
+
+1. `district`, if it is already a district or a known spelling (`Pafos`, `Larnaka`, `Lefkosia`, …)
+2. a district named in `location`
+3. a district named in `title`
+4. a district named in `link` — home.cy encodes it in the slug and publishes no location at all
+5. a known town in any of those → its parent district (`Geroskipou` → Paphos, `Aradippou` → Larnaca)
+6. `null` — an honest gap beats a wrong district
+
+`location` is checked before `title` on purpose: titles name roads and landmarks
+in other districts ("10 minutes from Limassol").
+
+Adding a town to the map is the normal way to fix an unresolved listing. Leave
+genuinely ambiguous names out — a listing filed in the wrong district is worse
+than one filed in none, because nothing surfaces it again. Five listings are
+currently unresolved, all from sources that publish no location whatsoever.
 
 ---
 

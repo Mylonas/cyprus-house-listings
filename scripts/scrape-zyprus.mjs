@@ -16,6 +16,7 @@
  *   ZYPRUS_MAX_PAGES - result pages to walk, ~24 listings/page (default 15)
  */
 import { curlFetch, isChallenge } from './lib/curl-fetch.mjs';
+import { resolveDistrict } from './lib/districts.mjs';
 
 const MAX_PAGES = Number(process.env.ZYPRUS_MAX_PAGES ?? 15);
 const BASE = 'https://www.zyprus.com';
@@ -29,14 +30,6 @@ const decode = (s) =>
     .replace(/&#0?39;/g, "'")
     .replace(/&nbsp;/g, ' ')
     .trim();
-
-const detectDistrict = (text) => {
-  const t = (text || '').toLowerCase();
-  for (const d of ['nicosia', 'limassol', 'larnaca', 'paphos', 'famagusta']) {
-    if (t.includes(d)) return d[0].toUpperCase() + d.slice(1);
-  }
-  return 'Other';
-};
 
 function parseCards(html) {
   const out = [];
@@ -60,7 +53,7 @@ function parseCards(html) {
       price,
       priceDisplay: price ? `€${price.toLocaleString('en-US')}` : null,
       location: loc || null,
-      district: detectDistrict(`${loc} ${slug}`),
+      district: resolveDistrict({ location: loc, title, link: slug }),
       image: img ? (img.startsWith('http') ? img : BASE + img) : null,
       images: img ? [img.startsWith('http') ? img : BASE + img] : [],
       link: BASE + slug,

@@ -29,6 +29,7 @@ import { scrapeCyprusPropertiesHouses } from './scrape-cyprusproperties.mjs';
 import { scrapeDom } from './scrape-dom.mjs';
 import { scrapePafilia } from './scrape-pafilia.mjs';
 import { scrapeGiovani } from './scrape-giovani.mjs';
+import { resolveDistrict } from './lib/districts.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -79,15 +80,8 @@ const SOURCE_PRIORITY = [
   'A Place in the Sun',
 ];
 
-const DISTRICT_CANON = {
-  Pafos: 'Paphos', Lefkosia: 'Nicosia', Ammochostos: 'Famagusta',
-  Germasogeia: 'Limassol', Lemesos: 'Limassol',
-};
-
 function normalizeDistrict(listing) {
-  if (listing.district && DISTRICT_CANON[listing.district]) {
-    listing.district = DISTRICT_CANON[listing.district];
-  }
+  listing.district = resolveDistrict(listing);
   return listing;
 }
 
