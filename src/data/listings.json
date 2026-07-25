@@ -1773,7 +1773,7 @@
   "price": 115000,
   "priceDisplay": "€115,000",
   "location": "Paralimni, Fagamusta",
-  "district": "Other",
+  "district": "Famagusta",
   "image": "https://www.altamirarealestate.com.cy/estaticos/activos/inmuebles/fotos/grandes/18/133518_12.jpg",
   "link": "https://www.altamirarealestate.com.cy/detached-house-for-sale/famagusta/paralimni/pre-owned/pr46257/133518/1",
   "houseSqm": 117,
@@ -8908,7 +8908,7 @@
   "price": 1380000,
   "priceDisplay": "€1,380,000",
   "location": "Pareklissia, Pareklisia - Tourist Area",
-  "district": "Pareklissia",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/18960/6a082df0b7642.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/18960/6a082df0b7642.jpg/thumb",
@@ -13638,7 +13638,7 @@
   "price": 2300000,
   "priceDisplay": "€2,300,000",
   "location": "Pareklissia, Pareklisia - Tourist Area",
-  "district": "Pareklissia",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/18208/69ef8a67d0346.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/18208/69ef8a67d0346.jpg/thumb",
@@ -15164,7 +15164,7 @@
   "price": 10500000,
   "priceDisplay": "€10,500,000",
   "location": "Pyrgos, Pyrgos - Tourist Area",
-  "district": "Pyrgos",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/17899/69c64e4fd490f.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/17899/69c64e4fd490f.jpg/thumb",
@@ -15201,7 +15201,7 @@
   "price": 10500000,
   "priceDisplay": "€10,500,000",
   "location": "Pyrgos, Pyrgos - Tourist Area",
-  "district": "Pyrgos",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/17898/69c64e4c7a1c4.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/17898/69c64e4c7a1c4.jpg/thumb",
@@ -15238,7 +15238,7 @@
   "price": 10500000,
   "priceDisplay": "€10,500,000",
   "location": "Pyrgos, Pyrgos - Tourist Area",
-  "district": "Pyrgos",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/17897/69c64e4820627.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/17897/69c64e4820627.jpg/thumb",
@@ -15435,7 +15435,7 @@
   "price": 10500000,
   "priceDisplay": "€10,500,000",
   "location": "Pyrgos, Pyrgos - Tourist Area",
-  "district": "Pyrgos",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/17291/69a5ca40a7c73.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/17291/69a5ca40a7c73.jpg/thumb",
@@ -17393,7 +17393,7 @@
   "price": 450000,
   "priceDisplay": "€450,000",
   "location": "Aradippou, Apostolos Loucas",
-  "district": "Aradippou",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:3cc426e5/16926/69a19f230dcb9.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/16926/69a19f230dcb9.jpg/thumb",
@@ -18194,7 +18194,7 @@
   "price": 1990000,
   "priceDisplay": "€1,990,000",
   "location": "Pyrgos, Pyrgos - Tourist Area",
-  "district": "Pyrgos",
+  "district": "Limassol",
   "image": "https://estbd.io/1:3cc426e5/16698/69835d9a40485.jpg/thumb",
   "images": [
    "https://estbd.io/1:3cc426e5/16698/69835d9a40485.jpg/thumb",
@@ -41398,7 +41398,7 @@
   "price": 320000,
   "priceDisplay": "€320,000",
   "location": "Modern Penthouse Apartment with Elevator 2 Bedrooms",
-  "district": "Modern Penthouse Apartment with Elevator 2 Bedrooms",
+  "district": null,
   "image": "https://estbd.io/1:0e5c2d14/29851/698b086a67205.jpg/thumb",
   "images": [
    "https://estbd.io/1:0e5c2d14/29851/698b086a67205.jpg/thumb"
@@ -43729,7 +43729,7 @@
   "price": 345000,
   "priceDisplay": "€345,000",
   "location": "Larnaka",
-  "district": "Larnaka",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:0e5c2d14/31166/6a0edb23454f3.jpg/thumb",
   "images": [
    "https://estbd.io/1:0e5c2d14/31166/6a0edb23454f3.jpg/thumb"
@@ -61873,7 +61873,7 @@
   "price": 570000,
   "priceDisplay": "€570,000",
   "location": "Property",
-  "district": "Property",
+  "district": null,
   "image": "https://estbd.io/1:0e5c2d14/27461/68960a53e2e83.jpg/thumb",
   "images": [
    "https://estbd.io/1:0e5c2d14/27461/68960a53e2e83.jpg/thumb"
@@ -88732,7 +88732,7 @@
   "price": 1290000,
   "priceDisplay": "€1,290,000",
   "location": "Cyprus",
-  "district": "Sea caves luxury villas",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/40711/69baef1e5ec37.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/40711/69baef1e5ec37.jpg/thumb"
@@ -88753,7 +88753,7 @@
   "price": 1660000,
   "priceDisplay": "€1,660,000",
   "location": "Cyprus",
-  "district": "Sea caves luxury villas",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/40712/69baf102514da.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/40712/69baf102514da.jpg/thumb"
@@ -89278,7 +89278,7 @@
   "price": 685000,
   "priceDisplay": "€685,000",
   "location": "Cyprus",
-  "district": "LINK-DETACHED HOUSE FOR SALE \\u2013 Ekali",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/39920/696fa08bb6a22.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/39920/696fa08bb6a22.jpg/thumb"
@@ -91672,7 +91672,7 @@
   "price": 595000,
   "priceDisplay": "€595,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/11673/65bf33bb544e0.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/11673/65bf33bb544e0.jpg/thumb"
@@ -91693,7 +91693,7 @@
   "price": 630000,
   "priceDisplay": "€630,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/11677/65bf33bc9911d.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/11677/65bf33bc9911d.jpg/thumb"
@@ -91714,7 +91714,7 @@
   "price": 97000,
   "priceDisplay": "€97,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/14519/65bf3508793f7.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/14519/65bf3508793f7.jpg/thumb"
@@ -95683,7 +95683,7 @@
   "price": 196000,
   "priceDisplay": "€196,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/42418/6a56cdef42b4d.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/42418/6a56cdef42b4d.jpg/thumb"
@@ -95746,7 +95746,7 @@
   "price": 198000,
   "priceDisplay": "€198,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/42421/6a56d57e9b401.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/42421/6a56d57e9b401.jpg/thumb"
@@ -95809,7 +95809,7 @@
   "price": 190000,
   "priceDisplay": "€190,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/42186/6a427b3d5d98c.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/42186/6a427b3d5d98c.jpg/thumb"
@@ -96544,7 +96544,7 @@
   "price": 465000,
   "priceDisplay": "€465,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Limassol",
   "image": "https://estbd.io/1:8ff481ee/41997/6a3108b514e75.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41997/6a3108b514e75.jpg/thumb"
@@ -96628,7 +96628,7 @@
   "price": 195000,
   "priceDisplay": "€195,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/41970/6a2eacc6d68d9.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41970/6a2eacc6d68d9.jpg/thumb"
@@ -96796,7 +96796,7 @@
   "price": 165000,
   "priceDisplay": "€165,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:8ff481ee/41900/6a27cce77086a.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41900/6a27cce77086a.jpg/thumb"
@@ -96838,7 +96838,7 @@
   "price": 195000,
   "priceDisplay": "€195,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:8ff481ee/41903/6a281039ca33c.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41903/6a281039ca33c.jpg/thumb"
@@ -96859,7 +96859,7 @@
   "price": 176000,
   "priceDisplay": "€176,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:8ff481ee/41901/6a281ebf7ef50.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41901/6a281ebf7ef50.jpg/thumb"
@@ -97069,7 +97069,7 @@
   "price": 295000,
   "priceDisplay": "€295,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/41856/6a21f65f31a74.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41856/6a21f65f31a74.jpg/thumb"
@@ -97090,7 +97090,7 @@
   "price": 190000,
   "priceDisplay": "€190,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/41855/6a21f49faf4f8.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41855/6a21f49faf4f8.jpg/thumb"
@@ -97111,7 +97111,7 @@
   "price": 210000,
   "priceDisplay": "€210,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/41854/6a21f476a3a8f.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41854/6a21f476a3a8f.jpg/thumb"
@@ -97678,7 +97678,7 @@
   "price": 180000,
   "priceDisplay": "€180,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/41669/6a156f6bde344.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/41669/6a156f6bde344.jpg/thumb"
@@ -98518,7 +98518,7 @@
   "price": 395000,
   "priceDisplay": "€395,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Paphos",
   "image": "https://estbd.io/1:8ff481ee/40937/69cbf1ae61cad.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/40937/69cbf1ae61cad.jpg/thumb"
@@ -98917,7 +98917,7 @@
   "price": 116000,
   "priceDisplay": "€116,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/40821/69c2682788d8d.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/40821/69c2682788d8d.jpg/thumb"
@@ -99820,7 +99820,7 @@
   "price": 125000,
   "priceDisplay": "€125,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/40179/69845382d1b26.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/40179/69845382d1b26.jpg/thumb"
@@ -100324,7 +100324,7 @@
   "price": 190000,
   "priceDisplay": "€190,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Larnaca",
   "image": "https://estbd.io/1:8ff481ee/39650/69401e0534ec9.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/39650/69401e0534ec9.jpg/thumb"
@@ -101374,7 +101374,7 @@
   "price": 237000,
   "priceDisplay": "€237,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Limassol",
   "image": "https://estbd.io/1:8ff481ee/38861/68e773b099526.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/38861/68e773b099526.jpg/thumb"
@@ -103096,7 +103096,7 @@
   "price": 139000,
   "priceDisplay": "€139,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/14139/65bf34a1da009.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/14139/65bf34a1da009.jpg/thumb"
@@ -103684,7 +103684,7 @@
   "price": 197000,
   "priceDisplay": "€197,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Limassol",
   "image": "https://estbd.io/1:8ff481ee/33312/66f5648245b84.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/33312/66f5648245b84.jpg/thumb"
@@ -103999,7 +103999,7 @@
   "price": 195000,
   "priceDisplay": "€195,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Limassol",
   "image": "https://estbd.io/1:8ff481ee/32910/669f68dc90295.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/32910/669f68dc90295.jpg/thumb"
@@ -107674,7 +107674,7 @@
   "price": 145000,
   "priceDisplay": "€145,000",
   "location": "Studio",
-  "district": "Studio",
+  "district": "Nicosia",
   "image": "https://estbd.io/1:8ff481ee/3340/65bf2b2c711c1.jpg/thumb",
   "images": [
    "https://estbd.io/1:8ff481ee/3340/65bf2b2c711c1.jpg/thumb"
@@ -116670,7 +116670,7 @@
   "price": 334500,
   "priceDisplay": "€334,500",
   "location": "Cyprus, Trimiklini",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/752/1088_820_2/ivhspe9d6g3vimdv4p9sx7kat2t5i2o0.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/752/1088_820_2/ivhspe9d6g3vimdv4p9sx7kat2t5i2o0.jpg",
@@ -119235,7 +119235,7 @@
   "price": 592500,
   "priceDisplay": "€592,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/87f/1088_820_2/ntq7xkbb0jz2wradnkj8phtbimy3ulk8.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/87f/1088_820_2/ntq7xkbb0jz2wradnkj8phtbimy3ulk8.jpg",
@@ -119307,7 +119307,7 @@
   "price": 633500,
   "priceDisplay": "€633,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/efb/1088_820_2/ra464gawhgg26k120ck5egtvaugxqgiz.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/efb/1088_820_2/ra464gawhgg26k120ck5egtvaugxqgiz.jpg",
@@ -119331,7 +119331,7 @@
   "price": 601500,
   "priceDisplay": "€601,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
@@ -119455,7 +119455,7 @@
   "price": 602500,
   "priceDisplay": "€602,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
@@ -119503,7 +119503,7 @@
   "price": 633500,
   "priceDisplay": "€633,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/02d/1088_820_2/ffr3oxuz1fmsolz8j17k68bxkmeq5s07.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/02d/1088_820_2/ffr3oxuz1fmsolz8j17k68bxkmeq5s07.jpg",
@@ -121850,7 +121850,7 @@
   "price": 279500,
   "priceDisplay": "€279,500",
   "location": "Cyprus, Lakatameia",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://dom.com.cy/upload/resize_cache/uf/bd5/1088_820_2/fdkmg521yl3stg6y973084tweozqpp5h.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/bd5/1088_820_2/fdkmg521yl3stg6y973084tweozqpp5h.jpeg",
@@ -121874,7 +121874,7 @@
   "price": 280500,
   "priceDisplay": "€280,500",
   "location": "Cyprus, Lakatameia",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://dom.com.cy/upload/resize_cache/uf/181/1088_820_2/y0e515ltcgfbjdml7rhbu8x2clhhmbqg.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/181/1088_820_2/y0e515ltcgfbjdml7rhbu8x2clhhmbqg.jpeg",
@@ -128101,7 +128101,7 @@
   "price": 671500,
   "priceDisplay": "€671,500",
   "location": "Cyprus, Pervolia",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/7f9/1088_820_2/c02dj0sd312fejck185r9exnlr28z80m.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/7f9/1088_820_2/c02dj0sd312fejck185r9exnlr28z80m.jpg",
@@ -128149,7 +128149,7 @@
   "price": 629500,
   "priceDisplay": "€629,500",
   "location": "Cyprus, Pervolia",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/43c/1088_820_2/d0azalwwb15mp3w45eo2mr7ubehcg3d8.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/43c/1088_820_2/d0azalwwb15mp3w45eo2mr7ubehcg3d8.jpg",
@@ -128345,7 +128345,7 @@
   "price": 561500,
   "priceDisplay": "€561,500",
   "location": "Cyprus, Pervolia",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/151/1088_820_2/uv4sr8f8q3sx8x95hhsx6hvqq15kqbtl.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/151/1088_820_2/uv4sr8f8q3sx8x95hhsx6hvqq15kqbtl.jpg",
@@ -128393,7 +128393,7 @@
   "price": 564500,
   "priceDisplay": "€564,500",
   "location": "Cyprus, Pervolia",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/66a/1088_820_2/pitn2q36esc39lga3wynch8zg1507htp.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/66a/1088_820_2/pitn2q36esc39lga3wynch8zg1507htp.jpg",
@@ -128441,7 +128441,7 @@
   "price": 566500,
   "priceDisplay": "€566,500",
   "location": "Cyprus, Pervolia",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/63f/1088_820_2/k9ze87hroz3zaq4nfro16z1663lt7d2l.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/63f/1088_820_2/k9ze87hroz3zaq4nfro16z1663lt7d2l.jpg",
@@ -128633,7 +128633,7 @@
   "price": 279500,
   "priceDisplay": "€279,500",
   "location": "Cyprus, Polemi",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/6eb/1088_820_2/d5syt7jq4p122mpekmz20hcejpetu2br.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/6eb/1088_820_2/d5syt7jq4p122mpekmz20hcejpetu2br.jpeg",
@@ -129624,7 +129624,7 @@
   "price": 487500,
   "priceDisplay": "€487,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
@@ -129672,7 +129672,7 @@
   "price": 418500,
   "priceDisplay": "€418,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/a74/1088_820_2/6o4elgts8fbfhvksy1ifcqhhblhzt250.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/a74/1088_820_2/6o4elgts8fbfhvksy1ifcqhhblhzt250.jpg",
@@ -129744,7 +129744,7 @@
   "price": 414500,
   "priceDisplay": "€414,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b8e/1088_820_2/0ubeq0d8tsq5vouw2ya7lygj5wmlt2yj.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b8e/1088_820_2/0ubeq0d8tsq5vouw2ya7lygj5wmlt2yj.jpg",
@@ -129792,7 +129792,7 @@
   "price": 421500,
   "priceDisplay": "€421,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b8e/1088_820_2/0ubeq0d8tsq5vouw2ya7lygj5wmlt2yj.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b8e/1088_820_2/0ubeq0d8tsq5vouw2ya7lygj5wmlt2yj.jpg",
@@ -129816,7 +129816,7 @@
   "price": 432500,
   "priceDisplay": "€432,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
@@ -129868,7 +129868,7 @@
   "price": 489500,
   "priceDisplay": "€489,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
@@ -129916,7 +129916,7 @@
   "price": 443500,
   "priceDisplay": "€443,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/cdb/1088_820_2/h6iv0d94rxclxh4eemtbsszvvhfb9qay.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/cdb/1088_820_2/h6iv0d94rxclxh4eemtbsszvvhfb9qay.jpg",
@@ -129940,7 +129940,7 @@
   "price": 436500,
   "priceDisplay": "€436,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/7c1/1088_820_2/li3kfjto68g3mvht9pumxd8yu94zsjyh.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/7c1/1088_820_2/li3kfjto68g3mvht9pumxd8yu94zsjyh.jpg",
@@ -130012,7 +130012,7 @@
   "price": 473500,
   "priceDisplay": "€473,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/uf/cd2/aszpf1dddgrvmlqti1qshsyo3w47igap.jpeg",
   "images": [
    "https://dom.com.cy/upload/uf/cd2/aszpf1dddgrvmlqti1qshsyo3w47igap.jpeg",
@@ -132959,7 +132959,7 @@
   "price": 659950,
   "priceDisplay": "€659,950",
   "location": "Cyprus, Protaras",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/403/1088_820_2/2surhysopupfb078xtpvtlkkv82x12mz.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/403/1088_820_2/2surhysopupfb078xtpvtlkkv82x12mz.jpeg",
@@ -132983,7 +132983,7 @@
   "price": 699950,
   "priceDisplay": "€699,950",
   "location": "Cyprus, Protaras",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9b3/1088_820_2/qnkrh4tjhtvnzrawu18nochvpl1mj4aj.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9b3/1088_820_2/qnkrh4tjhtvnzrawu18nochvpl1mj4aj.jpeg",
@@ -133567,7 +133567,7 @@
   "price": 474500,
   "priceDisplay": "€474,500",
   "location": "Cyprus, Moni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9d8/1088_820_2/vhcnfhwrdltbovebw6rm9woodhe6ckbc.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9d8/1088_820_2/vhcnfhwrdltbovebw6rm9woodhe6ckbc.jpg",
@@ -133591,7 +133591,7 @@
   "price": 516500,
   "priceDisplay": "€516,500",
   "location": "Cyprus, Moni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/uf/e48/zuqoe5d6tdeejq6cg10sfi3ssoir6yfl.jpeg",
   "images": [
    "https://dom.com.cy/upload/uf/e48/zuqoe5d6tdeejq6cg10sfi3ssoir6yfl.jpeg",
@@ -133859,7 +133859,7 @@
   "price": 481500,
   "priceDisplay": "€481,500",
   "location": "Cyprus, Moni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/uf/fd0/o4ij81cj27woppo8ol989p3jil0uos6k.jpeg",
   "images": [
    "https://dom.com.cy/upload/uf/fd0/o4ij81cj27woppo8ol989p3jil0uos6k.jpeg",
@@ -133907,7 +133907,7 @@
   "price": 474500,
   "priceDisplay": "€474,500",
   "location": "Cyprus, Moni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/4b8/1088_820_2/3h2d0mvinbrg4mf9nos4e0iupvvx1wgr.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/4b8/1088_820_2/3h2d0mvinbrg4mf9nos4e0iupvvx1wgr.jpg",
@@ -136887,7 +136887,7 @@
   "price": 290500,
   "priceDisplay": "€290,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/e47/1088_820_2/ut795c91maj2y76b0e2be38vkd1ushg7.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/e47/1088_820_2/ut795c91maj2y76b0e2be38vkd1ushg7.jpg",
@@ -136935,7 +136935,7 @@
   "price": 311500,
   "priceDisplay": "€311,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
@@ -136987,7 +136987,7 @@
   "price": 292500,
   "priceDisplay": "€292,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/faf/1088_820_2/j3gdcxzu51a6rnx652uxl2p45fv2bdf5.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/faf/1088_820_2/j3gdcxzu51a6rnx652uxl2p45fv2bdf5.jpg",
@@ -137059,7 +137059,7 @@
   "price": 302500,
   "priceDisplay": "€302,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/995/1088_820_2/6esar66ciue5xdpmr1qotvlg5s3prn4x.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/995/1088_820_2/6esar66ciue5xdpmr1qotvlg5s3prn4x.jpg",
@@ -137131,7 +137131,7 @@
   "price": 283500,
   "priceDisplay": "€283,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
@@ -137543,7 +137543,7 @@
   "price": 289500,
   "priceDisplay": "€289,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/fb2/1088_820_2/plkstsqyd05bnefe2di03kr34ufprgi3.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/fb2/1088_820_2/plkstsqyd05bnefe2di03kr34ufprgi3.jpg",
@@ -137567,7 +137567,7 @@
   "price": 289500,
   "priceDisplay": "€289,500",
   "location": "Cyprus, Vrysoulles",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
@@ -137639,7 +137639,7 @@
   "price": 298500,
   "priceDisplay": "€298,500",
   "location": "Cyprus, Frenaros",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/708/1088_820_2/wqirakush5bd0qhnrhd949tau1xmlbg6.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/708/1088_820_2/wqirakush5bd0qhnrhd949tau1xmlbg6.jpg",
@@ -139787,7 +139787,7 @@
   "price": 8337500,
   "priceDisplay": "€8,337,500",
   "location": "Cyprus, Agia Napa",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/bf9/1088_820_2/4nwp1bjn2iyc5fl0w4wp2hkvq1xle1g8.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/bf9/1088_820_2/4nwp1bjn2iyc5fl0w4wp2hkvq1xle1g8.jpg",
@@ -139811,7 +139811,7 @@
   "price": 7072500,
   "priceDisplay": "€7,072,500",
   "location": "Cyprus, Agia Napa",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/resize_cache/uf/a6e/1088_820_2/5r179k1x4oxeyqghglsdrsjqoilc345x.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/a6e/1088_820_2/5r179k1x4oxeyqghglsdrsjqoilc345x.jpg",
@@ -140390,7 +140390,7 @@
   "price": 1758500,
   "priceDisplay": "€1,758,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/e3f/1088_820_2/u2z2n8f8fg2s3tl2bg03fjryein6b257.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/e3f/1088_820_2/u2z2n8f8fg2s3tl2bg03fjryein6b257.jpg",
@@ -140414,7 +140414,7 @@
   "price": 1630500,
   "priceDisplay": "€1,630,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/935/1088_820_2/bwkt6pzrwckrrlcb81gxu0jknojswm84.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/935/1088_820_2/bwkt6pzrwckrrlcb81gxu0jknojswm84.jpg",
@@ -140438,7 +140438,7 @@
   "price": 1630500,
   "priceDisplay": "€1,630,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/385/1088_820_2/tmv7kn63w1uwimx9ckwhfctzmq733cfu.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/385/1088_820_2/tmv7kn63w1uwimx9ckwhfctzmq733cfu.jpg",
@@ -140462,7 +140462,7 @@
   "price": 1646500,
   "priceDisplay": "€1,646,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/d58/1088_820_2/vi54wmuunupoiuvergyef8zrxrvj4xl1.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/d58/1088_820_2/vi54wmuunupoiuvergyef8zrxrvj4xl1.jpg",
@@ -140486,7 +140486,7 @@
   "price": 1662500,
   "priceDisplay": "€1,662,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/dfc/1088_820_2/5hh45ahe7w4dm3d0dotg351o39pfohqw.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/dfc/1088_820_2/5hh45ahe7w4dm3d0dotg351o39pfohqw.jpg",
@@ -140514,7 +140514,7 @@
   "price": 1630500,
   "priceDisplay": "€1,630,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/c39/1088_820_2/h9c2mbrckis7iu0ppqkto8kjhmln1wjf.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/c39/1088_820_2/h9c2mbrckis7iu0ppqkto8kjhmln1wjf.jpg",
@@ -140538,7 +140538,7 @@
   "price": 1322500,
   "priceDisplay": "€1,322,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b75/1088_820_2/fm1124q6ccdgja8a9uje148fewdumg9w.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b75/1088_820_2/fm1124q6ccdgja8a9uje148fewdumg9w.jpg",
@@ -140562,7 +140562,7 @@
   "price": 1289500,
   "priceDisplay": "€1,289,500",
   "location": "Cyprus, Koloni",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/385/1088_820_2/tmv7kn63w1uwimx9ckwhfctzmq733cfu.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/385/1088_820_2/tmv7kn63w1uwimx9ckwhfctzmq733cfu.jpg",
@@ -142329,7 +142329,7 @@
   "price": 914500,
   "priceDisplay": "€914,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/874/1088_820_2/iawu0hv7de0m3hajcwcyuzwdnubkc1da.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/874/1088_820_2/iawu0hv7de0m3hajcwcyuzwdnubkc1da.jpg",
@@ -142425,7 +142425,7 @@
   "price": 918500,
   "priceDisplay": "€918,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/115/1088_820_2/kqrfzdxhavp1lj228r6ra1mawn2ltkbf.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/115/1088_820_2/kqrfzdxhavp1lj228r6ra1mawn2ltkbf.jpg",
@@ -142449,7 +142449,7 @@
   "price": 890500,
   "priceDisplay": "€890,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b5b/1088_820_2/bxuwrdr6dn63hztgmex4b1au1wb745tx.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b5b/1088_820_2/bxuwrdr6dn63hztgmex4b1au1wb745tx.jpg",
@@ -142473,7 +142473,7 @@
   "price": 1060500,
   "priceDisplay": "€1,060,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/3d7/1088_820_2/cv0lw6snqzzu1204qastf0f8dasm3943.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/3d7/1088_820_2/cv0lw6snqzzu1204qastf0f8dasm3943.jpg",
@@ -142497,7 +142497,7 @@
   "price": 1053500,
   "priceDisplay": "€1,053,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b87/1088_820_2/6rkvd2mx8mgvjhfvd9yy5ei3usz7zszc.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b87/1088_820_2/6rkvd2mx8mgvjhfvd9yy5ei3usz7zszc.jpeg",
@@ -142621,7 +142621,7 @@
   "price": 1053500,
   "priceDisplay": "€1,053,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/1c7/1088_820_2/33015798vzpguuxyv96ds93puvkogxef.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/1c7/1088_820_2/33015798vzpguuxyv96ds93puvkogxef.jpeg",
@@ -142645,7 +142645,7 @@
   "price": 1134500,
   "priceDisplay": "€1,134,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/392/1088_820_2/3s2nc58rd13tgra6zmvra5kklluos03n.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/392/1088_820_2/3s2nc58rd13tgra6zmvra5kklluos03n.jpeg",
@@ -146162,7 +146162,7 @@
   "price": 349500,
   "priceDisplay": "€349,500",
   "location": "Cyprus, Latsia",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://dom.com.cy/upload/resize_cache/uf/127/1088_820_2/plx8j08t4jon6ghs82x5nu9lfocgluuq.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/127/1088_820_2/plx8j08t4jon6ghs82x5nu9lfocgluuq.jpeg",
@@ -146186,7 +146186,7 @@
   "price": 349500,
   "priceDisplay": "€349,500",
   "location": "Cyprus, Latsia",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://dom.com.cy/upload/resize_cache/uf/5b5/1088_820_2/g29hn4jsytjnhlg36nfszkgvjqxas1kk.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/5b5/1088_820_2/g29hn4jsytjnhlg36nfszkgvjqxas1kk.jpg",
@@ -146234,7 +146234,7 @@
   "price": 445500,
   "priceDisplay": "€445,500",
   "location": "Cyprus, Latsia",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://dom.com.cy/upload/uf/924/iajuq3007grq3dm9rg1hmio9auyd3ar8.jpg",
   "images": [
    "https://dom.com.cy/upload/uf/924/iajuq3007grq3dm9rg1hmio9auyd3ar8.jpg",
@@ -148676,7 +148676,7 @@
   "price": 773500,
   "priceDisplay": "€773,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/6de/1088_820_2/4d26tmz1fjwcnino6nbw6563groi64p7.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/6de/1088_820_2/4d26tmz1fjwcnino6nbw6563groi64p7.jpg",
@@ -148700,7 +148700,7 @@
   "price": 497500,
   "priceDisplay": "€497,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/cd9/1088_820_2/0al00gm5xqzt1weak3ymcre15kdcz2cn.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/cd9/1088_820_2/0al00gm5xqzt1weak3ymcre15kdcz2cn.jpg",
@@ -148724,7 +148724,7 @@
   "price": 773500,
   "priceDisplay": "€773,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/c95/1088_820_2/c1um9z60purmkxtt3a6wmpczetp0k1vz.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/c95/1088_820_2/c1um9z60purmkxtt3a6wmpczetp0k1vz.jpg",
@@ -148748,7 +148748,7 @@
   "price": 497500,
   "priceDisplay": "€497,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/674/1088_820_2/b61zlqeiugnhgocrej1pd0rm4uwlqy5v.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/674/1088_820_2/b61zlqeiugnhgocrej1pd0rm4uwlqy5v.jpg",
@@ -148772,7 +148772,7 @@
   "price": 497500,
   "priceDisplay": "€497,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/7ec/1088_820_2/qdmm34o4h6rllw48260zhb3f4of9zdmu.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/7ec/1088_820_2/qdmm34o4h6rllw48260zhb3f4of9zdmu.jpg",
@@ -148796,7 +148796,7 @@
   "price": 773500,
   "priceDisplay": "€773,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/24a/1088_820_2/flesfd0t5o3afa99q3nnb2nnb380a0ob.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/24a/1088_820_2/flesfd0t5o3afa99q3nnb2nnb380a0ob.jpg",
@@ -148824,7 +148824,7 @@
   "price": 766500,
   "priceDisplay": "€766,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/704/1088_820_2/nxz0eep4x90p2e92p09fa1fnisgu0sju.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/704/1088_820_2/nxz0eep4x90p2e92p09fa1fnisgu0sju.jpg",
@@ -148848,7 +148848,7 @@
   "price": 773500,
   "priceDisplay": "€773,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/cd2/1088_820_2/lkkc820gbej56pch3p7tx1itht84q3l0.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/cd2/1088_820_2/lkkc820gbej56pch3p7tx1itht84q3l0.jpg",
@@ -148872,7 +148872,7 @@
   "price": 773500,
   "priceDisplay": "€773,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/6de/1088_820_2/4d26tmz1fjwcnino6nbw6563groi64p7.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/6de/1088_820_2/4d26tmz1fjwcnino6nbw6563groi64p7.jpg",
@@ -148896,7 +148896,7 @@
   "price": 885500,
   "priceDisplay": "€885,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/aeb/1088_820_2/qgxusqxenssa4gq8bi41iptp1h8jhwwi.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/aeb/1088_820_2/qgxusqxenssa4gq8bi41iptp1h8jhwwi.jpg",
@@ -148944,7 +148944,7 @@
   "price": 885500,
   "priceDisplay": "€885,500",
   "location": "Cyprus, Tremithousa",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/8bd/1088_820_2/n1116pxwyvtlpdu8uye0qqqe3if59tzk.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/8bd/1088_820_2/n1116pxwyvtlpdu8uye0qqqe3if59tzk.jpg",
@@ -151916,7 +151916,7 @@
   "price": 592500,
   "priceDisplay": "€592,500",
   "location": "Cyprus, Meneou",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/uf/8f7/ehsoubg5ehb2xe9kaneqs6ghunzowvb1.jpeg",
   "images": [
    "https://dom.com.cy/upload/uf/8f7/ehsoubg5ehb2xe9kaneqs6ghunzowvb1.jpeg",
@@ -151988,7 +151988,7 @@
   "price": 590500,
   "priceDisplay": "€590,500",
   "location": "Cyprus, Meneou",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/9b1/1088_820_2/gddiiyxi8go204fx6w9hz52hh1mhi341.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/9b1/1088_820_2/gddiiyxi8go204fx6w9hz52hh1mhi341.jpg",
@@ -152036,7 +152036,7 @@
   "price": 604500,
   "priceDisplay": "€604,500",
   "location": "Cyprus, Meneou",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/48d/1088_820_2/f4rjs7nvoz9bfw0coqi3qw61a0j3txf0.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/48d/1088_820_2/f4rjs7nvoz9bfw0coqi3qw61a0j3txf0.jpg",
@@ -152132,7 +152132,7 @@
   "price": 609500,
   "priceDisplay": "€609,500",
   "location": "Cyprus, Meneou",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/e88/1088_820_2/y075wcbccrlvv4x81bmaf588acy96piu.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/e88/1088_820_2/y075wcbccrlvv4x81bmaf588acy96piu.jpeg",
@@ -152156,7 +152156,7 @@
   "price": 599500,
   "priceDisplay": "€599,500",
   "location": "Cyprus, Meneou",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://dom.com.cy/upload/resize_cache/uf/cb6/1088_820_2/l0qr3eum1zak5ul107ornlbt4gnlbibv.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/cb6/1088_820_2/l0qr3eum1zak5ul107ornlbt4gnlbibv.jpg",
@@ -156388,7 +156388,7 @@
   "price": 561500,
   "priceDisplay": "€561,500",
   "location": "Cyprus, Mesogi",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/ada/1088_820_2/e4sn809daeiwvxyktsjy71oz7ds04cbv.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/ada/1088_820_2/e4sn809daeiwvxyktsjy71oz7ds04cbv.jpeg",
@@ -157761,7 +157761,7 @@
   "price": 539650,
   "priceDisplay": "€539,650",
   "location": "Cyprus, Chlorakas",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/977/1088_820_2/ow9lv1hmhb9vptlrdy9x3x72l33evzpa.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/977/1088_820_2/ow9lv1hmhb9vptlrdy9x3x72l33evzpa.jpg",
@@ -160865,7 +160865,7 @@
   "price": 675500,
   "priceDisplay": "€675,500",
   "location": "Cyprus, Moniatis",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg",
@@ -160913,7 +160913,7 @@
   "price": 675500,
   "priceDisplay": "€675,500",
   "location": "Cyprus, Moniatis",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/3d0/1088_820_2/iaq6jmyddk1rygapfwbyn4vh5shpqfic.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/3d0/1088_820_2/iaq6jmyddk1rygapfwbyn4vh5shpqfic.jpg",
@@ -160961,7 +160961,7 @@
   "price": 687500,
   "priceDisplay": "€687,500",
   "location": "Cyprus, Moniatis",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/19f/1088_820_2/9x0fw9cduakw0ammuw9tcl13ba0b7l70.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/19f/1088_820_2/9x0fw9cduakw0ammuw9tcl13ba0b7l70.jpg",
@@ -160985,7 +160985,7 @@
   "price": 682500,
   "priceDisplay": "€682,500",
   "location": "Cyprus, Moniatis",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg",
@@ -161833,7 +161833,7 @@
   "price": 699500,
   "priceDisplay": "€699,500",
   "location": "Cyprus, Agios Tychonas",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/2d4/1088_820_2/gbev1sqq3xwmj33odkngsa3x8irjnarp.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/2d4/1088_820_2/gbev1sqq3xwmj33odkngsa3x8irjnarp.jpg",
@@ -162560,7 +162560,7 @@
   "price": 563500,
   "priceDisplay": "€563,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/iblock/e3f/1088_820_2/v8olwpx2hu8vcpl5b0czepii2636utvp.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/iblock/e3f/1088_820_2/v8olwpx2hu8vcpl5b0czepii2636utvp.jpg",
@@ -162584,7 +162584,7 @@
   "price": 567500,
   "priceDisplay": "€567,500",
   "location": "Cyprus, Geroskipou",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/51e/1088_820_2/ymo079cpun86k7ttnsxdw3ol85jh8ve5.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/51e/1088_820_2/ymo079cpun86k7ttnsxdw3ol85jh8ve5.jpg",
@@ -163254,7 +163254,7 @@
   "price": 998500,
   "priceDisplay": "€998,500",
   "location": "Cyprus, Coral Bay",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b9e/1088_820_2/qvyt548wez9ti5pvhqb4plsqeccqwmxb.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b9e/1088_820_2/qvyt548wez9ti5pvhqb4plsqeccqwmxb.jpg",
@@ -164708,7 +164708,7 @@
   "price": 399900,
   "priceDisplay": "€399,900",
   "location": "Cyprus, Souni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/525/1088_820_2/81es3uqasya5pzy8q42meedbqkdo6uxr.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/525/1088_820_2/81es3uqasya5pzy8q42meedbqkdo6uxr.jpg",
@@ -165311,7 +165311,7 @@
   "price": 594500,
   "priceDisplay": "€594,500",
   "location": "Cyprus, Agios Athanasios",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b95/1088_820_2/c2bceelgj1ptt5613bdwutpbvt13ts6j.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b95/1088_820_2/c2bceelgj1ptt5613bdwutpbvt13ts6j.jpeg",
@@ -165359,7 +165359,7 @@
   "price": 617500,
   "priceDisplay": "€617,500",
   "location": "Cyprus, Agios Athanasios",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/4c8/1088_820_2/txe45tokckt4tc7t3qj71zhugmdbcmh4.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/4c8/1088_820_2/txe45tokckt4tc7t3qj71zhugmdbcmh4.jpeg",
@@ -165383,7 +165383,7 @@
   "price": 550500,
   "priceDisplay": "€550,500",
   "location": "Cyprus, Agios Athanasios",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/b95/1088_820_2/c2bceelgj1ptt5613bdwutpbvt13ts6j.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b95/1088_820_2/c2bceelgj1ptt5613bdwutpbvt13ts6j.jpeg",
@@ -166806,7 +166806,7 @@
   "price": 726800,
   "priceDisplay": "€726,800",
   "location": "Cyprus, Agios Athanasios",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/911/1088_820_2/0qeljb3x3lhenz75lsuqfbksiuua78hc.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/911/1088_820_2/0qeljb3x3lhenz75lsuqfbksiuua78hc.jpg",
@@ -167166,7 +167166,7 @@
   "price": 783500,
   "priceDisplay": "€783,500",
   "location": "Cyprus, Chlorakas",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/1d1/1088_820_2/u3iozz8agi995cvt7z0x2axb3yj0jh0m.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/1d1/1088_820_2/u3iozz8agi995cvt7z0x2axb3yj0jh0m.jpeg",
@@ -167238,7 +167238,7 @@
   "price": 533500,
   "priceDisplay": "€533,500",
   "location": "Cyprus, Chlorakas",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/5ff/1088_820_2/6k7j0hysuw6g4v6whkrq4c1n6lgin61j.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/5ff/1088_820_2/6k7j0hysuw6g4v6whkrq4c1n6lgin61j.jpeg",
@@ -171615,7 +171615,7 @@
   "price": 399500,
   "priceDisplay": "€399,500",
   "location": "Cyprus, Agia Thekla",
-  "district": null,
+  "district": "Famagusta",
   "image": "https://dom.com.cy/upload/uf/71e/4bwcb47a2fyuy4um3om4slg03bq2h13a.jpeg",
   "images": [
    "https://dom.com.cy/upload/uf/71e/4bwcb47a2fyuy4um3om4slg03bq2h13a.jpeg",
@@ -173375,7 +173375,7 @@
   "price": 2761500,
   "priceDisplay": "€2,761,500",
   "location": "Cyprus, Kouklia",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/0a3/1088_820_2/z86gv9gtwbzjm73gcgqtql527trprx4n.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/0a3/1088_820_2/z86gv9gtwbzjm73gcgqtql527trprx4n.jpeg",
@@ -173423,7 +173423,7 @@
   "price": 1610500,
   "priceDisplay": "€1,610,500",
   "location": "Cyprus, Kouklia",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/734/1088_820_2/2bflrciss61wh1tzrod2qjwn1f8mxrgr.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/734/1088_820_2/2bflrciss61wh1tzrod2qjwn1f8mxrgr.jpg",
@@ -173499,7 +173499,7 @@
   "price": 1610500,
   "priceDisplay": "€1,610,500",
   "location": "Cyprus, Kouklia",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/81d/1088_820_2/s289twq45km6zzijbnpfqdv37epoqmih.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/81d/1088_820_2/s289twq45km6zzijbnpfqdv37epoqmih.jpeg",
@@ -173667,7 +173667,7 @@
   "price": 1610500,
   "priceDisplay": "€1,610,500",
   "location": "Cyprus, Kouklia",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/70f/1088_820_2/bx5b4umpwr5lw4fjcj84lqihb33ivi0e.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/70f/1088_820_2/bx5b4umpwr5lw4fjcj84lqihb33ivi0e.jpg",
@@ -174798,7 +174798,7 @@
   "price": 740250,
   "priceDisplay": "€740,250",
   "location": "Cyprus, Tala",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f9c/1088_820_2/k09ktlngshi4a08xfi1bdh14lve1bm2x.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f9c/1088_820_2/k09ktlngshi4a08xfi1bdh14lve1bm2x.jpg",
@@ -180894,7 +180894,7 @@
   "price": 1152500,
   "priceDisplay": "€1,152,500",
   "location": "Cyprus, Kouklia",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/721/1088_820_2/1mned6aq9jcml1mks07jj71advmjbkx0.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/721/1088_820_2/1mned6aq9jcml1mks07jj71advmjbkx0.jpg",
@@ -183532,7 +183532,7 @@
   "price": 456500,
   "priceDisplay": "€456,500",
   "location": "Cyprus, Moni",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/d6a/1088_820_2/7sv91h0866p5zsaf53cburv3wicjtpbg.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/d6a/1088_820_2/7sv91h0866p5zsaf53cburv3wicjtpbg.jpg",
@@ -188966,7 +188966,7 @@
   "price": 1858800,
   "priceDisplay": "€1,858,800",
   "location": "Cyprus, Tala",
-  "district": null,
+  "district": "Paphos",
   "image": "https://dom.com.cy/upload/resize_cache/uf/f58/1088_820_2/din57jlqg95y58mon1iypq11u3kdmy1f.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/f58/1088_820_2/din57jlqg95y58mon1iypq11u3kdmy1f.jpg",
@@ -189137,7 +189137,7 @@
   "price": 2964500,
   "priceDisplay": "€2,964,500",
   "location": "Cyprus, Agios Athanasios",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/uf/c32/1vmpp8mjgpbylcmpuyruz7hxee64e9me.jpg",
   "images": [
    "https://dom.com.cy/upload/uf/c32/1vmpp8mjgpbylcmpuyruz7hxee64e9me.jpg",
@@ -192850,7 +192850,7 @@
   "price": 2777500,
   "priceDisplay": "€2,777,500",
   "location": "Cyprus, Agios Tychonas",
-  "district": null,
+  "district": "Limassol",
   "image": "https://dom.com.cy/upload/resize_cache/uf/441/1088_820_2/fkgyx2h7v24arjq4z1a8nbpdahxf8inm.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/441/1088_820_2/fkgyx2h7v24arjq4z1a8nbpdahxf8inm.jpg",
@@ -194342,7 +194342,7 @@
   "price": 1280000,
   "priceDisplay": "€1,280,000",
   "location": null,
-  "district": null,
+  "district": "Paphos",
   "image": "https://cdn.cy/1:e6e8ffab/272258/6a64e6256a51d.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-paphos-272258",
   "houseSqm": 206,
@@ -194468,7 +194468,7 @@
   "price": 415000,
   "priceDisplay": "€415,000",
   "location": null,
-  "district": null,
+  "district": "Larnaca",
   "image": "https://cdn.cy/1:e6e8ffab/272129/6a631c3650dfa.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/house-for-sale-in-larnaca-272129",
   "houseSqm": null,
@@ -194576,7 +194576,7 @@
   "price": 1800000,
   "priceDisplay": "€1,800,000",
   "location": "Anthoupoli",
-  "district": "Polemidia",
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/272037/6a62088ec67ea.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/house-for-sale-in-polemidia-272037",
   "houseSqm": 200,
@@ -194702,7 +194702,7 @@
   "price": 1300000,
   "priceDisplay": "€1,300,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/265965/6a6122da34d59.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-265965",
   "houseSqm": 150,
@@ -194792,7 +194792,7 @@
   "price": 1500000,
   "priceDisplay": "€1,500,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/265988/6a612253b3da1.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-265988",
   "houseSqm": 380,
@@ -194864,7 +194864,7 @@
   "price": 3600000,
   "priceDisplay": "€3,600,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266001/6a6121fe8795a.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-266001",
   "houseSqm": 75,
@@ -194936,7 +194936,7 @@
   "price": 9600000,
   "priceDisplay": "€9,600,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266010/6a6121d8e7e5a.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-266010",
   "houseSqm": 230,
@@ -195026,7 +195026,7 @@
   "price": 495000,
   "priceDisplay": "€495,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266049/6a61210d097d7.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/bungalow-for-sale-in-limassol-266049",
   "houseSqm": 120,
@@ -195188,7 +195188,7 @@
   "price": 4200000,
   "priceDisplay": "€4,200,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266153/6a611fdf804fd.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-266153",
   "houseSqm": 640,
@@ -195206,7 +195206,7 @@
   "price": 6800000,
   "priceDisplay": "€6,800,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266154/6a611fcd3731c.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-limassol-266154",
   "houseSqm": 720,
@@ -195512,7 +195512,7 @@
   "price": 2100000,
   "priceDisplay": "€2,100,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://cdn.cy/1:e6e8ffab/266458/6a611c3754e7b.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/semi-detached-house-for-sale-in-limassol-266458",
   "houseSqm": 192,
@@ -195692,7 +195692,7 @@
   "price": 632000,
   "priceDisplay": "€632,000",
   "location": "Coral Bay",
-  "district": "Peyia",
+  "district": "Paphos",
   "image": "https://cdn.cy/1:e6e8ffab/266638/6a611b2785987.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-peyia-266638",
   "houseSqm": 111,
@@ -195728,7 +195728,7 @@
   "price": 640000,
   "priceDisplay": "€640,000",
   "location": null,
-  "district": null,
+  "district": "Paphos",
   "image": "https://cdn.cy/1:e6e8ffab/266662/6a611afe3403d.jpg/w=340,h=160,fit=crop,dpr=2",
   "link": "https://home.cy/real-estate-for-sale/villa-for-sale-in-paphos-266662",
   "houseSqm": 181,
@@ -195922,7 +195922,7 @@
   "price": 765000,
   "priceDisplay": "€765,000",
   "location": null,
-  "district": null,
+  "district": "Nicosia",
   "image": "https://foxrealty.com.cy/images/properties/dbadfd49-c198-46e3-9052-22baca4e859d.jpg",
   "link": "https://foxrealty.com.cy/property/51560/house-for-sale-nicosia-strovolos-dasoupolis",
   "houseSqm": 252,
@@ -195939,7 +195939,7 @@
   "price": 135000,
   "priceDisplay": "€135,000",
   "location": null,
-  "district": null,
+  "district": "Nicosia",
   "image": "https://foxrealty.com.cy/images/properties/08661181-b7cd-4212-81c3-23587da19273.jpg",
   "link": "https://foxrealty.com.cy/property/51515/house-for-sale-nicosia-lefkosia-center-nicosia",
   "houseSqm": 143,
@@ -195973,7 +195973,7 @@
   "price": 4000000,
   "priceDisplay": "€4,000,000",
   "location": null,
-  "district": null,
+  "district": "Limassol",
   "image": "https://foxrealty.com.cy/images/properties/65ba7e1a78344.jpg",
   "link": "https://foxrealty.com.cy/property/21461/house-for-sale-limassol-lemesos-center",
   "houseSqm": 580,
@@ -196551,7 +196551,7 @@
   "price": 2300000,
   "priceDisplay": "€2,300,000",
   "location": "Ayia Marina Chrysochous, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/c89/b68054995e695be45fa760830b114.webp",
   "link": "https://realting.com/cyprus/property/3849546",
   "houseSqm": 195,
@@ -196602,7 +196602,7 @@
   "price": 2300000,
   "priceDisplay": "€2,300,000",
   "location": "Ayia Marina Chrysochous, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/99b/f5fe6b082a4d9456ee35beeea6430.webp",
   "link": "https://realting.com/cyprus/property/3849549",
   "houseSqm": 195,
@@ -196806,7 +196806,7 @@
   "price": 2150000,
   "priceDisplay": "€2,150,000",
   "location": "Neo Chorio, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/c51/774234ed43a9b096e073783fcbac8.webp",
   "link": "https://realting.com/cyprus/property/3472815",
   "houseSqm": 310,
@@ -196925,7 +196925,7 @@
   "price": 325000,
   "priceDisplay": "€325,000",
   "location": "Empa, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/787/12a7815b983be164bb4f77f7b54b3.webp",
   "link": "https://realting.com/cyprus/property/3642381",
   "houseSqm": 224,
@@ -197010,7 +197010,7 @@
   "price": 222500,
   "priceDisplay": "€222,500",
   "location": "Pera Pedi, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/937/4f0cac86fad69e513e6f739586b5d.webp",
   "link": "https://realting.com/cyprus/property/3640285",
   "houseSqm": 105,
@@ -197418,7 +197418,7 @@
   "price": 1160000,
   "priceDisplay": "€1,160,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/da5/8f726811e6f96082509a001973c10.webp",
   "link": "https://realting.com/cyprus/property/3671607",
   "houseSqm": 208,
@@ -197520,7 +197520,7 @@
   "price": 2150000,
   "priceDisplay": "€2,150,000",
   "location": "Kathikas, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/f7f/35ac0c4d2278af686c6d760523871.webp",
   "link": "https://realting.com/cyprus/property/2236529",
   "houseSqm": 200,
@@ -197554,7 +197554,7 @@
   "price": 2790000,
   "priceDisplay": "€2,790,000",
   "location": "Prodromos, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/e22/4093a983112b3edc7559dd385732f.webp",
   "link": "https://realting.com/cyprus/property/3602043",
   "houseSqm": 190,
@@ -197775,7 +197775,7 @@
   "price": 1100000,
   "priceDisplay": "€1,100,000",
   "location": "Kato Lefkara, Cyprus",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://realting.com/uploads/thumbs/381/3ae9c5efb16fb90c77676ef04b0d4.webp",
   "link": "https://realting.com/cyprus/property/2244600",
   "houseSqm": 384,
@@ -197826,7 +197826,7 @@
   "price": 1990000,
   "priceDisplay": "€1,990,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/858/d33fde161d70487e887a9a763735a.webp",
   "link": "https://realting.com/cyprus/property/3482304",
   "houseSqm": 310,
@@ -197928,7 +197928,7 @@
   "price": 2900000,
   "priceDisplay": "€2,900,000",
   "location": "Zygi, Cyprus",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://realting.com/uploads/thumbs/f9e/22d3531c12e2679f8c41345e53550.webp",
   "link": "https://realting.com/cyprus/property/2241865",
   "houseSqm": 600,
@@ -198115,7 +198115,7 @@
   "price": 625000,
   "priceDisplay": "€625,000",
   "location": "Kato Polemidion Municipality, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/b7a/769f28799c2841368e2514900c965.webp",
   "link": "https://realting.com/cyprus/property/3482276",
   "houseSqm": 201,
@@ -198421,7 +198421,7 @@
   "price": 1100000,
   "priceDisplay": "€1,100,000",
   "location": "Moniatis, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/811/0c9c2f33c250a099981eac62891ac.webp",
   "link": "https://realting.com/cyprus/property/3683287",
   "houseSqm": 730,
@@ -198489,7 +198489,7 @@
   "price": 2180000,
   "priceDisplay": "€2,180,000",
   "location": "Prodromos, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/64c/f25ed479873a8314b232af37d7e20.webp",
   "link": "https://realting.com/cyprus/property/3703284",
   "houseSqm": 240,
@@ -198506,7 +198506,7 @@
   "price": 675300,
   "priceDisplay": "€675,300",
   "location": "Moniatis, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/8e5/b207773f9b9d02130ef71b6dd78f4.webp",
   "link": "https://realting.com/cyprus/property/3533328",
   "houseSqm": 258,
@@ -198523,7 +198523,7 @@
   "price": 600000,
   "priceDisplay": "€600,000",
   "location": "Synoikismos Anthoupolis, Cyprus",
-  "district": null,
+  "district": "Nicosia",
   "image": "https://realting.com/uploads/thumbs/01b/296a65fadda39aaf43e5a2eceded5.webp",
   "link": "https://realting.com/cyprus/property/3295971",
   "houseSqm": 0,
@@ -198574,7 +198574,7 @@
   "price": 250000,
   "priceDisplay": "€250,000",
   "location": "Anglisides, Cyprus",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://realting.com/uploads/thumbs/de6/ca9835e074c46961fc974cc7f2862.webp",
   "link": "https://realting.com/cyprus/property/3728573",
   "houseSqm": 0,
@@ -198710,7 +198710,7 @@
   "price": 45000,
   "priceDisplay": "€45,000",
   "location": "Dierona, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/553/c2df008bbebc1fd04fbcee7c4f590.webp",
   "link": "https://realting.com/cyprus/property/3654569",
   "houseSqm": 80,
@@ -198897,7 +198897,7 @@
   "price": 685000,
   "priceDisplay": "€685,000",
   "location": "Kato Polemidion Municipality, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/43f/f5c1ca6a30cd9d29c6de619f07fd1.webp",
   "link": "https://realting.com/cyprus/property/3814726",
   "houseSqm": 175,
@@ -198999,7 +198999,7 @@
   "price": 1450000,
   "priceDisplay": "€1,450,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fa3/6d318e72428a2db5a144a86bfc80b.webp",
   "link": "https://realting.com/cyprus/property/3360706",
   "houseSqm": 0,
@@ -199288,7 +199288,7 @@
   "price": 1220000,
   "priceDisplay": "€1,220,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/cc5/ee5bcf9d9778d80f2ccb9e78978ea.webp",
   "link": "https://realting.com/cyprus/property/3272825",
   "houseSqm": 144,
@@ -199373,7 +199373,7 @@
   "price": 429000,
   "priceDisplay": "€429,000",
   "location": "Moni, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/c3f/182f0649277b60f934e1701aa6036.webp",
   "link": "https://realting.com/cyprus/property/3649454",
   "houseSqm": 106,
@@ -199509,7 +199509,7 @@
   "price": 1350000,
   "priceDisplay": "€1,350,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fb5/5626f942ab90cad76a4e4579bd82a.webp",
   "link": "https://realting.com/cyprus/property/3360744",
   "houseSqm": 0,
@@ -199798,7 +199798,7 @@
   "price": 2370000,
   "priceDisplay": "€2,370,000",
   "location": "Thrinia, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/409/5b29cea42d4322daca35c924194e1.webp",
   "link": "https://realting.com/cyprus/property/3540581",
   "houseSqm": 730,
@@ -200070,7 +200070,7 @@
   "price": 275000,
   "priceDisplay": "€275,000",
   "location": "Anglisides, Cyprus",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://realting.com/uploads/thumbs/3bf/120ea5f5c3c9c50f45811b1a8a8fe.webp",
   "link": "https://realting.com/cyprus/property/3418422",
   "houseSqm": 0,
@@ -200257,7 +200257,7 @@
   "price": 845000,
   "priceDisplay": "€845,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fa3/6d318e72428a2db5a144a86bfc80b.webp",
   "link": "https://realting.com/cyprus/property/3360742",
   "houseSqm": 128,
@@ -200308,7 +200308,7 @@
   "price": 895000,
   "priceDisplay": "€895,000",
   "location": "Koili, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/a3f/c504729140ea4e7092e36abe5efb3.webp",
   "link": "https://realting.com/cyprus/property/3111150",
   "houseSqm": 235,
@@ -200325,7 +200325,7 @@
   "price": 675500,
   "priceDisplay": "€675,500",
   "location": "Moniatis, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/b75/c8db14ff4024f395a22aed289924f.webp",
   "link": "https://realting.com/cyprus/property/3759817",
   "houseSqm": 228,
@@ -200376,7 +200376,7 @@
   "price": 900000,
   "priceDisplay": "€900,000",
   "location": "Kato Polemidion Municipality, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/b10/9a9283171bb3465bc87213ded859e.webp",
   "link": "https://realting.com/cyprus/property/3782355",
   "houseSqm": 360,
@@ -200478,7 +200478,7 @@
   "price": 1220000,
   "priceDisplay": "€1,220,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fb5/5626f942ab90cad76a4e4579bd82a.webp",
   "link": "https://realting.com/cyprus/property/2126360",
   "houseSqm": 0,
@@ -200614,7 +200614,7 @@
   "price": 2170000,
   "priceDisplay": "€2,170,000",
   "location": "Prodromos, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/6a0/cf644ff34873ca659e21dcf46f067.webp",
   "link": "https://realting.com/cyprus/property/3658948",
   "houseSqm": 168,
@@ -200784,7 +200784,7 @@
   "price": 1940000,
   "priceDisplay": "€1,940,000",
   "location": "Tsada, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fa3/6d318e72428a2db5a144a86bfc80b.webp",
   "link": "https://realting.com/cyprus/property/3360708",
   "houseSqm": 0,
@@ -200818,7 +200818,7 @@
   "price": 300000,
   "priceDisplay": "€300,000",
   "location": "Apsiou, Cyprus",
-  "district": null,
+  "district": "Limassol",
   "image": "https://realting.com/uploads/thumbs/fbf/28810656c773da6d92b198971a646.webp",
   "link": "https://realting.com/cyprus/property/3653042",
   "houseSqm": 0,
@@ -200886,7 +200886,7 @@
   "price": 804000,
   "priceDisplay": "€804,000",
   "location": "Agia Marinouda, Cyprus",
-  "district": null,
+  "district": "Paphos",
   "image": "https://realting.com/uploads/thumbs/fd6/2efcfb0bc0c8f180395e2b3f28f74.webp",
   "link": "https://realting.com/cyprus/property/2128255",
   "houseSqm": 168,
@@ -201022,7 +201022,7 @@
   "price": 627000,
   "priceDisplay": "€627,000",
   "location": "Zygi, Cyprus",
-  "district": null,
+  "district": "Larnaca",
   "image": "https://realting.com/uploads/thumbs/961/f10178bbdc516aed97cfaa1a14161.webp",
   "link": "https://realting.com/cyprus/property/3843591",
   "houseSqm": 200,
