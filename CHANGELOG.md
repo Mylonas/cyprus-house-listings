@@ -5,6 +5,7 @@ All notable changes to this project are documented here. Format loosely follows 
 ## [Unreleased]
 
 ### Added
+- **Price-per-m² analysis** (`npm run analyze`, `scripts/analyze-ppm.mjs`) — median/quartile/mean €/m² of covered area overall and by district, bedroom count and source, plus €/plot m² where plot size is published. Read-only. Ported from `nicosia-house-prices`; the original's suburb breakdown became district, and its new-build/resale split was dropped (only 147 listings carry a build year) in favour of the plot-m² section.
 - **Price history** (`npm run snapshot`, `scripts/snapshot-history.mjs`) — dated `history/YYYY-MM-DD/` snapshots of the listing set plus a `changes.md` diff of new, removed and price-changed listings versus the previous snapshot, per source and ranked by percentage move. Runs weekly via `snapshot-history.yml`. Ported from the retired `nicosia-house-prices` repo, which tracked the same thing for three Nicosia sources.
 
 ## [2.2.0] - 2026-07-19
