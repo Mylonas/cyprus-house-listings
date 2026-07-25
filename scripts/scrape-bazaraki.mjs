@@ -12,16 +12,15 @@
  *   covered area, plot area, bedrooms, bathrooms, construction year, every photo,
  *   and crucially the real `created_dt` (the date the ad went live).
  *
- * The Cloudflare wall in front of `/api/` turns out to be TLS-fingerprint based,
- * not behaviour based: curl walks straight through it, while both headless
- * Chromium and Node's own `fetch()` get a 403 challenge. So this reads the API
- * with curl (see lib/curl-fetch.mjs) and needs no browser at all.
+ * The Cloudflare wall in front of `/api/` lets curl through where both headless
+ * Chromium and Node's `fetch()` get a 403, so this reads the API with curl (see
+ * lib/curl-fetch.mjs) and needs no browser at all. That replaced a stealth-
+ * patched Playwright session which Cloudflare had also begun flagging, at which
+ * point this source silently returned zero.
  *
- * That replaced a stealth-patched Playwright session (playwright-extra +
- * puppeteer-extra-plugin-stealth) that cleared the challenge on the homepage and
- * fetched same-origin from the cleared context. It worked until Cloudflare began
- * flagging the stealth browser too, at which point this source silently returned
- * zero. curl is both more reliable here and ~40s/run faster.
+ * Only works from a residential IP: from the CI runners every client is
+ * challenged, so this source refreshes via `npm run refresh:local` instead of
+ * the 6-hourly workflow. See README.md.
  *
  * Env:
  *   BAZARAKI_PAGES - API pages (10 listings each) to pull per district (default 10)

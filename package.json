@@ -24,6 +24,7 @@
     "scrape:dom": "node scripts/scrape-dom.mjs",
     "scrape:pafilia": "node scripts/scrape-pafilia.mjs",
     "scrape:giovani": "node scripts/scrape-giovani.mjs",
+    "refresh:local": "node scripts/refresh-local.mjs",
     "snapshot": "node scripts/snapshot-history.mjs",
     "analyze": "node scripts/analyze-ppm.mjs",
     "build": "node scripts/build-page.mjs",

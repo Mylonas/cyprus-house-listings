@@ -2,18 +2,16 @@
  * curl-fetch.mjs
  * Fetches a URL by shelling out to curl instead of using Node's built-in fetch.
  *
- * Why: Cloudflare fingerprints the TLS handshake (JA3), not just headers.
- * Node's undici handshake is flagged on zyprus.com and bazaraki.com — a plain
- * `fetch()` gets a 403 challenge page — while curl's handshake passes and
- * returns the real content. Sending identical headers from `fetch()` does not
- * help; the fingerprint is below the HTTP layer.
+ * Why: on zyprus.com and bazaraki.com, Node's `fetch()` gets a 403 Cloudflare
+ * challenge where curl — same URL, same headers — gets a 200. Something below
+ * the HTTP layer differs; sending identical headers from `fetch()` does not
+ * help. This replaced a stealth-patched headless browser that Cloudflare had
+ * also started flagging, and saves ~40s of Chromium startup per source.
  *
- * This replaced the stealth-browser approach both scrapers used to need. A
- * headless browser is a heavier fingerprint than curl, not a lighter one, and
- * it cost ~40s of Chromium startup per source.
- *
- * If a site starts 403ing curl too, the escalation path is a real browser
- * (see scrape-eauction.mjs), not more headers.
+ * This only holds from a residential IP. From a datacenter IP (GitHub Actions
+ * runners included) *every* client gets challenged, curl included — see the
+ * measurements in README.md. curl is not a way around a reputation block, only
+ * around whatever undici is doing differently.
  */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
