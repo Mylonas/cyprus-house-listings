@@ -1,0 +1,49 @@
+name: Diagnose Cloudflare access
+
+# Temporary diagnostic: works out whether Bazaraki/Zyprus block the CI runners
+# by TLS fingerprint or by datacenter IP. Delete once answered.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Runner egress IP
+        run: curl -s https://api.ipify.org; echo
+
+      - name: curl version
+        run: curl --version | head -2
+
+      - name: Probe each host with several clients
+        run: |
+          probe() {
+            printf '%-28s %s\n' "$1" "$(curl -s -o /dev/null -w '%{http_code}' ${@:3} "$2" || echo ERR)"
+          }
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+          ZY='https://www.zyprus.com/search/sale/grid?page=1'
+          BZ='https://www.bazaraki.com/api/items/?rubric=678&city=11&page=1'
+
+          echo "--- zyprus"
+          probe "curl bare"        "$ZY"
+          probe "curl +UA"         "$ZY" -A "$UA"
+          probe "curl +UA +http2"  "$ZY" -A "$UA" --http2
+          probe "curl +UA +http1.1" "$ZY" -A "$UA" --http1.1
+          echo "--- bazaraki"
+          probe "curl bare"        "$BZ"
+          probe "curl +UA"         "$BZ" -A "$UA"
+          probe "curl +UA +json"   "$BZ" -A "$UA" -H 'Accept: application/json'
+          echo "--- node fetch"
+          node -e "
+            const UA='$UA';
+            for (const [n,u] of [['zyprus','$ZY'],['bazaraki','$BZ']])
+              fetch(u,{headers:{'User-Agent':UA}}).then(r=>console.log(n,r.status)).catch(e=>console.log(n,'ERR',e.message));
+          "
+        continue-on-error: true
