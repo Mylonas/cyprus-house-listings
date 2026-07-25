@@ -47,8 +47,23 @@ export async function curlFetch(url, opts = {}) {
   for (const [k, v] of Object.entries(headers)) args.push('-H', `${k}: ${v}`);
   args.push(url);
 
-  const { stdout } = await execFileAsync('curl', args, { maxBuffer, encoding: 'utf-8' });
-  return stdout;
+  // Append the status code so failures say *what* went wrong. Without this a
+  // 403 challenge and a DNS failure produce the same opaque "Command failed".
+  args.push('-w', '\\n%{http_code}');
+
+  let stdout;
+  try {
+    ({ stdout } = await execFileAsync('curl', args, { maxBuffer, encoding: 'utf-8' }));
+  } catch (err) {
+    const tail = String(err.stdout ?? '').trim().split('\n').pop();
+    throw new Error(`curl failed (HTTP ${tail || '?'}) for ${url}`);
+  }
+
+  const nl = stdout.lastIndexOf('\n');
+  const status = stdout.slice(nl + 1).trim();
+  const body = stdout.slice(0, nl);
+  if (!/^2\d\d$/.test(status)) throw new Error(`HTTP ${status} for ${url}`);
+  return body;
 }
 
 export async function curlFetchJson(url, opts = {}) {
