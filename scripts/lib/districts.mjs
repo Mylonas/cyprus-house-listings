@@ -24,20 +24,43 @@
 
 export const DISTRICTS = ['Nicosia', 'Limassol', 'Larnaca', 'Paphos', 'Famagusta'];
 
-/** Alternative spellings and transliterations, lowercased. */
+/**
+ * Alternative spellings and transliterations, lowercased. Includes the Greek
+ * forms and the misspellings sources actually publish — "Larrnaca" and
+ * "Laranca" are real values from the plots feed, not hypotheticals.
+ */
 const CANON = {
   pafos: 'Paphos',
   paphos: 'Paphos',
+  πάφος: 'Paphos',
+  πάφο: 'Paphos',
   lefkosia: 'Nicosia',
   nicosia: 'Nicosia',
+  λευκωσία: 'Nicosia',
   ammochostos: 'Famagusta',
   famagusta: 'Famagusta',
-  fagamusta: 'Famagusta', // seen in the wild, a source's own typo
+  fagamusta: 'Famagusta',
+  αμμόχωστος: 'Famagusta',
   lemesos: 'Limassol',
   limassol: 'Limassol',
+  λεμεσός: 'Limassol',
+  λεμεσό: 'Limassol',
   larnaka: 'Larnaca',
   larnaca: 'Larnaca',
+  larrnaca: 'Larnaca',
+  laranca: 'Larnaca',
+  λάρνακα: 'Larnaca',
 };
+
+/**
+ * Lowercase and strip diacritics. Greek needs this in both directions: sources
+ * publish "ΛΑΡΝΑΚΑ" (uppercase Greek carries no accents, so it lowercases to
+ * "λαρνακα") as well as the accented "Λάρνακα". Comparing accent-free makes the
+ * two the same string.
+ */
+const norm = (s) => String(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+
+const CANON_NORM = Object.fromEntries(Object.entries(CANON).map(([k, v]) => [norm(k), v]));
 
 /**
  * Town/village/suburb -> parent district, lowercased.
@@ -87,19 +110,26 @@ const TOWNS = {
   'pernera': 'Famagusta', 'agia thekla': 'Famagusta', 'ayia thekla': 'Famagusta',
 };
 
-const DISTRICT_RE = new RegExp(`\\b(${Object.keys(CANON).join('|')})\\b`, 'i');
+const ASCII_KEYS = Object.keys(CANON_NORM).filter((k) => /^[a-z]+$/.test(k));
+const GREEK_KEYS = Object.keys(CANON_NORM).filter((k) => !/^[a-z]+$/.test(k));
+// \b is ASCII-only in JS, so it cannot delimit Greek — those are matched by
+// substring instead, which is safe here since the words are distinctive.
+const DISTRICT_RE = new RegExp(`\\b(${ASCII_KEYS.join('|')})\\b`);
 
 /** A district named anywhere in a free-text field. */
 function districtIn(text) {
   if (!text) return null;
-  const m = DISTRICT_RE.exec(String(text));
-  return m ? CANON[m[1].toLowerCase()] : null;
+  const t = norm(text);
+  const m = DISTRICT_RE.exec(t);
+  if (m) return CANON_NORM[m[1]];
+  for (const k of GREEK_KEYS) if (t.includes(k)) return CANON_NORM[k];
+  return null;
 }
 
 /** A known town named anywhere in a free-text field. */
 function townIn(text) {
   if (!text) return null;
-  const t = String(text).toLowerCase();
+  const t = norm(text);
   // Longest names first so "kato polemidia" wins over "polemidia".
   for (const town of Object.keys(TOWNS).sort((a, b) => b.length - a.length)) {
     if (new RegExp(`\\b${town.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(t)) {
@@ -114,7 +144,7 @@ function townIn(text) {
  * @returns {string|null} one of DISTRICTS, or null when nothing reliable is available
  */
 export function resolveDistrict({ district, location, title, link } = {}) {
-  const exact = district && CANON[String(district).trim().toLowerCase()];
+  const exact = district && CANON_NORM[norm(district)];
   if (exact) return exact;
 
   // `district` is not a district — it may still be a town, or junk from a

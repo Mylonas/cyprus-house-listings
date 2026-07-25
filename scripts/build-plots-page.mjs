@@ -18,7 +18,11 @@ const outPath = path.join(root, 'public/plots.html');
 const listings = JSON.parse(readFileSync(dataPath, 'utf-8'));
 const template = readFileSync(templatePath, 'utf-8');
 
-const html = template.replace('__DATA__', JSON.stringify(listings));
+// Same as build-page.mjs: `images` is inlined weight the template never reads.
+const slim = listings.map(({ images, ...rest }) => rest);
+
+const html = template.replace('__DATA__', JSON.stringify(slim));
 writeFileSync(outPath, html, 'utf-8');
 
-console.log(`Built public/plots.html with ${listings.length} plots.`);
+const mb = (Buffer.byteLength(html) / 1048576).toFixed(1);
+console.log(`Built public/plots.html with ${listings.length} plots (${mb} MB).`);
