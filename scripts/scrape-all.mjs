@@ -149,7 +149,12 @@ for (const [name, fn] of sources) {
     const data = await withTimeout(fn());
     console.log(`  -> ${data.length} listings`);
     results.push(...data);
-    successCount++;
+    // A scraper that returns an empty array has not succeeded — it has been
+    // blocked or had its markup change under it. Counting that as success is
+    // how Bazaraki and Zyprus reported "17/17 sources succeeded" for weeks
+    // while contributing nothing.
+    if (data.length > 0) successCount++;
+    else console.error(`  !! ${name} returned no listings — treating as a failure.`);
   } catch (err) {
     console.error(`  !! ${name} failed:`, err.message);
   }

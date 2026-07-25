@@ -61,6 +61,7 @@ cyprus-house-listings/
 │   ├── scrape-pafilia.mjs        # pafilia.com — developer, WP REST API (Houzez property meta)
 │   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
+│   ├── refresh-local.mjs         # laptop-only refresh of Bazaraki + Zyprus, merged in place
 │   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
 │   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
 │   ├── lib/curl-fetch.mjs        # curl-backed fetch — gets past Cloudflare's TLS fingerprinting
@@ -112,6 +113,7 @@ npx playwright install --with-deps chromium
 
 npm run scrape        # re-scrape all sources → src/data/listings.json, rebuilds public/index.html
 npm run build          # rebuild public/index.html from the current src/data/listings.json only
+npm run refresh:local   # re-scrape Bazaraki + Zyprus only (laptop-only, see below)
 npm run snapshot        # record history/<today>/ + changes.md vs the previous snapshot
 npm run analyze         # print €/m² stats by district, bedrooms and source
 npm run dev             # serve public/ locally
@@ -238,29 +240,37 @@ currently unresolved, all from sources that publish no location whatsoever.
 
 ---
 
-## Getting past Cloudflare
+## Bazaraki and Zyprus: why they only refresh locally
 
-Bazaraki and Zyprus both sit behind Cloudflare, and both used to return zero
-listings. The cause was not headers or rate limiting — Cloudflare fingerprints
-the **TLS handshake**, below the HTTP layer, so no amount of header spoofing from
-`fetch()` helps and a headless browser is a *worse* fingerprint than a plain HTTP
-client, not a better one.
+Both sit behind Cloudflare, and both return zero from GitHub Actions. **The block
+is by IP reputation, not by client.** This was measured, not guessed — probing
+from an Actions runner (Azure IP `13.87.231.101`) with five different clients:
 
-What actually works is shelling out to `curl` (`scripts/lib/curl-fetch.mjs`).
-Same URLs, same headers, no browser:
-
-| Client | zyprus.com | bazaraki.com `/api/` |
+| Client | From the runner | From the laptop |
 |---|---|---|
-| Node `fetch()` (undici) | 403 challenge | 403 challenge |
-| Headless Chromium + stealth | challenge, unclearable | challenge, unclearable |
-| `curl` | 200, real content | 200, real JSON |
+| `curl` bare | 403 challenge | 200 |
+| `curl` + browser UA | 403 challenge | 200 |
+| `curl` + `--http2` / `--http1.1` | 403 challenge | 200 |
+| Node `fetch()` | 403 challenge | 403 challenge |
+| Headless Chromium + stealth | 403 challenge | — |
 
-Consequences worth remembering before "improving" these two scrapers:
+Every client gets the full "Just a moment" managed challenge from the datacenter
+IP; the same `curl` binary and flags get a 200 from a residential Cyprus IP. So
+there is no header, TLS or browser trick that fixes this in CI — only a different
+egress would (residential proxy, or a self-hosted runner on the laptop).
 
-- **Don't port them back to `fetch()`.** It will look cleaner and return 403s.
-- Bazaraki needs no Playwright at all now; it's a plain paginated JSON API read.
-- If curl starts getting challenged too, escalate to a real browser session the
-  way `scrape-eauction.mjs` does — not to more headers.
+Note the one asymmetry: Node's `fetch()` is refused even from the laptop, where
+curl succeeds. So on the laptop the transport genuinely matters — **don't port
+these two scrapers back to `fetch()`**, it will look cleaner and return 403s.
+
+What this means in practice:
+
+- The 6-hourly CI refresh covers 15 of the 17 sources and always will.
+- Bazaraki and Zyprus refresh from the laptop with `npm run refresh:local`, which
+  scrapes just those two, merges them into `src/data/listings.json`, rebuilds the
+  page and leaves the result staged for you to commit.
+- `scrape-all.mjs` counts a source that returns zero as *failed*, not succeeded.
+  Before that, this exact outage reported "17/17 sources succeeded" for weeks.
 
 ---
 

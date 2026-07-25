@@ -8,6 +8,9 @@
  * undici but passes curl. The old Playwright version returned zero listings for
  * weeks because of this.
  *
+ * Only works from a residential IP: from the CI runners every client is
+ * challenged, so this source refreshes via `npm run refresh:local`. See README.
+ *
  * Cards are parsed out of the server-rendered `<article>` markup with regexes
  * rather than a DOM library — the same approach the retired nicosia-house-prices
  * parser used against these exact selectors, and it avoids a dependency.
