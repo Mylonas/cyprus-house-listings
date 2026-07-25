@@ -61,7 +61,12 @@ cyprus-house-listings/
 │   ├── scrape-pafilia.mjs        # pafilia.com — developer, WP REST API (Houzez property meta)
 │   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
+│   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
+├── history/
+│   └── YYYY-MM-DD/
+│       ├── listings.ndjson       # slim snapshot (link, source, price, beds, sizes, district, title)
+│       └── changes.md            # new / removed / price-changed vs the previous snapshot
 ├── src/
 │   ├── data/
 │   │   └── listings.json         # merged listings, updated by scrape-all.mjs
@@ -72,6 +77,7 @@ cyprus-house-listings/
 └── .github/workflows/
     ├── deploy.yml               # Build & deploy public/ to Cloudflare Pages on push to master
     ├── update-listings.yml      # Cron: every 6 hours — re-scrape, rebuild, commit if changed
+    ├── snapshot-history.yml     # Cron: weekly — records a history/ snapshot and its diff
     └── watchdog.yml             # Cron: every 12h — re-triggers stale scrapes, opens an Issue after ~30h stale
 ```
 
@@ -103,8 +109,22 @@ npx playwright install --with-deps chromium
 
 npm run scrape        # re-scrape all sources → src/data/listings.json, rebuilds public/index.html
 npm run build          # rebuild public/index.html from the current src/data/listings.json only
+npm run snapshot        # record history/<today>/ + changes.md vs the previous snapshot
 npm run dev             # serve public/ locally
 ```
+
+### Price history
+
+`npm run snapshot` writes `history/YYYY-MM-DD/listings.ndjson` plus a `changes.md`
+listing what is new, what disappeared, and every price move since the previous
+snapshot, per source and sorted by percentage. The weekly `snapshot-history.yml`
+workflow runs it automatically; run it by hand any time for an ad-hoc comparison.
+
+A source that scrapes to zero is treated as a failed run, not a mass delisting —
+its listings are excluded from the removal count and the failure is called out at
+the top of `changes.md`. Snapshots are stdlib-only NDJSON sorted by link, so
+`npm run snapshot` needs no `npm install` and consecutive snapshots diff cheaply
+in git.
 
 ### Running a single source's scraper
 
@@ -131,6 +151,7 @@ All workflows that commit back to the repo use `[skip ci]` on their commits to a
 |---|---|---|
 | `deploy.yml` | Push to `master` | Deploys `public/` to Cloudflare Pages |
 | `update-listings.yml` | Every 6 hours | Runs all 10 scrapers, dedupes across sources, rebuilds `public/index.html`, commits if changed, deploys to Cloudflare Pages |
+| `snapshot-history.yml` | Weekly, Mon 05:30 UTC | Records `history/<date>/` and its diff against the previous snapshot, commits if changed |
 | `watchdog.yml` | Every 12 hours | Checks `src/data/listings.json` freshness; re-triggers `update-listings.yml` if stale; opens a GitHub Issue if still stale after ~30h |
 
 ### Required Secrets
