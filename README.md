@@ -62,6 +62,7 @@ cyprus-house-listings/
 │   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
 │   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
 │   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
+│   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
 ├── history/
 │   └── YYYY-MM-DD/
@@ -110,8 +111,21 @@ npx playwright install --with-deps chromium
 npm run scrape        # re-scrape all sources → src/data/listings.json, rebuilds public/index.html
 npm run build          # rebuild public/index.html from the current src/data/listings.json only
 npm run snapshot        # record history/<today>/ + changes.md vs the previous snapshot
+npm run analyze         # print €/m² stats by district, bedrooms and source
 npm run dev             # serve public/ locally
 ```
+
+### Price-per-m² analysis
+
+`npm run analyze` prints median, quartile and mean €/m² of covered area — overall
+and split by district, bedroom count and source — plus the same per plot m² for
+the ~4,100 listings that publish a plot size. Read-only; it writes nothing.
+
+Listings under €10,000 or outside 20–2,000 m² are excluded as parse artefacts,
+and only the five real districts are reported (some scrapers occasionally leak a
+title into the `district` field). Useful for sanity-checking a new source: a
+scraper whose median €/m² is wildly off the others is usually misparsing price
+or area rather than finding bargains.
 
 ### Price history
 
