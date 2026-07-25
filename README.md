@@ -89,9 +89,9 @@ cyprus-house-listings/
 | Source | What it covers | Method | Notes |
 |---|---|---|---|
 | [Altamira Real Estate](https://www.altamirarealestate.com.cy) | Bank-owned/collateral houses for sale, all districts | Playwright — click "View more" to paginate | Includes size, bedrooms, bathrooms per listing |
-| [Bazaraki](https://www.bazaraki.com) | General classifieds houses/villas for sale | `/api/items/` JSON API read through a Cloudflare-challenge-cleared stealth browser (playwright-extra) | Includes house size, plot size, bedrooms, bathrooms, construction year, all photos, and the real `created_dt` go-live date |
+| [Bazaraki](https://www.bazaraki.com) | General classifieds houses/villas for sale | `/api/items/` JSON API via curl (Cloudflare passes curl's TLS fingerprint but not a browser's — see below) | Includes house size, plot size, bedrooms, bathrooms, construction year, all photos, and the real `created_dt` go-live date |
 | [eAuction Cyprus](https://www.eauction-cy.com) | Official Cyprus Banks Association mortgage foreclosure auctions | Plain fetch of the `POST /Home/HomeListAuctions` XHR endpoint — upcoming/biddable statuses only (Posted/Ready/Open/Finalized), Residence type | Core fields (reserve price, location, district, auction date, code, link) come live from the unprotected XHR endpoint; plot area + photos are merged from the `src/data/eauction-details.json` enrichment cache (detail pages are Imperva-protected). Listings without a cache entry still appear with core fields |
-| [Zyprus](https://www.zyprus.com) | Agency-listed houses for sale | Playwright — paginated sale search grid | Photos + price + location; size/build year require opening each listing (not scraped by default) |
+| [Zyprus](https://www.zyprus.com) | Agency-listed houses for sale | curl + regex parse of the server-rendered `<article>` cards on the paginated sale search grid | Photos + price + location + bedrooms; size/build year require opening each listing (not scraped by default) |
 | [BidX1](https://bidx1.com/en) | Pan-European online property auctions (IE/UK/ZA/CY) — Cyprus Houses filter | Playwright — fixed filtered URL (`division=80&propertytypes=2`) | Photos + reserve price + bedrooms + location; smallest source (~8 Cyprus house auctions live at a time) |
 | [BuySellCyprus.com](https://www.buysellcyprus.com) | Cyprus' largest property marketplace — ~28,000 house listings total | Playwright — "recently listed" sort, bounded page walk (~15 pages / 360 listings by default) | Not exhaustive by design given the catalogue size; samples the most recently listed houses |
 | [home.cy](https://home.cy) | Agency/developer-listed houses for sale | Playwright — paginated houses search | Captures the presenting agency/developer name per listing (`agent` field) |
@@ -205,6 +205,32 @@ feature/my-feature  →  dev  →  master
 See [CHANGELOG.md](./CHANGELOG.md) for full history.
 
 Latest: **v2.0.0** — added BuySellCyprus.com, home.cy, and FOX Realty; 517 listings across 8 sources; recovered photos for a subset of eAuction listings via their direct image endpoint.
+
+---
+
+## Getting past Cloudflare
+
+Bazaraki and Zyprus both sit behind Cloudflare, and both used to return zero
+listings. The cause was not headers or rate limiting — Cloudflare fingerprints
+the **TLS handshake**, below the HTTP layer, so no amount of header spoofing from
+`fetch()` helps and a headless browser is a *worse* fingerprint than a plain HTTP
+client, not a better one.
+
+What actually works is shelling out to `curl` (`scripts/lib/curl-fetch.mjs`).
+Same URLs, same headers, no browser:
+
+| Client | zyprus.com | bazaraki.com `/api/` |
+|---|---|---|
+| Node `fetch()` (undici) | 403 challenge | 403 challenge |
+| Headless Chromium + stealth | challenge, unclearable | challenge, unclearable |
+| `curl` | 200, real content | 200, real JSON |
+
+Consequences worth remembering before "improving" these two scrapers:
+
+- **Don't port them back to `fetch()`.** It will look cleaner and return 403s.
+- Bazaraki needs no Playwright at all now; it's a plain paginated JSON API read.
+- If curl starts getting challenged too, escalate to a real browser session the
+  way `scrape-eauction.mjs` does — not to more headers.
 
 ---
 
