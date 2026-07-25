@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+- **Price history** (`npm run snapshot`, `scripts/snapshot-history.mjs`) — dated `history/YYYY-MM-DD/` snapshots of the listing set plus a `changes.md` diff of new, removed and price-changed listings versus the previous snapshot, per source and ranked by percentage move. Runs weekly via `snapshot-history.yml`. Ported from the retired `nicosia-house-prices` repo, which tracked the same thing for three Nicosia sources.
+
 ## [2.2.0] - 2026-07-19
 
 ### Added

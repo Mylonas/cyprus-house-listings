@@ -24,6 +24,7 @@
     "scrape:dom": "node scripts/scrape-dom.mjs",
     "scrape:pafilia": "node scripts/scrape-pafilia.mjs",
     "scrape:giovani": "node scripts/scrape-giovani.mjs",
+    "snapshot": "node scripts/snapshot-history.mjs",
     "build": "node scripts/build-page.mjs",
     "build:plots": "node scripts/build-plots-page.mjs",
     "dev": "npx serve public"
