@@ -16335,9 +16335,9 @@
   "priceDisplay": "€9,000",
   "location": "Platanistasa",
   "district": "Platanistasa",
-  "image": "https://estbd.io/1:0e5c2d14/22508/6a62e01169d40.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22508/6a64389f0845c.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22508/6a62e01169d40.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22508/6a64389f0845c.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-platanistasa-22508",
   "beds": null,
@@ -17247,9 +17247,9 @@
   "priceDisplay": "€16,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/22547/6a62e011bdcff.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22547/6a64389f59bd3.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22547/6a62e011bdcff.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22547/6a64389f59bd3.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-agrokipia-nicosia-22547",
   "beds": null,
@@ -17861,6 +17861,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 37125,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Agricultural Field in Pissouri, Limassol",
+  "price": 25000,
+  "priceDisplay": "€25,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/30027/6a6438a52c0ff.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/30027/6a6438a52c0ff.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-agricultural-field-in-pissouri-limassol-30027",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "30027",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 31773,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -19733,30 +19757,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 17728,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large Agricultural Field in Pissouri, Limassol",
-  "price": 50000,
-  "priceDisplay": "€50,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/30027/699ffa15c4e0c.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/30027/699ffa15c4e0c.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/large-agricultural-field-in-pissouri-limassol-30027",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30027",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 31773,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -24922,6 +24922,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Residential field in Deneia, Nicosia",
+  "price": 215000,
+  "priceDisplay": "€215,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/21874/66ff8a580f96b.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/21874/66ff8a580f96b.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-field-in-deneia-nicosia-21874",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "21874",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 13713,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Souni Development Land for Sale 14364m2",
   "price": 220000,
   "priceDisplay": "€220,000",
@@ -26742,30 +26766,6 @@
   "houseSqm": null,
   "plotSqm": 5686,
   "plotType": null,
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Light Industrial field in Agios Theodoros, Larnaca",
-  "price": 365000,
-  "priceDisplay": "€365,000",
-  "location": "Larnaca",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:0e5c2d14/30041/6a62e01a107c1.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/30041/6a62e01a107c1.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/light-industrial-field-in-agios-theodoros-larnaca-30041",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30041",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 21378,
-  "plotType": "Industrial",
   "zone": null
  },
  {
@@ -38816,6 +38816,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Large Agricultural Field in Pissouri, Limassol",
+  "price": 50000,
+  "priceDisplay": "€50,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/40425/699ffa40ebf28.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/40425/699ffa40ebf28.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/40425",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "40425",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 31773,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Agricultural field in Kokkinotrimithia, Nicosia",
   "price": 12000,
   "priceDisplay": "€12,000",
@@ -38860,30 +38884,6 @@
   "houseSqm": null,
   "plotSqm": 49165,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Light Industrial field in Agios Theodoros, Larnaca",
-  "price": 550000,
-  "priceDisplay": "€550,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/40439/699ffa44d7663.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/40439/699ffa44d7663.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/40439",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "40439",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 21378,
-  "plotType": "Industrial",
   "zone": null
  },
  {
@@ -52448,30 +52448,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Agricultural field in Avgorou, Famagusta",
-  "price": 82000,
-  "priceDisplay": "€82,000",
-  "location": "Cyprus",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:8ff481ee/32508/665573ded7738.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/32508/665573ded7738.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/32508",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32508",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 9384,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Agricultural field in Gerasa, Limassol",
   "price": 8000,
   "priceDisplay": "€8,000",
@@ -56313,30 +56289,6 @@
  {
   "source": "Cyprus Properties",
   "title": "Field in Dora, Limassol",
-  "price": 11700,
-  "priceDisplay": "€11,700",
-  "location": "Cyprus",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:8ff481ee/28667/65bf4a95c89ba.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/28667/65bf4a95c89ba.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/28667",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28667",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 11372,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field in Dora, Limassol",
   "price": 31500,
   "priceDisplay": "€31,500",
   "location": "Cyprus",
@@ -57555,30 +57507,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 11096,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field in Dora, Limassol",
-  "price": 4050,
-  "priceDisplay": "€4,050",
-  "location": "Cyprus",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:8ff481ee/28479/65bf4a32dcafa.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/28479/65bf4a32dcafa.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/28479",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28479",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3345,
   "plotType": null,
   "zone": null
  },
