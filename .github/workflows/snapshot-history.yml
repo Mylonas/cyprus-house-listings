@@ -28,12 +28,4 @@ jobs:
 
       - name: Commit snapshot
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history
-          if git diff --cached --quiet; then
-            echo "No snapshot changes to commit."
-          else
-            git commit -m "chore: weekly listing snapshot [skip ci]"
-            git push
-          fi
+          bash scripts/ci/commit-data.sh "chore: weekly listing snapshot [skip ci]"             history

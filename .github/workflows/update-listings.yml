@@ -10,6 +10,12 @@ on:
 
 # The refresh commit is pushed back to master with GITHUB_TOKEN, which is
 # read-only by default.
+# Two runs of this workflow must not overlap: they scrape for ~35 minutes and
+# then both push. Queue instead of racing.
+concurrency:
+  group: update-listings
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -40,20 +46,14 @@ jobs:
         run: npm run scrape:plots
         continue-on-error: true
 
+      # A bare `git push` with no retry cost this workflow a full 34-minute scrape
+      # on 2026-07-26: a scheduled run and a dispatched run finished a minute
+      # apart and the second was rejected as non-fast-forward. commit-data.sh
+      # re-reads the remote and replays the regenerated files on top.
       - name: Commit and push if listings changed
         id: commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/listings.json public/index.html src/data/plots.json public/plots.html
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "chore: refresh listings data [skip ci]"
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+          bash scripts/ci/commit-data.sh "chore: refresh listings data [skip ci]"             src/data/listings.json             public/index.html             src/data/plots.json             public/plots.html
 
       # Pushes made with GITHUB_TOKEN don't trigger the deploy workflow,
       # so deploy directly when the data changed.
