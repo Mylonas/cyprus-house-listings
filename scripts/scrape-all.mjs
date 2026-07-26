@@ -9,7 +9,7 @@
  * the others still complete and the run does not fail outright — it exits
  * non-zero only if every source failed, so the watchdog workflow can catch it.
  */
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { scrapeAltamira } from './scrape-altamira.mjs';
@@ -165,10 +165,38 @@ if (successCount === 0) {
   process.exit(1);
 }
 
-const deduped = dedupe(results.map(normalizeDistrict));
+// Carry over any source that produced nothing this run.
+//
+// This file is rewritten from scratch each time, so a source that returns zero
+// silently disappears from the dataset. That is wrong for a transient failure,
+// and fatal for Bazaraki and Zyprus: Cloudflare blocks them from CI entirely,
+// so they are refreshed from a laptop via `npm run refresh:local` — and the
+// next 6-hourly CI run used to delete that work. 9,069 Bazaraki houses, 360
+// Zyprus listings and 6,210 Bazaraki plots lasted about eleven hours before
+// being wiped this way on 2026-07-26.
+//
+// A carried-over source keeps its previous rows until something can scrape it
+// again. They age, which is visible and fixable; deleting them is neither.
+const scrapedSources = new Set(results.map((l) => l.source));
+let previous = [];
+try {
+  previous = JSON.parse(readFileSync(outPath, 'utf-8'));
+} catch {
+  // First run, or unreadable — nothing to carry.
+}
+const carried = previous.filter((l) => l.source && !scrapedSources.has(l.source));
+if (carried.length) {
+  const bySource = {};
+  for (const l of carried) bySource[l.source] = (bySource[l.source] ?? 0) + 1;
+  for (const [name, n] of Object.entries(bySource)) {
+    console.log(`  carrying over ${n} existing ${name} listings (nothing scraped this run)`);
+  }
+}
+
+const deduped = dedupe([...results, ...carried].map(normalizeDistrict));
 
 writeFileSync(outPath, JSON.stringify(deduped, null, 1), 'utf-8');
-console.log(`Wrote ${deduped.length} listings (${results.length} scraped) to src/data/listings.json (${successCount}/${sources.length} sources succeeded).`);
+console.log(`Wrote ${deduped.length} listings (${results.length} scraped, ${carried.length} carried over) to src/data/listings.json (${successCount}/${sources.length} sources succeeded).`);
 
 // Rebuild the static page from the fresh data
 await import('./build-page.mjs');
