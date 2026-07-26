@@ -22,6 +22,7 @@ A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)
 | **Sortable** | Price (asc/desc), house size, plot size, most recently posted |
 | **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
 | **Scheduled refresh** | GitHub Actions re-scrapes all seventeen sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
+| **Map view** | Grid/Map toggle on both pages. Only listings with real per-listing coordinates are plotted — Bazaraki publishes them, most sources do not — and the map states its own coverage against the active filter rather than inventing positions from town names |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 
 ---
@@ -77,7 +78,8 @@ cyprus-house-listings/
 │   └── template/
 │       └── page.html             # page shell + filter UI, with a __DATA__ placeholder
 ├── public/
-│   └── index.html                # generated static site (this is what gets deployed)
+│   ├── index.html                # generated static site (this is what gets deployed)
+│   └── vendor/                   # Leaflet + markercluster, vendored (no CDN at runtime)
 └── .github/workflows/
     ├── deploy.yml               # Build & deploy public/ to Cloudflare Pages on push to master
     ├── update-listings.yml      # Cron: every 6 hours — re-scrape, rebuild, commit if changed
@@ -209,6 +211,37 @@ feature/my-feature  →  dev  →  master
 See [CHANGELOG.md](./CHANGELOG.md) for full history.
 
 Latest: **v2.0.0** — added BuySellCyprus.com, home.cy, and FOX Realty; 517 listings across 8 sources; recovered photos for a subset of eAuction listings via their direct image endpoint.
+
+---
+
+## Map view
+
+Both pages have a Grid/Map toggle. The map shares the filter state, so whatever
+the filters select is what gets plotted.
+
+**Only listings with real coordinates are shown.** Bazaraki publishes a genuine
+per-listing pin (plus the zoom the advertiser used, kept as `geoZoom` — a low
+zoom means they placed it vaguely); the scrapers had been discarding both.
+Coverage today:
+
+| Source | Coordinates |
+|---|---|
+| Bazaraki houses and plots | exact, per listing |
+| Kazo Real Estate, Cyprus Properties | published as `data-lat` on detail pages — **not yet scraped**, would need a per-listing pass |
+| Kadis Estates | detail pages refuse plain fetches; would need its AJAX path |
+| DOM real estate and the rest | none published |
+
+Unmapped listings stay in the grid and the map reports its own coverage against
+the current filter ("51 of 101 shown listings have exact coordinates").
+
+The alternative — placing the rest at their town or district centre — was
+deliberately rejected: a pin at a village square renders identically to a real
+one, so it would quietly turn an honest gap into false precision.
+
+Leaflet and markercluster are **vendored** in `public/vendor/`, so there is no
+CDN dependency at runtime. Map tiles come from openstreetmap.org, which is the
+one external request a real map cannot avoid. The map is constructed on first
+click, not on page load.
 
 ---
 

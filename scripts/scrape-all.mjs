@@ -85,13 +85,26 @@ function normalizeDistrict(listing) {
   return listing;
 }
 
+// Two listings are the same property only when a size confirms it. Matching on
+// bedrooms + price + district alone looked reasonable when the dataset was
+// small, but it is a coincidence detector at scale: asking prices cluster on
+// round numbers, so with ~9,000 Bazaraki listings almost every 3-bed at
+// €250,000 in Limassol finds a "duplicate" that is a different house.
+//
+// It went unnoticed because Bazaraki was absent from CI runs for weeks. The
+// moment its listings were carried back in (2026-07-26) it deleted 84% of
+// Zyprus — all 360 Zyprus rows lack houseSqm, so every comparison fell through
+// to the district fallback and 2,449 collided, none confirmed by area.
+//
+// Now: no size on either side means no decision. A duplicate shown twice is a
+// visible annoyance; a real listing silently deleted is invisible data loss.
 function sameProperty(a, b) {
   if (a.beds == null || a.price == null) return false;
   if (a.beds !== b.beds || a.price !== b.price) return false;
-  if (a.houseSqm != null && b.houseSqm != null) {
-    return Math.abs(a.houseSqm - b.houseSqm) / Math.max(a.houseSqm, b.houseSqm) <= 0.05;
-  }
-  return a.district != null && a.district === b.district;
+  const close = (x, y) => Math.abs(x - y) / Math.max(x, y) <= 0.05;
+  if (a.houseSqm != null && b.houseSqm != null) return close(a.houseSqm, b.houseSqm);
+  if (a.plotSqm != null && b.plotSqm != null) return close(a.plotSqm, b.plotSqm);
+  return false;
 }
 
 function dedupe(listings) {
