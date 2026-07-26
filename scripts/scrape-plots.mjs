@@ -8,7 +8,7 @@
  * Resilient by design: a single source failing does not fail the run; it exits
  * non-zero only if every source failed.
  */
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { scrapeBazarakiPlots } from './scrape-bazaraki-plots.mjs';
@@ -100,9 +100,29 @@ if (successCount === 0) {
   process.exit(1);
 }
 
-const deduped = dedupe(results.map(normalizeDistrict));
+// Same carry-over as scrape-all.mjs: a source that scraped nothing keeps its
+// existing rows rather than vanishing from the file. Bazaraki plots are
+// laptop-only (Cloudflare blocks CI), so without this every CI run deletes what
+// `npm run refresh:local` just produced.
+const scrapedSources = new Set(results.map((l) => l.source));
+let previous = [];
+try {
+  previous = JSON.parse(readFileSync(outPath, 'utf-8'));
+} catch {
+  // First run, or unreadable — nothing to carry.
+}
+const carried = previous.filter((l) => l.source && !scrapedSources.has(l.source));
+if (carried.length) {
+  const bySource = {};
+  for (const l of carried) bySource[l.source] = (bySource[l.source] ?? 0) + 1;
+  for (const [name, n] of Object.entries(bySource)) {
+    console.log(`  carrying over ${n} existing ${name} plots (nothing scraped this run)`);
+  }
+}
+
+const deduped = dedupe([...results, ...carried].map(normalizeDistrict));
 writeFileSync(outPath, JSON.stringify(deduped, null, 1), 'utf-8');
-console.log(`Wrote ${deduped.length} plots (${results.length} scraped) to src/data/plots.json (${successCount}/${sources.length} sources succeeded).`);
+console.log(`Wrote ${deduped.length} plots (${results.length} scraped, ${carried.length} carried over) to src/data/plots.json (${successCount}/${sources.length} sources succeeded).`);
 
 await import('./build-plots-page.mjs');
 process.exit(0);
