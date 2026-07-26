@@ -257,7 +257,8 @@ from an Actions runner (Azure IP `13.87.231.101`) with five different clients:
 Every client gets the full "Just a moment" managed challenge from the datacenter
 IP; the same `curl` binary and flags get a 200 from a residential Cyprus IP. So
 there is no header, TLS or browser trick that fixes this in CI — only a different
-egress would (residential proxy, or a self-hosted runner on the laptop).
+egress would. Self-hosted runners are out of scope for this project, so these
+two sources refresh from the laptop by hand and that is the settled answer.
 
 Note the one asymmetry: Node's `fetch()` is refused even from the laptop, where
 curl succeeds. So on the laptop the transport genuinely matters — **don't port
