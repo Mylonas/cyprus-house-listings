@@ -267,6 +267,12 @@ these two scrapers back to `fetch()`**, it will look cleaner and return 403s.
 What this means in practice:
 
 - The 6-hourly CI refresh covers 15 of the 17 sources and always will.
+- **`scrape-all.mjs` and `scrape-plots.mjs` carry over any source that scraped
+  nothing**, rather than rewriting the file without it. This is what makes the
+  laptop refresh stick: without it the next CI run silently deleted the work,
+  which is exactly what happened on 2026-07-26 — 9,069 Bazaraki houses, 360
+  Zyprus listings and 6,210 Bazaraki plots survived about eleven hours. Carried
+  rows age visibly until the next local refresh; deleted rows just vanish.
 - Bazaraki (houses **and** plots) and Zyprus refresh from the laptop with
   `npm run refresh:local`, which scrapes just those, merges them into
   `src/data/listings.json` and `src/data/plots.json`, rebuilds both pages and
