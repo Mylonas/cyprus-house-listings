@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Cyprus Plot & Land Listings — Internal Reference</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.Default.css">
 <style>
   :root {
     --bg: #f4f5f7; --card-bg: #ffffff; --border: #e2e4e8; --text: #1c1f26;
@@ -57,6 +60,21 @@
   .card-link:hover { text-decoration:underline; }
   .posted { font-size:11px; color:#9ca3af; }
   .empty-state { padding:60px 28px; text-align:center; color:var(--muted); }
+  /* map view */
+  .view-toggle { display:inline-flex; gap:0; border:1px solid var(--border); border-radius:8px; overflow:hidden; margin-left:auto; }
+  .view-toggle button { border:0; background:var(--card-bg); color:var(--muted); font-size:12.5px; font-weight:600; padding:6px 14px; cursor:pointer; }
+  .view-toggle button.active { background:var(--accent); color:#fff; }
+  .results-bar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  #map { display:none; height:72vh; min-height:420px; margin:0 28px 28px; border:1px solid var(--border); border-radius:12px; }
+  body.map-view #map { display:block; }
+  body.map-view .grid { display:none; }
+  .geo-note { font-size:12px; color:var(--muted); }
+  .pin { background:var(--accent); color:#fff; font-size:11.5px; font-weight:700; padding:3px 7px; border-radius:11px; white-space:nowrap;
+         box-shadow:0 1px 4px rgba(0,0,0,.35); border:1.5px solid #fff; }
+  .leaflet-popup-content { margin:10px 12px; font-size:13px; line-height:1.45; }
+  .leaflet-popup-content img { width:100%; height:110px; object-fit:cover; border-radius:6px; margin-bottom:6px; }
+  .leaflet-popup-content b { font-size:14px; }
+  .leaflet-popup-content a { color:var(--accent); font-weight:600; }
 </style>
 </head>
 <body>
@@ -116,9 +134,19 @@
   <button class="reset-btn" id="resetBtn">Reset filters</button>
 </div>
 
-<div class="results-bar" id="resultsBar"></div>
+<div class="results-bar" id="resultsBar">
+  <span id="resultsCount"></span>
+  <span class="geo-note" id="geoNote"></span>
+  <span class="view-toggle">
+    <button id="btnGrid" class="active" type="button">Grid</button>
+    <button id="btnMap" type="button">Map</button>
+  </span>
+</div>
 <div class="grid" id="grid"></div>
+<div id="map"></div>
 
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
 <script>
 const LISTINGS = __DATA__;
 
@@ -126,7 +154,7 @@ const sources = [...new Set(LISTINGS.map(l => l.source))];
 const districts = [...new Set(LISTINGS.map(l => l.district).filter(Boolean))].sort();
 const plotTypes = [...new Set(LISTINGS.map(l => l.plotType).filter(Boolean))].sort();
 
-const state = { sources: new Set(sources), district: '', plotType: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '' };
+const state = { sources: new Set(sources), district: '', plotType: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '', view: 'grid' };
 
 function shortSource(s){ if (s === 'A Place in the Sun') return 'APITS'; if (s === 'eAuction Cyprus') return 'eAuction'; if (s === 'Kadis Estates') return 'Kadis'; return s.split(' ')[0]; }
 
@@ -200,6 +228,84 @@ function cardHtml(l){
   </div>`;
 }
 
+
+/* ── map view ──────────────────────────────────────────────────────────────
+ * Only listings with real per-listing coordinates are plotted. Bazaraki
+ * publishes them; most other sources do not, so the map deliberately covers a
+ * subset and says so rather than inventing positions from town names — a pin
+ * at a village centre looks exactly as precise as a real one, which is worse
+ * than an honest gap.
+ *
+ * Leaflet is vendored in public/vendor/ (no CDN). Map tiles still come from
+ * openstreetmap.org — that is the one unavoidable external request.
+ * The map is built on first use: initialising it up front costs every visitor
+ * who never opens it.
+ */
+// Popup content is built from scraped titles and URLs, so it is escaped —
+// the card renderer above predates this and interpolates raw.
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+}[c]));
+let _map = null, _cluster = null;
+const hasGeo = l => typeof l.lat === "number" && typeof l.lng === "number";
+
+function ensureMap(){
+  if (_map) return;
+  _map = L.map("map", { scrollWheelZoom: true }).setView([34.95, 33.15], 9);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(_map);
+  _cluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 45, spiderfyOnMaxZoom: true });
+  _map.addLayer(_cluster);
+}
+
+function pinIcon(l){
+  const label = l.price != null ? "€" + Math.round(l.price / 1000) + "k" : "?";
+  return L.divIcon({ className: "", html: '<div class="pin">' + label + "</div>", iconSize: null });
+}
+
+function popupHtml(l){
+  const bits = [];
+  if (l.beds != null) bits.push(l.beds + " bed");
+  if (l.houseSqm != null) bits.push(l.houseSqm + " m²");
+  if (l.plotSqm != null) bits.push("plot " + l.plotSqm + " m²");
+  return [
+    l.image ? '<img src="' + esc(l.image) + '" alt="" loading="lazy">' : "",
+    "<b>" + (l.priceDisplay || "Price on request") + "</b><br>",
+    esc(l.title || ""), "<br>",
+    bits.length ? '<span style="color:#6b7280">' + bits.join(" · ") + "</span><br>" : "",
+    '<span style="color:#6b7280">' + esc(l.location || l.district || "") + " · " + esc(l.source) + "</span><br>",
+    '<a href="' + esc(l.link) + '" target="_blank" rel="noopener">View on ' + esc(l.source) + " ↗</a>"
+  ].join("");
+}
+
+function renderMap(items){
+  ensureMap();
+  _cluster.clearLayers();
+  const geo = items.filter(hasGeo);
+  _cluster.addLayers(geo.map(l => L.marker([l.lat, l.lng], { icon: pinIcon(l) }).bindPopup(popupHtml(l))));
+  const note = document.getElementById("geoNote");
+  if (note) {
+    note.textContent = geo.length === items.length
+      ? ""
+      : geo.length + " of " + items.length + " shown plots have exact coordinates";
+  }
+  if (geo.length) {
+    _map.fitBounds(L.latLngBounds(geo.map(l => [l.lat, l.lng])).pad(0.05));
+  }
+  // The container was display:none until now, so Leaflet measured it as 0x0.
+  setTimeout(() => _map.invalidateSize(), 0);
+}
+
+function setView(view){
+  state.view = view;
+  document.body.classList.toggle("map-view", view === "map");
+  document.getElementById("btnGrid").classList.toggle("active", view === "grid");
+  document.getElementById("btnMap").classList.toggle("active", view === "map");
+  applyFilters();
+}
+
 function applyFilters(){
   let items = LISTINGS.filter(l => state.sources.has(l.source));
   if (state.district) items = items.filter(l => l.district === state.district);
@@ -222,13 +328,15 @@ function applyFilters(){
   else if (state.sort === 'ppsqm_desc') items.sort((a,b) => ppSqm(b, -1) - ppSqm(a, -1));
   else if (state.sort === 'recent') items.sort((a,b) => effAge(a) - effAge(b));
 
-  document.getElementById('resultsBar').textContent = `Showing ${items.length} of ${LISTINGS.length} plots`;
+  document.getElementById('resultsCount').textContent = `Showing ${items.length} of ${LISTINGS.length} plots`;
   const grid = document.getElementById('grid');
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1">No plots match these filters. Try widening your search.</div>';
+    if (state.view === 'map') renderMap(items);
     return;
   }
   grid.innerHTML = items.map(cardHtml).join('');
+  if (state.view === 'map') renderMap(items);
 }
 
 function renderStats(){
@@ -253,6 +361,8 @@ document.getElementById('maxPrice').addEventListener('input', e => { state.maxPr
 document.getElementById('minPlot').addEventListener('input', e => { state.minPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('maxPlot').addEventListener('input', e => { state.maxPlot = e.target.value ? Number(e.target.value) : null; applyFilters(); });
 document.getElementById('sortBy').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
+document.getElementById('btnGrid').addEventListener('click', () => setView('grid'));
+document.getElementById('btnMap').addEventListener('click', () => setView('map'));
 document.getElementById('resetBtn').addEventListener('click', () => {
   state.sources = new Set(sources); state.district=''; state.plotType=''; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
   document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value=''; document.getElementById('typeFilter').value='';

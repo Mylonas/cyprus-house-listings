@@ -45,6 +45,16 @@ function toInt(v) {
   return Number.isFinite(n) && n > 0 ? Math.round(n) : null;
 }
 
+// Bazaraki returns {latitude: 0, longitude: 0} when the advertiser never placed
+// a pin. Passed through, those render as markers off the coast of Africa, so
+// anything outside a generous Cyprus box is treated as no coordinate at all.
+const CY_BOX = { minLat: 34.4, maxLat: 35.8, minLng: 32.1, maxLng: 34.7 };
+function geo(coords) {
+  const lat = coords?.latitude, lng = coords?.longitude;
+  if (typeof lat !== 'number' || typeof lng !== 'number') return { lat: null, lng: null };
+  const ok = lat >= CY_BOX.minLat && lat <= CY_BOX.maxLat && lng >= CY_BOX.minLng && lng <= CY_BOX.maxLng;
+  return ok ? { lat, lng } : { lat: null, lng: null };
+}
 function mapItem(raw, districtName) {
   const a = raw.attrs || {};
   const created = raw.created_dt ? new Date(raw.created_dt) : null;
@@ -75,6 +85,11 @@ function mapItem(raw, districtName) {
       : null,
     postedTs: validCreated ? validCreated.getTime() : null,
     buildYear: null,
+    // Bazaraki publishes a real per-listing pin, plus the zoom the advertiser
+    // used — low zoom means they placed it vaguely, so it doubles as a
+    // precision hint for the map. Both were being discarded until 2026-07-26.
+    ...geo(raw.coordinates),
+    geoZoom: typeof raw.zoom === 'number' ? raw.zoom : null,
     ref: String(raw.id),
   };
 }
