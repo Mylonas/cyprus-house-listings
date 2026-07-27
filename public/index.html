@@ -334,11 +334,16 @@ function renderMap(items){
       ? ""
       : geo.length + " of " + items.length + " shown listings have exact coordinates";
   }
-  if (geo.length) {
-    _map.fitBounds(L.latLngBounds(geo.map(l => [l.lat, l.lng])).pad(0.05));
-  }
-  // The container was display:none until now, so Leaflet measured it as 0x0.
-  setTimeout(() => _map.invalidateSize(), 0);
+  // Order matters. The container was display:none until this click, so Leaflet
+  // still has it measured as 0x0 — fitting bounds against that yields zoom 0
+  // and the whole dataset collapses into a single cluster over the Atlantic.
+  // Re-measure first, then fit, both after layout has settled.
+  setTimeout(() => {
+    _map.invalidateSize();
+    if (geo.length) {
+      _map.fitBounds(L.latLngBounds(geo.map(l => [l.lat, l.lng])).pad(0.05));
+    }
+  }, 0);
 }
 
 function setView(view){
