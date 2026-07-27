@@ -131,12 +131,15 @@ PDFs go through `pdfjs-dist`; `.docx`/`.doc`/`.rtf`/bare images go through the
 dependency-free [`scripts/lib/documents.mjs`](../../../scripts/lib/documents.mjs)
 (a `.docx` is a ZIP — a small central-directory reader plus `zlib` gets both
 `word/document.xml` text and `word/media/*` photos, no library needed). Legacy
-`.doc` is text-only by design and logs that it was lossy. In practice today's
-ads are all PDF; the Word path exists because the portal has served `.doc` and
-the reader costs nothing to keep.
+`.doc` is text-only by design and logs that it was lossy.
 
-Typical ad: one legal-notice PDF; better ads carry four (notice + "ADDITIONAL
-INFORMATION" / "ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ", Greek and English). The **additional
+The Word path is not theoretical: the 2026-07-27 cold run read **651
+attachments — 644 PDF and 7 `.docx`** ("Press Release - 13.678.docx",
+"ΔΕΛΤΙΟ.docx"), and those yielded both text and photos. Never type an
+attachment by its filename.
+
+Typical ad: one legal-notice document; better ads carry four (notice +
+"ADDITIONAL INFORMATION" / "ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ", Greek and English). The **additional
 information sheet is the jackpot** — a valuer's field report with `Land area`,
 `Building area`, `No. Of Floors`, planning zone/density/coverage/height, and
 prose like *"the property is about 38 years old … three bedrooms and a
@@ -188,6 +191,16 @@ kind) and `image` + `images[]`.
 - It **prunes**: ads that are no longer advertised are dropped from the cache and
   their photo files deleted (unless `EAUCTION_PRUNE=0`). This is what keeps the
   committed asset directory from growing without bound.
+
+### What a full run yields (2026-07-27 baseline)
+
+419 ads, 0 failures, ~70 minutes at a 3 s inter-ad delay: **354 ads with photos**
+(731 image files), **384 with plot area**, 66 with covered area, 49 with build
+year, 139 with bedrooms, and share / registration / property type / lender on
+all 419. Covered area and build year are low because only the minority of ads
+carrying an "additional information" sheet publish them — that is the source's
+limit, not a parser gap. `public/eauction-photos/` sits at ~31 MB / ~500 files;
+if that becomes a problem, the resize in `toJpeg` (1600 px, q82) is the knob.
 
 ### Running it
 
