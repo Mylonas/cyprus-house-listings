@@ -44,11 +44,21 @@ plain `fetch` — no browser, works from GitHub Actions. Key request facts:
 
 - Header `X-Requested-With: XMLHttpRequest` and a `Referer` of the search page.
 - Body is JSON; the fields that matter:
-  - `AuctionSubTypeId: '5'` → **Residence** (what this project tracks).
+  - `AuctionSubTypeId` → property category. **All eleven are populated**, not
+    just Residence: `5` Residence, `6` Other Commercial, `7` Store, `8` Office,
+    `9` Parking, `10` Warehouse, `11` Industrial Building, `12` Plot, `13` Plot
+    with building, `14` Land, `15` Land with building. `scrape-eauction.mjs`
+    requests `5` (the houses page); `harvest-eauction.mjs` walks all of them.
+    An earlier note claiming only 5/6/8 exist was measured with a status filter
+    that happened to be empty for the rest — always probe subtype × status.
   - `AuctionStatusId` → filter by status. We request only **biddable** ones:
     `3` Posted, `6` Ready to be Conducted, `7` Open, `5` Finalized List of
-    Eligible Bidders. Conducted/Cancelled/Suspended are intentionally excluded —
-    they're the ~1,300-lot dead archive.
+    Eligible Bidders. `8` Suspended, `9` Conducted and `10` Cancelled are
+    intentionally excluded — `9` alone is thousands of lots of dead archive.
+    In practice almost everything live sits in status `3`.
+  - **Roughly 420 ads are advertised at any time** across all subtypes (46
+    Residence, 174 Land, 109 Plot with building, 58 Land with building, the
+    rest commercial). Residence-only is ~46.
   - `pageNumber` (stringified), `lang: 'en-US'`.
 - Parsing is regex over the returned HTML blocks split on `AList-BoxContainer`.
   Each card yields code, status, price, auction date, district, community,
@@ -60,14 +70,15 @@ the card markup (the `AList-*` class names) or the endpoint contract — not
 whether it's "blocked". This endpoint being open is load-bearing; if it ever
 gets challenged too, the whole CI integration needs rethinking.
 
-### Route 2: the real browser (detail enrichment, out-of-band only)
+### Route 2: a challenge-clearing browser (detail harvest)
 
-Plot area and photos live **only** on the challenge-protected detail pages, so
-they can't come from CI. They're harvested manually through a real browser that
-has cleared the challenge, then committed as an enrichment cache (below). Use the
-Browser pane (`preview_start` with the detail URL), let the Imperva challenge
-resolve once in the main tab, then the tab's session cookie lets in-page
-`fetch()` reach same-origin endpoints.
+Areas, build year, rooms, documents and photos live **only** on the
+challenge-protected detail pages and their attachments. **Stealth Playwright
+clears the challenge**, so this is fully automated in
+[`scripts/harvest-eauction.mjs`](../../../scripts/harvest-eauction.mjs) — clear
+the challenge once on the search page, then every later `page.goto()` and every
+same-origin in-page `fetch()` (attachment downloads included) rides that
+session. The Browser pane works too if you're exploring by hand.
 
 ## Refreshing the listings data (the normal task)
 
@@ -86,81 +97,127 @@ non-zero only if *every* source fails. A stable total (~900 listings) with
 "9/10 sources succeeded" is normal, not a problem. eAuction itself should return
 ~40 biddable Residence auctions.
 
-## The enrichment cache
+## The detail harvest (`harvest-eauction.mjs`) — where everything else comes from
+
+[`scripts/harvest-eauction.mjs`](../../../scripts/harvest-eauction.mjs) is the
+one place that opens auction detail pages. It walks **every advertised ad in
+every subtype** (~420), and for each one reads three layers:
+
+**1. The detail page's own field grid.** This is the most under-used source on
+the site and the most reliable. Fields sit in
+`div.AuctionDetailsDiv{,R,Right} > label` pairs (caption first, value last):
+Real Estate Type, **Area sq.m.**, Registration Number, Sheet / Plan Plot,
+Address, Registered share or interest, Mortgage Lender's Name, Guarantee
+Amount, Notification Date, and the free-text **Property's other details**, which
+carries the `ΕΜΒΑΔΟ ΜΟΝΑΔΑΣ / Κλειστός χώρος : N Τ.μ.` covered-area block.
+
+> **`Area sq.m.` is Έκταση — the registered extent of the parcel, i.e. the
+> plot**, even for a house. It is a floor area *only* when the registration is a
+> unit inside a building. Writing it into `houseSqm` for a Residence is wrong
+> and was a real bug.
+>
+> Subtype does not tell you which case you're in: a lot listed as **Residence**
+> can be "ΔΙΩΡΟΦΗ ΚΑΤΟΙΚΙΑ ΑΡ. 2 ΣΤΟ ΙΣΟΓΕΙΟ" with a share of the common
+> property, whose registered 99 m² is the unit's floor area, while the valuer's
+> sheet gives the land as 141 m². So the unit test also reads **Property's other
+> details** for `ΕΜΒΑΔΟ ΜΟΝΑΔΑΣ`, `ΚΟΙΝΟΚΤΗΤΗ ΙΔΙΟΚΤΗΣΙΑ`, `κοινόκτητη` and
+> `ΑΡ. N ΣΤΟ ΙΣΟΓΕΙΟ/ΟΡΟΦΟ`. And when the documents state a `Land area` /
+> `Building area` outright, those win over the registry extent — they say what
+> they measure.
+
+**2. Every attachment** (`a[href*=GetFile]`), fetched same-origin from the
+cleared page. Types are decided by **magic bytes, not filename**:
+PDFs go through `pdfjs-dist`; `.docx`/`.doc`/`.rtf`/bare images go through the
+dependency-free [`scripts/lib/documents.mjs`](../../../scripts/lib/documents.mjs)
+(a `.docx` is a ZIP — a small central-directory reader plus `zlib` gets both
+`word/document.xml` text and `word/media/*` photos, no library needed). Legacy
+`.doc` is text-only by design and logs that it was lossy.
+
+The Word path is not theoretical: the 2026-07-27 cold run read **651
+attachments — 644 PDF and 7 `.docx`** ("Press Release - 13.678.docx",
+"ΔΕΛΤΙΟ.docx"), and those yielded both text and photos. Never type an
+attachment by its filename.
+
+Typical ad: one legal-notice document; better ads carry four (notice +
+"ADDITIONAL INFORMATION" / "ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ", Greek and English). The **additional
+information sheet is the jackpot** — a valuer's field report with `Land area`,
+`Building area`, `No. Of Floors`, planning zone/density/coverage/height, and
+prose like *"the property is about 38 years old … three bedrooms and a
+bathroom"*.
+
+**3. Photos.** The site's own `GetAuctionImage` gallery (hot-linkable, stable
+tokens — kept as URLs, `thumb=true` swapped for `thumb=false`) plus images
+embedded in the documents. Embedded images are filtered by the HSV
+discriminator — **saturation mean ≥ 12 and white-fraction ≤ 0.5**, min 200×200 —
+which keeps photos (sat 28–46) and drops cadastral maps and the form banner
+(sat ≈ 3–4, white ≈ 0.8). Kept photos are re-encoded (max 1600 px, q82) and
+written to `public/eauction-photos/<sha1-12>.jpg`: **content-hashed, not
+code-named**, because a multi-lot auction repeats the same appendix for every
+lot and the Greek/English sheets embed the same photos twice. `GetFile` URLs
+are per-session and expire, so these must be committed as static assets.
+
+### Extracting facts from the prose (`lib/property-facts.mjs`)
+
+Two things make naive regexes fail, and both are handled there:
+
+- **PDF text extraction shreds spacing** — `13,50` arrives as `1 3 , 5 0`,
+  `REGISTRATION` as `REG ISTRATION`. So labelled fields are matched against a
+  *whitespace-stripped* view of the text, which makes the shredding irrelevant.
+- **Build year is almost never stated.** What the valuer writes is an age
+  ("about 38 years old" / "ηλικίας περίπου 38 ετών"), so the year is derived
+  from the age relative to the document's own date (Notification Date), and
+  tagged `buildYearSource: 'age' | 'stated'`.
+
+Every label exists in Greek and English. Bedrooms/bathrooms come from spelled-out
+numerals in both languages (`τριών υπνοδωματίων` → 3).
+
+### The enrichment cache
 
 [`src/data/eauction-details.json`](../../../src/data/eauction-details.json) is a
-flat map, keyed by auction **code**, merged into each listing by the scraper:
+flat map keyed by auction **code**, merged into each listing by
+`scrape-eauction.mjs`. Entries carry `v` (schema version — bump `SCHEMA` in the
+harvester to force a full re-harvest, which is also how you resume a
+half-finished cold run without redoing the finished ads), `harvestedAt`,
+subtype/status,
+`plotSqm`, `houseSqm`, `buildYear`, `beds`, `baths`, `floors`, `planningZone`,
+`share`, `registration`, `address`, `docs[]` (what was read, with the detected
+kind) and `image` + `images[]`.
 
-```json
-{ "PSW0LRXUYQ": { "plotSqm": 203, "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=...&fileId=...&thumb=false" } }
+- Listings without an entry still appear with their core fields — enrichment is
+  purely additive.
+- The harvest is **incremental**: an ad is re-read only if it's new, its auction
+  date changed, its entry predates the current schema, or it's older than
+  `EAUCTION_MAX_AGE_DAYS` (45). `EAUCTION_REHARVEST=1` forces everything.
+- It **prunes**: ads that are no longer advertised are dropped from the cache and
+  their photo files deleted (unless `EAUCTION_PRUNE=0`). This is what keeps the
+  committed asset directory from growing without bound.
+
+### What a full run yields (2026-07-27 baseline)
+
+419 ads, 0 failures, ~70 minutes at a 3 s inter-ad delay: **354 ads with photos**
+(731 image files), **384 with plot area**, 66 with covered area, 49 with build
+year, 139 with bedrooms, and share / registration / property type / lender on
+all 419. Covered area and build year are low because only the minority of ads
+carrying an "additional information" sheet publish them — that is the source's
+limit, not a parser gap. `public/eauction-photos/` sits at ~31 MB / ~500 files;
+if that becomes a problem, the resize in `toJpeg` (1600 px, q82) is the knob.
+
+### Running it
+
+```bash
+npm run harvest:eauction                          # incremental, all subtypes
+EAUCTION_HARVEST_LIMIT=5 npm run harvest:eauction # quick test
+EAUCTION_REHARVEST=1 npm run harvest:eauction     # rebuild every entry
+EAUCTION_SUBTYPES=5 npm run harvest:eauction      # Residence only
 ```
 
-- **One `image` per listing.** The consumer (`scrape-eauction.mjs`) reads a
-  single `enr.image`; there is no multi-image support. A listing having several
-  photos on the site doesn't mean the cache is wrong — storing the best one is
-  correct under the current schema. Adding a gallery is a real schema +
-  template + trilingual-page change, not a cache edit.
-- **`GetAuctionImage` URLs are hot-linkable** and stable — they carry
-  URL-encoded `auctionId`/`fileId` tokens, not a session cookie, so they render
-  fine when committed to the cache. Verify one resolves (HTTP 200, a real
-  JPEG of a few hundred KB) before trusting it.
-- Listings without a cache entry still appear with their core fields; enrichment
-  is purely additive.
-
-### Harvesting detail data safely
-
-When you must (re)harvest detail pages for plot sizes / images, go through the
-browser and **stay gentle** — see rate-limits below. A serial pass with delays
-is slower but survives; parallel iframe workers hammering the renderer are what
-triggered the last IP block.
-
-## Photos + data hidden in PDF attachments — now ingested (harvest-eauction-pdfs.mjs)
-
-**Update (2026-07-19): this works and is implemented.** The earlier pessimism was
-wrong on two counts — (1) **stealth Playwright now clears eAuction's Imperva**
-(homepage + detail pages), so the whole harvest runs automated in Node, no manual
-browser needed; and (2) the `ph.pdf` appendix does carry real photos AND the
-legal table. [`scripts/harvest-eauction-pdfs.mjs`](../../../scripts/harvest-eauction-pdfs.mjs)
-is the harvester: it lists biddable Residences via the XHR endpoint, then serially
-(gentle, ~1.5 s between listings) loads each detail page, downloads its GetFile
-PDF same-origin, and with `pdfjs-dist` + `sharp` extracts:
-
-- **Photos** — embedded image XObjects, kept when the HSV discriminator says
-  photo (**saturation mean ≥ 12 and white-fraction ≤ 0.5**, min 200×200); the
-  form banner (sat ≈ 4) and cadastral maps are dropped. Saved as static assets
-  `public/eauction-photos/<code>-<n>.jpg`; the cache `image` points at the local
-  path. **Result: 33/40 lots got real photos (was 15).**
-- **Greek FR.08 legal table**, read by **column x-position** (find the header
-  labels `Εγγραφή`, `Έκταση`, `συμφέρον`, `Είδος` and read each row's cells in
-  those x-ranges — a flat text join mixes the fraction columns up): ownership
-  **share** (Εγγεγραμμένο συμφέρον, e.g. 33/118 — validate numerator ∈ (0,denom]),
-  plot **area** (Έκταση τ.μ.), **property type** (Είδος), registration number.
-
-Run it out-of-band (`node scripts/harvest-eauction-pdfs.mjs`), **not in CI** — it
-needs the stealth browser and is IP-block sensitive. The committed photos go stale
-when the auction set turns over, so re-run when the biddable set changes. Some
-lots are image-only scans (no text layer) → photos but no table data; that's
-expected. `EAUCTION_HARVEST_LIMIT` caps listings for testing.
-
-Every listing carries PDF attachments (legal notice, "additional information",
-Greek + English copies). Some carry a **`...ph.pdf` photo appendix**, and a few
-of those belong to listings that have *no* `GetAuctionImage` photo — so the PDFs
-are the only way to raise photo coverage. But this route is deliberately heavy:
-
-- The `ph.pdf` files mix **real property photos with cadastral/land-registry
-  maps.** A validated discriminator: treat an embedded image as a photo when
-  HSV **saturation mean ≥ 12** and **white-fraction ≤ 0.5** (maps are grayscale
-  line-art: sat ≈ 3, white ≈ 0.8; photos: sat ≈ 28–46, white ≤ 0.27). Bank-logo
-  PNGs are tiny (~8 KB) — filter by size too.
-- **`GetFile` attachment URLs are per-session and expire** — they can't be
-  hot-linked from the cache. Using these photos means extracting them and
-  **committing them as static assets** under `public/`, then pointing the cache
-  at local paths. That adds stale, one-time assets that go out of date whenever
-  the auction set changes, plus the single-image-schema constraint above.
-
-Because of that cost, **do not pursue PDF-photo extraction unless the user
-explicitly asks for it** and accepts hosting static assets. The default answer
-to "get more photos" is: it requires a hosting decision, here are the tradeoffs.
+It also runs **weekly in CI** — `.github/workflows/harvest-eauction.yml`,
+Sundays 02:40 UTC, plus `workflow_dispatch` with `reharvest`/`limit` inputs. It
+commits the cache and photos and deploys `public/`; the listings JSON that
+references the new photos is rebuilt by the next 6-hourly scrape. If the runner's
+IP can't clear Imperva the harvester exits **2** with an explicit error rather
+than silently writing an empty cache — in that case run it from the laptop
+(`npm run harvest:eauction`) and push, exactly as with Bazaraki/Zyprus.
 
 ## Rate limits and IP blocks — back off early
 
@@ -178,13 +235,43 @@ including the browser session.* When that happens:
 Prevention beats recovery: prefer the XHR endpoint, avoid re-harvesting detail
 pages you don't need, and never run concurrent iframe loads.
 
+### The throttle looks like an empty page, not a 403 (learned 2026-07-27)
+
+Before the outright block there is a softer stage, and it is easy to mistake for
+clean data. The detail page still returns 200, `<title>` is normal (no "Just a
+moment"), but **the client-side render never runs**: no field grid, no attachment
+links, no gallery. The tell is the timing — navigation drops to ~90-110 ms
+(against 230-330 ms when healthy) and the render wait then times out.
+
+This matters because a bare-looking page is indistinguishable from an ad with
+nothing on it, so a naive harvester happily writes an empty entry over a good
+one. Three defences are in `harvest-eauction.mjs` and should stay there:
+
+1. **Fewer than 3 detail fields = failure, not an empty ad.** The entry is
+   skipped and whatever was cached survives.
+2. **Eight consecutive failures aborts the run** with a warning. Grinding
+   through 400 blocked ads lengthens the cooldown and collects nothing.
+3. **`needsHarvest` retries evidence-free entries** (no property type and no
+   documents), so anything blanked by an earlier bad run self-heals on the next
+   pass without a manual re-harvest.
+
+Recovery is the standard one: stop, wait ~10 minutes, probe with a single detail
+page, resume. Roughly 60-80 detail loads in an afternoon (several aborted cold
+runs) was enough to trigger it, so on a laptop prefer incremental runs and let
+the weekly CI job do the bulk work. The harvester **checkpoints the cache every
+25 ads**, so an interrupted run keeps what it already fetched.
+
 ## The deploy gotcha (`[skip ci]` skips the deploy too)
 
-The site is a Cloudflare Pages deploy of `public/`. There are three workflows:
+The site is a Cloudflare Pages deploy of `public/`. The workflows that matter here:
 
 - `update-listings.yml` — scheduled (every 6h) scrape; commits with
   **`[skip ci]`** and then **deploys directly as its own step**, because pushes
   made with `GITHUB_TOKEN` don't trigger other workflows.
+- `harvest-eauction.yml` — weekly detail harvest; same commit-then-deploy shape.
+  It sets `COMMIT_REPLACE_DIRS=1` for `commit-data.sh`, because that helper
+  *merges* directory arguments into the remote's copy by default — which would
+  restore every photo the harvest just pruned.
 - `deploy.yml` — deploys `public/` on push to `master` (and now
   `workflow_dispatch`).
 - `watchdog.yml` — reopens the update workflow / files an issue if data goes stale.
