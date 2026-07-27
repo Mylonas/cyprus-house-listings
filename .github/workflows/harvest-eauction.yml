@@ -53,17 +53,37 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      # Measured 2026-07-27: eAuction's unprotected list endpoint answers a
+      # GitHub runner fine, but every detail page returns 200 and never renders —
+      # Imperva refuses datacenter IPs, the same wall that keeps Bazaraki and
+      # Zyprus out of CI. The harvester exits 3 in that case; the job says so
+      # loudly and stops rather than committing an unchanged cache and going
+      # green. The step stays scheduled so it resumes on its own if that ever
+      # changes; until then the data comes from `npm run harvest:eauction` on a
+      # residential connection (it also runs as part of `npm run refresh:local`).
       - name: Harvest ad details, documents and photos
+        id: harvest
         env:
           EAUCTION_REHARVEST: ${{ inputs.reharvest && '1' || '' }}
           EAUCTION_HARVEST_LIMIT: ${{ inputs.limit }}
-        run: node scripts/harvest-eauction.mjs
+        run: |
+          set +e
+          node scripts/harvest-eauction.mjs
+          code=$?
+          set -e
+          if [ "$code" -eq 3 ]; then
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::eAuction refused this runner's IP — nothing harvested. Run 'npm run harvest:eauction' locally and push."
+            exit 0
+          fi
+          exit $code
 
       # COMMIT_REPLACE_DIRS: this job owns public/eauction-photos and prunes assets
       # for finished auctions. Without it the helper merges our directory into the
       # remote's, which would restore every pruned photo each week.
       - name: Commit refreshed cache and photos
         id: commit
+        if: steps.harvest.outputs.blocked != 'true'
         env:
           COMMIT_REPLACE_DIRS: '1'
         run: |
