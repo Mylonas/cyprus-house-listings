@@ -8,6 +8,12 @@ name: Harvest eAuction ad details
 # browser and ~400 serial page loads, and eAuction's Imperva will IP-block a
 # noisy client. The auction set turns over slowly (lots are posted ~6 weeks
 # before their conduct date), so a weekly pass keeps the cache fresh.
+#
+# HEADS UP: as of 2026-07-27 this job harvests nothing — eAuction refuses
+# GitHub's IP range (see the harvest step). The cache is refreshed from a
+# residential connection with `npm run harvest:eauction` / `npm run
+# refresh:local`. This workflow stays scheduled as a probe: the day the block
+# lifts, it starts doing the work again with no change needed.
 on:
   schedule:
     # Sundays 02:40 UTC — off the hour, and clear of the 6-hourly listings runs.
