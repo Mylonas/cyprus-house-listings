@@ -178932,6 +178932,54 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Land in Tserkezoi, Limassol close to My Mall and Casino",
+  "price": 1550000,
+  "priceDisplay": "€1,550,000",
+  "location": "Limassol, Tsekerzoi",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/20588/6a6761b6b3a4f.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20588/6a6761b6b3a4f.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20588/residential-land-in-tserkezoi-limassol-close-to-my-mall-and-casino",
+  "houseSqm": null,
+  "plotSqm": 4130,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20588"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot in Sotiros, Larnaka",
+  "price": 375000,
+  "priceDisplay": "€375,000",
+  "location": "Larnaca, Sotiros",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:3cc426e5/20529/6a63297d11c1b.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20529/6a63297d11c1b.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20529/residential-plot-in-sotiros-larnaka",
+  "houseSqm": null,
+  "plotSqm": 586,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20529"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Industrial Land in Pentakomo",
   "price": null,
   "priceDisplay": null,
@@ -189578,30 +189626,6 @@
   "ref": "10521"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot in Strovolos close to Cineplex",
-  "price": 330000,
-  "priceDisplay": "€330,000",
-  "location": "Strovolos, Strovolos - Chryseleousa",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10520/67b6f5d954749.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10520/67b6f5d954749.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-10520/residential-plot-in-strovolos-close-to-cineplex",
-  "houseSqm": null,
-  "plotSqm": 598,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10520"
- },
- {
   "source": "Kazo Real Estate",
   "title": "Share of a Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -196779,6 +196803,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large 3480m2 Field for Sale in Germasoyeia",
+  "price": 900000,
+  "priceDisplay": "€900,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/31859/6a6756804953d.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31859/6a6756804953d.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-3480m2-field-for-sale-in-germasoyeia-31859",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31859",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3480,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Field Plot 3504m2 in Peaceful Monovoliko (Landlocked)",
   "price": 950000,
   "priceDisplay": "€950,000",
@@ -197783,6 +197831,54 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Residential Building Plot in Agioi Trimithias",
+  "price": 105000,
+  "priceDisplay": "€105,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/42620/6a6769c269e75.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42620/6a6769c269e75.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42620",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42620",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 686,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Agricultural Land in Agioi Trimithias",
+  "price": 95000,
+  "priceDisplay": "€95,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/42619/6a67683bd2c4a.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42619/6a67683bd2c4a.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42619",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42619",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 9461,
+  "plotType": "Agricultural",
   "zone": null
  },
  {
