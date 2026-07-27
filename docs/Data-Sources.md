@@ -8,7 +8,7 @@ Ten sources as of v2.1.0; the EstateBud agencies (Kazo, Cyprus Properties, NCH) 
 |---|---|---|---|
 | Altamira Real Estate | `scrape-altamira.mjs` | Playwright — clicks "View more" (cookie overlay stripped first) | ✅ working |
 | Bazaraki | `scrape-bazaraki.mjs` | Playwright — infinite scroll per district | ⛔ Cloudflare bot challenge |
-| eAuction Cyprus | `scrape-eauction.mjs` | Playwright — paginated search, photo recovery via `GetAuctionImage` | ⛔ Imperva/Incapsula 403 on the search endpoint |
+| eAuction Cyprus | `scrape-eauction.mjs` + `harvest-eauction.mjs` | **Plain fetch** of the unchallenged `POST /Home/HomeListAuctions` XHR endpoint for the ad list; a weekly stealth-browser harvest for detail-page fields, documents and photos | ✅ working (~46 biddable Residence lots) |
 | Zyprus | `scrape-zyprus.mjs` | Playwright — paginated grid | ⛔ Cloudflare bot challenge |
 | BidX1 | `scrape-bidx1.mjs` | Playwright — Cyprus/Houses filter | ✅ working |
 | home.cy | `scrape-homecy.mjs` | Playwright — includes agency/developer name | ✅ working |
@@ -37,11 +37,22 @@ District names are normalized before dedup (Pafos→Paphos, Lefkosia→Nicosia, 
 
 ## The bot-blocked sources
 
-Bazaraki, Zyprus, and BuySellCyprus serve a Cloudflare bot-verification interstitial ("Just a moment…") to automated browsers that does not auto-clear for headless Chromium; eAuction Cyprus returns an Imperva/Incapsula 403 on its search endpoint (its homepage still loads). We do not attempt to bypass bot protection. The scrapers stay in the rotation and resume automatically if the sites relax it. Practical effects while blocked:
+Bazaraki, Zyprus, and BuySellCyprus serve a Cloudflare bot-verification interstitial ("Just a moment…") to automated browsers that does not auto-clear for headless Chromium. We do not attempt to bypass bot protection. The scrapers stay in the rotation and resume automatically if the sites relax it; Bazaraki and Zyprus are refreshed from a residential connection with `npm run refresh:local`.
 
-- Total listings ~870 after dedup instead of ~1,100+
-- No foreclosure-auction lots while eAuction is blocked (BidX1 still covers a small number of auction properties)
-- `buildYear` is absent from the data (Zyprus and BuySellCyprus were its only providers), so the *Built after* filter matches nothing until they return
+eAuction Cyprus is behind Imperva but is **not** in this category: its ad-list XHR endpoint is unchallenged (so the list scrape runs from CI), and the challenge on its HTML pages clears for stealth Playwright, which is what the weekly detail harvest uses.
+
+## The eAuction detail harvest
+
+`scripts/harvest-eauction.mjs` (weekly, `harvest-eauction.yml`; `npm run harvest:eauction` locally) is the only part of the pipeline that opens auction detail pages. It walks **every advertised lot in all eleven property subtypes** — ~420 ads: 46 Residence, 174 Land, 109 Plot with building, 58 Land with building, plus commercial — and writes `src/data/eauction-details.json`, which `scrape-eauction.mjs` merges into the listings.
+
+Per ad it reads:
+
+- the detail page's own field grid — registered area (Έκταση, which is the **plot** extent unless the lot is a unit in a building), registration number, sheet/plan/plot, address, ownership share, lender, guarantee, and the free-text block carrying the unit's covered area;
+- **every attachment**, typed by magic bytes rather than filename: PDFs via `pdfjs-dist`, and `.docx`/`.doc`/`.rtf`/images via the dependency-free readers in `scripts/lib/documents.mjs` (a `.docx` is a ZIP — a central-directory reader plus `zlib` yields both its text and its embedded photos). The richest ads carry four PDFs: legal notice and "additional information" sheet, Greek and English;
+- **all photos** — the site's `GetAuctionImage` gallery plus images embedded in the documents, filtered from cadastral maps by an HSV discriminator (saturation ≥ 12, white fraction ≤ 0.5) and stored content-hashed under `public/eauction-photos/`;
+- **the facts** — plot area, covered area, **build year** (usually derived from a stated age: "about 38 years old" → 2026 − 38), floors, planning zone/density/coverage, bedrooms and bathrooms — parsed from Greek and English text by `scripts/lib/property-facts.mjs`.
+
+The harvest is incremental (only new ads, changed auction dates or entries past `EAUCTION_MAX_AGE_DAYS`) and prunes ads that are no longer advertised, along with their photo files.
 
 ## Failure containment
 

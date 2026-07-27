@@ -6,7 +6,7 @@ Internal reference page aggregating house-for-sale listings from seventeen sourc
 
 A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)** view aggregates plot/land listings (Bazaraki + Kadis Estates) with plot size, type, planning zone, price, go-live date and photos — same pipeline (`npm run scrape:plots` → `src/data/plots.json` → `public/plots.html`). The two pages cross-link in the header.
 
-**Source availability note:** eAuction Cyprus serves an Imperva/Incapsula JS challenge on its HTML pages that headless browsers can't clear, but its `POST /Home/HomeListAuctions` XHR endpoint is not challenged — the scraper hits that directly with a plain fetch, so eAuction now works from CI. Per-listing plot area and photos live only on the challenge-protected detail pages, so they are merged from a committed enrichment cache (`src/data/eauction-details.json`) rather than fetched live. Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
+**Source availability note:** eAuction Cyprus serves an Imperva/Incapsula JS challenge on its HTML pages that headless browsers can't clear, but its `POST /Home/HomeListAuctions` XHR endpoint is not challenged — the scraper hits that directly with a plain fetch, so eAuction now works from CI. Per-listing detail (areas, build year, rooms, photos) lives only on the challenge-protected detail pages and their PDF/Word attachments, so it is merged from an enrichment cache (`src/data/eauction-details.json`) refreshed weekly by `harvest-eauction.mjs`, which clears the challenge with a stealth browser. Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
 
 **For internal/personal use only.** This aggregates publicly listed data for convenience; it is not a substitute for checking each source site directly, and redistribution or commercial use should respect each site's own terms of service.
 
@@ -51,6 +51,7 @@ cyprus-house-listings/
 │   ├── scrape-altamira.mjs       # altamirarealestate.com.cy — clicks "View more" to load all cards
 │   ├── scrape-bazaraki.mjs       # bazaraki.com — JSON API via a Cloudflare-cleared stealth browser, per district
 │   ├── scrape-eauction.mjs       # eauction-cy.com — paginated bank-foreclosure auctions (type=5 Residence)
+│   ├── harvest-eauction.mjs      # weekly: every eAuction ad's detail page, documents and photos → enrichment cache
 │   ├── scrape-zyprus.mjs         # zyprus.com — paginated sale search grid (House)
 │   ├── scrape-bidx1.mjs          # bidx1.com — Cyprus/Houses filtered auction view
 │   ├── scrape-buysellcyprus.mjs  # buysellcyprus.com — "recently listed" house search, bounded page walk
@@ -67,6 +68,8 @@ cyprus-house-listings/
 │   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
 │   ├── lib/curl-fetch.mjs        # curl-backed fetch — gets past Cloudflare's TLS fingerprinting
 │   ├── lib/districts.mjs         # resolves any source's location text to one of the five districts
+│   ├── lib/documents.mjs         # dependency-free readers for .docx/.doc/.rtf attachments (text + embedded images)
+│   ├── lib/property-facts.mjs    # Greek/English parser for build year, areas, floors, zone, beds/baths
 │   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
 ├── history/
 │   └── YYYY-MM-DD/
@@ -318,8 +321,8 @@ What this means in practice:
 
 ## Known Limitations
 
-- **Build year** is not published on most sources' listing/search pages (only inside individual property detail pages in some cases) — not currently scraped. If you need it, extend the relevant scraper to open each listing's detail page (slower, and easy to get rate-limited).
-- **eAuction Cyprus** publishes photos for only a minority of listings — most publish a legal-notice PDF/DOC instead. A direct image endpoint (`/Auction/GetAuctionImage`) exists and is used where present, but embedded photos inside the PDF/DOC notices themselves are not extracted (would require downloading and OCR/image-extracting each document, which is out of scope for the scheduled scrape).
+- **Build year** is not published on most sources' listing/search pages (only inside individual property detail pages in some cases) — not currently scraped. If you need it, extend the relevant scraper to open each listing's detail page (slower, and easy to get rate-limited). eAuction is the exception: its weekly harvest does open every detail page and its documents, and derives the build year from the valuer's stated age.
+- **eAuction Cyprus** publishes a direct photo (`/Auction/GetAuctionImage`) for only a minority of lots; the rest carry legal-notice and "additional information" documents. Those are now read by the weekly `harvest-eauction.mjs` pass, which extracts their embedded photos (filtering out cadastral maps and form banners) along with plot/covered area, build year, floors, planning zone and room counts. Legacy `.doc` attachments are read for text only — images inside them are not extracted.
 - **BuySellCyprus.com** has ~28,000 house listings total; this scraper takes a bounded "recently listed" sample (~360 by default) rather than the full catalogue.
 - **FOX Realty** only captures page 1 per district (~12 listings) since their own site's pagination beyond page 1 is AJAX-driven with no stable URL.
 - **Bazaraki** listing links point to the district search page, not the individual ad, when the scraper couldn't resolve a stable direct URL for a card (rare — most listings do link directly).
