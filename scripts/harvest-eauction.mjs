@@ -62,7 +62,7 @@ const photoDir = path.join(root, 'public/eauction-photos');
 const BASE = 'https://www.eauction-cy.com';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
-const SCHEMA = 3; // bump to force a full re-harvest of every cached entry
+const SCHEMA = 4; // bump to force a full re-harvest of every cached entry
 const LIMIT = process.env.EAUCTION_HARVEST_LIMIT ? Number(process.env.EAUCTION_HARVEST_LIMIT) : Infinity;
 const REHARVEST = process.env.EAUCTION_REHARVEST === '1';
 const MAX_AGE_DAYS = Number(process.env.EAUCTION_MAX_AGE_DAYS ?? 45);
@@ -587,7 +587,13 @@ async function main() {
         // no plot of their own.
         const registeredArea = intOrNull(f['Area sq.m.']) ?? row?.areaSqm ?? null;
         const typeText = `${ad.subType} ${f['Real Estate Type'] || ''} ${row?.propertyTypeGr || ''} ${row?.propertyType || ''}`;
-        const isUnit = /Apartment|Flat|Office|Store|Shop|Parking|ΔΙΑΜΕΡΙΣΜΑ|ΓΡΑΦΕΙΟ|ΚΑΤΑΣΤΗΜΑ/i.test(typeText);
+        // A "Residence" can still be registered as a unit in a co-owned building
+        // — "ΔΙΩΡΟΦΗ ΚΑΤΟΙΚΙΑ ΑΡ. 2 ΣΤΟ ΙΣΟΓΕΙΟ" with a share of the common
+        // property. Its registered extent is then the unit's floor area, not
+        // land, so the property text has to be consulted as well as the type.
+        const unitMarkers = /ΕΜΒΑΔΟ\s+ΜΟΝΑΔΑΣ|ΚΟΙΝΟΚΤΗΤΗ\s+ΙΔΙΟΚΤΗΣΙΑ|κοιν[όο]κτητ|ΑΡ\.\s*\d+\s+ΣΤΟ\s+(?:ΙΣΟΓΕΙΟ|[ΟΌ]ΡΟΦΟ)/i;
+        const isUnit = /Apartment|Flat|Office|Store|Shop|Parking|ΔΙΑΜΕΡΙΣΜΑ|ΓΡΑΦΕΙΟ|ΚΑΤΑΣΤΗΜΑ/i.test(typeText)
+          || unitMarkers.test(f["Property's other details"] || '');
 
         const entry = {
           v: SCHEMA,
@@ -604,7 +610,10 @@ async function main() {
           lender: f["Mortgage Lender's Name"] || null,
           guarantee: intOrNull(f['Guarantee Amount']),
           notificationDate: f['Notification Date'] || null,
-          plotSqm: area((isUnit ? null : registeredArea) ?? facts.plotSqm),
+          // The valuer's own "Land area" / "Building area" win when present:
+          // they say what they measure. The registry extent is the fallback, and
+          // which field it belongs in depends on whether the lot is a unit.
+          plotSqm: area(facts.plotSqm ?? (isUnit ? null : registeredArea)),
           houseSqm: area(facts.houseSqm ?? (isUnit ? registeredArea : null)),
           buildYear: facts.buildYear ?? null,
           buildYearSource: facts.buildYearSource ?? null,

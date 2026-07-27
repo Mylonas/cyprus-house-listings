@@ -113,8 +113,17 @@ carries the `ΕΜΒΑΔΟ ΜΟΝΑΔΑΣ / Κλειστός χώρος : N Τ.μ
 
 > **`Area sq.m.` is Έκταση — the registered extent of the parcel, i.e. the
 > plot**, even for a house. It is a floor area *only* when the registration is a
-> unit inside a building (apartment/office/shop/parking). Writing it into
-> `houseSqm` for a Residence is wrong and was a real bug.
+> unit inside a building. Writing it into `houseSqm` for a Residence is wrong
+> and was a real bug.
+>
+> Subtype does not tell you which case you're in: a lot listed as **Residence**
+> can be "ΔΙΩΡΟΦΗ ΚΑΤΟΙΚΙΑ ΑΡ. 2 ΣΤΟ ΙΣΟΓΕΙΟ" with a share of the common
+> property, whose registered 99 m² is the unit's floor area, while the valuer's
+> sheet gives the land as 141 m². So the unit test also reads **Property's other
+> details** for `ΕΜΒΑΔΟ ΜΟΝΑΔΑΣ`, `ΚΟΙΝΟΚΤΗΤΗ ΙΔΙΟΚΤΗΣΙΑ`, `κοινόκτητη` and
+> `ΑΡ. N ΣΤΟ ΙΣΟΓΕΙΟ/ΟΡΟΦΟ`. And when the documents state a `Land area` /
+> `Building area` outright, those win over the registry extent — they say what
+> they measure.
 
 **2. Every attachment** (`a[href*=GetFile]`), fetched same-origin from the
 cleared page. Types are decided by **magic bytes, not filename**:
