@@ -54,6 +54,8 @@ Per ad it reads:
 
 The harvest is incremental (only new ads, changed auction dates or entries past `EAUCTION_MAX_AGE_DAYS`) and prunes ads that are no longer advertised, along with their photo files.
 
+**Where it runs.** The weekly workflow exists, but eAuction refuses GitHub-hosted runners: measured 2026-07-27, a runner listed all 419 ads from the unprotected endpoint and then failed to render a single detail page. So the harvest joins Bazaraki and Zyprus as a **laptop job** — `npm run harvest:eauction`, or `npm run refresh:local`, which now runs it first. The workflow stays scheduled, exits 3 without touching the cache when it is refused, and will start working on its own if the block ever lifts.
+
 ## Failure containment
 
 - Each source has a **10-minute hard ceiling** (`SOURCE_TIMEOUT_MS` in `scrape-all.mjs`)

@@ -390,7 +390,7 @@ function needsHarvest(cached, ad) {
   return !(ageDays < MAX_AGE_DAYS);
 }
 
-async function main() {
+export async function harvestEauction() {
   const cache = existsSync(cachePath) ? JSON.parse(readFileSync(cachePath, 'utf-8')) : {};
   mkdirSync(photoDir, { recursive: true });
 
@@ -423,8 +423,8 @@ async function main() {
     }
     if (!cleared) {
       await browser.close();
-      console.error('::error::Imperva challenge never cleared — this IP is blocked or the wall changed. Nothing harvested.');
-      process.exit(2);
+      console.error('Imperva challenge never cleared — this IP is blocked or the wall changed. Nothing harvested.');
+      return { ads: ads.length, todo: todo.length, ...stats, blocked: 'challenge' };
     }
 
     let done = 0;
@@ -661,6 +661,15 @@ async function main() {
     await browser.close();
   }
 
+  // Every ad failing is not "nothing to do" — it is the site refusing this IP,
+  // which is what a datacenter runner gets. Report it as such and leave the
+  // cache (and its photos) exactly as they were, pruning included.
+  const blocked = todo.length > 0 && stats.ok === 0 ? 'refused' : null;
+  if (blocked) {
+    console.error(`\nAll ${todo.length} ads failed to render — this IP is being refused. Cache left untouched.`);
+    return { ads: ads.length, todo: todo.length, ...stats, blocked };
+  }
+
   // --- prune ads that are no longer advertised -------------------------------
   if (PRUNE) {
     const live = new Set(ads.map(a => a.code));
@@ -687,9 +696,12 @@ async function main() {
     `Facts: ${stats.plot} plot area, ${stats.house} covered area, ${stats.year} build year. ` +
     `Attachments read: ${stats.docs} (${kinds}). Cache now ${Object.keys(cache).length} ads → ${cachePath}`
   );
+  return { ads: ads.length, todo: todo.length, ...stats, blocked: null };
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
-  await main();
-  process.exit(0);
+  const result = await harvestEauction();
+  // 3 = the site refused this IP. Callers (the workflow) treat it as "nothing
+  // to do here", distinct from a crash, which still exits non-zero the usual way.
+  process.exit(result.blocked ? 3 : 0);
 }

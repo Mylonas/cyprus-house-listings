@@ -24,10 +24,11 @@ Why it deploys directly: its refresh commit is made with `GITHUB_TOKEN`, and Git
 - **Does:** installs Playwright Chromium → `node scripts/harvest-eauction.mjs` → commits `src/data/eauction-details.json` + `public/eauction-photos/` → deploys `public/`
 - **Why weekly, not 6-hourly:** it clears eAuction's Imperva challenge with a stealth browser and then loads ~420 detail pages serially, downloading every PDF/Word attachment. Auction lots are posted about six weeks before their conduct date, so weekly is ample — and hammering the site earns an IP block
 - **Guards:** `timeout-minutes: 150` (covers a cold full harvest; incremental runs take minutes); its own concurrency group so runs queue rather than race
-- **Failure mode that matters:** if the runner's IP can't clear the challenge, the harvester exits **2** with `::error::Imperva challenge never cleared` rather than writing an empty cache. Recovery is to run `npm run harvest:eauction` from a residential connection and push — the same fallback used for Bazaraki/Zyprus
 - **Needs:** `contents: write` plus the two Cloudflare secrets
 
-The photos it commits go live with its own deploy; the `listings.json` that references them is rebuilt by the next `update-listings.yml` run, within 6 hours.
+> ⚠️ **Currently blocked on GitHub-hosted runners.** Measured 2026-07-27: the runner enumerated all 419 ads from the unprotected list endpoint, then every detail page returned 200 and never rendered (`detail grid never rendered`, `Harvested 0/5 ads`). Imperva refuses datacenter IPs — the same wall that keeps Bazaraki and Zyprus out of CI. The harvester exits **3** in that case and leaves the cache and photos untouched; the job emits a `::warning::` and skips the commit, so it neither goes falsely green nor fails every Sunday. **The real refresh is `npm run harvest:eauction` from a residential connection** — and `npm run refresh:local` now runs it first, so the existing laptop routine covers it. The workflow stays scheduled so it resumes by itself if the block ever lifts.
+
+When it does run, the photos it commits go live with its own deploy; the `listings.json` that references them is rebuilt by the next `update-listings.yml` run, within 6 hours.
 
 ## `snapshot-history.yml` — Weekly price snapshot
 
