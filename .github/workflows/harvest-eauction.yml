@@ -1,0 +1,83 @@
+name: Harvest eAuction ad details
+
+# Walks every currently advertised eAuction Cyprus ad (all property subtypes),
+# reads each detail page and every PDF/Word attachment, and refreshes the
+# enrichment cache + photo assets that the 6-hourly listings scrape merges in.
+#
+# Weekly, not 6-hourly, on purpose: the harvest needs a challenge-clearing
+# browser and ~400 serial page loads, and eAuction's Imperva will IP-block a
+# noisy client. The auction set turns over slowly (lots are posted ~6 weeks
+# before their conduct date), so a weekly pass keeps the cache fresh.
+on:
+  schedule:
+    # Sundays 02:40 UTC — off the hour, and clear of the 6-hourly listings runs.
+    - cron: '40 2 * * 0'
+  workflow_dispatch:
+    inputs:
+      reharvest:
+        description: 'Re-read every ad, not just new/changed ones'
+        type: boolean
+        default: false
+      limit:
+        description: 'Cap ads processed (blank = all)'
+        type: string
+        default: ''
+
+# Shares master with the listings refresh; both push, so queue rather than race.
+concurrency:
+  group: eauction-harvest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    # A full cold harvest is ~420 ads at ~4-8 s each (page load, up to four PDFs,
+    # image extraction) plus rate-limit pauses. Weekly runs are incremental and
+    # take minutes; this cap only has to cover the cold case.
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Harvest ad details, documents and photos
+        env:
+          EAUCTION_REHARVEST: ${{ inputs.reharvest && '1' || '' }}
+          EAUCTION_HARVEST_LIMIT: ${{ inputs.limit }}
+        run: node scripts/harvest-eauction.mjs
+
+      # COMMIT_REPLACE_DIRS: this job owns public/eauction-photos and prunes assets
+      # for finished auctions. Without it the helper merges our directory into the
+      # remote's, which would restore every pruned photo each week.
+      - name: Commit refreshed cache and photos
+        id: commit
+        env:
+          COMMIT_REPLACE_DIRS: '1'
+        run: |
+          bash scripts/ci/commit-data.sh "chore: refresh eAuction ad details and photos [skip ci]" \
+            src/data/eauction-details.json \
+            public/eauction-photos
+
+      # `[skip ci]` (and GITHUB_TOKEN pushes generally) won't trigger deploy.yml,
+      # so publish the new photo assets here. The listings JSON that references
+      # them is rebuilt by the next scheduled scrape, within 6 hours.
+      - name: Deploy to Cloudflare Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=cyprus-house-listings

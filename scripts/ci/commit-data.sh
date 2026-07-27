@@ -60,11 +60,21 @@ for attempt in 1 2 3 4 5; do
   for f in "${FILES[@]}"; do
     if [ -e "$STASH_DIR/$f" ]; then
       if [ -d "$STASH_DIR/$f" ]; then
-        # Merge our contents into whatever the remote has, rather than `cp -r`
-        # onto an existing directory (which nests it) or replacing it wholesale
-        # (which would delete snapshots another run added meanwhile).
-        mkdir -p "$f"
-        cp -r "$STASH_DIR/$f/." "$f/"
+        if [ "${COMMIT_REPLACE_DIRS:-0}" = "1" ]; then
+          # Opt-in: the caller owns this directory outright and its deletions are
+          # meaningful. The eAuction photo harvest prunes assets for auctions that
+          # have finished; under the merge below they would be restored from the
+          # remote every week and the directory would grow without bound.
+          rm -rf "$f"
+          mkdir -p "$(dirname "$f")"
+          cp -r "$STASH_DIR/$f" "$f"
+        else
+          # Merge our contents into whatever the remote has, rather than `cp -r`
+          # onto an existing directory (which nests it) or replacing it wholesale
+          # (which would delete snapshots another run added meanwhile).
+          mkdir -p "$f"
+          cp -r "$STASH_DIR/$f/." "$f/"
+        fi
       else
         mkdir -p "$(dirname "$f")"
         cp "$STASH_DIR/$f" "$f"

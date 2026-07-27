@@ -17,11 +17,13 @@
  * list) — i.e. auctions you can still act on — rather than the full archive of
  * ~1,300 already-conducted lots.
  *
- * Per-listing detail (plot area, photos) only lives on the challenge-protected
- * detail pages, so it can't be fetched here. Instead we merge a committed
- * enrichment cache, `src/data/eauction-details.json` (keyed by auction code),
- * harvested out-of-band through a real browser. Listings without a cache entry
- * still appear with their core fields (price, location, date, link).
+ * Per-listing detail (areas, build year, photos, rooms) only lives on the
+ * challenge-protected detail pages and their PDF/Word attachments, so it can't
+ * be fetched here. Instead we merge a committed enrichment cache,
+ * `src/data/eauction-details.json` (keyed by auction code), produced weekly by
+ * `harvest-eauction.mjs` through a challenge-clearing browser. Listings without
+ * a cache entry still appear with their core fields (price, location, date,
+ * link).
  *
  * Env:
  *   EAUCTION_MAX_PAGES - safety cap on pages walked per status (default 10)
@@ -170,17 +172,21 @@ export async function scrapeEauction() {
       link: i.link || `${BASE}/en/Home/HlektronikoiPleistiriasmoi?type=5`,
       houseSqm: enr.houseSqm ?? null,
       plotSqm: enr.plotSqm ?? null,
-      beds: null,
-      baths: null,
+      beds: enr.beds ?? null,
+      baths: enr.baths ?? null,
       posted: i.posted,
-      buildYear: null,
+      buildYear: enr.buildYear ?? null,
       ref: i.code,
       auctionDate: i.auctionDate,
       status: i.status,
-      // Ingested from the auction's legal-notice PDF (Greek form FR.08):
+      // Harvested from the auction's detail page and its attachments — see
+      // harvest-eauction.mjs:
       share: enr.share ?? null,               // Εγγεγραμμένο συμφέρον (e.g. 1/1, 33/118)
       propertyType: enr.propertyType ?? null, // Είδος (Residence / Apartment / Plot …)
       registration: enr.registration ?? null, // Αριθμός Εγγραφής
+      floors: enr.floors ?? null,
+      planningZone: enr.planningZone ?? null,
+      address: enr.address ?? null,
     };
   });
 }

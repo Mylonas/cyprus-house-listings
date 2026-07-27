@@ -1,6 +1,6 @@
 # GitHub Actions
 
-Three workflows. All commits made by workflows carry `[skip ci]`; note that pushes made with `GITHUB_TOKEN` never trigger other workflows anyway, which is why the refresh workflow deploys directly (see below).
+Five workflows. All commits made by workflows carry `[skip ci]`; note that pushes made with `GITHUB_TOKEN` never trigger other workflows anyway, which is why the data workflows deploy directly (see below).
 
 ## `deploy.yml` — Deploy to Cloudflare Pages
 
@@ -17,6 +17,22 @@ Three workflows. All commits made by workflows carry `[skip ci]`; note that push
 - **Needs:** the same two Cloudflare secrets (for its deploy step)
 
 Why it deploys directly: its refresh commit is made with `GITHUB_TOKEN`, and GitHub deliberately does not fire workflows from such pushes — without the inline deploy step, refreshed data would never reach the live site.
+
+## `harvest-eauction.yml` — Harvest eAuction ad details
+
+- **Trigger:** weekly (`40 2 * * 0`, Sundays 02:40 UTC) + manual `workflow_dispatch` with `reharvest` (re-read every ad) and `limit` (cap ads) inputs
+- **Does:** installs Playwright Chromium → `node scripts/harvest-eauction.mjs` → commits `src/data/eauction-details.json` + `public/eauction-photos/` → deploys `public/`
+- **Why weekly, not 6-hourly:** it clears eAuction's Imperva challenge with a stealth browser and then loads ~420 detail pages serially, downloading every PDF/Word attachment. Auction lots are posted about six weeks before their conduct date, so weekly is ample — and hammering the site earns an IP block
+- **Guards:** `timeout-minutes: 150` (covers a cold full harvest; incremental runs take minutes); its own concurrency group so runs queue rather than race
+- **Failure mode that matters:** if the runner's IP can't clear the challenge, the harvester exits **2** with `::error::Imperva challenge never cleared` rather than writing an empty cache. Recovery is to run `npm run harvest:eauction` from a residential connection and push — the same fallback used for Bazaraki/Zyprus
+- **Needs:** `contents: write` plus the two Cloudflare secrets
+
+The photos it commits go live with its own deploy; the `listings.json` that references them is rebuilt by the next `update-listings.yml` run, within 6 hours.
+
+## `snapshot-history.yml` — Weekly price snapshot
+
+- **Trigger:** weekly + manual
+- **Does:** `npm run snapshot` → commits a dated `history/YYYY-MM-DD/` snapshot and its `changes.md` diff of new, removed and price-changed listings
 
 ## `watchdog.yml` — Freshness check
 
