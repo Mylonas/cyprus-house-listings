@@ -211,13 +211,31 @@ EAUCTION_REHARVEST=1 npm run harvest:eauction     # rebuild every entry
 EAUCTION_SUBTYPES=5 npm run harvest:eauction      # Residence only
 ```
 
-It also runs **weekly in CI** — `.github/workflows/harvest-eauction.yml`,
-Sundays 02:40 UTC, plus `workflow_dispatch` with `reharvest`/`limit` inputs. It
-commits the cache and photos and deploys `public/`; the listings JSON that
-references the new photos is rebuilt by the next 6-hourly scrape. If the runner's
-IP can't clear Imperva the harvester exits **2** with an explicit error rather
-than silently writing an empty cache — in that case run it from the laptop
-(`npm run harvest:eauction`) and push, exactly as with Bazaraki/Zyprus.
+### CI is scheduled but currently blocked — the data comes from the laptop
+
+`.github/workflows/harvest-eauction.yml` runs weekly (Sundays 02:40 UTC) plus
+`workflow_dispatch` with `reharvest`/`limit`. **Measured on 2026-07-27: it
+harvests nothing from a GitHub-hosted runner.** The unprotected list endpoint
+answers fine — the runner enumerated all 419 ads — but every detail page came
+back 200 and never rendered: `detail grid never rendered` ×5, `Harvested 0/5`.
+Imperva refuses datacenter IPs, the same wall that keeps Bazaraki and Zyprus out
+of CI.
+
+So treat the workflow as a standing probe, not the data path:
+
+- The harvester exits **3** when every ad fails (and **leaves the cache and
+  photos untouched**, pruning included). The job turns that into a
+  `::warning::` and skips the commit, so it neither goes falsely green with an
+  unchanged cache nor floods you with red every Sunday. A genuine crash still
+  fails the job.
+- **The real refresh is local**: `npm run harvest:eauction`, or just
+  `npm run refresh:local`, which now runs the harvest first (skip it with
+  `SKIP_EAUCTION=1`). This is the same laptop-only arrangement Bazaraki and
+  Zyprus already use.
+- If eAuction ever stops refusing datacenter IPs, the weekly job starts working
+  on its own — it commits the cache and photos and deploys `public/`, with the
+  listings JSON that references the new photos rebuilt by the next 6-hourly
+  scrape. Don't reach for a self-hosted runner.
 
 ## Rate limits and IP blocks — back off early
 

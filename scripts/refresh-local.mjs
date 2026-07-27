@@ -1,17 +1,21 @@
 #!/usr/bin/env node
 /**
  * refresh-local.mjs
- * Refreshes the sources CI cannot reach — Bazaraki houses, Zyprus houses and
- * Bazaraki plots — merging each into src/data/listings.json and
- * src/data/plots.json in place and leaving every other source untouched.
+ * Refreshes everything CI cannot reach — Bazaraki houses, Zyprus houses,
+ * Bazaraki plots, and the eAuction detail harvest — merging each into
+ * src/data/listings.json and src/data/plots.json in place and leaving every
+ * other source untouched.
  *
  * Must be run from a residential connection. Cloudflare serves the managed
- * challenge to every client from a datacenter IP, so update-listings.yml and
- * the plots workflow will never carry these; see README.md.
+ * challenge to every client from a datacenter IP, and Imperva refuses eAuction's
+ * detail pages to the same addresses, so update-listings.yml, the plots workflow
+ * and harvest-eauction.yml will never carry these; see README.md.
  *
  * Both Bazaraki scrapers walk the full catalogue (~9,000 houses, ~6,200 plots),
  * so a full run takes roughly 15-20 minutes. Cap it with BAZARAKI_PAGES /
- * BAZARAKI_PLOTS_PAGES / ZYPRUS_MAX_PAGES when testing.
+ * BAZARAKI_PLOTS_PAGES / ZYPRUS_MAX_PAGES when testing. The eAuction harvest is
+ * incremental — minutes in the usual case, ~70 for a cold rebuild — and can be
+ * skipped with SKIP_EAUCTION=1.
  *
  * Usage:
  *   npm run refresh:local     # then review `git diff --stat` and commit
@@ -79,6 +83,20 @@ async function refresh(file, label, sources) {
       `total ${existing.length} -> ${deduped.length}\n`
   );
   return true;
+}
+
+// eAuction first: the listings refresh below rebuilds the page, and the harvest
+// feeds the enrichment cache that the next full scrape merges in. A failure here
+// must not cost the Bazaraki/Zyprus refresh, which is the expensive part.
+if (process.env.SKIP_EAUCTION !== '1') {
+  console.log('Harvesting eAuction ad details (incremental)...');
+  try {
+    const { harvestEauction } = await import('./harvest-eauction.mjs');
+    const r = await harvestEauction();
+    if (r.blocked) console.error(`  !! eAuction refused this connection (${r.blocked}) — cache left as it was.`);
+  } catch (err) {
+    console.error(`  !! eAuction harvest failed: ${err.message} — continuing.`);
+  }
 }
 
 const didHouses = await refresh('src/data/listings.json', 'houses', [
