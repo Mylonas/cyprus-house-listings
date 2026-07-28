@@ -51,6 +51,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
 import { readDocument } from './lib/documents.mjs';
 import { extractFacts, mergeFacts } from './lib/property-facts.mjs';
+import { listAds, SUBTYPES, BIDDABLE_STATUSES, BASE } from './lib/eauction-list.mjs';
 
 chromium.use(stealth());
 
@@ -59,7 +60,6 @@ const root = path.resolve(__dirname, '..');
 const cachePath = path.join(root, 'src/data/eauction-details.json');
 const photoDir = path.join(root, 'public/eauction-photos');
 
-const BASE = 'https://www.eauction-cy.com';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 const SCHEMA = 4; // bump to force a full re-harvest of every cached entry
@@ -73,18 +73,10 @@ const IMAGE_TIMEOUT_MS = 2000;   // per embedded image, when pdf.js never delive
 const MAX_XOBJECTS = 60;         // images inspected per PDF
 const AD_PARSE_BUDGET_MS = 60_000; // spent parsing one ad's attachments
 
-// Every property subtype the portal sells (id -> label from its own dropdown).
-const SUBTYPES = {
-  5: 'Residence', 6: 'Other Commercial Property', 7: 'Store', 8: 'Office',
-  9: 'Parking', 10: 'Warehouse', 11: 'Industrial Building', 12: 'Plot',
-  13: 'Plot with building', 14: 'Land', 15: 'Land with building',
-};
-// Auctions you can still act on. 9 (Conducted) and 10 (Cancelled) are the dead
-// archive — thousands of lots, no longer advertised, deliberately excluded.
-const STATUSES = { 3: 'Posted', 5: 'Finalized List of Eligible Bidders', 6: 'Ready to be Conducted', 7: 'Open' };
-
+// Subtypes, statuses and the list endpoint itself live in lib/eauction-list.mjs,
+// shared with the house and plot scrapers.
 const SUBTYPE_IDS = (process.env.EAUCTION_SUBTYPES || Object.keys(SUBTYPES).join(',')).split(',').map(Number);
-const STATUS_IDS = (process.env.EAUCTION_STATUSES || Object.keys(STATUSES).join(',')).split(',').map(Number);
+const STATUS_IDS = (process.env.EAUCTION_STATUSES || Object.keys(BIDDABLE_STATUSES).join(',')).split(',').map(Number);
 
 const PROPERTY_TYPES = ['ΚΑΤΟΙΚΙΑ', 'ΔΙΑΜΕΡΙΣΜΑ', 'ΟΙΚΟΠΕΔΟ', 'ΧΩΡΑΦΙ', 'ΟΙΚΙΑ', 'ΒΙΛΑ', 'ΚΑΤΑΣΤΗΜΑ', 'ΓΡΑΦΕΙΟ', 'ΑΠΟΘΗΚΗ', 'ΤΕΜΑΧΙΟ', 'ΓΗ', 'ΜΕΖΟΝΕΤΑ'];
 const TYPE_EN = {
@@ -92,70 +84,6 @@ const TYPE_EN = {
   ΧΩΡΑΦΙ: 'Field', ΟΙΚΙΑ: 'House', ΒΙΛΑ: 'Villa', ΚΑΤΑΣΤΗΜΑ: 'Shop',
   ΓΡΑΦΕΙΟ: 'Office', ΑΠΟΘΗΚΗ: 'Warehouse', ΤΕΜΑΧΙΟ: 'Parcel', ΓΗ: 'Land', ΜΕΖΟΝΕΤΑ: 'Maisonette',
 };
-
-// ---- Ad list (unprotected XHR endpoint) ------------------------------------
-
-function listBody(pageNumber, statusId, subTypeId) {
-  return JSON.stringify({
-    auctionDateFrom: '', auctionDateTo: '', auctionCreationDateFrom: '', auctionCreationDateTo: '',
-    offerValueFrom: '', offerValueTo: '', hastenerName: '', auctionCode: '',
-    AuctionStatusId: statusId, sortAscending: 'true', sortingFieldId: '1',
-    pageNumber: String(pageNumber), AuctionSubTypeId: String(subTypeId),
-    extendedFilter1: '', extendedFilter2: '', notApprovedForeignBidderId: '', selectedCountryNumericCode: '0',
-    lang: 'en-US',
-  });
-}
-
-function parseCard(block) {
-  const m = re => (block.match(re) || [])[1] || null;
-  const code = m(/Unique Code<\/span>[\s\S]*?AList-BoxTextBlue500">\s*([A-Z0-9-]+)/);
-  if (!code) return null;
-  return {
-    code,
-    link: m(/AList-BoxFooterMore"\s+href="([^"]+)"/),
-    status: m(/AList-BoxheaderLeft[\s\S]*?AList-BoxTextBlueBold">\s*([^<]+?)\s*</),
-    auctionDate: m(/DateIcon">\s*(\d{2}\/\d{2}\/\d{4})/),
-    posted: m(/Date of Posting<\/span>[\s\S]*?AList-BoxTextBlue500">\s*(\d{2}\/\d{2}\/\d{4})/),
-    objectType: m(/Object to be auctioned:\s*([^<]+)/)?.trim() || null,
-  };
-}
-
-/** Every currently advertised ad, across all requested subtypes and statuses. */
-async function listAllAds() {
-  const ads = new Map();
-  for (const subTypeId of SUBTYPE_IDS) {
-    for (const statusId of STATUS_IDS) {
-      for (let p = 1; p <= 40; p++) {
-        let res;
-        try {
-          res = await fetch(`${BASE}/Home/HomeListAuctions`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json; charset=UTF-8',
-              'User-Agent': UA,
-              'X-Requested-With': 'XMLHttpRequest',
-              Referer: `${BASE}/en/Home/HlektronikoiPleistiriasmoi?type=${subTypeId}`,
-            },
-            body: listBody(p, statusId, subTypeId),
-          });
-        } catch { break; }
-        if (!res.ok) break;
-        const blocks = (await res.text()).split(/AList-BoxContainer/).slice(1);
-        if (!blocks.length) break;
-        let added = 0;
-        for (const b of blocks) {
-          const card = parseCard(b);
-          if (!card || ads.has(card.code)) continue;
-          ads.set(card.code, { ...card, subTypeId, subType: SUBTYPES[subTypeId] || String(subTypeId) });
-          added++;
-        }
-        if (blocks.length < 20 || added === 0) break;
-        await new Promise(r => setTimeout(r, 400));
-      }
-    }
-  }
-  return [...ads.values()];
-}
 
 // ---- PDF ------------------------------------------------------------------
 
@@ -395,7 +323,8 @@ export async function harvestEauction() {
   mkdirSync(photoDir, { recursive: true });
 
   console.error(`Listing ads (subtypes ${SUBTYPE_IDS.join(',')} / statuses ${STATUS_IDS.join(',')})...`);
-  const ads = (await listAllAds()).filter(a => a.link && /\/Auction\/Details\//.test(a.link));
+  const ads = (await listAds({ subTypeIds: SUBTYPE_IDS, statusIds: STATUS_IDS }))
+    .filter(a => a.link && /\/Auction\/Details\//.test(a.link));
   const byType = {};
   for (const a of ads) byType[a.subType] = (byType[a.subType] || 0) + 1;
   console.error(`${ads.length} advertised ads: ${Object.entries(byType).map(([k, v]) => `${k} ${v}`).join(', ')}`);

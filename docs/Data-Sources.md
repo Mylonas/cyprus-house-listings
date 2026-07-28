@@ -8,7 +8,7 @@ Ten sources as of v2.1.0; the EstateBud agencies (Kazo, Cyprus Properties, NCH) 
 |---|---|---|---|
 | Altamira Real Estate | `scrape-altamira.mjs` | Playwright — clicks "View more" (cookie overlay stripped first) | ✅ working |
 | Bazaraki | `scrape-bazaraki.mjs` | Playwright — infinite scroll per district | ⛔ Cloudflare bot challenge |
-| eAuction Cyprus | `scrape-eauction.mjs` + `harvest-eauction.mjs` | **Plain fetch** of the unchallenged `POST /Home/HomeListAuctions` XHR endpoint for the ad list; a weekly stealth-browser harvest for detail-page fields, documents and photos | ✅ working (~46 biddable Residence lots) |
+| eAuction Cyprus | `scrape-eauction.mjs` (houses), `scrape-eauction-plots.mjs` (plots/land) + `harvest-eauction.mjs` | **Plain fetch** of the unchallenged `POST /Home/HomeListAuctions` XHR endpoint for the ad list; a weekly stealth-browser harvest for detail-page fields, documents and photos | ✅ working (~46 Residence lots, ~343 plot/land lots) |
 | Zyprus | `scrape-zyprus.mjs` | Playwright — paginated grid | ⛔ Cloudflare bot challenge |
 | BidX1 | `scrape-bidx1.mjs` | Playwright — Cyprus/Houses filter | ✅ working |
 | home.cy | `scrape-homecy.mjs` | Playwright — includes agency/developer name | ✅ working |
@@ -54,7 +54,9 @@ Per ad it reads:
 
 The harvest is incremental (only new ads, changed auction dates or entries past `EAUCTION_MAX_AGE_DAYS`) and prunes ads that are no longer advertised, along with their photo files.
 
-**Where it runs.** The weekly workflow exists, but eAuction refuses GitHub-hosted runners: measured 2026-07-27, a runner listed all 419 ads from the unprotected endpoint and then failed to render a single detail page. So the harvest joins Bazaraki and Zyprus as a **laptop job** — `npm run harvest:eauction`, or `npm run refresh:local`, which now runs it first. The workflow stays scheduled, exits 3 without touching the cache when it is refused, and will start working on its own if the block ever lifts.
+**Both pages are fed from it.** `scrape-eauction.mjs` takes subtype 5 (Residence) for the houses page; `scrape-eauction-plots.mjs` takes subtypes 12/13/14/15 (Plot, Plot with building, Land, Land with building — ~343 ads, 97% with a plot area) for the plots page. Both read the ad list from the unprotected endpoint, so **new lots appear within one scheduled scrape**, carrying price, location, district and auction date; their area, photos and planning zone arrive with the next harvest. The endpoint contract itself lives in one place, `scripts/lib/eauction-list.mjs`.
+
+**Where the harvest runs.** The weekly workflow exists, but eAuction refuses GitHub-hosted runners: measured 2026-07-27, a runner listed all 419 ads from the unprotected endpoint and then failed to render a single detail page. So the harvest joins Bazaraki and Zyprus as a **laptop job** — `npm run harvest:eauction`, or `npm run refresh:local`, which now runs it first. The workflow stays scheduled, exits 3 without touching the cache when it is refused, and will start working on its own if the block ever lifts.
 
 ## Failure containment
 

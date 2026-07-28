@@ -10,6 +10,7 @@
     "scrape:altamira": "node scripts/scrape-altamira.mjs",
     "scrape:bazaraki": "node scripts/scrape-bazaraki.mjs",
     "scrape:eauction": "node scripts/scrape-eauction.mjs",
+    "scrape:eauction-plots": "node scripts/scrape-eauction-plots.mjs",
     "scrape:zyprus": "node scripts/scrape-zyprus.mjs",
     "scrape:bidx1": "node scripts/scrape-bidx1.mjs",
     "scrape:buysellcyprus": "node scripts/scrape-buysellcyprus.mjs",

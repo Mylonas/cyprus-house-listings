@@ -16,12 +16,13 @@ import { scrapeKadisPlots } from './scrape-kadis-plots.mjs';
 import { estateBudSources } from './scrape-estatebud.mjs';
 import { scrapeEstateBudWpPlots } from './scrape-estatebud-wp.mjs';
 import { scrapeCyprusPropertiesPlots } from './scrape-cyprusproperties.mjs';
+import { scrapeEauctionPlots } from './scrape-eauction-plots.mjs';
 import { resolveDistrict } from './lib/districts.mjs';
 
-// Note: eAuction currently exposes no biddable land/plot subtype (only
-// Residence/Commercial/Office are populated), so it contributes no plots and is
-// intentionally not a plots source. Reseller plot stock (Realting/APITS) is a
-// future add — Bazaraki + Kadis already cover the direct market.
+// eAuction was long excluded here on the belief that it exposes no biddable
+// land subtype. It exposes four (Plot, Plot with building, Land, Land with
+// building) and they are the bulk of its inventory — ~347 of ~420 live ads.
+// Reseller plot stock (Realting/APITS) is still a future add.
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -29,6 +30,7 @@ const outPath = path.join(root, 'src/data/plots.json');
 
 const sources = [
   ['Bazaraki', scrapeBazarakiPlots],
+  ['eAuction Cyprus', scrapeEauctionPlots],
   ['Kadis Estates', scrapeKadisPlots],
   ...estateBudSources('plot'),
   ['Cyprus Properties', scrapeCyprusPropertiesPlots],
