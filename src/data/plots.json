@@ -197835,6 +197835,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Large Agricultural Field in Evrychou",
+  "price": 200000,
+  "priceDisplay": "€200,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/42627/6a685ea7c6e5a.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42627/6a685ea7c6e5a.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42627",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42627",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 9653,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Residential Building Plot in Agioi Trimithias",
   "price": 105000,
   "priceDisplay": "€105,000",
