@@ -38,9 +38,12 @@ brute-force the HTML pages with plain HTTP; you'll only get the challenge page.
 ### Route 1: the XHR endpoint (list data, works from CI)
 
 `POST /Home/HomeListAuctions` is **not** challenged and returns the same result
-cards as the search page, as JSON-embedded HTML. This is what
-[`scripts/scrape-eauction.mjs`](../../../scripts/scrape-eauction.mjs) hits with a
-plain `fetch` — no browser, works from GitHub Actions. Key request facts:
+cards as the search page, as JSON-embedded HTML. One module owns this contract —
+[`scripts/lib/eauction-list.mjs`](../../../scripts/lib/eauction-list.mjs),
+`listAds({subTypeIds, statusIds})` — and all three consumers
+(`scrape-eauction.mjs`, `scrape-eauction-plots.mjs`, `harvest-eauction.mjs`) go
+through it with a plain `fetch`, no browser, working from GitHub Actions. Key
+request facts:
 
 - Header `X-Requested-With: XMLHttpRequest` and a `Referer` of the search page.
 - Body is JSON; the fields that matter:
@@ -48,7 +51,8 @@ plain `fetch` — no browser, works from GitHub Actions. Key request facts:
     just Residence: `5` Residence, `6` Other Commercial, `7` Store, `8` Office,
     `9` Parking, `10` Warehouse, `11` Industrial Building, `12` Plot, `13` Plot
     with building, `14` Land, `15` Land with building. `scrape-eauction.mjs`
-    requests `5` (the houses page); `harvest-eauction.mjs` walks all of them.
+    requests `5` (houses page), `scrape-eauction-plots.mjs` requests
+    `12,13,14,15` (plots page), and `harvest-eauction.mjs` walks all of them.
     An earlier note claiming only 5/6/8 exist was measured with a status filter
     that happened to be empty for the rest — always probe subtype × status.
   - `AuctionStatusId` → filter by status. We request only **biddable** ones:
@@ -79,6 +83,22 @@ clears the challenge**, so this is fully automated in
 the challenge once on the search page, then every later `page.goto()` and every
 same-origin in-page `fetch()` (attachment downloads included) rides that
 session. The Browser pane works too if you're exploring by hand.
+
+## eAuction feeds both pages
+
+- **Houses** — `scrape-eauction.mjs`, subtype 5 only (~46 lots).
+- **Plots/land** — `scrape-eauction-plots.mjs`, subtypes 12/13/14/15 (~343 lots,
+  97% with a plot area). Added 2026-07-28, after the harvest disproved the
+  "eAuction has no biddable land subtype" belief that had kept it out of the
+  plots pipeline. `plotType` is the portal's own subtype label, so the plots
+  page's type filter gains Plot / Plot with building / Land / Land with
+  building. "With building" lots keep their `houseSqm`, `beds` and `buildYear`
+  where the harvest found them — the building is part of what's being sold.
+
+Both take the ad list from the unprotected endpoint, so a newly posted lot shows
+up on the next scheduled scrape with price, location, district and auction date,
+then gains area, photos and zone at the next harvest. **That is what keeps new
+ads flowing without any manual step.**
 
 ## Refreshing the listings data (the normal task)
 

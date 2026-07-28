@@ -4,7 +4,7 @@
 
 Internal reference page aggregating house-for-sale listings from seventeen sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, Kadis Estates, Kazo Real Estate, Cyprus Properties, NCH Real Estate, DOM real estate, Pafilia, and Giovani Homes — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
-A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)** view aggregates plot/land listings (Bazaraki + Kadis Estates) with plot size, type, planning zone, price, go-live date and photos — same pipeline (`npm run scrape:plots` → `src/data/plots.json` → `public/plots.html`). The two pages cross-link in the header.
+A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)** view aggregates plot/land listings (Bazaraki, eAuction Cyprus foreclosure lots, Kadis Estates and the EstateBud agencies) with plot size, type, planning zone, price, go-live date and photos — same pipeline (`npm run scrape:plots` → `src/data/plots.json` → `public/plots.html`). The two pages cross-link in the header.
 
 **Source availability note:** eAuction Cyprus serves an Imperva/Incapsula JS challenge on its HTML pages that headless browsers can't clear, but its `POST /Home/HomeListAuctions` XHR endpoint is not challenged — the scraper hits that directly with a plain fetch, so eAuction now works from CI. Per-listing detail (areas, build year, rooms, photos) lives only on the challenge-protected detail pages and their PDF/Word attachments, so it is merged from an enrichment cache (`src/data/eauction-details.json`) built by `harvest-eauction.mjs`, which clears the challenge with a stealth browser. That harvest only works from a residential connection — a GitHub-hosted runner can list the ads but cannot render a single detail page — so it runs weekly from the laptop via `npm run harvest:eauction` (included in `npm run refresh:local`), with the scheduled workflow kept as a probe in case the block lifts. Bazaraki, Zyprus, and BuySellCyprus currently serve a Cloudflare bot-verification challenge to automated browsers, so their scrapers fail until those sites relax the protection — the scrapers are kept and will resume automatically if access returns. Runs degrade gracefully to the remaining sources.
 
@@ -51,6 +51,7 @@ cyprus-house-listings/
 │   ├── scrape-altamira.mjs       # altamirarealestate.com.cy — clicks "View more" to load all cards
 │   ├── scrape-bazaraki.mjs       # bazaraki.com — JSON API via a Cloudflare-cleared stealth browser, per district
 │   ├── scrape-eauction.mjs       # eauction-cy.com — paginated bank-foreclosure auctions (type=5 Residence)
+│   ├── scrape-eauction-plots.mjs # eauction-cy.com — plot/land auctions (types 12/13/14/15) for the plots page
 │   ├── harvest-eauction.mjs      # weekly: every eAuction ad's detail page, documents and photos → enrichment cache
 │   ├── scrape-zyprus.mjs         # zyprus.com — paginated sale search grid (House)
 │   ├── scrape-bidx1.mjs          # bidx1.com — Cyprus/Houses filtered auction view
