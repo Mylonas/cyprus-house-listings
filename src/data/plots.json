@@ -178932,6 +178932,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot in Palodia next to Green Area",
+  "price": 175000,
+  "priceDisplay": "€175,000",
+  "location": "Limassol, Palodia Village",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/20647/6a689492502ca.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20647/6a689492502ca.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20647/residential-plot-in-palodia-next-to-green-area",
+  "houseSqm": null,
+  "plotSqm": 921,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20647"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land in Tserkezoi, Limassol close to My Mall and Casino",
   "price": 1550000,
   "priceDisplay": "€1,550,000",
@@ -189602,30 +189626,6 @@
   "ref": "10292"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot in Strovolos close to Cineplex",
-  "price": 340000,
-  "priceDisplay": "€340,000",
-  "location": "Strovolos, Strovolos - Chryseleousa",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10521/67b6f77dcc65d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10521/67b6f77dcc65d.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-10521/residential-plot-in-strovolos-close-to-cineplex",
-  "houseSqm": null,
-  "plotSqm": 598,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10521"
- },
- {
   "source": "Kazo Real Estate",
   "title": "Share of a Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -196751,6 +196751,30 @@
   "houseSqm": null,
   "plotSqm": 18712,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Development Land for Sale in Akrounta Village",
+  "price": 820000,
+  "priceDisplay": "€820,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/31898/6a68a7c4e448f.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/31898/6a68a7c4e448f.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-akrounta-village-31898",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "31898",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 9254,
+  "plotType": null,
   "zone": null
  },
  {
