@@ -190879,6 +190879,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot in Palodia next to Green Area",
+  "price": 175000,
+  "priceDisplay": "€175,000",
+  "location": "Limassol, Palodia Village",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/20647/6a689492502ca.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20647/6a689492502ca.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20647/residential-plot-in-palodia-next-to-green-area",
+  "houseSqm": null,
+  "plotSqm": 921,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20647"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land in Tserkezoi, Limassol close to My Mall and Casino",
   "price": 1550000,
   "priceDisplay": "€1,550,000",
