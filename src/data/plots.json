@@ -181109,10 +181109,8 @@
   "priceDisplay": "€95,200 (reserve price)",
   "location": "Strovolou - Agios Vassilios, Nicosia",
   "district": "Nicosia",
-  "image": "/eauction-photos/d8d95f0bdc25.jpg",
-  "images": [
-   "/eauction-photos/d8d95f0bdc25.jpg"
-  ],
+  "image": null,
+  "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7eb_4dd14e2gd_ccdb06756bb13da43_",
   "houseSqm": null,
   "plotSqm": 651,
