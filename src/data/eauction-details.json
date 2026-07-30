@@ -50,11 +50,11 @@
  },
  "NAQ34UOOQN-001": {
   "v": 4,
-  "harvestedAt": "2026-07-28",
+  "harvestedAt": "2026-07-29",
   "subType": "Residence",
   "subTypeId": 5,
   "status": "Posted",
-  "auctionDate": "03/08/2026",
+  "auctionDate": "16/09/2026",
   "propertyType": "Residence",
   "registration": "0/6622*",
   "sheetPlanPlot": "37/12 KAI 576",
@@ -67,7 +67,7 @@
   "beds": 3,
   "docs": [
    {
-    "name": "03-08-2026-ΛΕΥΚΩΣΙΑ-ΓΑΛΑΤΑ-ΣΙΝΑΟΡΟΣ-ΚΑΤΟΙΚΙΑ-ΒΙΟΜΗΧΑΡΙΚΟ ΥΠΟΣΤΑΤΙΚΟ.pdf",
+    "name": "16-09-2026-ΛΕΥΚΩΣΙΑ-ΓΑΛΑΤΑ-ΣΙΝΑ ΟΡΟΣ-ΚΑΤΟΙΚΙΑ-ΒΙΟΜΗΧΑΝΙΚΟ ΥΠΟΣΤΑΤΙΚΟ.pdf",
     "kind": "pdf"
    }
   ]
@@ -978,30 +978,6 @@
    "/eauction-photos/bed7b46975a3.jpg",
    "/eauction-photos/64c79adb1526.jpg",
    "/eauction-photos/1c0729da3dc2.jpg"
-  ]
- },
- "ZSMACD0EP3": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Plot with building",
-  "subTypeId": 13,
-  "status": "Posted",
-  "auctionDate": "29/07/2026",
-  "propertyType": "Plot with building",
-  "registration": "0/10639",
-  "sheetPlanPlot": "45/42E2 KAI 303",
-  "address": "ΖΙΛΙΧΟ",
-  "share": "1/1",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 13133,
-  "notificationDate": "18/02/2026",
-  "plotSqm": 514,
-  "beds": 2,
-  "docs": [
-   {
-    "name": "29-07-2026-ΠΑΦΟΣ-ΚΙΣΣΟΝΕΡΓΑ-ΚΑΤΟΙΚΙΑ.pdf",
-    "kind": "pdf"
-   }
   ]
  },
  "X0XCL3IEDE": {
@@ -2217,11 +2193,11 @@
  },
  "NAQ34UOOQN-002": {
   "v": 4,
-  "harvestedAt": "2026-07-28",
+  "harvestedAt": "2026-07-29",
   "subType": "Industrial Building",
   "subTypeId": 11,
   "status": "Posted",
-  "auctionDate": "03/08/2026",
+  "auctionDate": "16/09/2026",
   "propertyType": "Industrial Building",
   "registration": "0/2749**",
   "sheetPlanPlot": "37/05 ΚΑΙ 462",
@@ -2234,7 +2210,7 @@
   "beds": 3,
   "docs": [
    {
-    "name": "03-08-2026-ΛΕΥΚΩΣΙΑ-ΓΑΛΑΤΑ-ΣΙΝΑΟΡΟΣ-ΚΑΤΟΙΚΙΑ-ΒΙΟΜΗΧΑΡΙΚΟ ΥΠΟΣΤΑΤΙΚΟ.pdf",
+    "name": "16-09-2026-ΛΕΥΚΩΣΙΑ-ΓΑΛΑΤΑ-ΣΙΝΑ ΟΡΟΣ-ΚΑΤΟΙΚΙΑ-ΒΙΟΜΗΧΑΝΙΚΟ ΥΠΟΣΤΑΤΙΚΟ.pdf",
     "kind": "pdf"
    }
   ]
@@ -2849,61 +2825,6 @@
    "/eauction-photos/b9a71d1e9ac1.jpg"
   ]
  },
- "KU4NGUW16I": {
-  "v": 4,
-  "harvestedAt": "2026-07-28",
-  "subType": "Plot with building",
-  "subTypeId": 13,
-  "status": "Posted",
-  "auctionDate": "03/08/2026",
-  "propertyType": "Plot with building",
-  "registration": "0/7964",
-  "sheetPlanPlot": "30/20E2 KAI 1069",
-  "address": "ΚΟΚΚΙΝΗ",
-  "share": "1/1",
-  "lender": "THEMIS PORTFOLIO (S1) MANAGEMENT HOLDINGS LIMITED",
-  "guarantee": 24840,
-  "notificationDate": "04/05/2026",
-  "plotSqm": 264,
-  "houseSqm": 196,
-  "buildYear": 2007,
-  "buildYearSource": "age",
-  "beds": 4,
-  "baths": 1,
-  "floors": 2,
-  "planningZone": "Κα6",
-  "maxDensityPct": 90,
-  "maxCoveragePct": 50,
-  "maxHeightM": 10,
-  "docs": [
-   {
-    "name": "029274 - NICOSIA-LAKATAMEIA-RESIDENCE-0-7964 ADDITIONAL INFORMATION.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "029274 - NICOSIA-LAKATAMEIA-RESIDENCE-0-7964.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "029274 - ΛΕΥΚΩΣΙΑ - ΛΑΚΑΤΑΜΕΙΑ - ΚΑΤΟΙΚΙΑ - 0-7964 ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "029274 - ΛΕΥΚΩΣΙΑ - ΛΑΚΑΤΑΜΕΙΑ - ΚΑΤΟΙΚΙΑ - 0-7964.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=78ROTL8zaAw%3d&fileId=E13SgwYwK%2fs%3d&thumb=false",
-  "images": [
-   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=78ROTL8zaAw%3d&fileId=E13SgwYwK%2fs%3d&thumb=false",
-   "/eauction-photos/0383c2b1fe78.jpg",
-   "/eauction-photos/fb5db3dff2f8.jpg",
-   "/eauction-photos/c31b072169fa.jpg",
-   "/eauction-photos/266be9190a65.jpg",
-   "/eauction-photos/092055411f50.jpg",
-   "/eauction-photos/6e917e48c961.jpg"
-  ]
- },
  "VFG6QSS9TW": {
   "v": 4,
   "harvestedAt": "2026-07-28",
@@ -2929,33 +2850,6 @@
   "image": "/eauction-photos/9de89d4456d4.jpg",
   "images": [
    "/eauction-photos/9de89d4456d4.jpg"
-  ]
- },
- "3WUEKZTX7Z": {
-  "v": 4,
-  "harvestedAt": "2026-07-28",
-  "subType": "Plot with building",
-  "subTypeId": 13,
-  "status": "Posted",
-  "auctionDate": "04/08/2026",
-  "propertyType": "Plot with building",
-  "registration": "2/1286",
-  "sheetPlanPlot": "30/ 15E1 KAI 1129",
-  "address": "ΔΕΚΑ ΑΝΟΜΑΤΟΙ",
-  "share": "1/1",
-  "lender": "SKY CAC LIMITED",
-  "guarantee": 66683,
-  "notificationDate": "27/04/2026",
-  "plotSqm": 832,
-  "docs": [
-   {
-    "name": "04-08-26-ΛΕΥΚΩΣΙΑ-ΛΑΤΣΙΑ-ΟΙΚΟΠΕΔΟ-2.1286ph.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/b27b84f94617.jpg",
-  "images": [
-   "/eauction-photos/b27b84f94617.jpg"
   ]
  },
  "KGANK5Z02A": {
@@ -3873,8 +3767,8 @@
   ]
  },
  "ZN1CITYWQW": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -3901,8 +3795,8 @@
   ]
  },
  "I1J4O9H84O": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -3929,8 +3823,8 @@
   ]
  },
  "TL5UAA1TB1": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -3984,8 +3878,8 @@
   ]
  },
  "1EPV57Y1WM-001": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4013,8 +3907,8 @@
   ]
  },
  "KT01Q8TXJ9": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4041,8 +3935,8 @@
   ]
  },
  "I17U3GOGXR": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4069,8 +3963,8 @@
   ]
  },
  "U14IAYCCL1-002": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4098,8 +3992,8 @@
   ]
  },
  "ZY0HC4RJJW": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4125,8 +4019,8 @@
   ]
  },
  "6LXJCJO9BI": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4153,8 +4047,8 @@
   ]
  },
  "QRP9XQZG3E": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4206,8 +4100,8 @@
   ]
  },
  "CNJNPPBOIU": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4252,8 +4146,8 @@
   ]
  },
  "QI812WB3RV": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4266,7 +4160,7 @@
   "lender": "THEMIS PORTFOLIO (S1) MANAGEMENT HOLDINGS LIMITED",
   "guarantee": 13320,
   "notificationDate": "29/05/2026",
-  "plotSqm": 474,
+  "plotSqm": 237,
   "beds": 3,
   "floors": 3,
   "verandaSqm": 10,
@@ -4301,8 +4195,8 @@
   ]
  },
  "8A84MVJWMM": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4355,8 +4249,8 @@
   ]
  },
  "BUE6D55UDW": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4382,8 +4276,8 @@
   ]
  },
  "B6ZRL9LWJL": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4410,8 +4304,8 @@
   ]
  },
  "IF5HZQXY8K": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4433,8 +4327,8 @@
   ]
  },
  "XK3DZHG45C": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4456,8 +4350,8 @@
   ]
  },
  "95E2XNY8UV": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4479,8 +4373,8 @@
   ]
  },
  "M63WMFAG94": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4530,8 +4424,8 @@
   ]
  },
  "T0U1E1UA0K": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
+  "v": 4,
+  "harvestedAt": "2026-07-29",
   "subType": "Plot with building",
   "subTypeId": 13,
   "status": "Posted",
@@ -4546,7 +4440,6 @@
   "notificationDate": "27/05/2026",
   "plotSqm": 84,
   "floors": 3,
-  "verandaSqm": 15,
   "planningZone": "Η1",
   "maxDensityPct": 120,
   "maxCoveragePct": 70,
@@ -4566,16 +4459,14 @@
    },
    {
     "name": "EK1133-ΠΑΦΟΣ - ΦΙΛΟΥΣΑ - ΚΑΤΟΙΚΙΑ - 0-7474, 0-7475 ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ.pdf",
-    "kind": "pdf"
+    "kind": "unavailable"
    }
   ],
   "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qmpQiwq125s%3d&fileId=f63EyPZRIXg%3d&thumb=false",
   "images": [
    "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qmpQiwq125s%3d&fileId=f63EyPZRIXg%3d&thumb=false",
    "/eauction-photos/9a3154c30715.jpg",
-   "/eauction-photos/90a6fb5ea0ab.jpg",
-   "/eauction-photos/d07cf11b0210.jpg",
-   "/eauction-photos/ab444511f71e.jpg"
+   "/eauction-photos/90a6fb5ea0ab.jpg"
   ]
  },
  "BHOOZ7IU79": {
@@ -5904,62 +5795,6 @@
     "name": "ΔΕΛΤΙΟ - Copy.docx",
     "kind": "docx"
    }
-  ]
- },
- "UBOY6NBI5Y-001": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Land",
-  "subTypeId": 14,
-  "status": "Posted",
-  "auctionDate": "29/07/2026",
-  "propertyType": "Land",
-  "registration": "0/4195",
-  "sheetPlanPlot": "45/32 KAI 555",
-  "address": "ΜΕΡΙΤΖΙΕΣ",
-  "share": "1/2",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 1028,
-  "notificationDate": "18/02/2026",
-  "plotSqm": 12970,
-  "docs": [
-   {
-    "name": "29-07-2026-ΠΑΦΟΣ-ΧΟΥΛΟΥ-ΛΕΜΩΝΑ-ΧΩΡΑΦΙΑ.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/3d2086827ed6.jpg",
-  "images": [
-   "/eauction-photos/3d2086827ed6.jpg",
-   "/eauction-photos/6e2c01172848.jpg"
-  ]
- },
- "UBOY6NBI5Y-002": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Land",
-  "subTypeId": 14,
-  "status": "Posted",
-  "auctionDate": "29/07/2026",
-  "propertyType": "Land",
-  "registration": "0/12664",
-  "sheetPlanPlot": "45/24 ΚΑΙ 421",
-  "address": "ΚΑΛΥΒΑΣ",
-  "share": "1/4",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 660,
-  "notificationDate": "18/02/2026",
-  "plotSqm": 1673,
-  "docs": [
-   {
-    "name": "29-07-2026-ΠΑΦΟΣ-ΧΟΥΛΟΥ-ΛΕΜΩΝΑ-ΧΩΡΑΦΙΑ.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/3d2086827ed6.jpg",
-  "images": [
-   "/eauction-photos/3d2086827ed6.jpg",
-   "/eauction-photos/6e2c01172848.jpg"
   ]
  },
  "B5YAQT9HO2": {
@@ -11176,59 +11011,6 @@
    "/eauction-photos/47a67c176a4d.jpg"
   ]
  },
- "UE7BMPF1KA": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Land with building",
-  "subTypeId": 15,
-  "status": "Posted",
-  "auctionDate": "29/07/2026",
-  "propertyType": "Land with building",
-  "registration": "4/428",
-  "sheetPlanPlot": "30/03E2 KAI 322",
-  "address": "ΨΑΡΟΠΟΥΛΑ",
-  "share": "1/1",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 39313,
-  "notificationDate": "24/02/2026",
-  "plotSqm": 4293,
-  "beds": 1,
-  "docs": [
-   {
-    "name": "29-07-2026-ΛΕΥΚΩΣΙΑ-ΛΑΚΑΤΑΜΕΙΑ-ΚΑΤΟΙΚΙΑ.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/b263684dc080.jpg",
-  "images": [
-   "/eauction-photos/b263684dc080.jpg"
-  ]
- },
- "EM8JLNCP6J": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Land with building",
-  "subTypeId": 15,
-  "status": "Posted",
-  "auctionDate": "30/07/2026",
-  "propertyType": "Land with building",
-  "registration": "2/51",
-  "sheetPlanPlot": "45/51W1 KAI 51",
-  "address": "ΦΤΑΝΩΜΑΤΑ",
-  "share": "493/1093",
-  "lender": "SKY CAC LIMITED",
-  "guarantee": 21300,
-  "notificationDate": "18/03/2026",
-  "plotSqm": 1093,
-  "beds": 1,
-  "baths": 1,
-  "docs": [
-   {
-    "name": "30-07-26 - ΠΑΦΟΣ - ΕΜΠΑ - ΧΩΡΑΦΙ - 2.51ph.pdf",
-    "kind": "pdf"
-   }
-  ]
- },
  "CJV0X50OOF": {
   "v": 3,
   "harvestedAt": "2026-07-27",
@@ -12955,57 +12737,6 @@
   "image": "/eauction-photos/dda6c3d477bf.jpg",
   "images": [
    "/eauction-photos/dda6c3d477bf.jpg"
-  ]
- },
- "EATBPEDRIZ": {
-  "v": 3,
-  "harvestedAt": "2026-07-27",
-  "subType": "Land with building",
-  "subTypeId": 15,
-  "status": "Posted",
-  "auctionDate": "20/10/2026",
-  "propertyType": "Land with building",
-  "registration": "4/3564",
-  "sheetPlanPlot": "30/19E1 KAI 3363",
-  "address": "ΟΡΘΟΔΟΞΙΑΣ, 15",
-  "share": "1/1",
-  "lender": "TRAPEZA KYPROU DIMOSIA ETAIREIA LTD",
-  "guarantee": 14200,
-  "notificationDate": "24/06/2026",
-  "plotSqm": 437,
-  "houseSqm": 120,
-  "buildYear": 1990,
-  "buildYearSource": "age",
-  "beds": 1,
-  "floors": 2,
-  "verandaSqm": 23,
-  "planningZone": "Κα6",
-  "maxDensityPct": 90,
-  "maxCoveragePct": 50,
-  "maxHeightM": 10,
-  "docs": [
-   {
-    "name": "Lakatamia Nicosia Ground floor House 4-3564 Additional Information.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "Lakatamia Nicosia Ground floor House 4-3564.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "Λακατάμεια Λευκωσία Ισόγεια Κατοικία 4-3564 Πρόσθετες Πληροφορίες.pdf",
-    "kind": "pdf"
-   },
-   {
-    "name": "Λακατάμεια Λευκωσία Ισόγεια Κατοικία 4-3564.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/46548ec0240c.jpg",
-  "images": [
-   "/eauction-photos/46548ec0240c.jpg",
-   "/eauction-photos/a84b491269cc.jpg",
-   "/eauction-photos/9f3bdfded692.jpg"
   ]
  },
  "V4X4CN6AVX": {
