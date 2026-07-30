@@ -38,7 +38,7 @@
  *   EAUCTION_STATUSES       comma-separated status ids (default: biddable 3,5,6,7)
  *   EAUCTION_MAX_PHOTOS     photos kept per ad (default 12)
  *   EAUCTION_PRUNE=0        keep cache entries / photo files for ads that are gone
- *   EAUCTION_DELAY_MS       pause between ads (default 1500)
+ *   EAUCTION_DELAY_MS       pause between ads (default 3000; see the constant)
  *   EAUCTION_CODES          comma-separated auction codes to harvest (repair/debug)
  */
 import { chromium } from 'playwright-extra';
@@ -68,7 +68,10 @@ const REHARVEST = process.env.EAUCTION_REHARVEST === '1';
 const MAX_AGE_DAYS = Number(process.env.EAUCTION_MAX_AGE_DAYS ?? 45);
 const MAX_PHOTOS = Number(process.env.EAUCTION_MAX_PHOTOS ?? 12);
 const PRUNE = process.env.EAUCTION_PRUNE !== '0';
-const DELAY_MS = Number(process.env.EAUCTION_DELAY_MS ?? 1500);
+// 3 s, not the 1.5 s this started at. Measured against the live site: a 3 s
+// delay carried a full 419-ad cold harvest with zero failures, while 1.5 s was
+// cut off after 110 ads on one day and 22 on the next. Slower is what finishes.
+const DELAY_MS = Number(process.env.EAUCTION_DELAY_MS ?? 3000);
 const IMAGE_TIMEOUT_MS = 2000;   // per embedded image, when pdf.js never delivers it
 const MAX_XOBJECTS = 60;         // images inspected per PDF
 const AD_PARSE_BUDGET_MS = 60_000; // spent parsing one ad's attachments
