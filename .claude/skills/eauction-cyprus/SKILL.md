@@ -294,10 +294,26 @@ one. Three defences are in `harvest-eauction.mjs` and should stay there:
    pass without a manual re-harvest.
 
 Recovery is the standard one: stop, wait ~10 minutes, probe with a single detail
-page, resume. Roughly 60-80 detail loads in an afternoon (several aborted cold
-runs) was enough to trigger it, so on a laptop prefer incremental runs and let
-the weekly CI job do the bulk work. The harvester **checkpoints the cache every
-25 ads**, so an interrupted run keeps what it already fetched.
+page, resume. The harvester **checkpoints the cache every 25 ads**, so an
+interrupted run keeps what it already fetched.
+
+**Pace is what decides whether a run finishes.** Measured over three days:
+
+| Delay between ads | Result |
+|---|---|
+| 3 s | full 419-ad cold harvest, **0 failures**, ~70 min |
+| 1.5 s | cut off after **110** ads |
+| 1.5 s (next day) | cut off after **22** ads |
+
+So `EAUCTION_DELAY_MS` now defaults to **3000**. Note the trend in the two
+1.5 s runs: the allowance shrank overnight, so IP reputation accumulates across
+days rather than resetting — pushing harder buys less, not more.
+
+**A cold rebuild of all ~420 ads cannot be forced through in one sitting.** Plan
+for it to converge over several daily runs (the incremental check makes each run
+pick up only what's left), or do it in one gentle pass at 3 s on an IP that
+hasn't been hitting the site. Don't bump `SCHEMA` casually — that marks every
+entry stale and buys a multi-day re-harvest.
 
 ## The deploy gotcha (`[skip ci]` skips the deploy too)
 
