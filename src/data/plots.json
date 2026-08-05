@@ -208042,6 +208042,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Two Adjacent Building Plots in Pallouriotissa, Nicosia",
+  "price": 700000,
+  "priceDisplay": "€700,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/42768/6a73599e3250a.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/42768/6a73599e3250a.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/42768",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "42768",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1172,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "Agricultural Field in Agioi Trimithias",
   "price": 29000,
   "priceDisplay": "€29,000",
