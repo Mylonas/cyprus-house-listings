@@ -49,7 +49,18 @@ for f in "${FILES[@]}"; do
   fi
 done
 
-for attempt in 1 2 3 4 5; do
+# Five attempts spaced a flat 2-9s apart gives no headroom when several jobs
+# reach this push together: the losers all wake inside the same narrow window
+# and collide again. In the deals-blog copy that starved a job outright — one of
+# ten sharded scrapers burned all five attempts in 13 seconds and exited 1,
+# discarding 25 minutes of scraped products. Contention here is lower, but the
+# failure mode is the same and the fix costs nothing. Retry more times, and back
+# off exponentially with full jitter: the widening random window decorrelates the
+# contenders rather than merely waiting longer. An uncontended push still exits
+# on attempt 1 and never sleeps.
+ATTEMPTS=12
+
+for (( attempt = 1; attempt <= ATTEMPTS; attempt++ )); do
   git fetch origin master
   # Discard any half-finished state from a previous attempt, then start from
   # exactly what is on the remote right now.
@@ -106,9 +117,16 @@ for attempt in 1 2 3 4 5; do
     exit 0
   fi
 
-  echo "Push rejected (attempt $attempt) — someone else pushed first; retrying."
-  sleep $((RANDOM % 8 + 2))
+  echo "Push rejected (attempt $attempt/$ATTEMPTS) — someone else pushed first; retrying."
+  # Window doubles per attempt (4s, 8s, 16s...) and caps at 64s, so a heavily
+  # contended branch keeps retrying for ~10 minutes at worst instead of ~30s.
+  if [ "$attempt" -lt 5 ]; then
+    window=$(( 2 ** (attempt + 1) ))
+  else
+    window=64
+  fi
+  sleep $(( RANDOM % window + 2 ))
 done
 
-echo "::error::Could not push after 5 attempts."
+echo "::error::Could not push after $ATTEMPTS attempts."
 exit 1
