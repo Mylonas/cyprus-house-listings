@@ -213316,30 +213316,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Lakatamia, Nicosia",
-  "price": 255000,
-  "priceDisplay": "€255,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/38983/68f8daa7dc6b5.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/38983/68f8daa7dc6b5.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/38983",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "38983",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5185,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Residential field in Klirou",
   "price": 64000,
   "priceDisplay": "€64,000",
