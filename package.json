@@ -31,6 +31,7 @@
     "analyze": "node scripts/analyze-ppm.mjs",
     "build": "node scripts/build-page.mjs",
     "build:plots": "node scripts/build-plots-page.mjs",
+    "build:faq": "node scripts/build-faq-page.mjs",
     "dev": "npx serve public"
   },
   "dependencies": {

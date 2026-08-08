@@ -213,6 +213,8 @@ console.log(`Wrote ${deduped.length} listings (${results.length} scraped, ${carr
 
 // Rebuild the static page from the fresh data
 await import('./build-page.mjs');
+// The zones FAQ counts listings per zone code, so it goes stale too.
+await import('./build-faq-page.mjs');
 
 // Scrapers that failed mid-navigation never reach their browser.close(),
 // and the zombie Chromium keeps the event loop alive — exit explicitly so

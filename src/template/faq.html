@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planning Zones FAQ — Cyprus Listings Reference</title>
+<style>
+  :root {
+    --bg: #f4f5f7; --card-bg: #ffffff; --border: #e2e4e8; --text: #1c1f26;
+    --muted: #6b7280; --accent: #1d4ed8; --tag: #374151;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
+  header { background:#3b2f63; color:#fff; padding:20px 28px; }
+  header h1 { margin:0 0 4px; font-size:22px; }
+  header p { margin:0; color:#c4bce0; font-size:13px; max-width:70ch; }
+  .nav { margin-bottom:10px; font-size:13px; }
+  .nav a { color:#c7d2fe; text-decoration:none; font-weight:600; margin-right:14px; }
+  .nav a.current { color:#fff; text-decoration:underline; }
+
+  .wrap { max-width:980px; margin:0 auto; padding:24px 28px 60px; }
+  section { background:var(--card-bg); border:1px solid var(--border); border-radius:10px; padding:18px 22px; margin-bottom:18px; }
+  h2 { font-size:17px; margin:0 0 10px; }
+  h3 { font-size:14px; margin:18px 0 6px; color:var(--tag); }
+  p, li { font-size:14px; line-height:1.6; }
+  p { margin:0 0 10px; max-width:75ch; }
+  ul { margin:0 0 10px; padding-left:20px; max-width:75ch; }
+  code { background:#f3f4f6; padding:1px 5px; border-radius:4px; font-size:13px; }
+  header code { background:rgba(255,255,255,.16); color:#fff; }
+  a { color:var(--accent); }
+
+  .toc { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+  .toc a { font-size:12.5px; font-weight:600; text-decoration:none; background:var(--card-bg); border:1px solid var(--border); border-radius:14px; padding:5px 12px; }
+  .toc a:hover { background:#eef2ff; }
+
+  .scroller { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:13px; min-width:560px; }
+  th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { font-size:11.5px; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); background:#fafafa; position:sticky; top:0; }
+  tbody tr:hover { background:#fafbff; }
+  td.code { font-weight:700; white-space:nowrap; }
+  td.num { white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .multi { display:block; }
+  .greek { color:var(--muted); font-size:12.5px; }
+  .count { color:var(--muted); font-size:12px; white-space:nowrap; }
+
+  .note { border-left:3px solid var(--accent); background:#eef2ff; padding:10px 14px; border-radius:0 6px 6px 0; margin:0 0 12px; }
+  .warn { border-left:3px solid #b45309; background:#fffbeb; padding:10px 14px; border-radius:0 6px 6px 0; margin:0 0 12px; }
+  .warn strong, .note strong { display:block; margin-bottom:3px; }
+  .example { background:#f9fafb; border:1px solid var(--border); border-radius:8px; padding:12px 16px; font-size:13.5px; line-height:1.7; }
+  .example b { font-variant-numeric:tabular-nums; }
+  footer { color:var(--muted); font-size:12px; padding:0 28px 40px; max-width:980px; margin:0 auto; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav"><a href="index.html">🏠 Houses</a><a href="plots.html">🟩 Plots &amp; Land</a><a href="faq.html" class="current">📖 Zones FAQ</a></div>
+  <h1>Planning Zones — what the codes on a listing mean</h1>
+  <p>Cyprus plots are advertised with a planning zone code such as <code>Η2</code>, <code>Κα6</code> or <code>Γ3</code>. The code decides how much you may build. This page explains how to read one, and lists the official figures.</p>
+</header>
+
+<div class="wrap">
+
+<div class="toc">
+  <a href="#what">What a zone is</a>
+  <a href="#reading">Reading the numbers</a>
+  <a href="#families">Zone families</a>
+  <a href="#table">Official figures</a>
+  <a href="#caveats">Before you rely on this</a>
+</div>
+
+<section id="what">
+  <h2>What a planning zone is</h2>
+  <p>Every parcel of land in the Republic is covered by a planning zone. The zone fixes the permitted use — housing, farming, industry, tourism — and caps the size of anything built on it. Two systems set them:</p>
+  <ul>
+    <li><b>Local Plans</b> (<span class="greek">Τοπικά Σχέδια</span>) cover the towns and their suburbs — Nicosia, Limassol, Larnaca, Paphos, and a few named areas. Each Local Plan defines its own codes, mostly <code>Κα</code>, <code>Πα</code>, <code>Εβ</code>, <code>Βα</code> and <code>Τ</code>.</li>
+    <li>The <b>Policy Statement for the Countryside</b> (<span class="greek">Δήλωση Πολιτικής</span>) covers everything else — the villages and open country. Its codes are <code>Η</code>, <code>Π</code>, <code>Γ</code>, <code>Ζ</code>, <code>Τ</code> and a handful more, and they mean the same thing island-wide.</li>
+  </ul>
+  <p>That split is why you see two residential families. <code>Η</code> is a village or countryside residential zone; <code>Κα</code> is the town equivalent. The Department's own legend notes that <code>Κα</code> zones correspond to the <code>Η</code> zones of the Policy Statement.</p>
+  <p>Within a family, <b>a higher number means less building</b>. <code>Η2</code> is denser than <code>Η6</code>; <code>Γ1</code> allows twice what <code>Γ3</code> allows.</p>
+</section>
+
+<section id="reading">
+  <h2>Reading the numbers</h2>
+  <p>A zone comes with four limits, and a plot is bound by all of them at once:</p>
+  <ul>
+    <li><b>Building coefficient</b> (<span class="greek">συντελεστής δόμησης</span>, Σ.Δ.) — total floor area you may build, as a ratio of plot area. Written <code>0,90:1</code>, i.e. 90%.</li>
+    <li><b>Coverage</b> (<span class="greek">ποσοστό κάλυψης</span>) — how much of the plot the building footprint may occupy.</li>
+    <li><b>Floors</b> (<span class="greek">αριθμός ορόφων</span>) — maximum storeys.</li>
+    <li><b>Height</b> (<span class="greek">ύψος</span>) — maximum metres.</li>
+  </ul>
+  <div class="example">
+    <b>Worked example — a 1,000 m² plot zoned Η2</b><br>
+    Coefficient <b>0,90:1</b> → up to <b>900 m²</b> of total floor area.<br>
+    Coverage <b>0,50:1</b> → the footprint may cover at most <b>500 m²</b> of the plot.<br>
+    <b>2</b> floors, <b>8,30 m</b> → so roughly 450 m² per floor over two floors reaches the 900 m² allowance without breaking coverage.<br>
+    The same plot zoned <b>Γ3</b> instead allows <b>100 m²</b> in total — and needs farming justification besides.
+  </div>
+</section>
+
+<section id="families">
+  <h2>Zone families — what each letter means</h2>
+  <p>The letter carries the use; the number carries the density. Descriptions below are the Department's own wording.</p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Code</th><th>Meaning</th><th>Official description</th><th>Set by</th></tr></thead>
+      <tbody id="familyRows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="table">
+  <h2>Official figures — Policy Statement for the Countryside</h2>
+  <p>These apply nationally, outside Local Plan areas. <span id="coverageNote"></span></p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Zone</th><th>Use</th><th>Coefficient</th><th>Coverage</th><th>Floors</th><th>Height</th><th>On this site</th></tr></thead>
+      <tbody id="zoneRows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="caveats">
+  <h2>Before you rely on any of this</h2>
+  <div class="warn">
+    <strong>The same code differs between Local Plans.</strong>
+    Only the Policy Statement figures above are national. A Local Plan code such as <code>Κα6</code> is defined separately by each plan — the coefficient tends to agree at 0,90:1, but the height limit varies between 8,30 m and 13,50 m depending on the town and whether the plot sits inside a protected-character area. Read the figure from the Local Plan that covers the plot, not from a table like this one.
+  </div>
+  <div class="warn">
+    <strong>The zone shown on a listing is typed by the advertiser.</strong>
+    It is free text, not a verified field. Across the plots on this site the same zone arrives written as <code>Η2</code>, <code>H2</code>, <code>h2</code> and <code>Η2 100%</code> — Greek and Latin letters look identical here but are different characters. Some entries are percentages, plot numbers, a town name, or <span class="greek">«δεν γνωρίζω»</span>. Treat it as a hint about which plots to look at, never as a fact about what you may build.
+  </div>
+  <div class="warn">
+    <strong>A plot can sit in more than one zone.</strong>
+    Splits are common and listings show them as <code>Η6 (67%) / Ζ3 (33%)</code> or <code>Γ3(54%), Ζ3(46%)</code>. The buildable allowance is calculated per part, so a headline area can be mostly unbuildable protection zone.
+  </div>
+  <div class="note">
+    <strong>Verify before acting.</strong>
+    The zone of a specific parcel is confirmed by the Department of Town Planning and Housing, or by a planning-zone certificate obtained against the parcel's registration and sheet/plan numbers. Nothing here is planning advice.
+  </div>
+  <h3>Sources</h3>
+  <ul id="sources"></ul>
+</section>
+
+</div>
+
+<footer id="footer"></footer>
+
+<script type="application/json" id="zoneData">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('zoneData').textContent);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const n = v => v.toLocaleString('en-US');
+
+const USE = {
+  residential: 'Residential', holiday: 'Holiday residence', countryside: 'Countryside / agricultural',
+  protection: 'Protection', tourist: 'Tourist', craft: 'Craft &amp; light industry',
+  industrial: 'Industrial', public: 'Public uses', other: '—'
+};
+
+// The tourist rows pack one value per permitted use into a single cell, in
+// matching order — split them onto their own lines so the columns still line up.
+const cell = v => esc(v).split(/\s(?=\d)|\s(?=—)/).map(s => `<span class="multi">${s}</span>`).join('');
+
+document.getElementById('familyRows').innerHTML = DATA.families.map(f => `
+  <tr>
+    <td class="code">${esc(f.letter)}</td>
+    <td><b>${esc(f.english)}</b>${f.note ? `<br><span class="greek">${esc(f.note)}</span>` : ''}</td>
+    <td class="greek">${esc(f.greek)}</td>
+    <td class="greek">${esc(f.where)}</td>
+  </tr>`).join('');
+
+// Alphabetical by Greek letter would open on Αα2 (public uses). Lead with what
+// people actually hold: housing, then land, then the protection zones that
+// decide whether land is worth holding.
+const FAMILY_ORDER = ['residential', 'countryside', 'protection', 'holiday', 'tourist', 'craft', 'industrial', 'public', 'other'];
+const ordered = DATA.zones.slice().sort((a, b) =>
+  FAMILY_ORDER.indexOf(a.family) - FAMILY_ORDER.indexOf(b.family));
+
+document.getElementById('zoneRows').innerHTML = ordered.map(z => `
+  <tr>
+    <td class="code">${esc(z.code)}</td>
+    <td class="greek">${USE[z.family] || '—'}</td>
+    <td class="num">${cell(z.coefficient)}</td>
+    <td class="num">${cell(z.coverage)}</td>
+    <td class="num">${cell(z.floors)}</td>
+    <td class="num">${cell(z.height)}</td>
+    <td class="count">${DATA.counts[z.code] ? n(DATA.counts[z.code]) + ' listing' + (DATA.counts[z.code] === 1 ? '' : 's') : '—'}</td>
+  </tr>`).join('');
+
+document.getElementById('coverageNote').textContent =
+  n(DATA.matched) + ' of the ' + n(DATA.withZone) + ' listings that state a zone use one of these codes; ' +
+  'most of the rest carry a Local Plan code such as Κα6 or Εβ4, which this table does not cover.';
+
+document.getElementById('sources').innerHTML = `
+  <li><a href="${esc(DATA.source.url)}" target="_blank" rel="noopener">${esc(DATA.source.name)}</a> — ${esc(DATA.source.publisher)}. Retrieved ${esc(DATA.source.retrieved)}.</li>
+  <li><a href="https://www.moi.gov.cy/moi/tph/tph.nsf/home_en/home_en?openform=" target="_blank" rel="noopener">Department of Town Planning and Housing</a> — Local Plans and the Policy Statement for the Countryside.</li>
+  <li><a href="https://geoportal.gov.cy/moi/DLS/geoportal/geoportal.nsf/index_en/index_en?OpenDocument=" target="_blank" rel="noopener">Geospatial Information Portal of Cyprus</a> — parcel and zone boundary maps.</li>`;
+
+document.getElementById('footer').textContent =
+  'Figures transcribed from the official legend on ' + DATA.source.retrieved +
+  '. Zone counts run over all ' + DATA.totalPlots.toLocaleString('en-US') +
+  ' houses and plots in this dataset. For internal reference only — not planning advice.';
+</script>
+</body>
+</html>
