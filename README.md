@@ -71,7 +71,9 @@ cyprus-house-listings/
 │   ├── lib/districts.mjs         # resolves any source's location text to one of the five districts
 │   ├── lib/documents.mjs         # dependency-free readers for .docx/.doc/.rtf attachments (text + embedded images)
 │   ├── lib/property-facts.mjs    # Greek/English parser for build year, areas, floors, zone, beds/baths
-│   └── build-page.mjs            # injects src/data/listings.json into the HTML template → public/index.html
+│   ├── lib/payload.mjs           # trims the inlined dataset to the fields a template reads, drops nulls
+│   ├── build-page.mjs            # injects src/data/listings.json into src/template/page.html → public/index.html
+│   └── build-plots-page.mjs      # injects src/data/plots.json into src/template/plots.html → public/plots.html
 ├── history/
 │   └── YYYY-MM-DD/
 │       ├── listings.ndjson       # slim snapshot (link, source, price, beds, sizes, district, title)
@@ -80,7 +82,8 @@ cyprus-house-listings/
 │   ├── data/
 │   │   └── listings.json         # merged listings, updated by scrape-all.mjs
 │   └── template/
-│       └── page.html             # page shell + filter UI, with a __DATA__ placeholder
+│       ├── page.html             # houses: page shell + filter UI, with a __DATA__ placeholder
+│       └── plots.html            # plots: same shape, its own filters (plot type, zone, €/m²)
 ├── public/
 │   ├── index.html                # generated static site (this is what gets deployed)
 │   └── vendor/                   # Leaflet + markercluster, vendored (no CDN at runtime)
