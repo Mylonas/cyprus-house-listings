@@ -115,6 +115,7 @@ if (!didHouses && !didPlots) {
 
 if (didHouses) await import('./build-page.mjs');
 if (didPlots) await import('./build-plots-page.mjs');
+if (didHouses || didPlots) await import('./build-faq-page.mjs');
 
 console.log('\nDone. Review `git diff --stat` and commit.');
 process.exit(0);
