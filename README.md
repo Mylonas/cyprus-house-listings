@@ -23,6 +23,7 @@ A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)
 | **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
 | **Scheduled refresh** | GitHub Actions re-scrapes all seventeen sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Map view** | Grid/Map toggle on both pages. Only listings with real per-listing coordinates are plotted — Bazaraki publishes them, most sources do not — and the map states its own coverage against the active filter rather than inventing positions from town names |
+| **Planning zones FAQ** | `public/faq.html` explains what a zone code such as `Η2`, `Κα6` or `Γ3` permits, with the official coefficient/coverage/floors/height figures transcribed from the Department of Town Planning's own legend, plus how many listings carry each code |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 
 ---
@@ -73,19 +74,23 @@ cyprus-house-listings/
 │   ├── lib/property-facts.mjs    # Greek/English parser for build year, areas, floors, zone, beds/baths
 │   ├── lib/payload.mjs           # trims the inlined dataset to the fields a template reads, drops nulls
 │   ├── build-page.mjs            # injects src/data/listings.json into src/template/page.html → public/index.html
-│   └── build-plots-page.mjs      # injects src/data/plots.json into src/template/plots.html → public/plots.html
+│   ├── build-plots-page.mjs      # injects src/data/plots.json into src/template/plots.html → public/plots.html
+│   └── build-faq-page.mjs        # planning-zone reference + per-zone listing counts → public/faq.html
 ├── history/
 │   └── YYYY-MM-DD/
 │       ├── listings.ndjson       # slim snapshot (link, source, price, beds, sizes, district, title)
 │       └── changes.md            # new / removed / price-changed vs the previous snapshot
 ├── src/
 │   ├── data/
-│   │   └── listings.json         # merged listings, updated by scrape-all.mjs
+│   │   ├── listings.json         # merged listings, updated by scrape-all.mjs
+│   │   └── planning-zones.json   # official planning-zone legend (figures + letter families)
 │   └── template/
 │       ├── page.html             # houses: page shell + filter UI, with a __DATA__ placeholder
+│       ├── faq.html              # planning-zones explainer
 │       └── plots.html            # plots: same shape, its own filters (plot type, zone, €/m²)
 ├── public/
 │   ├── index.html                # generated static site (this is what gets deployed)
+│   ├── faq.html                  # planning-zones FAQ
 │   └── vendor/                   # Leaflet + markercluster, vendored (no CDN at runtime)
 └── .github/workflows/
     ├── deploy.yml               # Build & deploy public/ to Cloudflare Pages on push to master

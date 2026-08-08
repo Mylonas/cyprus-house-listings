@@ -127,4 +127,6 @@ writeFileSync(outPath, JSON.stringify(deduped, null, 1), 'utf-8');
 console.log(`Wrote ${deduped.length} plots (${results.length} scraped, ${carried.length} carried over) to src/data/plots.json (${successCount}/${sources.length} sources succeeded).`);
 
 await import('./build-plots-page.mjs');
+// The zones FAQ counts plots per zone code, so it goes stale too.
+await import('./build-faq-page.mjs');
 process.exit(0);
