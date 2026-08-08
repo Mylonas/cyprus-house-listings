@@ -7,7 +7,7 @@
  * byte the visitor downloads and the browser has to parse before the first card
  * appears. Two things keep it small:
  *
- *  - `pick` keeps only the fields the template actually reads. The scrapers
+ *  - `slim` keeps only the fields the template actually reads. The scrapers
  *    store far more per listing (enrichment fields, geo zoom hints, registration
  *    numbers) and that data stays in src/data/*.json where it belongs.
  *  - null/empty values are dropped rather than serialised. `"buildYear":null,`
