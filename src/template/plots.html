@@ -24,6 +24,12 @@
   .filters { position: sticky; top:0; z-index: 10; background:#fff; border-bottom:1px solid var(--border); padding:14px 28px; display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; }
   .filter-group { display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted); }
   .filter-group label { font-weight:600; }
+  /* Its longest option is "Any agricultural / countryside (370)", which would
+     otherwise stretch this control to twice the width of every other filter. */
+  #zoneFilter { max-width:190px; }
+  .help { display:inline-flex; align-items:center; justify-content:center; width:14px; height:14px; margin-left:2px;
+          border-radius:50%; background:#e5e7eb; color:var(--tag); font-size:10px; font-weight:700; text-decoration:none; vertical-align:text-top; }
+  .help:hover { background:var(--accent); color:#fff; }
   .filter-group input, .filter-group select { padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:13px; min-width:110px; }
   .filter-group.grow { flex:1; min-width:180px; }
   .filter-group.grow input { min-width:100%; }
@@ -103,6 +109,10 @@
     <select id="typeFilter"><option value="">All</option></select>
   </div>
   <div class="filter-group">
+    <label>Planning zone <a href="faq.html" class="help" title="What do these codes mean?">?</a></label>
+    <select id="zoneFilter"><option value="">All</option></select>
+  </div>
+  <div class="filter-group">
     <label>Min price (€)</label>
     <input type="number" id="minPrice" placeholder="0">
   </div>
@@ -168,7 +178,87 @@ const sources = [...sourceCounts.keys()];
 const districts = [...districtSet].sort();
 const plotTypes = [...typeSet].sort();
 
-const state = { sources: new Set(sources), district: '', plotType: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '', view: 'grid' };
+const state = { sources: new Set(sources), district: '', plotType: '', zone: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '', view: 'grid' };
+
+/* ── planning zone filter ──────────────────────────────────────────────────
+ * `l.z` is precomputed at build time (scripts/lib/zones.mjs): the canonical
+ * codes the advertiser's free-text zone resolves to, plus `*Group` tokens for
+ * entries that name a use in words but no code. A plot can sit in more than
+ * one zone, so `z` is a list and matching any entry counts.
+ *
+ * The select offers a whole group ("Any residential") and each individual code
+ * beneath it, because both are real questions: "show me land I can build on"
+ * and "show me Η2 specifically".
+ */
+const ZONE_GROUPS = {
+  Η:'Residential', Κα:'Residential', Πα:'Residential', ΚΓ:'Residential',
+  Π:'Holiday residence', Πκ:'Holiday residence',
+  Γ:'Agricultural / countryside', Γα:'Agricultural / countryside',
+  Ζ:'Protection', Δα:'Protection', Τ:'Tourist', ΤΓ:'Tourist',
+  Εα:'Commercial', Εβ:'Commercial',
+  Βα:'Industrial', Ββ:'Industrial', Βγ:'Industrial', Β:'Industrial',
+  Βδ:'Craft industry', Βε:'Craft industry', Βστ:'Craft industry', Ε:'Craft industry',
+  Γβ:'Livestock', Γγ:'Livestock', Δ:'Livestock', Αα:'Public uses', ΛΖ:'Quarry',
+};
+const ZONE_GROUP_ORDER = ['Residential','Agricultural / countryside','Protection','Tourist',
+  'Commercial','Holiday residence','Industrial','Craft industry','Livestock','Public uses','Quarry'];
+
+const zoneGroupOf = t => t[0] === '*' ? t.slice(1) : (ZONE_GROUPS[(t.match(/^[Α-Ωα-ω]+?(?=\d)/) || [t])[0]] ?? null);
+
+// Counts drive the option labels, so the list shows what the data actually has.
+const zoneCodeCounts = new Map(), zoneGroupCounts = new Map();
+for (const l of LISTINGS) {
+  if (!l.z) continue;
+  const groups = new Set();
+  for (const t of l.z) {
+    if (t[0] !== '*') zoneCodeCounts.set(t, (zoneCodeCounts.get(t) || 0) + 1);
+    const g = zoneGroupOf(t);
+    if (g) groups.add(g);
+  }
+  for (const g of groups) zoneGroupCounts.set(g, (zoneGroupCounts.get(g) || 0) + 1);
+}
+
+function buildZoneFilter(){
+  const sel = document.getElementById('zoneFilter');
+  const frag = document.createDocumentFragment();
+  // Sort codes by family, then density number, then variant — Η1, Η2, Η2β, Η3.
+  const codesByGroup = new Map();
+  for (const code of zoneCodeCounts.keys()) {
+    const g = zoneGroupOf(code);
+    if (!g) continue;
+    if (!codesByGroup.has(g)) codesByGroup.set(g, []);
+    codesByGroup.get(g).push(code);
+  }
+  const parts = c => { const m = c.match(/^([Α-Ωα-ω]+?)(\d+)(.*)$/); return m ? [m[1], +m[2], m[3]] : [c, 0, '']; };
+
+  for (const group of ZONE_GROUP_ORDER) {
+    if (!zoneGroupCounts.has(group)) continue;
+    const og = document.createElement('optgroup');
+    og.label = group;
+    const any = document.createElement('option');
+    any.value = 'g:' + group;
+    any.textContent = `Any ${group.toLowerCase()} (${zoneGroupCounts.get(group)})`;
+    og.appendChild(any);
+    for (const code of (codesByGroup.get(group) || []).sort((a,b) => {
+      const A = parts(a), B = parts(b);
+      return A[0].localeCompare(B[0],'el') || A[1]-B[1] || A[2].localeCompare(B[2],'el');
+    })) {
+      const o = document.createElement('option');
+      o.value = 'c:' + code;
+      o.textContent = `${code} (${zoneCodeCounts.get(code)})`;
+      og.appendChild(o);
+    }
+    frag.appendChild(og);
+  }
+  sel.appendChild(frag);
+}
+
+function matchesZone(l, sel){
+  if (!l.z) return false;
+  if (sel[0] === 'c') return l.z.includes(sel.slice(2));
+  const group = sel.slice(2);
+  return l.z.some(t => zoneGroupOf(t) === group);
+}
 
 function shortSource(s){ if (s === 'A Place in the Sun') return 'APITS'; if (s === 'eAuction Cyprus') return 'eAuction'; if (s === 'Kadis Estates') return 'Kadis'; return s.split(' ')[0]; }
 
@@ -389,7 +479,7 @@ new IntersectionObserver(entries => {
 }, { rootMargin: '800px' }).observe(sentinel);
 
 function applyFilters(){
-  const { sources: srcs, district, plotType, minPrice, maxPrice, minPlot, maxPlot } = state;
+  const { sources: srcs, district, plotType, zone, minPrice, maxPrice, minPlot, maxPlot } = state;
   const q = state.q ? state.q.toLowerCase() : '';
   // One pass rather than a chain of .filter() calls, each of which allocated a
   // fresh 8k-element array on every keystroke.
@@ -397,6 +487,7 @@ function applyFilters(){
     if (!srcs.has(l.source)) return false;
     if (district && l.district !== district) return false;
     if (plotType && l.plotType !== plotType) return false;
+    if (zone && !matchesZone(l, zone)) return false;
     if (minPrice != null && l.price != null && l.price < minPrice) return false;
     if (maxPrice != null && l.price != null && l.price > maxPrice) return false;
     if (minPlot != null && !(l.plotSqm >= minPlot)) return false;
@@ -448,6 +539,7 @@ function debounced(fn){ clearTimeout(_debounce); _debounce = setTimeout(fn, 150)
 document.getElementById('searchInput').addEventListener('input', e => { state.q = e.target.value; debounced(applyFilters); });
 document.getElementById('districtFilter').addEventListener('change', e => { state.district = e.target.value; applyFilters(); });
 document.getElementById('typeFilter').addEventListener('change', e => { state.plotType = e.target.value; applyFilters(); });
+document.getElementById('zoneFilter').addEventListener('change', e => { state.zone = e.target.value; applyFilters(); });
 document.getElementById('minPrice').addEventListener('input', e => { state.minPrice = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('maxPrice').addEventListener('input', e => { state.maxPrice = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('minPlot').addEventListener('input', e => { state.minPlot = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
@@ -456,8 +548,9 @@ document.getElementById('sortBy').addEventListener('change', e => { state.sort =
 document.getElementById('btnGrid').addEventListener('click', () => setView('grid'));
 document.getElementById('btnMap').addEventListener('click', () => setView('map'));
 document.getElementById('resetBtn').addEventListener('click', () => {
-  state.sources = new Set(sources); state.district=''; state.plotType=''; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
+  state.sources = new Set(sources); state.district=''; state.plotType=''; state.zone=''; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
   document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value=''; document.getElementById('typeFilter').value='';
+  document.getElementById('zoneFilter').value='';
   document.getElementById('minPrice').value=''; document.getElementById('maxPrice').value=''; document.getElementById('minPlot').value=''; document.getElementById('maxPlot').value='';
   document.getElementById('sortBy').value='plot_desc';
   renderChips(); applyFilters();
@@ -468,6 +561,7 @@ renderStats();
 renderChips();
 fillSelect('districtFilter', districts);
 fillSelect('typeFilter', plotTypes);
+buildZoneFilter();
 applyFilters();
 </script>
 </body>

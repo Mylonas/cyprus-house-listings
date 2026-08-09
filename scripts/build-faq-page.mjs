@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { embed, inject } from './lib/payload.mjs';
+import { normalise, zoneCodes } from './lib/zones.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -22,36 +23,13 @@ const outPath = path.join(root, 'public/faq.html');
 
 const ref = JSON.parse(readFileSync(zonesPath, 'utf-8'));
 
-/**
- * The `zone` field is advertiser-typed free text. Greek Η and Latin H are
- * different characters that render identically, and advertisers use both —
- * along with `G` for Γ, lowercase, and Latin `a` for the α suffix. Fold the
- * Latin lookalikes onto their Greek counterparts, then uppercase, so `H5a`,
- * `Η5α` and `h5A` all land on the same bucket.
- */
-const LATIN_TO_GREEK = {
-  A: 'Α', B: 'Β', E: 'Ε', H: 'Η', I: 'Ι', K: 'Κ', M: 'Μ', N: 'Ν',
-  O: 'Ο', P: 'Ρ', T: 'Τ', X: 'Χ', Y: 'Υ', Z: 'Ζ', G: 'Γ', D: 'Δ',
-};
-function normalise(s) {
-  return s.toUpperCase().replace(/[A-Z]/g, c => LATIN_TO_GREEK[c] ?? c);
-}
-
-// Codes look like Η2, Η6Α, Γ3, Τ3Β, Π1Α — a use letter, a density number, an
-// optional variant letter. Anchored on a non-letter so `ΚΑ6` does not also
-// yield a bogus `Α6`.
-const CODE = /(?<![Α-Ω])([ΗΠΓΖΤΕΒ]|ΑΑ)\s?(\d+)([ΑΒΓ])?/g;
-
+// Canonicalisation of the advertiser-typed `zone` field lives in lib/zones.mjs,
+// shared with the plots page's zone filter. Here we only care about the codes
+// the Policy Statement table actually documents — Local Plan codes (Κα, Εβ,
+// Βα…) resolve fine but have no national figures to show against.
 const official = new Set(ref.zones.map(z => normalise(z.code)));
-
-function codesIn(raw) {
-  const found = new Set();
-  for (const m of normalise(raw).matchAll(CODE)) {
-    const code = m[1] + m[2] + (m[3] ?? '');
-    if (official.has(code)) found.add(code);
-  }
-  return found;
-}
+const codesIn = raw =>
+  new Set([...zoneCodes(raw)].filter(c => official.has(normalise(c))));
 
 const rows = ['src/data/plots.json', 'src/data/listings.json']
   .flatMap(f => JSON.parse(readFileSync(path.join(root, f), 'utf-8')));
