@@ -1,6 +1,6 @@
 # 🏠 Cyprus House Listings
 
-> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.2.0** — seven new sources (EstateBud agencies, DOM real estate, Pafilia, Giovani Homes), Plots & Land page
+> **Live at [cyprus-house-listings.pages.dev](https://cyprus-house-listings.pages.dev)** · Latest release: **v2.3.0** — planning-zone filter and zones FAQ, full eAuction ad harvest (documents, photos, property facts), eAuction plots and land, map view, full Bazaraki catalogue, and both pages ~10× faster to open
 
 Internal reference page aggregating house-for-sale listings from seventeen sources — Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, Kadis Estates, Kazo Real Estate, Cyprus Properties, NCH Real Estate, DOM real estate, Pafilia, and Giovani Homes — into one filterable, sortable grid. Built the same way as [deals-blog](https://github.com/Mylonas/deals-blog): static site, scheduled scrape via GitHub Actions, deployed to Cloudflare Pages.
 
@@ -16,11 +16,12 @@ A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)
 
 | Feature | Details |
 |---|---|
-| **Multi-source aggregation** | ~900 listings pulled from Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, and Kadis Estates (counts vary per refresh) |
+| **Multi-source aggregation** | ~15,100 house listings and ~8,300 plots pulled from seventeen sources — Bazaraki, Kazo Real Estate, DOM real estate, Cyprus Properties, Zyprus, A Place in the Sun, NCH Real Estate, Realting, Giovani Homes, Kadis Estates, Altamira Real Estate, eAuction Cyprus, Pafilia, FOX Realty, home.cy, BidX1, and BuySellCyprus.com (counts vary per refresh; a source blocked at scrape time carries over its previous rows) |
 | **Cross-source deduplication** | Resellers/aggregators carry stock the direct portals also list; duplicates (exact bedrooms + price, confirmed by covered area within 5% or district) are removed, keeping the direct portal's copy |
 | **Filterable grid** | District, min/max price, min house size, min/max plot size, built-after year, min bedrooms, source site, free-text search |
 | **Sortable** | Price (asc/desc), house size, plot size, most recently posted |
-| **Photos where published** | 457/517 listings (88%) include a photo; eAuction Cyprus is the main gap — it's a bank-foreclosure archive that mostly publishes legal notice PDFs instead of photos, though a handful of listings do have a direct photo endpoint we recover |
+| **Photos where published** | 15,018/15,073 listings (99.6%) include a photo. eAuction Cyprus was the long-standing gap — a bank-foreclosure archive that publishes legal notices rather than listing photos — and the full ad harvest now recovers its images from the PDF and Word attachments themselves |
+| **Fast on a large dataset** | Cards render in chunks as you scroll and the inlined payload carries only the fields the templates read, so both pages open in about a second despite 15k+ listings |
 | **Scheduled refresh** | GitHub Actions re-scrapes all seventeen sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Map view** | Grid/Map toggle on both pages. Only listings with real per-listing coordinates are plotted — Bazaraki publishes them, most sources do not — and the map states its own coverage against the active filter rather than inventing positions from town names |
 | **Planning zones FAQ** | `public/faq.html` explains what a zone code such as `Η2`, `Κα6` or `Γ3` permits, with the official coefficient/coverage/floors/height figures transcribed from the Department of Town Planning's own legend, plus how many listings carry each code |
@@ -64,12 +65,21 @@ cyprus-house-listings/
 │   ├── scrape-dom.mjs            # dom.com.cy — Prime Property Group portal, plain-fetch catalog pager
 │   ├── scrape-pafilia.mjs        # pafilia.com — developer, WP REST API (Houzez property meta)
 │   ├── scrape-giovani.mjs        # giovani.com.cy — developer, WP REST list + detail-page parse
-│   ├── scrape-all.mjs            # runs all 10, dedupes across sources, rebuilds the page
-│   ├── refresh-local.mjs         # laptop-only refresh of Bazaraki houses+plots + Zyprus
+│   ├── scrape-kadis.mjs          # kadisestates.com — WordPress admin-ajax EstateBud endpoint
+│   ├── scrape-estatebud.mjs      # generic EstateBud SPA scraper (Kazo Real Estate)
+│   ├── scrape-estatebud-wp.mjs   # generic WordPress-EstateBud admin-ajax scraper (NCH Real Estate)
+│   ├── scrape-cyprusproperties.mjs # cyprusproperties.com.cy — EstateBud with a server-side pager
+│   ├── scrape-all.mjs            # runs all 17, dedupes across sources, rebuilds the page
+│   ├── scrape-plots.mjs          # the plots pipeline: every plot/land source → src/data/plots.json
+│   ├── scrape-bazaraki-plots.mjs # bazaraki.com — plot/land ads for the plots page
+│   ├── scrape-kadis-plots.mjs    # kadisestates.com — plot/land ads for the plots page
+│   ├── refresh-local.mjs         # laptop-only refresh of Bazaraki houses+plots + Zyprus (+ the eAuction harvest)
 │   ├── snapshot-history.mjs      # dated snapshot of listings.json + diff vs the previous one → history/
 │   ├── analyze-ppm.mjs           # €/m² stats by district, bedrooms, source (read-only report)
 │   ├── lib/curl-fetch.mjs        # curl-backed fetch — gets past Cloudflare's TLS fingerprinting
 │   ├── lib/districts.mjs         # resolves any source's location text to one of the five districts
+│   ├── lib/zones.mjs             # canonicalises advertiser-typed planning zones (homoglyphs, split zones, junk)
+│   ├── lib/eauction-list.mjs     # the shared eAuction list-endpoint contract (request body, card parsing)
 │   ├── lib/documents.mjs         # dependency-free readers for .docx/.doc/.rtf attachments (text + embedded images)
 │   ├── lib/property-facts.mjs    # Greek/English parser for build year, areas, floors, zone, beds/baths
 │   ├── lib/payload.mjs           # trims the inlined dataset to the fields a template reads, drops nulls
@@ -83,6 +93,8 @@ cyprus-house-listings/
 ├── src/
 │   ├── data/
 │   │   ├── listings.json         # merged listings, updated by scrape-all.mjs
+│   │   ├── plots.json            # merged plot/land listings, updated by scrape-plots.mjs
+│   │   ├── eauction-details.json # enrichment cache built by harvest-eauction.mjs
 │   │   └── planning-zones.json   # official planning-zone legend (figures + letter families)
 │   └── template/
 │       ├── page.html             # houses: page shell + filter UI, with a __DATA__ placeholder
@@ -90,11 +102,14 @@ cyprus-house-listings/
 │       └── plots.html            # plots: same shape, its own filters (plot type, zone, €/m²)
 ├── public/
 │   ├── index.html                # generated static site (this is what gets deployed)
+│   ├── plots.html                # generated Plots & Land page
 │   ├── faq.html                  # planning-zones FAQ
+│   ├── eauction-photos/          # content-hashed photos recovered from eAuction attachments
 │   └── vendor/                   # Leaflet + markercluster, vendored (no CDN at runtime)
 └── .github/workflows/
     ├── deploy.yml               # Build & deploy public/ to Cloudflare Pages on push to master
     ├── update-listings.yml      # Cron: every 6 hours — re-scrape, rebuild, commit if changed
+    ├── harvest-eauction.yml     # Cron: Sundays 02:40 UTC — eAuction detail harvest (blocked on CI IPs; see below)
     ├── snapshot-history.yml     # Cron: weekly — records a history/ snapshot and its diff
     └── watchdog.yml             # Cron: every 12h — re-triggers stale scrapes, opens an Issue after ~30h stale
 ```
@@ -107,7 +122,7 @@ cyprus-house-listings/
 |---|---|---|---|
 | [Altamira Real Estate](https://www.altamirarealestate.com.cy) | Bank-owned/collateral houses for sale, all districts | Playwright — click "View more" to paginate | Includes size, bedrooms, bathrooms per listing |
 | [Bazaraki](https://www.bazaraki.com) | General classifieds houses/villas for sale | `/api/items/` JSON API via curl (Cloudflare passes curl's TLS fingerprint but not a browser's — see below) | Includes house size, plot size, bedrooms, bathrooms, construction year, all photos, and the real `created_dt` go-live date |
-| [eAuction Cyprus](https://www.eauction-cy.com) | Official Cyprus Banks Association mortgage foreclosure auctions | Plain fetch of the `POST /Home/HomeListAuctions` XHR endpoint — upcoming/biddable statuses only (Posted/Ready/Open/Finalized), Residence type | Core fields (reserve price, location, district, auction date, code, link) come live from the unprotected XHR endpoint; plot area + photos are merged from the `src/data/eauction-details.json` enrichment cache (detail pages are Imperva-protected). Listings without a cache entry still appear with core fields |
+| [eAuction Cyprus](https://www.eauction-cy.com) | Official Cyprus Banks Association mortgage foreclosure auctions | Plain fetch of the `POST /Home/HomeListAuctions` XHR endpoint — upcoming/biddable statuses only (Posted/Ready/Open/Finalized). Residence for the houses page; subtypes 12/13/14/15 (Plot, Plot with building, Land, Land with building) for the plots page | Core fields (reserve price, location, district, auction date, code, link) come live from the unprotected XHR endpoint. Everything else — plot and covered area, build year, floors, planning zone, rooms and photos — is merged from the `src/data/eauction-details.json` enrichment cache, which `harvest-eauction.mjs` builds by reading each ad's Imperva-protected detail page and its PDF/Word attachments. Listings without a cache entry still appear with core fields |
 | [Zyprus](https://www.zyprus.com) | Agency-listed houses for sale | curl + regex parse of the server-rendered `<article>` cards on the paginated sale search grid | Photos + price + location + bedrooms; size/build year require opening each listing (not scraped by default) |
 | [BidX1](https://bidx1.com/en) | Pan-European online property auctions (IE/UK/ZA/CY) — Cyprus Houses filter | Playwright — fixed filtered URL (`division=80&propertytypes=2`) | Photos + reserve price + bedrooms + location; smallest source (~8 Cyprus house auctions live at a time) |
 | [BuySellCyprus.com](https://www.buysellcyprus.com) | Cyprus' largest property marketplace — ~28,000 house listings total | Playwright — "recently listed" sort, bounded page walk (~15 pages / 360 listings by default) | Not exhaustive by design given the catalogue size; samples the most recently listed houses |
@@ -182,7 +197,8 @@ All workflows that commit back to the repo use `[skip ci]` on their commits to a
 | Workflow | Trigger | What it does |
 |---|---|---|
 | `deploy.yml` | Push to `master` | Deploys `public/` to Cloudflare Pages |
-| `update-listings.yml` | Every 6 hours | Runs all 10 scrapers, dedupes across sources, rebuilds `public/index.html`, commits if changed, deploys to Cloudflare Pages |
+| `update-listings.yml` | Every 6 hours | Runs all 17 scrapers, dedupes across sources, rebuilds `public/index.html`, `plots.html` and `faq.html`, commits if changed, deploys to Cloudflare Pages |
+| `harvest-eauction.yml` | Sundays 02:40 UTC, or dispatch | Harvests every eAuction ad's detail page, documents and photos into the enrichment cache. **A GitHub-hosted runner cannot render eAuction detail pages** (Imperva refuses datacenter IPs), so the job warns and skips the commit rather than failing weekly or writing an empty cache; the real refresh is `npm run harvest:eauction` from the laptop. Kept scheduled so it resumes by itself if the block lifts |
 | `snapshot-history.yml` | Weekly, Mon 05:30 UTC | Records `history/<date>/` and its diff against the previous snapshot, commits if changed |
 | `watchdog.yml` | Every 12 hours | Checks `src/data/listings.json` freshness; re-triggers `update-listings.yml` if stale; opens a GitHub Issue if still stale after ~30h |
 
@@ -222,7 +238,7 @@ feature/my-feature  →  dev  →  master
 
 See [CHANGELOG.md](./CHANGELOG.md) for full history.
 
-Latest: **v2.0.0** — added BuySellCyprus.com, home.cy, and FOX Realty; 517 listings across 8 sources; recovered photos for a subset of eAuction listings via their direct image endpoint.
+Latest: **v2.3.0** — a planning-zone filter on the Plots & Land page and a zones FAQ built from the Department of Town Planning's own legend; the full eAuction ad harvest (all ~420 lots, their documents, photos and property facts) plus its plot and land auctions; a map view on both pages; the complete Bazaraki catalogue (9,069 houses, 6,210 plots); and both pages rebuilt to open in about a second on 15k+ listings.
 
 ---
 
