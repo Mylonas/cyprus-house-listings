@@ -80,7 +80,7 @@ anchors on the `estbd.io` image + a detail link and is theme-agnostic (handles
 | Agency | Mode | Kind | Notes |
 |---|---|---|---|
 | Kazo Real Estate | URL/SPA | houses + plots | ~2.9k houses, ~0.8k plots; price-on-request items excluded |
-| Cyprus Properties (cyprusproperties.com.cy) | URL/SPA | houses + plots | ~3.7k total; houses = `/properties` filtered to items with beds, plots = `?type=land` |
+| Cyprus Properties (cyprusproperties.com.cy) | **Own scraper** (`scrape-cyprusproperties.mjs`) | houses + plots | Moved off the SPA walk — its `/properties?p=N&…` fragment endpoint pages server-side, so the old ~66-page click ceiling is gone. Full depth verified 2026-08-09: 770 `type=house` + 1,293 `type=apartment` + 1,370 `type=land`. **Only `house`, `apartment`, `land` and `commercial` are real `type` values** — anything else (`villa`, `bungalow`, `townhouse`, …) is silently ignored and returns the *unfiltered* list, which is easy to mistake for a deep subtype |
 
 **WordPress admin-ajax mode** — `scrape-estatebud-wp.mjs`. The plugin delivers
 cards from `/wp-admin/admin-ajax.php?action=estatebud_get_listing[_map]` behind a
@@ -123,3 +123,25 @@ render server-side.
 
 North-Cyprus portals (ncestateagents, busybees, propertync, landmark) are out of
 scope — different market from the Republic-of-Cyprus focus of this aggregator.
+
+### Plots: Realting and A Place in the Sun — closed, no inventory (probed 2026-08-09)
+
+Both were carried as "a future add" for the plots pipeline. Neither is
+ingestible, and for reasons that will not change with more scraper effort:
+
+- **A Place in the Sun has no property-type filter at all.** Its Cyprus search
+  form exposes only `minbedrooms`, `maxbedrooms`, `sort_by` and `per_page`.
+  `?property_type=land` returns HTTP 200 and looks like it worked — but it is
+  silently ignored: same `data-total-num-pages="24"` and the same first 10
+  listing ids as the unfiltered list. **Do not read a 200 as a working filter**;
+  compare ids against the unfiltered page. (Same trap as Cyprus Properties'
+  bogus `type` values above, where `villa` and `bungalow` return byte-identical
+  pages.)
+- **Realting has the category but not the stock.** `/cyprus/lands?currency=EUR`
+  is a real page — HTTP 200, `<h1>Lands for sale in Cyprus</h1>` — with **zero**
+  listings on it: no `/cyprus/property/<id>` links and an empty-results marker.
+  Realting's Cyprus inventory is houses only. (Note the path grammar is
+  `/cyprus/houses`, not `/property/cyprus` — the latter 404s.)
+
+Re-probe only if one of those sites visibly gains land stock; there is no
+scraper to write until then.
