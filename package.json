@@ -35,7 +35,7 @@
     "dev": "npx serve public"
   },
   "dependencies": {
-    "pdfjs-dist": "^6.1.200",
+    "pdfjs-dist": "^6.2.108",
     "playwright": "^1.48.0",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
