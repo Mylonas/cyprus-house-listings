@@ -19,6 +19,27 @@ The page is a single self-contained HTML file (`public/index.html`, generated fr
 
 **Null-handling rule of thumb:** price filters keep unknowns (so auctions stay visible); attribute filters (m², plot, year, beds) drop unknowns, because "at least X" is a positive claim the listing must actually make.
 
+## Plots page filters
+
+`public/plots.html` (from `src/template/plots.html`) carries the same shell with its own set: search, district, plot type, **planning zone**, min/max price, min/max plot m², source chips.
+
+| Filter | Control | Behaviour |
+|---|---|---|
+| Plot type | dropdown | Source's own label (Agricultural, Residential, Commercial, Tourist, Plot with building, …) |
+| **Planning zone** | grouped dropdown | Pick a whole use ("Any residential") or one code (`Η2`, `Κα6`, `Γ3`). A `?` next to the label links to the [zones FAQ](../public/faq.html) |
+
+### How the zone filter copes with the field
+
+`zone` is advertiser-typed free text — 444 distinct spellings across ~3,000 plots. `scripts/lib/zones.mjs` canonicalises it at **build time** into `l.z`, a list of codes, so the browser never sees the homoglyph tables:
+
+- **Latin and Cyrillic folded onto Greek.** `H2`, `Η2` and `Н2` are three different characters that render identically and all three appear in the data; `G` is used for `Γ`, and a Latin `a` for the `α` suffix.
+- **Family prefixes are matched longest-first**, so `ΚΑ6` resolves to `Κα6` rather than leaving a stray `Α6`.
+- **Split zones yield every part.** `Η6 (67%) / Ζ3 (33%)` resolves to both, and the plot matches a filter on either — the parcel really is in both.
+- **Word-only entries resolve to a group, not a code.** `Residential`, `Οικιστική`, `αγροτικη`, `Res` can't pin a density number but do name a use, so they answer "Any residential" while staying out of the per-code options.
+- **Junk stays out.** Bare percentages, plot numbers (`2230`, `ΦΥΛΛ/ΣΧ: 47/33`), town names and «δεν γνωρίζω» resolve to nothing; density numbers above 15 are rejected as parse artefacts.
+
+2,844 of the 3,046 plots that state a zone (93%) resolve to something filterable, across 107 canonical codes. The rest are unfilterable by design rather than silently mis-bucketed.
+
 ## Sorting
 
 | Option | Order |
