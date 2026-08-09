@@ -25,6 +25,7 @@ const FIELDS = [
   'source', 'title', 'link', 'image', 'location', 'district', 'ref',
   'price', 'priceDisplay', 'plotSqm', 'plotType', 'zone', 'auctionDate',
   'beds', 'houseSqm', 'posted', 'postedTs', 'lat', 'lng', 'z',
+  'density', 'coverage',
 ];
 
 const listings = JSON.parse(readFileSync(dataPath, 'utf-8'));

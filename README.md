@@ -24,6 +24,7 @@ A companion **[Plots & Land](https://cyprus-house-listings.pages.dev/plots.html)
 | **Fast on a large dataset** | Cards render in chunks as you scroll and the inlined payload carries only the fields the templates read, so both pages open in about a second despite 15k+ listings |
 | **Scheduled refresh** | GitHub Actions re-scrapes all seventeen sources every 6 hours, deduplicates, rebuilds the static page, and deploys to Cloudflare Pages |
 | **Map view** | Grid/Map toggle on both pages. Only listings with real per-listing coordinates are plotted — Bazaraki publishes them, most sources do not — and the map states its own coverage against the active filter rather than inventing positions from town names |
+| **Buildable allowance** | Where Bazaraki publishes it (~half of plots), each plot card shows the building coefficient and what it comes to in floor area — **Build 90% · 450 m²** — plus maximum coverage. Filter by minimum build %, sort by buildable floor area or price per buildable m² |
 | **Planning zones FAQ** | `public/faq.html` explains what a zone code such as `Η2`, `Κα6` or `Γ3` permits, with the official coefficient/coverage/floors/height figures transcribed from the Department of Town Planning's own legend, plus how many listings carry each code |
 | **Single static file** | No framework/build step required to view — `public/index.html` is self-contained (data inlined, no external JS deps) |
 

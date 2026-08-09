@@ -27,6 +27,18 @@ The page is a single self-contained HTML file (`public/index.html`, generated fr
 |---|---|---|
 | Plot type | dropdown | Source's own label (Agricultural, Residential, Commercial, Tourist, Plot with building, …) |
 | **Planning zone** | grouped dropdown | Pick a whole use ("Any residential") or one code (`Η2`, `Κα6`, `Γ3`). A `?` next to the label links to the [zones FAQ](../public/faq.html) |
+| **Min build %** | number input | Minimum building coefficient. Plots that don't state one are excluded while active |
+
+### Buildable allowance
+
+Bazaraki publishes `attrs__density` and `attrs__coverage` — the building coefficient and maximum coverage for the actual parcel — on roughly half its plots. Both were discarded until now. Cards show a **Build 90% · 450 m²** chip (the coefficient, and what it works out to against this plot's area) and a **Cover 50%** chip.
+
+Two sorts use it:
+
+- **Buildable floor area: largest first** — `plotSqm × density`. The honest comparator between a big plot in a restrictive zone and a small one in a permissive zone, which price-per-plot-m² gets backwards.
+- **Price per buildable m²: low to high** — asking price ÷ buildable floor area. Closer to what a developer actually pays per sellable square metre than price per plot m².
+
+Values arrive as free text in every notation the trade uses for the same quantity — `60`, `60%`, `0.5`, `0,50:1`, `1,40:1`, `90% (Μέγιστο Εμβαδό: 468,9 τ.μ.)` — and `buildingPercent()` in `lib/zones.mjs` normalises them all to a percent. The one judgement call: a bare number below 5 is read as a ratio (`0.1` is Γ3's 0,10:1, i.e. 10%) and 5 or above as an already-stated percentage. Coverage above 100% is rejected as a parse artefact.
 
 ### How the zone filter copes with the field
 
