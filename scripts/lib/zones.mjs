@@ -114,6 +114,39 @@ const WORD_EXACT = {
 // pin a code but it does name the use, which is what the group filter needs.
 const BARE_PREFIX = new RegExp(`^(${PREFIXES.map(p => p[0]).join('|')})[^Α-Ω0-9]*$`);
 
+/**
+ * A building coefficient or coverage figure, as a percentage.
+ *
+ * Bazaraki's `attrs__density` and `attrs__coverage` are free text and arrive in
+ * every notation the trade uses for the same quantity: `60`, `60%`, `0.5`,
+ * `0,50:1`, `1,40:1`, `90% (Μέγιστο Εμβαδό: 468,9 τ.μ.)`. They are the same
+ * measure the planning tables express as a ratio — 0,90:1 is 90% — so
+ * everything is normalised to a percent.
+ *
+ * The disambiguation that matters: a bare number below 5 is a ratio (`0.1` is
+ * Γ3's 0,10:1, i.e. 10%), and 5 or above is already a percentage. No Cyprus
+ * zone has a coefficient between 5% and 500% expressed as a bare ratio, so the
+ * split is unambiguous in practice.
+ *
+ * @param {string} raw   the advertiser's text
+ * @param {number} max   reject anything above this (coverage cannot exceed 100)
+ */
+export function buildingPercent(raw, max = 400) {
+  const s = String(raw ?? '').trim();
+  if (!s) return null;
+  const m = s.match(/(\d+(?:[.,]\d+)?)/);
+  if (!m) return null;
+  const n = parseFloat(m[1].replace(',', '.'));
+  if (!Number.isFinite(n) || n <= 0) return null;
+
+  const isPercent = s.includes('%');
+  const isRatio = /:\s*1/.test(s);
+  const pct = isPercent ? n : (isRatio || n < 5) ? n * 100 : n;
+
+  if (pct <= 0 || pct > max) return null;
+  return Math.round(pct * 10) / 10;
+}
+
 /** Groups implied by words in a raw zone string, for entries carrying no code. */
 export function wordGroups(raw) {
   const s = String(raw ?? '').toUpperCase().trim();

@@ -4,6 +4,13 @@ All notable changes to this project are documented here. Format loosely follows 
 
 ## [Unreleased]
 
+### Added
+- **Buildable allowance on plots — how much you may actually build, not just how big the parcel is.** Bazaraki publishes `attrs__density` and `attrs__coverage` for the specific parcel on roughly half its plots, and the scraper was throwing both away. Cards now carry a **Build 90% · 450 m²** chip (the coefficient, and what it comes to against this plot's area) and a **Cover 50%** chip; there is a **Min build %** filter, and two sorts that use it: *buildable floor area, largest first* (`plotSqm × density`) and *price per buildable m², low to high*. The second is closer to what a developer pays per sellable square metre than price per plot m² is, and the first is the honest comparator between a big plot in a restrictive zone and a small one in a permissive zone — price per plot m² gets that backwards.
+- Like every other planning field here the values are free text, arriving in every notation the trade uses for one quantity: `60`, `60%`, `0.5`, `0,50:1`, `1,40:1`, `90% (Μέγιστο Εμβαδό: 468,9 τ.μ.)`. `buildingPercent()` in `lib/zones.mjs` normalises them to a percent. The one judgement call: a bare number below 5 is read as a ratio (`0.1` is Γ3's 0,10:1 — 10%) and 5 or above as an already-stated percentage, which is unambiguous because no Cyprus zone states a bare ratio between 5 and 500. Coverage above 100% is rejected as a parse artefact.
+
+### Notes
+- **The houses page cannot have a planning-zone filter, and this was checked against the live API rather than assumed.** Bazaraki's house category (rubric 678) publishes no planning-zone attribute at all — its attribute set is area, type, parking, condition, bedrooms and so on — while the plots category (rubric 141) does, along with density and coverage. Across all 15,073 houses only 7 carry a zone, all from eAuction's valuer-report harvest, spanning 6 distinct codes. A filter there would have hidden 99.95% of the page whenever used, so it was not built; discovering where the planning data actually lives is what produced the buildable-allowance work above.
+
 ## [2.3.0] - 2026-08-09
 
 ### Added

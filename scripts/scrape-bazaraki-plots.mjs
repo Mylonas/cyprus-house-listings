@@ -17,6 +17,7 @@
  *   BAZARAKI_PLOTS_PAGES - cap on API pages (10 each) per district (default: no cap)
  */
 import { curlFetchJson } from './lib/curl-fetch.mjs';
+import { buildingPercent } from './lib/zones.mjs';
 
 const PAGES = Number(process.env.BAZARAKI_PLOTS_PAGES ?? 0) || Infinity;
 const PLOTS_RUBRIC = 141;
@@ -78,6 +79,12 @@ function mapItem(raw, districtName) {
     plotSqm: toInt(a['attrs__plot-area']),
     plotType,
     zone: (a['attrs__planning-zone'] && !/^[-\s]*$/.test(a['attrs__planning-zone'])) ? a['attrs__planning-zone'] : null,
+    // The buildable allowance, published on roughly half of plots and until now
+    // discarded. This is the figure that decides what a plot is worth: the zone
+    // code implies it, but the advertiser states it for this actual parcel.
+    // Both arrive as free text in mixed notations — see buildingPercent.
+    density: buildingPercent(a['attrs__density']),
+    coverage: buildingPercent(a['attrs__coverage'], 100),
     beds: null,
     baths: null,
     posted: validCreated
