@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cyprus Plot & Land Listings — Internal Reference</title>
+<meta name="description" content="Aggregated plot and land listings across Cyprus with plot size, type, planning zone, price and location.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://cyprus-house-listings.pages.dev/plots.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cyprus Plot & Land Listings">
+<meta property="og:description" content="Aggregated plot and land listings across Cyprus with plot size, type, planning zone, price and location.">
+<meta property="og:url" content="https://cyprus-house-listings.pages.dev/plots.html">
+<meta name="twitter:card" content="summary">
 <style>
   :root {
     --bg: #f4f5f7; --card-bg: #ffffff; --border: #e2e4e8; --text: #1c1f26;
@@ -57,6 +65,7 @@
   .card-meta { display:flex; gap:10px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-top:2px; }
   .card-meta span { background:#f3f4f6; padding:3px 7px; border-radius:5px; }
   .card-meta span.plot { background:#dcfce7; color:#14532d; font-weight:600; }
+  .card-meta span.build { background:#e0e7ff; color:#3730a3; font-weight:600; }
   .card-footer { margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:8px; border-top:1px solid #f0f1f3; }
   .source-tag { font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 8px; border-radius:4px; background:#e5e7eb; color:#374151; }
   .source-Bazaraki { background:#dcfce7; color:#14532d; }
@@ -121,6 +130,10 @@
     <input type="number" id="maxPrice" placeholder="No limit">
   </div>
   <div class="filter-group">
+    <label>Min build % <a href="faq.html#reading" class="help" title="Building coefficient — how much floor area the plot allows">?</a></label>
+    <input type="number" id="minDensity" placeholder="Any" min="0" max="400">
+  </div>
+  <div class="filter-group">
     <label>Min plot m²</label>
     <input type="number" id="minPlot" placeholder="0">
   </div>
@@ -137,6 +150,8 @@
       <option value="price_desc">Price: high to low</option>
       <option value="ppsqm_asc">Price per m²: low to high</option>
       <option value="ppsqm_desc">Price per m²: high to low</option>
+      <option value="buildable_desc">Buildable floor area: largest first</option>
+      <option value="ppbuild_asc">Price per buildable m²: low to high</option>
       <option value="recent">Most recently posted</option>
     </select>
   </div>
@@ -178,7 +193,7 @@ const sources = [...sourceCounts.keys()];
 const districts = [...districtSet].sort();
 const plotTypes = [...typeSet].sort();
 
-const state = { sources: new Set(sources), district: '', plotType: '', zone: '', minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '', view: 'grid' };
+const state = { sources: new Set(sources), district: '', plotType: '', zone: '', minDensity: null, minPrice: null, maxPrice: null, minPlot: null, maxPlot: null, sort: 'plot_desc', q: '', view: 'grid' };
 
 /* ── planning zone filter ──────────────────────────────────────────────────
  * `l.z` is precomputed at build time (scripts/lib/zones.mjs): the canonical
@@ -299,6 +314,11 @@ function postedRank(p){
 function effAge(l){ return l.postedTs ? (Date.now() - l.postedTs) / 86400000 : postedRank(l.posted); }
 // Price per m² (asking price ÷ plot area); plots lacking either sort to the end.
 function ppSqm(l, fallback){ return (l.price && l.plotSqm) ? l.price / l.plotSqm : fallback; }
+// Floor area the plot actually permits — plot area × building coefficient. The
+// honest comparator between a big plot in a restrictive zone and a small one in
+// a permissive zone, which price per plot m² gets backwards.
+function buildable(l){ return (l.plotSqm && l.density) ? l.plotSqm * l.density / 100 : null; }
+function ppBuild(l, fallback){ const b = buildable(l); return (l.price && b) ? l.price / b : fallback; }
 // Format €/m² with enough precision for large cheap fields (€0.03/m²) without
 // noise on normal plots (€1,250/m²).
 function fmtPerSqm(v){
@@ -315,6 +335,11 @@ function cardHtml(l){
   if (l.price && l.plotSqm) meta.push(`<span class="ppsqm">${fmtPerSqm(l.price / l.plotSqm)}</span>`);
   if (l.plotType) meta.push(`<span>${l.plotType}</span>`);
   if (l.zone) meta.push(`<span>Zone ${l.zone}</span>`);
+  // The buildable allowance, where the advertiser states it. Shown as the
+  // buildable floor area too, since that is the number people actually want —
+  // "90%" of a 500 m² plot is 450 m² of house.
+  if (l.density) meta.push(`<span class="build" title="Building coefficient — total floor area allowed, as a share of plot area">Build ${l.density}%${l.plotSqm ? ' · ' + Math.round(l.plotSqm * l.density / 100).toLocaleString('en-US') + ' m²' : ''}</span>`);
+  if (l.coverage) meta.push(`<span title="Maximum share of the plot the building footprint may occupy">Cover ${l.coverage}%</span>`);
   if (l.auctionDate) meta.push(`<span>Auction ${l.auctionDate}</span>`);
   const sourceClass = 'source-' + shortSource(l.source);
   const posted = l.posted ? `<span class="posted">Posted: ${l.posted}</span>` : `<span class="posted">Posted: not shown by source</span>`;
@@ -479,7 +504,7 @@ new IntersectionObserver(entries => {
 }, { rootMargin: '800px' }).observe(sentinel);
 
 function applyFilters(){
-  const { sources: srcs, district, plotType, zone, minPrice, maxPrice, minPlot, maxPlot } = state;
+  const { sources: srcs, district, plotType, zone, minDensity, minPrice, maxPrice, minPlot, maxPlot } = state;
   const q = state.q ? state.q.toLowerCase() : '';
   // One pass rather than a chain of .filter() calls, each of which allocated a
   // fresh 8k-element array on every keystroke.
@@ -488,6 +513,7 @@ function applyFilters(){
     if (district && l.district !== district) return false;
     if (plotType && l.plotType !== plotType) return false;
     if (zone && !matchesZone(l, zone)) return false;
+    if (minDensity != null && !(l.density >= minDensity)) return false;
     if (minPrice != null && l.price != null && l.price < minPrice) return false;
     if (maxPrice != null && l.price != null && l.price > maxPrice) return false;
     if (minPlot != null && !(l.plotSqm >= minPlot)) return false;
@@ -505,6 +531,8 @@ function applyFilters(){
   else if (state.sort === 'plot_asc') items.sort((a,b) => (a.plotSqm ?? 1e15) - (b.plotSqm ?? 1e15));
   else if (state.sort === 'ppsqm_asc') items.sort((a,b) => ppSqm(a, 1e15) - ppSqm(b, 1e15));
   else if (state.sort === 'ppsqm_desc') items.sort((a,b) => ppSqm(b, -1) - ppSqm(a, -1));
+  else if (state.sort === 'buildable_desc') items.sort((a,b) => (buildable(b) ?? -1) - (buildable(a) ?? -1));
+  else if (state.sort === 'ppbuild_asc') items.sort((a,b) => ppBuild(a, 1e15) - ppBuild(b, 1e15));
   else if (state.sort === 'recent') items.sort((a,b) => effAge(a) - effAge(b));
 
   document.getElementById('resultsCount').textContent = `Showing ${items.length} of ${LISTINGS.length} plots`;
@@ -542,15 +570,16 @@ document.getElementById('typeFilter').addEventListener('change', e => { state.pl
 document.getElementById('zoneFilter').addEventListener('change', e => { state.zone = e.target.value; applyFilters(); });
 document.getElementById('minPrice').addEventListener('input', e => { state.minPrice = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('maxPrice').addEventListener('input', e => { state.maxPrice = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
+document.getElementById('minDensity').addEventListener('input', e => { state.minDensity = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('minPlot').addEventListener('input', e => { state.minPlot = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('maxPlot').addEventListener('input', e => { state.maxPlot = e.target.value ? Number(e.target.value) : null; debounced(applyFilters); });
 document.getElementById('sortBy').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
 document.getElementById('btnGrid').addEventListener('click', () => setView('grid'));
 document.getElementById('btnMap').addEventListener('click', () => setView('map'));
 document.getElementById('resetBtn').addEventListener('click', () => {
-  state.sources = new Set(sources); state.district=''; state.plotType=''; state.zone=''; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
+  state.sources = new Set(sources); state.district=''; state.plotType=''; state.zone=''; state.minDensity=null; state.minPrice=null; state.maxPrice=null; state.minPlot=null; state.maxPlot=null; state.sort='plot_desc'; state.q='';
   document.getElementById('searchInput').value=''; document.getElementById('districtFilter').value=''; document.getElementById('typeFilter').value='';
-  document.getElementById('zoneFilter').value='';
+  document.getElementById('zoneFilter').value=''; document.getElementById('minDensity').value='';
   document.getElementById('minPrice').value=''; document.getElementById('maxPrice').value=''; document.getElementById('minPlot').value=''; document.getElementById('maxPlot').value='';
   document.getElementById('sortBy').value='plot_desc';
   renderChips(); applyFilters();
