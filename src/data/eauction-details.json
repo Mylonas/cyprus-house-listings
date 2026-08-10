@@ -868,34 +868,6 @@
    }
   ]
  },
- "0VWL474CAH-001": {
-  "v": 4,
-  "harvestedAt": "2026-07-28",
-  "subType": "Residence",
-  "subTypeId": 5,
-  "status": "Posted",
-  "auctionDate": "10/09/2026",
-  "propertyType": "Residence",
-  "registration": "0/7603*",
-  "sheetPlanPlot": "35/6331V01 KAI 116",
-  "address": "ΜΕΣΑ ΣΤΟ ΧΩΡΙΟ",
-  "share": "1/1",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 2880,
-  "notificationDate": "13/05/2026",
-  "plotSqm": 335,
-  "beds": 3,
-  "docs": [
-   {
-    "name": "10-09-2026-ΠΑΦΟΣ-ΓΙΟΛΟΥ-ΚΑΤΟΙΚΙΕΣ.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/b70c0153bec8.jpg",
-  "images": [
-   "/eauction-photos/b70c0153bec8.jpg"
-  ]
- },
  "S2D9IWM2DP": {
   "v": 4,
   "harvestedAt": "2026-07-28",
@@ -3501,33 +3473,6 @@
    "/eauction-photos/5b987e2bc0df.jpg",
    "/eauction-photos/02c8340c57a2.jpg",
    "/eauction-photos/5cce575ed68f.jpg"
-  ]
- },
- "JOA3JJZEPN": {
-  "v": 4,
-  "harvestedAt": "2026-08-09",
-  "subType": "Plot with building",
-  "subTypeId": 13,
-  "status": "Posted",
-  "auctionDate": "10/09/2026",
-  "propertyType": "Plot with building",
-  "registration": "0/3592",
-  "sheetPlanPlot": "0/2-270-378 KAI 336",
-  "share": "1/1",
-  "lender": "DELTA CREDIT PURCHASER LIMITED",
-  "guarantee": 16320,
-  "notificationDate": "13/05/2026",
-  "plotSqm": 551,
-  "beds": 1,
-  "docs": [
-   {
-    "name": "10-9-2026, ΑΜΜΟΧΩΣΤΟΣ-ΑΧΝΑ-ΟΙΚΙΑ-0_3592 - ph.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/e15a7fb514fa.jpg",
-  "images": [
-   "/eauction-photos/e15a7fb514fa.jpg"
   ]
  },
  "LK4ZD4LIED-001": {
@@ -6534,29 +6479,6 @@
    }
   ]
  },
- "QFP70FAQS5": {
-  "v": 4,
-  "harvestedAt": "2026-08-02",
-  "subType": "Land",
-  "subTypeId": 14,
-  "status": "Posted",
-  "auctionDate": "11/09/2026",
-  "propertyType": "Land",
-  "registration": "0/3729",
-  "sheetPlanPlot": "- 2-189-343 KAI 330",
-  "address": "ΣΙΚΟΥΕΣΤΙΑ",
-  "share": "1/1",
-  "lender": "SKY CAC LIMITED",
-  "guarantee": 63950,
-  "notificationDate": "27/02/2026",
-  "plotSqm": 18055,
-  "docs": [
-   {
-    "name": "11-09-2026-ΛΕΜΕΣΟΣ-ΣΟΥΝΙ-ΖΑΝΑΚΙΑ-ΧΩΡΑΦΙ-0.3729ph.pdf",
-    "kind": "pdf"
-   }
-  ]
- },
  "3U8SLHD7LU": {
   "v": 4,
   "harvestedAt": "2026-08-09",
@@ -7902,34 +7824,6 @@
     "name": "10-09-2026-ΛΕΥΚΩΣΙΑ-ΞΥΛΙΑΤΟΣ-ΚΑΤΟΙΚΙΑ-ΧΩΡΑΦΙ.pdf",
     "kind": "pdf"
    }
-  ]
- },
- "0VWL474CAH-002": {
-  "v": 4,
-  "harvestedAt": "2026-08-09",
-  "subType": "Land with building",
-  "subTypeId": 15,
-  "status": "Posted",
-  "auctionDate": "10/09/2026",
-  "propertyType": "Land with building",
-  "registration": "0/7076**",
-  "sheetPlanPlot": "35/52 ΚΑΙ 357",
-  "address": "ΜΑΖΕΡΗ",
-  "share": "1/1",
-  "lender": "KYPRIAKI ETAIREIA DIACHEIRISIS PERIOUSIAKON STOICHEION LTD",
-  "guarantee": 23320,
-  "notificationDate": "13/05/2026",
-  "plotSqm": 9365,
-  "beds": 3,
-  "docs": [
-   {
-    "name": "10-09-2026-ΠΑΦΟΣ-ΓΙΟΛΟΥ-ΚΑΤΟΙΚΙΕΣ.pdf",
-    "kind": "pdf"
-   }
-  ],
-  "image": "/eauction-photos/b70c0153bec8.jpg",
-  "images": [
-   "/eauction-photos/b70c0153bec8.jpg"
   ]
  },
  "9XCK9JLBUC": {
@@ -10895,6 +10789,233 @@
     "name": "08-10-2026-ΛΑΡΝΑΚΑ-ΞΥΛΟΤΥΜΒΟΥ-ΚΑΤΟΙΚΙΑ.pdf",
     "kind": "pdf"
    }
+  ]
+ },
+ "HUGRCRKK4J": {
+  "v": 4,
+  "harvestedAt": "2026-08-10",
+  "subType": "Residence",
+  "subTypeId": 5,
+  "status": "Posted",
+  "auctionDate": "25/09/2026",
+  "propertyType": "Residence",
+  "registration": "0/7672",
+  "sheetPlanPlot": "20/1244V01 KAI 47",
+  "address": "ΜΕΣΑ ΣΤΟ ΧΩΡΙΟ",
+  "share": "1/1",
+  "lender": "THEMIS PORTFOLIO MANAGEMENT HOLDINGS LTD",
+  "guarantee": 5400,
+  "notificationDate": "25/06/2026",
+  "plotSqm": 604,
+  "houseSqm": 109,
+  "buildYear": 1918,
+  "buildYearSource": "stated",
+  "floors": 2,
+  "planningZone": "Η1",
+  "maxDensityPct": 120,
+  "maxCoveragePct": 70,
+  "maxHeightM": 8.3,
+  "docs": [
+   {
+    "name": "3992-NICOSIA-MAMMARI-RESIDENCE-0-7672 ADDITIONAL INFORMATION.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "3992-NICOSIA-MAMMARI-RESIDENCE-0-7672.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "3992-ΛΕΥΚΩΣΙΑ - ΜΑΜΜΑΡΙ - ΚΑΤΟΙΚΙΑ - 0-7672 ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "3992-ΛΕΥΚΩΣΙΑ - ΜΑΜΜΑΡΙ - ΚΑΤΟΙΚΙΑ - 0-7672.pdf",
+    "kind": "pdf"
+   }
+  ],
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=5B%2f4%2faI6rHM%3d&fileId=AEGzW5vFQ4M%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=5B%2f4%2faI6rHM%3d&fileId=AEGzW5vFQ4M%3d&thumb=false",
+   "/eauction-photos/c9febe4f2d8f.jpg",
+   "/eauction-photos/4032e878a49d.jpg",
+   "/eauction-photos/3ae8c047a988.jpg",
+   "/eauction-photos/cd32bb311fbf.jpg",
+   "/eauction-photos/09db3f1e26e2.jpg",
+   "/eauction-photos/cb5a2043eea6.jpg"
+  ]
+ },
+ "3D32IEXH5Z": {
+  "v": 4,
+  "harvestedAt": "2026-08-10",
+  "subType": "Plot with building",
+  "subTypeId": 13,
+  "status": "Posted",
+  "auctionDate": "02/11/2026",
+  "propertyType": "Plot with building",
+  "registration": "0/3572",
+  "sheetPlanPlot": "2-268-372 KAI 496",
+  "address": "ΜΟΥΤΤΗ ΤΟΥ ΔΡΑΚΟΥ",
+  "share": "1/2",
+  "lender": "TRAPEZA KYPROU DIMOSIA ETAIREIA LTD",
+  "guarantee": 3400,
+  "notificationDate": "03/08/2026",
+  "plotSqm": 354,
+  "buildYear": 1984,
+  "buildYearSource": "age",
+  "verandaSqm": 10,
+  "planningZone": "ΑΖ",
+  "docs": [
+   {
+    "name": "Ormidia Larnaca Plot with House 0-3572 Additional Information.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Ormidia Larnaca Plot with House 0-3572.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Ορμίδεια Λάρνακα Οικόπεδο με Κατοικία 0-3572 Πρόσθετες Πληροφορίες.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Ορμίδεια Λάρνακα Οικόπεδο με Κατοικία 0-3572.pdf",
+    "kind": "pdf"
+   }
+  ],
+  "image": "/eauction-photos/f3bd54abe44b.jpg",
+  "images": [
+   "/eauction-photos/f3bd54abe44b.jpg",
+   "/eauction-photos/4eb47ff5ed61.jpg",
+   "/eauction-photos/615e242831ee.jpg",
+   "/eauction-photos/ab22859b598a.jpg",
+   "/eauction-photos/d3e669a373e2.jpg",
+   "/eauction-photos/b9a71d1e9ac1.jpg"
+  ]
+ },
+ "ZE5ZAX1HDO": {
+  "v": 4,
+  "harvestedAt": "2026-08-10",
+  "subType": "Land",
+  "subTypeId": 14,
+  "status": "Posted",
+  "auctionDate": "30/09/2026",
+  "propertyType": "Land",
+  "registration": "3/261",
+  "sheetPlanPlot": "0/2-193-353 KAI 226",
+  "address": "ΒΟΥΠΠΙΑ",
+  "share": "1/1",
+  "lender": "CAC CORAL LIMITED",
+  "guarantee": 2600,
+  "notificationDate": "10/06/2026",
+  "plotSqm": 10692,
+  "docs": [
+   {
+    "name": "30.09.2026 - ΛΕΜΕΣΟΣ - ΛΑΝΕΙΑ - ΧΩΡΑΦΙ foto pdf.pdf",
+    "kind": "pdf"
+   }
+  ],
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=M4g17y3920Y%3d&fileId=7ptCeb4C16I%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=M4g17y3920Y%3d&fileId=7ptCeb4C16I%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=M4g17y3920Y%3d&fileId=TSsTK8Bq7lw%3d&thumb=false",
+   "/eauction-photos/6d1924b8c107.jpg"
+  ]
+ },
+ "Z9YKOXIEKX": {
+  "v": 4,
+  "harvestedAt": "2026-08-10",
+  "subType": "Land",
+  "subTypeId": 14,
+  "status": "Posted",
+  "auctionDate": "23/10/2026",
+  "propertyType": "Land",
+  "registration": "3/147",
+  "sheetPlanPlot": "46/39Ε2 KAI 149",
+  "address": "ΑΡΚΑΠΠΗΣ",
+  "share": "1/1",
+  "lender": "TRAPEZA KYPROU DIMOSIA ETAIREIA LTD",
+  "guarantee": 1004,
+  "notificationDate": "21/07/2026",
+  "plotSqm": 8384,
+  "floors": 2,
+  "planningZone": "Ζ1",
+  "maxDensityPct": 6,
+  "maxCoveragePct": 6,
+  "docs": [
+   {
+    "name": "Arsos Lemesou Limassol Field 3-147 Additional Information.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Arsos Lemesou Limassol Field 3-147.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Άρσος Λεμεσού Λεμεσός Χωράφι 3-147 Πρόσθετες Πληροφορίες.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "Άρσος Λεμεσού Λεμεσός Χωράφι 3-147.pdf",
+    "kind": "pdf"
+   }
+  ],
+  "image": "/eauction-photos/2e306c45a801.jpg",
+  "images": [
+   "/eauction-photos/2e306c45a801.jpg",
+   "/eauction-photos/b138c6cec5c0.jpg",
+   "/eauction-photos/d04285d45b46.jpg",
+   "/eauction-photos/922f64aee908.jpg",
+   "/eauction-photos/78ac353d9299.jpg",
+   "/eauction-photos/3de7b8b50ecb.jpg"
+  ]
+ },
+ "CS5JUGZXGW": {
+  "v": 4,
+  "harvestedAt": "2026-08-10",
+  "subType": "Land with building",
+  "subTypeId": 15,
+  "status": "Posted",
+  "auctionDate": "25/09/2026",
+  "propertyType": "Land with building",
+  "registration": "0/12343",
+  "sheetPlanPlot": "0/2-218-390 KAI 366",
+  "address": "ΚΟΛΥΜΠΙΑ",
+  "share": "1/1",
+  "lender": "THEMIS PORTFOLIO MANAGEMENT HOLDINGS LTD",
+  "guarantee": 7965,
+  "notificationDate": "25/06/2026",
+  "plotSqm": 1230,
+  "floors": 2,
+  "planningZone": "Η3",
+  "maxDensityPct": 60,
+  "maxCoveragePct": 35,
+  "maxHeightM": 8.3,
+  "docs": [
+   {
+    "name": "B086-NICOSIA-KOKKINOTRIMITHIA-WAREHOUSE-0-12343 ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "B086-NICOSIA-KOKKINOTRIMITHIA-WAREHOUSE-0-12343.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "B086-ΛΕΥΚΩΣΙΑ - ΚΟΚΚΙΝΟΤΡΙΜΙΘΙΑ - ΥΠΟΣΤΑΤΙΚΑ - 0-12343 ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ.pdf",
+    "kind": "pdf"
+   },
+   {
+    "name": "B086-ΛΕΥΚΩΣΙΑ - ΚΟΚΚΙΝΟΤΡΙΜΙΘΙΑ - ΥΠΟΣΤΑΤΙΚΑ - 0-12343.pdf",
+    "kind": "pdf"
+   }
+  ],
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=zP9RT0gJ9N0%3d&fileId=SsAajqjBYes%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=zP9RT0gJ9N0%3d&fileId=SsAajqjBYes%3d&thumb=false",
+   "/eauction-photos/a3f25896a61c.jpg",
+   "/eauction-photos/0621c8292ca8.jpg",
+   "/eauction-photos/b801bddf7e69.jpg",
+   "/eauction-photos/3e99521f9018.jpg",
+   "/eauction-photos/f2fc0698907e.jpg"
   ]
  }
 }
