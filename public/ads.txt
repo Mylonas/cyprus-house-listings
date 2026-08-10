@@ -1,0 +1,9 @@
+# ads.txt — Authorized Digital Sellers (IAB spec)
+#
+# SCAFFOLD ONLY. No ad account is configured. Note: this site aggregates
+# third-party property listings and photos and runs on a *.pages.dev
+# subdomain — both are poor fits for Google AdSense approval. Do not add a
+# publisher line here unless the content/domain situation changes.
+#
+# If ever authorized:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
