@@ -379704,6 +379704,30 @@
  },
  {
   "source": "DOM real estate",
+  "title": "House in Famagusta / Kapparis",
+  "price": 160000,
+  "priceDisplay": "€160,000",
+  "location": "Famagusta, Kapparis",
+  "district": "Famagusta",
+  "image": "https://dom.com.cy/upload/resize_cache/uf/7be/1088_820_2/gr8prh2jeq6f8iicvypkt1mas751nad6.jpeg",
+  "images": [
+   "https://dom.com.cy/upload/resize_cache/uf/7be/1088_820_2/gr8prh2jeq6f8iicvypkt1mas751nad6.jpeg",
+   "https://dom.com.cy/upload/uf/fb6/gh6b7at25djpeq540b7r6vs89vzrrwwb.jpeg",
+   "https://dom.com.cy/upload/resize_cache/uf/a02/1088_820_2/lu7nx82aji9w11v9nrjt55r40tm8csho.jpeg",
+   "https://dom.com.cy/upload/resize_cache/uf/4a1/1088_820_2/sqhls7lw29h7khjwi37yl4dl34a4c1rh.jpeg"
+  ],
+  "link": "https://dom.com.cy/en/catalog/sale/232018/",
+  "houseSqm": 100,
+  "plotSqm": 150,
+  "beds": 2,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "232018"
+ },
+ {
+  "source": "DOM real estate",
   "title": "New villa in Paphos / Geroskipou",
   "price": 885000,
   "priceDisplay": "€885,000",
@@ -380071,7 +380095,11 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/596/1088_820_2/jx2glzimvvcn6mixlcf4dj7pgwqtctmm.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a05/1088_820_2/gcp37w63qyw6co89mpoggp92cm22i4yw.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/307/1088_820_2/vmkjpdb4jft8brg1xn3a8w1t1oelg35m.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/307/1088_820_2/vmkjpdb4jft8brg1xn3a8w1t1oelg35m.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/231801/",
   "houseSqm": 246,
@@ -380279,7 +380307,11 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/580/1088_820_2/ppxi4dskhlvnt44eil9o8k5p16q71ow7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/dc0/1088_820_2/z19n5rn5jlnaxkpfumb839m14raof65k.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/307/1088_820_2/vmkjpdb4jft8brg1xn3a8w1t1oelg35m.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/307/1088_820_2/vmkjpdb4jft8brg1xn3a8w1t1oelg35m.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/231775/",
   "houseSqm": 246,
@@ -380541,7 +380573,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/cd8/1088_820_2/ng9b7hkjuz0woi0nvz8zgodvqchyhqdx.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/890/1088_820_2/b8tz3wvtgqnfhq1ydzm1mvzkt9j7c2i3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/eab/1088_820_2/fd5aez5n8pjuli9b2us00ia0edces6pw.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/e8c/1088_820_2/kpwyfpc9uxb5avop82fjh2yb0on8mtsv.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/e8c/1088_820_2/kpwyfpc9uxb5avop82fjh2yb0on8mtsv.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/231318/",
   "houseSqm": 276,
@@ -380798,7 +380834,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/965/1088_820_2/h2a25an7mn4i9th8eac44bz76wmfiyy5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d99/1088_820_2/tj4nq4yw2xo70ovyoe0rt1k6bfc4g3xb.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/602/1088_820_2/kqzqrf7ttwtw3orosge4l52m5l1tl7xx.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/620/1088_820_2/f9plidcehe3lhe12hbpzv2cdalpu8z7p.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/620/1088_820_2/f9plidcehe3lhe12hbpzv2cdalpu8z7p.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/230371/",
   "houseSqm": 201,
@@ -381182,11 +381222,7 @@
    "https://dom.com.cy/upload/uf/994/znig4m1to38volsq5386c84tift0jj56.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/875/1088_820_2/6tdfq0txd4f2arx5kg5uj2sic0nv9v7v.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/8c5/1088_820_2/u9b4hon8mjc8s9n98wm0ruiur3han06x.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/435/1088_820_2/d4dl6nnsqjha12keb7vnnqg3kxk7m4s4.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/435/1088_820_2/d4dl6nnsqjha12keb7vnnqg3kxk7m4s4.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/229951/",
   "houseSqm": 156,
@@ -381570,11 +381606,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/36b/1088_820_2/8v8vzy9opyj9tidv9vrab8y1i3b82o3x.jpg",
    "https://dom.com.cy/upload/uf/c29/yu6n1z58qqgl4x8xbnh7vx6ddf1jttev.jpeg",
    "https://dom.com.cy/upload/uf/605/m3ke1c2fie8ef5he68wlsker0wgxmif8.jpeg",
-   "https://dom.com.cy/upload/uf/a72/dlibzfk0o9ld46dpd1gtpmimd4qmf2g5.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/a72/dlibzfk0o9ld46dpd1gtpmimd4qmf2g5.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/229656/",
   "houseSqm": 877,
@@ -381718,11 +381750,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/2b5/1088_820_2/eqo1f08fsmrds8fnn4uv3kexhcmazg85.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/1ca/1088_820_2/a3zez90zip73bzsqnt8igeoz8447b0fx.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/5a4/1088_820_2/oaejemeo0tylwbtkb872zw4ik7eqt9ls.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/eb4/1088_820_2/z6mg1fzn8yf0vkwuc0z1r82qddvsfu5v.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/eb4/1088_820_2/z6mg1fzn8yf0vkwuc0z1r82qddvsfu5v.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/229171/",
   "houseSqm": 108,
@@ -382082,7 +382110,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/5fa/1088_820_2/h1x8cbcnidnw12e9xfeu8w9w5qq16crd.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/29a/1088_820_2/3wnhi0n4rn3tve2zllk8fvvzn4oximku.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d36/1088_820_2/evs56m42zbt93t1z3x2x5cq3xzy2o1is.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/ef9/1088_820_2/awadpl241esdaxk8bmfvtqw0celtf80v.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/ef9/1088_820_2/awadpl241esdaxk8bmfvtqw0celtf80v.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/228615/",
   "houseSqm": 220,
@@ -382130,11 +382162,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/29a/1088_820_2/3wnhi0n4rn3tve2zllk8fvvzn4oximku.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d36/1088_820_2/evs56m42zbt93t1z3x2x5cq3xzy2o1is.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ef9/1088_820_2/awadpl241esdaxk8bmfvtqw0celtf80v.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/5fa/1088_820_2/h1x8cbcnidnw12e9xfeu8w9w5qq16crd.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/5fa/1088_820_2/h1x8cbcnidnw12e9xfeu8w9w5qq16crd.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/228546/",
   "houseSqm": 187,
@@ -382593,7 +382621,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/e00/1088_820_2/11rdso5pffcvhmy6nl89kktlf0tueak6.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/d00/1088_820_2/cvie6nqko0ld1uqenlv8kos6hn0aswj9.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/6bb/1088_820_2/684rhs2zr1podbjlg417gbzgmjk0sekk.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/e03/1088_820_2/dn4nbx4xj1eqq0y436oxdsw3vyhmczdf.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/e03/1088_820_2/dn4nbx4xj1eqq0y436oxdsw3vyhmczdf.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/227571/",
   "houseSqm": 373,
@@ -382641,11 +382673,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/17f/1088_820_2/ezcsc4uigr3hljwbrbftybb5qeqpfwgd.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/39c/1088_820_2/tws0z6tdrs34ay8jr2cyd3c9xfa7x53t.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/1c9/1088_820_2/8tmhs4fn3veikcenjjj3q17r6r23tm9q.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/c5b/1088_820_2/hdu5srlj0ve5cob85essh9fyo98c23ko.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/c5b/1088_820_2/hdu5srlj0ve5cob85essh9fyo98c23ko.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/227568/",
   "houseSqm": 289,
@@ -382928,11 +382956,7 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/c04/1088_820_2/nckhek2oihatr4btpbctzrzuttg6k4hd.jpeg",
    "https://dom.com.cy/upload/uf/59e/5rpfgxzmrqbpr2blmvhin39a2vp7gay3.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/ba8/1088_820_2/j537a6040f44jh8pdcqoiwnzx7gg31bm.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/ba8/1088_820_2/j537a6040f44jh8pdcqoiwnzx7gg31bm.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/227133/",
   "houseSqm": 376,
@@ -383192,7 +383216,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/d4a/1088_820_2/ksls1d5nt08ttffqxn4rfj1ndjh5vgsf.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8ae/1088_820_2/j12z7pzccd305upsmyp5yeb8s4q9evo8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d5a/1088_820_2/8lu2teld9wp9451czd95mgk01kwxzfah.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/e6d/1088_820_2/20vjpcjmm1vb7rmgg52v212ev2dr1w0a.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/e6d/1088_820_2/20vjpcjmm1vb7rmgg52v212ev2dr1w0a.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/227050/",
   "houseSqm": 213,
@@ -383336,7 +383364,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/cfc/1088_820_2/6cw6mdcz6cf6kxip9xnwrzfx2g45r6qw.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/0b7/1088_820_2/r9vo0galuddq8m8sy94va45g4jg1ygc8.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/e0c/1088_820_2/oaplvdxk97xkr3p68aox7rmcu20cccx6.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/06f/1088_820_2/biwt509p3tvulb4r7wljrv939jzpc7f8.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/06f/1088_820_2/biwt509p3tvulb4r7wljrv939jzpc7f8.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226758/",
   "houseSqm": 116,
@@ -383600,7 +383632,11 @@
    "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/08a/1088_820_2/1uag3s1vhzdtgipr8ulud0g6flx16jdu.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/9d6/1088_820_2/ret75c73em0n3z3083lw2qasw2d1kc4a.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/147/1088_820_2/x5t40r4vwlb1qo8a68ronhqtltfcjs16.jpg"
+   "https://dom.com.cy/upload/resize_cache/iblock/147/1088_820_2/x5t40r4vwlb1qo8a68ronhqtltfcjs16.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226638/",
   "houseSqm": 201,
@@ -383648,11 +383684,7 @@
    "https://dom.com.cy/upload/resize_cache/iblock/9d6/1088_820_2/ret75c73em0n3z3083lw2qasw2d1kc4a.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/87f/1088_820_2/ntq7xkbb0jz2wradnkj8phtbimy3ulk8.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/08a/1088_820_2/1uag3s1vhzdtgipr8ulud0g6flx16jdu.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/iblock/240/1088_820_2/ets2nj30o9he1f4ym1aa7znfvhd58jcx.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226636/",
   "houseSqm": 201,
@@ -384036,11 +384068,7 @@
    "https://dom.com.cy/upload/resize_cache/iblock/611/1088_820_2/s4oiumfe7v5b63o0yxvq7hkbqp9i61ir.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/32d/1088_820_2/y41rhie9k9u3dtfjlei83447gpeiqtxk.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/189/1088_820_2/xima0x2c4elajkxbzg0eyt71awt7biia.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/655/1088_820_2/qi6743xyijiiujx45q71xog5zcodyhw7.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/iblock/655/1088_820_2/qi6743xyijiiujx45q71xog5zcodyhw7.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226388/",
   "houseSqm": 173,
@@ -384256,7 +384284,11 @@
    "https://dom.com.cy/upload/uf/664/fmleq05pa2xcd5vh3mey6tvepjk3ln9q.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fc8/1088_820_2/i2e69io9mtm7k05aguzl7succyv6li2a.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/4ad/1088_820_2/k6588qvgiqijral06405ixfe8ln169j8.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/c5e/1088_820_2/v829g1k48vkapvwqcmkqz1gd59v4ikyd.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/c5e/1088_820_2/v829g1k48vkapvwqcmkqz1gd59v4ikyd.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226344/",
   "houseSqm": 228,
@@ -384543,11 +384575,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/5e4/1088_820_2/6sykhgtmvsb1nrhs8owsaz2h5eeyar2t.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/76a/1088_820_2/727hap23utr3ygz3jhuuvgw8c7ntix4t.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/efa/1088_820_2/4hl15p3ivpr0w4lt01eoob6h4xkmz44f.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/89e/1088_820_2/pfgz16078xle06dcqfo0ys8q5wlxd7cg.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/89e/1088_820_2/pfgz16078xle06dcqfo0ys8q5wlxd7cg.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226295/",
   "houseSqm": 303,
@@ -384691,11 +384719,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/a5a/1088_820_2/v2xsq1akwkvp5llawpqevapwmpyrc7jb.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b75/1088_820_2/vfrkxkli43gkd3onear02qrnaerp5kj3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/cd3/1088_820_2/s4d8a1nct9ykapn5qjldy2ssqj3mtf16.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/593/1088_820_2/6jdxbe0osshec5scv51e1sq56rsnf3zj.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/593/1088_820_2/6jdxbe0osshec5scv51e1sq56rsnf3zj.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226137/",
   "houseSqm": 344,
@@ -385055,7 +385079,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/43d/1088_820_2/kidug3ynkimya757f8peoxrkjymvqx5d.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/a4b/1088_820_2/k3777j5keii460028gtf0wpraznqvjc4.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/ecc/1088_820_2/hp1xi881qjdv1n4yscx5dl3h83k0jt93.jpeg",
-   "https://dom.com.cy/upload/resize_cache/iblock/895/1088_820_2/gpc2lmug5yx00i6f6busdvo5xf0me9p7.jpeg"
+   "https://dom.com.cy/upload/resize_cache/iblock/895/1088_820_2/gpc2lmug5yx00i6f6busdvo5xf0me9p7.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226111/",
   "houseSqm": 209,
@@ -385103,11 +385131,7 @@
    "https://dom.com.cy/upload/resize_cache/iblock/ecc/1088_820_2/hp1xi881qjdv1n4yscx5dl3h83k0jt93.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/00e/1088_820_2/k85c0zcg5kcoetkubr0gq2zs2q1icyl4.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/895/1088_820_2/gpc2lmug5yx00i6f6busdvo5xf0me9p7.jpeg",
-   "https://dom.com.cy/upload/resize_cache/iblock/bf4/1088_820_2/s5iplhumrms6b9qxn14p6mvrs30kmwts.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/iblock/bf4/1088_820_2/s5iplhumrms6b9qxn14p6mvrs30kmwts.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226108/",
   "houseSqm": 190,
@@ -385443,11 +385467,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/ebc/1088_820_2/eyfgzgnvockzjo4t9lqyzb6ueo8b9vus.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/5fd/1088_820_2/160qrqc73dnch6etwi5vjuv35tzhozn3.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/a95/1088_820_2/rl9enrgqe4nwz26ei2gnr2f18eec6y0a.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/d09/1088_820_2/ltvf68szfg775vxnohiottpg5b55a8a4.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/d09/1088_820_2/ltvf68szfg775vxnohiottpg5b55a8a4.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/226074/",
   "houseSqm": 194,
@@ -386286,11 +386306,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/d22/1088_820_2/9avvgeeh3i6hay0a6l88d5474sh95vl1.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/250/1088_820_2/orf4oaajovq78ei5bq3id25r4z8uwi94.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/4e0/1088_820_2/kcrz0uo9l3pzr1qf99i97s5zf98fhl67.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/827/1088_820_2/uamxa0w8bp071h67y1r99d7m97vwm704.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/827/1088_820_2/uamxa0w8bp071h67y1r99d7m97vwm704.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/225090/",
   "houseSqm": 174,
@@ -387054,7 +387070,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/772/1088_820_2/ksb0sjwhex228i4x3z95ejhdjiq33aqb.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/ab3/1088_820_2/b6czlnhv2lw85h0pkmcrn3u8bujgu5hb.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/089/1088_820_2/t50sj9g1jgee9qa2f4x605x5imdovtfd.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/71a/1088_820_2/eumnv4kr6bnpacf1ho5ha9w3h26ogf6u.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/71a/1088_820_2/eumnv4kr6bnpacf1ho5ha9w3h26ogf6u.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/223170/",
   "houseSqm": 207,
@@ -387102,11 +387122,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/cc1/1088_820_2/10g0vlcfmpz2h1kz41kpb9nxxekfyjsf.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/7ae/1088_820_2/87u7gnry8w1t1fmi9vzd7826ordoxl9c.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/ab3/1088_820_2/b6czlnhv2lw85h0pkmcrn3u8bujgu5hb.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/089/1088_820_2/t50sj9g1jgee9qa2f4x605x5imdovtfd.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/089/1088_820_2/t50sj9g1jgee9qa2f4x605x5imdovtfd.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/223168/",
   "houseSqm": 207,
@@ -387394,7 +387410,11 @@
    "https://dom.com.cy/upload/uf/68c/b5fwnjxegqtuj0qgmc9idcs231jyj0o8.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/d2e/1088_820_2/2ge6tzhr2w3f6csl9q510tm0v94eir2a.jpeg",
    "https://dom.com.cy/upload/uf/afa/b00pq4rfqmz7xwn20il2im9mc24u29lh.jpeg",
-   "https://dom.com.cy/upload/uf/6bd/nipu4bw8r9uujxtjgghpngkyxoi27dgj.jpeg"
+   "https://dom.com.cy/upload/uf/6bd/nipu4bw8r9uujxtjgghpngkyxoi27dgj.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222995/",
   "houseSqm": 110,
@@ -387850,7 +387870,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/cb4/1088_820_2/9i7ald3co6y1g48ihb34r5asyukfaxqu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/78f/1088_820_2/8vyobamdti9xkbnykl0fg35n2rg3cn8j.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/924/1088_820_2/uteumygyj94mxcr4pvvlty6ksamt769k.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/d9f/1088_820_2/4x4z2tcueofo5b7rah1sz2lrafbq9eh1.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/d9f/1088_820_2/4x4z2tcueofo5b7rah1sz2lrafbq9eh1.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222770/",
   "houseSqm": 202,
@@ -387994,11 +388018,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/e8c/1088_820_2/74kqf25peozzzmgqvj7fj0f6usnqrb3e.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fd3/1088_820_2/1r70a38qnzaoqsxi0cvutxz64caxev4w.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/efb/1088_820_2/k7h3ixey9kfcpkrj0a65h59baqnwmtgw.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/0d8/1088_820_2/d7o1flc19baled2p6qnox34hdp18jf6n.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/0d8/1088_820_2/d7o1flc19baled2p6qnox34hdp18jf6n.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222600/",
   "houseSqm": 300,
@@ -388118,7 +388138,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/151/1088_820_2/uv4sr8f8q3sx8x95hhsx6hvqq15kqbtl.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9f7/1088_820_2/zf5ogiur81rjkmwl4977l9m0s268pqgq.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/653/1088_820_2/a4gvt08eul5tf5vu98okvhqgjez78gah.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/88f/1088_820_2/bh7cy29p9l71v5vmotk4inln189jp4dg.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/88f/1088_820_2/bh7cy29p9l71v5vmotk4inln189jp4dg.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222516/",
   "houseSqm": 190,
@@ -388166,11 +388190,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/66a/1088_820_2/pitn2q36esc39lga3wynch8zg1507htp.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/edd/1088_820_2/pb5uj702t1uihnl1rvdgmfkn983i3mpu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/882/1088_820_2/6s206t2oxh2x64319wpcaxwelmecoify.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/982/1088_820_2/361kyymrmtamr8b2eek3r8bznhikdq2a.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/982/1088_820_2/361kyymrmtamr8b2eek3r8bznhikdq2a.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222514/",
   "houseSqm": 190,
@@ -388885,7 +388905,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/08f/1088_820_2/vzd6n9yzs1oubtftbc7puikr7jgis1dg.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/f29/1088_820_2/9p1j811fjdzj49cccshecymdwu7qwm1e.jpg",
    "https://dom.com.cy/upload/uf/cd2/aszpf1dddgrvmlqti1qshsyo3w47igap.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/3b8/1088_820_2/eev24vnu9j8j94r5h27jeqfjtzzdoqqq.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/3b8/1088_820_2/eev24vnu9j8j94r5h27jeqfjtzzdoqqq.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222003/",
   "houseSqm": 121,
@@ -388933,11 +388957,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/4db/1088_820_2/g0ia5sbs2toq693qdc8iwse8j2xvv2tf.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/7c1/1088_820_2/li3kfjto68g3mvht9pumxd8yu94zsjyh.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b8e/1088_820_2/0ubeq0d8tsq5vouw2ya7lygj5wmlt2yj.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/3b8/1088_820_2/eev24vnu9j8j94r5h27jeqfjtzzdoqqq.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/3b8/1088_820_2/eev24vnu9j8j94r5h27jeqfjtzzdoqqq.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/222001/",
   "houseSqm": 83,
@@ -389536,7 +389556,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/d02/1088_820_2/btjcbxp5ok4p04kaauiry1v4j84zq71l.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/80c/1088_820_2/bgpwdszhq3y33086e2ilvfp9amucwkex.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/893/1088_820_2/b9idh1lbniqkh9574tiakkuu07p1h2k7.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/31c/1088_820_2/m56b8vg97poig0y6gzdsler7i0efzqvd.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/31c/1088_820_2/m56b8vg97poig0y6gzdsler7i0efzqvd.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/221780/",
   "houseSqm": 129,
@@ -389656,7 +389680,11 @@
    "https://dom.com.cy/upload/uf/b21/8e1gzz3wglfun26mzzbh6wgt6f0s6iu0.jpeg",
    "https://dom.com.cy/upload/uf/293/h12n628xp56c5tmrd9xdlm95q8ht4nig.jpeg",
    "https://dom.com.cy/upload/uf/c43/59hbo3i0tlty37ib7p9poad1afoi731c.jpeg",
-   "https://dom.com.cy/upload/uf/0a0/nwjkqlvjby4kzgkxspwnaqui97z3x2xj.jpeg"
+   "https://dom.com.cy/upload/uf/0a0/nwjkqlvjby4kzgkxspwnaqui97z3x2xj.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/221453/",
   "houseSqm": 224,
@@ -389824,11 +389852,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/69f/1088_820_2/9no9s3y200zv0b1ke1c2oe85v1q7j0z4.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/2e1/1088_820_2/x5lmdoome4z5z0s1yughpc4s1ydefhya.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/d23/1088_820_2/awetb1s4qivj1vpeg2amn9urazl5qdy9.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/32e/1088_820_2/2lda7djsyd9xhwwz7t1bc31t74q0ri61.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/32e/1088_820_2/2lda7djsyd9xhwwz7t1bc31t74q0ri61.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/221266/",
   "houseSqm": 119,
@@ -389924,7 +389948,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/94d/1088_820_2/gkieydbuopd8ltqlxrrkdzf5rpmdwndj.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/6da/1088_820_2/3osec3t8h7dws624ohle01d0glvk3e1m.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/f1a/1088_820_2/wpgv2b3ghwbm04hwt88np30wwdflm4z6.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/f95/1088_820_2/gpi9luno7vq2xk92jm06jqqj79yggadb.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/f95/1088_820_2/gpi9luno7vq2xk92jm06jqqj79yggadb.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/221191/",
   "houseSqm": 151,
@@ -390092,11 +390120,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/ad8/1088_820_2/kfctoor69xtwq0h3xezyfw1cwkx0wlv8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/526/1088_820_2/e0aitr5yubsx5rzck505cdwmqugqqm65.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c9e/1088_820_2/eaggv1ftg3ac4p1a1byik0mavhhmhmhc.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/3b3/1088_820_2/n2deu55q2m8egjfaabe4nk7g773by297.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/3b3/1088_820_2/n2deu55q2m8egjfaabe4nk7g773by297.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/220817/",
   "houseSqm": 1300,
@@ -390552,11 +390576,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/c48/1088_820_2/6b9u4lg6sr42bqyea4b0dbx4fwry3o9e.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/0fc/1088_820_2/1ou09dfjq6snmdbctolg6ku2hb59vu2t.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/2de/1088_820_2/7mdiclpjb4colhi3mk5cexekh642g9vf.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/74f/1088_820_2/dmm1fot55s44hi1w0o22r96cc9nu51vb.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/74f/1088_820_2/dmm1fot55s44hi1w0o22r96cc9nu51vb.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/220078/",
   "houseSqm": 177,
@@ -390652,7 +390672,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/f74/1088_820_2/5ejrrv195v8r9xd27qjio2yotkcip2i8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d99/1088_820_2/sn22x3gay5tydjv7n13a510zv3kodyba.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8fe/1088_820_2/dtev75padiz1v3eqv9kc5p9lldri7dnk.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/a6d/1088_820_2/qopzrzq01yaepfr2osghgl867n9x6ja2.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/a6d/1088_820_2/qopzrzq01yaepfr2osghgl867n9x6ja2.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/219569/",
   "houseSqm": 312,
@@ -390796,7 +390820,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/136/1088_820_2/97u7ddkw041fq9y9lj7w9n4qjpz6andr.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fa0/1088_820_2/z491pykeev8dwcnssev2fxhcn9nx78zp.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/665/1088_820_2/065ol79sx66iss6zw0n2gk07pzu3wo5g.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f11/1088_820_2/ii322ndj4jmcf4kmj92onwzo320a94rr.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/f11/1088_820_2/ii322ndj4jmcf4kmj92onwzo320a94rr.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/219084/",
   "houseSqm": 279,
@@ -391201,7 +391229,11 @@
    "https://dom.com.cy/upload/iblock/d0b/iu6hhtpuqodh90zwwfenm0auyolrc69t.jpeg",
    "https://dom.com.cy/upload/iblock/635/ghbohqsgr3qq8ce645f2qs47f21plkix.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/0bd/1088_820_2/496piocdogoxbycph3ojwwr32hjz2sjo.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/992/1088_820_2/fthh0fwvkouivy6uhiw10uwbpil1l5rb.jpg"
+   "https://dom.com.cy/upload/resize_cache/iblock/992/1088_820_2/fthh0fwvkouivy6uhiw10uwbpil1l5rb.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/217987/",
   "houseSqm": 152,
@@ -391969,7 +392001,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/faf/1088_820_2/j3gdcxzu51a6rnx652uxl2p45fv2bdf5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8b9/1088_820_2/xp7koa2w7tvrd4b6gyp1d5ol6gm7hlc6.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216559/",
   "houseSqm": 131,
@@ -391993,11 +392029,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/e52/1088_820_2/yc302960csn2fprwvsvcj1vrpoo96tzh.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9fe/1088_820_2/if6br52zxd090epazi0l1nli3u10tm5d.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8b9/1088_820_2/xp7koa2w7tvrd4b6gyp1d5ol6gm7hlc6.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216557/",
   "houseSqm": 131,
@@ -392381,7 +392413,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/ae5/1088_820_2/olagaapjjkantea6cflbui54ahc3as4g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e47/1088_820_2/ut795c91maj2y76b0e2be38vkd1ushg7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8b9/1088_820_2/xp7koa2w7tvrd4b6gyp1d5ol6gm7hlc6.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216535/",
   "houseSqm": 131,
@@ -392429,11 +392465,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/995/1088_820_2/6esar66ciue5xdpmr1qotvlg5s3prn4x.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e47/1088_820_2/ut795c91maj2y76b0e2be38vkd1ushg7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8b9/1088_820_2/xp7koa2w7tvrd4b6gyp1d5ol6gm7hlc6.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/135/1088_820_2/u98492vmlytwetkah4btyqho1u7c2x4o.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216533/",
   "houseSqm": 131,
@@ -392647,7 +392679,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/5ae/1088_820_2/w6fmnnfyvbt2ymimnmvl7lb0e2bz94z5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/5f1/1088_820_2/wl3btvt1vqlj6zafim91bjqg026cnf7y.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/5aa/1088_820_2/d3stpxfynh11wx2dq2pji09azgmw7td4.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/376/1088_820_2/pwxfazqm6hyuy72meerlgl2tabcxuadq.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/376/1088_820_2/pwxfazqm6hyuy72meerlgl2tabcxuadq.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216458/",
   "houseSqm": 611,
@@ -392695,11 +392731,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/e34/1088_820_2/hupeuowlast4h0vx9x84irg4le0951cq.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/3c1/1088_820_2/rn52cn2mxtuxzegxhuk6x7dtv7v50li7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/3ab/1088_820_2/9in8s8cp5m8v9wm2y7irzgv73auypbxe.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/33b/1088_820_2/d3vhyof8d6caxmaduv5kzgcg0ej820ve.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/33b/1088_820_2/d3vhyof8d6caxmaduv5kzgcg0ej820ve.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216456/",
   "houseSqm": 291,
@@ -392939,7 +392971,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/154/1088_820_2/fpf9a921m3edxc3qpwfyblqm28tvrbbj.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/392/1088_820_2/yat6o1wnsuptxx3ppdcff0dvjxrnsqng.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/859/1088_820_2/1fl8qop0jg6l37p72gx7jw51bi6zsqwr.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/fde/1088_820_2/38f9g7gjisp12q75jrz0p110sq7z5hb2.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/fde/1088_820_2/38f9g7gjisp12q75jrz0p110sq7z5hb2.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216438/",
   "houseSqm": 196,
@@ -392963,11 +392999,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/154/1088_820_2/fpf9a921m3edxc3qpwfyblqm28tvrbbj.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/33b/1088_820_2/d3vhyof8d6caxmaduv5kzgcg0ej820ve.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/859/1088_820_2/1fl8qop0jg6l37p72gx7jw51bi6zsqwr.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/fff/1088_820_2/khavdue1rh60g242zm50vaqqu2q9pk1t.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/fff/1088_820_2/khavdue1rh60g242zm50vaqqu2q9pk1t.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216436/",
   "houseSqm": 292,
@@ -393279,7 +393311,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/037/1088_820_2/h9c46q50se8t29eqmxi5lelzjpalkga6.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a55/1088_820_2/bisx643zjet73ql0g4od8zpcxzlemnsy.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/57e/1088_820_2/c9tao8q4jp77wtiqemm421mzclfn011s.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/326/1088_820_2/ijacv0ohi1ymgafjewrufaae86ogy6c9.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/326/1088_820_2/ijacv0ohi1ymgafjewrufaae86ogy6c9.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216415/",
   "houseSqm": 176,
@@ -393327,7 +393363,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/894/1088_820_2/37a7ul5o04dahshxk62u9i8zy8ftppap.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/1b4/1088_820_2/et5ln6ave1eh843slw7qqlkwm3ri70z3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4c2/1088_820_2/rgzciz7f0o3sh8ow2qsdp0zb40131i33.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/0bd/1088_820_2/2diphx92tr5xze8k7v5gnk2lc4w98hcc.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/0bd/1088_820_2/2diphx92tr5xze8k7v5gnk2lc4w98hcc.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216260/",
   "houseSqm": 376,
@@ -393543,7 +393583,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/851/1088_820_2/ldjtn6iqiih2wrxpyj72vncgzj8kzob3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c24/1088_820_2/3wx43m06m71w0qu6lq2qdi6lmhnjb8fr.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d56/1088_820_2/ava2vhnw8i2sqsdx2so2pqzzhvr888ak.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/ceb/1088_820_2/xexet3y1qk76lugtc9hoodo1ugjks1h3.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/ceb/1088_820_2/xexet3y1qk76lugtc9hoodo1ugjks1h3.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216096/",
   "houseSqm": 653,
@@ -393783,7 +393827,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/387/1088_820_2/nntcmllsjf6mvjf225n5s04q58aokda7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/202/1088_820_2/ee2q2tfpznps0biz1iv7hxl0zggf7cpu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/667/1088_820_2/mcqmt77zca5v4z8q0htgbe7pzjhbvvrh.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/7e3/1088_820_2/5x17qyfyy63h6bobvnzvsadv5vc3xvoc.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/7e3/1088_820_2/5x17qyfyy63h6bobvnzvsadv5vc3xvoc.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/216028/",
   "houseSqm": 264,
@@ -393807,11 +393855,7 @@
    "https://dom.com.cy/upload/uf/61b/cpz2j1h3stxxboa67l22q0cjn1685ckr.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/cc2/1088_820_2/jxsb3gkt83fdttep81oguwnkbk93fovu.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/1c0/1088_820_2/k1fek3x4xovufegdn9520m9602mmn5x1.JPG",
-   "https://dom.com.cy/upload/resize_cache/uf/0d9/1088_820_2/m5akuukvobairydskqw27qvpt3apycr2.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/0d9/1088_820_2/m5akuukvobairydskqw27qvpt3apycr2.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/215968/",
   "houseSqm": 600,
@@ -394171,11 +394215,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/f5d/1088_820_2/24rxtl9b4mfzlakcer2fzaclh8q7mxof.jpg",
    "https://dom.com.cy/upload/uf/a9b/es3qh3uj9y3laz2owoe763rdmzuns4hc.jpg",
    "https://dom.com.cy/upload/uf/e82/vm560mrkqas169kxkqvcmva6ogucvom8.jpg",
-   "https://dom.com.cy/upload/uf/f20/2f5wgi99j51lnoj3yv609d39i8ngs210.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/f20/2f5wgi99j51lnoj3yv609d39i8ngs210.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/215750/",
   "houseSqm": 117,
@@ -394367,11 +394407,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/96b/1088_820_2/y3upvbc5niau9ltb42ets781bwspqk5a.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/cfc/1088_820_2/y2oi12bx23jgilmw95kf4ublab0wcwxe.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/55d/1088_820_2/n8q5dws7fsfl9r51si1kxux7gcnfazvf.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/8fb/1088_820_2/h9ieh6hmlasn2io6cqvpal0z0ysefuuw.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/8fb/1088_820_2/h9ieh6hmlasn2io6cqvpal0z0ysefuuw.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/215403/",
   "houseSqm": 735,
@@ -394754,11 +394790,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/874/1088_820_2/iawu0hv7de0m3hajcwcyuzwdnubkc1da.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/738/1088_820_2/9mlakxpag07m8ua0csg9vpe6y299vwj1.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/ee2/1088_820_2/2gdwtnxhopjx9gqcq9j46zut9tz4rfzy.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/b80/1088_820_2/huxkowz0o3f7nlchfmdudmfq7uulicsb.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/b80/1088_820_2/huxkowz0o3f7nlchfmdudmfq7uulicsb.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/214819/",
   "houseSqm": 203,
@@ -395118,11 +395150,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/6a2/1088_820_2/xm7rgvd843ajs4i2j3i0gfez56k7pm4v.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/f82/1088_820_2/yduxuhv1b6kh8riee7qdvdloigd4msjq.jpeg",
    "https://dom.com.cy/upload/uf/089/hdvkhlw4fqgkyjhht3gp1ru2ke6lmosc.jpeg",
-   "https://dom.com.cy/upload/uf/69a/vq5vwlz4dve12vtxvuz1fm6046ucdqhr.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/69a/vq5vwlz4dve12vtxvuz1fm6046ucdqhr.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/214778/",
   "houseSqm": 155,
@@ -395674,7 +395702,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/07d/1088_820_2/fdy38ydovw3rauvm99ctbtjq6bh5s6uk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/947/1088_820_2/t88ud2zeod95wq2om3vg1h1pxqzjyqz4.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/804/1088_820_2/p8474b32eu02re9jarghltupzs19qmgi.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/39d/1088_820_2/o1e5b22t3sx5v9kxndriz8qj4wm221nx.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/39d/1088_820_2/o1e5b22t3sx5v9kxndriz8qj4wm221nx.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/214510/",
   "houseSqm": 278,
@@ -395722,11 +395754,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/ffe/1088_820_2/ph9u5x4zzqnvv3fc6iftvzco23jkqjxl.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/89f/1088_820_2/c4x7xtmol8w7vzf4lza8n5z52fcai8j2.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/343/1088_820_2/cgukfyw71vinunoy5mt2fkcg9tao219e.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/8c3/1088_820_2/gta622p2wc3lcd9k7dvx38bt4fuvswha.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/8c3/1088_820_2/gta622p2wc3lcd9k7dvx38bt4fuvswha.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/214476/",
   "houseSqm": 230,
@@ -395870,11 +395898,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/37a/1088_820_2/aiszii38yycd45360uj3071w1k5annxc.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4d0/1088_820_2/lgf6lcdl11dxl81gqnrywbwogkvmkpbg.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4ba/1088_820_2/sinfqjsvbi7lhx8as6i3ggik2jvyeb2t.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/da4/1088_820_2/6ostzgki16ajmtbzyd7fphlv793poe6t.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/da4/1088_820_2/6ostzgki16ajmtbzyd7fphlv793poe6t.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/213947/",
   "houseSqm": 117,
@@ -395994,11 +396018,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/fd3/1088_820_2/hh1zu2wahdnoy0ab4tvfsmzlwop2n0dw.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/1cb/1088_820_2/s71iws65jjuq32lvxqur5j177axnple6.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/954/1088_820_2/agjlru264ruinvy9yd1lrsxlkk6biql4.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/4c0/1088_820_2/thz3cgvrcpkxgnnmbglos7x11vy0y5s4.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/4c0/1088_820_2/thz3cgvrcpkxgnnmbglos7x11vy0y5s4.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/213478/",
   "houseSqm": 487,
@@ -396310,7 +396330,11 @@
    "https://dom.com.cy/upload/resize_cache/iblock/ba7/1088_820_2/p8t7yeh9octlex2jbobj4dt0avb0lf77.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/509/1088_820_2/9qzct4ik2cuqg2tl5g7qzqb5k6n3tv4f.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/f55/1088_820_2/2v5i5sa4kn11ey6kwyxzz3nq03imlxdw.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/a70/1088_820_2/ublknbh55t39sxh2lx75tdmid08fth2r.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/a70/1088_820_2/ublknbh55t39sxh2lx75tdmid08fth2r.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/213214/",
   "houseSqm": 307,
@@ -396358,7 +396382,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/ff6/1088_820_2/4s20uvzzasbnlf75kd8ao01b7b72nl03.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/478/1088_820_2/rth34n9fpk1u9innnvskfif68ybuoobs.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/9bc/1088_820_2/xgwrfcu6uc0rabo8xmovevsv24odiijw.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/ee8/1088_820_2/p08xycnbfuexnsrjtyu0k2dgwh8tg4ae.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/ee8/1088_820_2/p08xycnbfuexnsrjtyu0k2dgwh8tg4ae.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/212517/",
   "houseSqm": 515,
@@ -396622,11 +396650,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/98f/1088_820_2/xb3faehhuzizfizjm26067at8q43qb44.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/b98/1088_820_2/0wcwtma66e2qkzb97reux6i33tdbyjeq.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/641/1088_820_2/i99cqitssfp8pwdvf07k9n0o5bb1mr91.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/5be/1088_820_2/ft108s6jan9bll78igg5qbnyny8jdnma.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/5be/1088_820_2/ft108s6jan9bll78igg5qbnyny8jdnma.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/210987/",
   "houseSqm": 220,
@@ -397010,7 +397034,11 @@
    "https://dom.com.cy/upload/uf/4a1/59alvnbcxmaeo30a5jphstoi0pnw3zr4.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/317/1088_820_2/d1v0o41x6bxfdwifq82kw30kxza8es5v.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/aa6/1088_820_2/ujzijg6l0k7hdb1cfcpne462pmx2hptu.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/210543/",
   "houseSqm": 381,
@@ -397058,11 +397086,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/aa6/1088_820_2/ujzijg6l0k7hdb1cfcpne462pmx2hptu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/317/1088_820_2/d1v0o41x6bxfdwifq82kw30kxza8es5v.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/5ee/1088_820_2/5byeoiupv8hdaf4ckl5ar0anjj1untba.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/210540/",
   "houseSqm": 470,
@@ -397494,7 +397518,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/0a8/1088_820_2/f1c9a8bhy3ef516kh49jjo7nlbqy1b0d.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/317/1088_820_2/d1v0o41x6bxfdwifq82kw30kxza8es5v.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/aa6/1088_820_2/ujzijg6l0k7hdb1cfcpne462pmx2hptu.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/aa6/1088_820_2/ujzijg6l0k7hdb1cfcpne462pmx2hptu.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/210507/",
   "houseSqm": 534,
@@ -397542,11 +397570,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/317/1088_820_2/d1v0o41x6bxfdwifq82kw30kxza8es5v.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/224/1088_820_2/7b1gnlolyr6gyxz84mxd44ilmv0aah0j.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/aa6/1088_820_2/ujzijg6l0k7hdb1cfcpne462pmx2hptu.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/043/1088_820_2/13tdq4nglf93yis5shn6deebn512yc2n.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/210505/",
   "houseSqm": 469,
@@ -398122,7 +398146,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/8bd/1088_820_2/n1116pxwyvtlpdu8uye0qqqe3if59tzk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/aeb/1088_820_2/qgxusqxenssa4gq8bi41iptp1h8jhwwi.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/6de/1088_820_2/4d26tmz1fjwcnino6nbw6563groi64p7.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/508/1088_820_2/esgkbnyh50aeqwevduk2ep51snf96q9a.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/508/1088_820_2/esgkbnyh50aeqwevduk2ep51snf96q9a.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/209690/",
   "houseSqm": 347,
@@ -398313,7 +398341,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/11f/1088_820_2/h42b8th84k4ivxk8pyh5v3pmyukjrbva.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/1ee/1088_820_2/2n3c37tzqzb4bucd36ibvn9we3dvmjz7.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/bdb/1088_820_2/if2bmi4nlby50xnmox8359tca6ivch4x.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/84c/1088_820_2/9n1xfy608wnxftmtvlvnlgkd9hboj8g8.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/84c/1088_820_2/9n1xfy608wnxftmtvlvnlgkd9hboj8g8.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/209287/",
   "houseSqm": 320,
@@ -398361,11 +398393,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/8fc/1088_820_2/4qxsmuihkrjsosnzhpu1kjf05lwmwn14.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ab7/1088_820_2/2e6gpl2my5lgw93gvk9r68a035zv2cou.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b2b/1088_820_2/5dxka5eokg9hhkbojxmyuy6yvijbbeqy.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/0f5/1088_820_2/hh8eijwnr5a7oep7p4geeq3oqt226tds.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/0f5/1088_820_2/hh8eijwnr5a7oep7p4geeq3oqt226tds.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/209231/",
   "houseSqm": 121,
@@ -398532,7 +398560,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/224/1088_820_2/5rtirpltwbx0q5bshxhzf8axukf8exnl.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/ce2/1088_820_2/iwkbjldxr03ikg955jvme9b15043reh3.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/41e/1088_820_2/se2na9gib88iiznhevtvi49yzbaxu0o5.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/739/1088_820_2/6f4kp4w7eoukp9fbr9dq2e629y22fivh.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/739/1088_820_2/6f4kp4w7eoukp9fbr9dq2e629y22fivh.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208995/",
   "houseSqm": 394,
@@ -398652,7 +398684,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/18e/1088_820_2/gne72bbzzel22l33euctqz2kif4yuzfi.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/59a/1088_820_2/tj6ya3yup3y6kfumry5pjqwdwm0q1ff7.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/696/1088_820_2/38afkhwfnoz499xmgczofkqw01pe23si.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/368/1088_820_2/utpib577k6qzaoq2pvtbw633ppb7l0wf.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/368/1088_820_2/utpib577k6qzaoq2pvtbw633ppb7l0wf.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208621/",
   "houseSqm": 338,
@@ -398676,11 +398712,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/368/1088_820_2/utpib577k6qzaoq2pvtbw633ppb7l0wf.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/2aa/1088_820_2/4k9250nojhs4x6grws7010xvsr4524me.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/09d/1088_820_2/o2shg9tyj03qg5p77al37rtu4izvcft7.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/819/1088_820_2/9d2otjls0hjn8qmo1oea12puuy5zdxfe.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/819/1088_820_2/9d2otjls0hjn8qmo1oea12puuy5zdxfe.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208618/",
   "houseSqm": 198,
@@ -398824,7 +398856,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/103/1088_820_2/kx5czaw7yscz46s1qy21k70ez0syj94f.jpg",
    "https://dom.com.cy/upload/uf/322/baru6yaxl91xrhij4pg1275zpq6d95uk.jpg",
    "https://dom.com.cy/upload/uf/e61/hxlhki44lxklxpewjgwo1zrbse43q24u.jpg",
-   "https://dom.com.cy/upload/uf/b4d/mzptjnzqtpf3bauclnhiqtihfnhd2cg4.jpg"
+   "https://dom.com.cy/upload/uf/b4d/mzptjnzqtpf3bauclnhiqtihfnhd2cg4.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208465/",
   "houseSqm": 122,
@@ -398872,11 +398908,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/6ea/1088_820_2/xvvdeklzsl5vyq43u30ac7daremoh7th.jpeg",
    "https://dom.com.cy/upload/uf/322/baru6yaxl91xrhij4pg1275zpq6d95uk.jpg",
    "https://dom.com.cy/upload/uf/e61/hxlhki44lxklxpewjgwo1zrbse43q24u.jpg",
-   "https://dom.com.cy/upload/uf/b4d/mzptjnzqtpf3bauclnhiqtihfnhd2cg4.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/b4d/mzptjnzqtpf3bauclnhiqtihfnhd2cg4.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208462/",
   "houseSqm": 122,
@@ -399068,7 +399100,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/ea2/1088_820_2/6ak3eovojuugfsfpmyb6te9z13wbxu9u.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/0fc/1088_820_2/2e658nz3v9zdkfr2geycc5emqzkd9o6p.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b59/1088_820_2/745ufffqhsz95zvb0jvtdhqau1b6p1lc.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/340/1088_820_2/7q36oqdtvymhi968ph3xesuoa5pnnv14.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/340/1088_820_2/7q36oqdtvymhi968ph3xesuoa5pnnv14.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208096/",
   "houseSqm": 270,
@@ -399092,11 +399128,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/fde/1088_820_2/l7e3j0ta7h0wqb3q1nw2ltg4paqjh18e.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/35c/1088_820_2/17ij3gs17xn7apj8tx3dg4mbjzqrk4qk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fd8/1088_820_2/jutf5y8w0213k6ycyc5nomfzdm804jr9.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/9de/1088_820_2/ptdl5d6uyro2lfoq4egc366vowbyqb7b.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/9de/1088_820_2/ptdl5d6uyro2lfoq4egc366vowbyqb7b.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/208004/",
   "houseSqm": 120,
@@ -399192,7 +399224,11 @@
    "https://dom.com.cy/upload/uf/a93/dm9d4izwepwc1ck8js3u3dixxy42ty72.jpeg",
    "https://dom.com.cy/upload/uf/ba1/lruux2kiun3tzcm9s1i0lqpnh5c5rb1v.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/7ba/1088_820_2/5ttw9dq61vjooc00szv5k4snqmf6dt1l.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/0ba/1088_820_2/tygja9yu2wmgd12h9fi7vtkcab3igg2w.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/0ba/1088_820_2/tygja9yu2wmgd12h9fi7vtkcab3igg2w.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/207870/",
   "houseSqm": 225,
@@ -399240,11 +399276,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/867/1088_820_2/cqbuq33l1l8oa2gz46k0lj707y6v7q7t.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/714/1088_820_2/1xm6ykcxzuhwlevx1003ttkibw3d7se5.jpg",
    "https://dom.com.cy/upload/uf/ba1/lruux2kiun3tzcm9s1i0lqpnh5c5rb1v.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/7ba/1088_820_2/5ttw9dq61vjooc00szv5k4snqmf6dt1l.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/7ba/1088_820_2/5ttw9dq61vjooc00szv5k4snqmf6dt1l.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/207868/",
   "houseSqm": 225,
@@ -399508,7 +399540,11 @@
    "https://dom.com.cy/upload/resize_cache/iblock/67a/1088_820_2/f1tv9ck7fzkbcb34rnx5taqze5wbn8ph.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/54c/1088_820_2/t4wj0elgm4gsngyxvtd518ay17985o2f.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/8c7/1088_820_2/kzxio9t1h18vhyo0hgoc5o672it5f386.jpeg",
-   "https://dom.com.cy/upload/resize_cache/iblock/4c6/1088_820_2/lp3bm7bmhgv7glz1p5cz2nwio4f1a6fy.jpeg"
+   "https://dom.com.cy/upload/resize_cache/iblock/4c6/1088_820_2/lp3bm7bmhgv7glz1p5cz2nwio4f1a6fy.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/207442/",
   "houseSqm": 127,
@@ -399626,11 +399662,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/9f2/1088_820_2/3hk0dso3kj48mbh7yj3zw272zwc43lca.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fe4/1088_820_2/t396psk1yo31fsg2qlkkhys9dirceq9u.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/7b8/1088_820_2/6as1up53es3j95hvu0mpdk3r223485eq.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/a29/1088_820_2/grhoykhi091boqdm6eglb4pryem8g88k.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/a29/1088_820_2/grhoykhi091boqdm6eglb4pryem8g88k.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/207036/",
   "houseSqm": 250,
@@ -399990,7 +400022,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/3e8/1088_820_2/9ney80xe61mpkr57y5uvv3qvwz10yfe1.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/3af/1088_820_2/9t36tov0li6sz9ypbxvf2u1yzudklf1d.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/881/1088_820_2/t530v7q2upu6w5fgh0v3p4a7u7mkdvdm.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/2d5/1088_820_2/tx9rmyfs6kiambzv8u35n9lgpk7io03l.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/2d5/1088_820_2/tx9rmyfs6kiambzv8u35n9lgpk7io03l.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/206953/",
   "houseSqm": 228,
@@ -400850,11 +400886,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/3fb/1088_820_2/r2uibiddbm38luyt8047ccnds52dgzqf.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/526/1088_820_2/7agocoi7mml451blvbaxouk6e36p5ewk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/677/1088_820_2/591sk00rhxg1ffi15rlj924n6tlmsfjq.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/abf/1088_820_2/0eeee0g0yufgct1ovs47io99r53zshqv.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/abf/1088_820_2/0eeee0g0yufgct1ovs47io99r53zshqv.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/204430/",
   "houseSqm": 350,
@@ -401116,7 +401148,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/48a/1088_820_2/1mzey8wyh9j213mq1suw562o9qpp50wj.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/bec/1088_820_2/ouhfh7ajji5veggdl4nnl7ol7mjeunqz.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/897/1088_820_2/47rfpa48if1ur6r0ip8slq8u0bxmg89z.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/da8/1088_820_2/dncoyrjl0ifc14j446v5bmuwdjp7sx7c.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/da8/1088_820_2/dncoyrjl0ifc14j446v5bmuwdjp7sx7c.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/202637/",
   "houseSqm": 370,
@@ -401380,7 +401416,11 @@
    "https://dom.com.cy/upload/uf/0e8/2gyjba953mtq2hkr9ahra3531o7vbav4.jpg",
    "https://dom.com.cy/upload/uf/e32/ue9qe704678ymzny3jbleqg3fk5b5zqq.jpg",
    "https://dom.com.cy/upload/uf/d9e/h0vd7qptwhncqq9n9btcu1gnke0cwaor.jpg",
-   "https://dom.com.cy/upload/uf/ab8/4xsaciu8f1xk7mbryhdi4ekhvjefre6b.jpg"
+   "https://dom.com.cy/upload/uf/ab8/4xsaciu8f1xk7mbryhdi4ekhvjefre6b.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/202339/",
   "houseSqm": 241,
@@ -401404,11 +401444,7 @@
    "https://dom.com.cy/upload/uf/469/tcg0nv8oyod5cd33tvy9wjm5g3u3czur.jpg",
    "https://dom.com.cy/upload/iblock/d8b/r5eo0ng6ah1n3lz5l2wb7vwez62o28tq.jpg",
    "https://dom.com.cy/upload/iblock/07a/nye9q2rvx8ljbfh0089a2bceuriwytw2.jpg",
-   "https://dom.com.cy/upload/iblock/19a/ulo8jpst6rv935uov6jzuauc5xcvmd5y.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/iblock/19a/ulo8jpst6rv935uov6jzuauc5xcvmd5y.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/202335/",
   "houseSqm": 243,
@@ -401836,11 +401872,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/0f5/1088_820_2/0cqdiumgs20mfidug53k2z0t3x6a1ur5.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/3ef/1088_820_2/0opar3iumf14fhdkwxghw5mkd9nvdyv9.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/3ef/1088_820_2/gip7hvvaao4z4j7w0kolyqcyvtndyrgf.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/70b/1088_820_2/1a9kxe84yyqiwzr7lo6hjf0c43lfz7rv.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/70b/1088_820_2/1a9kxe84yyqiwzr7lo6hjf0c43lfz7rv.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/201641/",
   "houseSqm": 325,
@@ -402008,7 +402040,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/a62/1088_820_2/kolek1f9bs35m7albius2cl25w29ru3m.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/17a/1088_820_2/aymi9luizr63qt43gjmpfwfgzex6xyym.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/830/1088_820_2/27e7s46r6r8rpjl64hnrt93uuikeb9kc.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/42b/1088_820_2/ezwa2jsy1yemhwxtib8ijzccedmj0g6e.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/42b/1088_820_2/ezwa2jsy1yemhwxtib8ijzccedmj0g6e.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/201191/",
   "houseSqm": 1200,
@@ -402293,7 +402329,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/2a6/1088_820_2/mix1hqxqc9so6od7u806yvwpxeyhp9i9.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fa3/1088_820_2/t3m7kgxc3ujify40ljdusir1ndopa474.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a01/1088_820_2/uwcien7ugguawq2clgqzo2ds07ix28u9.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/01e/1088_820_2/djzv1r1i4f7261him3vlemskhp4jhf5a.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/01e/1088_820_2/djzv1r1i4f7261him3vlemskhp4jhf5a.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/200118/",
   "houseSqm": 333,
@@ -402339,11 +402379,7 @@
   "image": "https://dom.com.cy/upload/resize_cache/uf/38b/1088_820_2/4a01jnk35mti78ovjsm4c3x3t5e2lgm8.jpg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/38b/1088_820_2/4a01jnk35mti78ovjsm4c3x3t5e2lgm8.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/d7b/1088_820_2/9s040qex47eg9u6ubpormmttno8125lo.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/d7b/1088_820_2/9s040qex47eg9u6ubpormmttno8125lo.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/200116/",
   "houseSqm": 332,
@@ -402746,7 +402782,11 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/b3e/1088_820_2/rxhddmmtzp6f5dl5413s4g86pf0t2vee.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/670/1088_820_2/rkwblbk3i1edhs81c0toeqvobnt0os6g.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/d9c/1088_820_2/2vha9npcg4ujcuogf6rldv3ne3azmnmu.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/d9c/1088_820_2/2vha9npcg4ujcuogf6rldv3ne3azmnmu.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/200096/",
   "houseSqm": 339,
@@ -402890,7 +402930,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/041/1088_820_2/4wgev0v18jlp225hfm0bpg9vw26o9osv.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e0c/1088_820_2/g1ag9n2fsx82b4vued5jto6awafdghhk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/17d/1088_820_2/odotbsol6yjq9o2ro2hi79gtc4apuhtt.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/9f2/1088_820_2/r2n7wmsoyq6c1510yjjcmbfqfxkv4zlk.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/9f2/1088_820_2/r2n7wmsoyq6c1510yjjcmbfqfxkv4zlk.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/199220/",
   "houseSqm": 225,
@@ -403106,11 +403150,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/a1e/1088_820_2/d6xmcv8451v4x3vximb1aka1ferikswe.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/77a/1088_820_2/016f7tn2ynbbhas5ay37scotxp4760lu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/dd4/1088_820_2/o1q18wsiymsugx568mwx32gani5w3jhi.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/828/1088_820_2/gw7holh0cpc1ei4i3s4eb4lnwp1w3y5l.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/828/1088_820_2/gw7holh0cpc1ei4i3s4eb4lnwp1w3y5l.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/197590/",
   "houseSqm": 511,
@@ -404100,7 +404140,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/b2e/1088_820_2/ywi5ndw0g8kbx0giq4xmztygobroji9y.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/cb8/1088_820_2/9k6coo4dgffjzrxyctb5t1vg7xw9mx12.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fb9/1088_820_2/77bcl1jlok5eumi6nfj7vmkt8yj394r1.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/b66/1088_820_2/huyawij22bn0cx2999ram3glw3lpkasl.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/b66/1088_820_2/huyawij22bn0cx2999ram3glw3lpkasl.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/196830/",
   "houseSqm": 212,
@@ -404580,11 +404624,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/19f/1088_820_2/9x0fw9cduakw0ammuw9tcl13ba0b7l70.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/7f5/1088_820_2/r515o9yf7f3rtdz9wjsudulers5916n3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9d2/1088_820_2/y3gwnae8d89bvwskiq6ombthdth6zeje.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/f0a/1088_820_2/h8y5ijznwt5xil9m0q51ljwcfhheb16w.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/193318/",
   "houseSqm": 258,
@@ -404872,11 +404912,7 @@
    "https://dom.com.cy/upload/uf/dfd/7e0eyglb0tx3dd52vkevmbxlckw9hkjb.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/85b/1088_820_2/6qjb2ws851hgy07n1ul7j61bru3py8yz.jpg",
    "https://dom.com.cy/upload/uf/c59/83264s8yv6hdptpw4kidetqh0ci57h9c.jpg",
-   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/193046/",
   "houseSqm": 212,
@@ -405236,7 +405272,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/a99/1088_820_2/k233wxe9lhew71yzdz1aknme8emzrk84.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/85b/1088_820_2/6qjb2ws851hgy07n1ul7j61bru3py8yz.jpg",
    "https://dom.com.cy/upload/uf/c59/83264s8yv6hdptpw4kidetqh0ci57h9c.jpg",
-   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg"
+   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/192940/",
   "houseSqm": 146,
@@ -405284,11 +405324,7 @@
    "https://dom.com.cy/upload/uf/2d7/r5b3llav0mbai9ms7z3ba0ind0fvewxu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/85b/1088_820_2/6qjb2ws851hgy07n1ul7j61bru3py8yz.jpg",
    "https://dom.com.cy/upload/uf/c59/83264s8yv6hdptpw4kidetqh0ci57h9c.jpg",
-   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/18e/tpenktoy1r5xpnb9nqpwe5gq30268jq4.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/192934/",
   "houseSqm": 146,
@@ -405862,7 +405898,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/b39/1088_820_2/5oqidjc79yrdoo8qgf9fc8m0wydrx2e3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/bab/1088_820_2/kdyv6ajhtmatuz5u0k25rh76f7g5ivac.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e14/1088_820_2/t3jpl3193uwzcismsx472r75zkvu922w.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/244/1088_820_2/k6428kr82poefcml4nev4n7j8h1srylk.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/244/1088_820_2/k6428kr82poefcml4nev4n7j8h1srylk.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/189869/",
   "houseSqm": 275,
@@ -405886,11 +405926,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/244/1088_820_2/k6428kr82poefcml4nev4n7j8h1srylk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/bab/1088_820_2/kdyv6ajhtmatuz5u0k25rh76f7g5ivac.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e14/1088_820_2/t3jpl3193uwzcismsx472r75zkvu922w.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/199/1088_820_2/50z7k27urhtfqe8yhl33ph50wwtzjrd0.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/199/1088_820_2/50z7k27urhtfqe8yhl33ph50wwtzjrd0.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/189866/",
   "houseSqm": 275,
@@ -405938,7 +405974,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/a6f/1088_820_2/5706nyjeoivgjqckhlqf908rvhtae0bz.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/9cf/1088_820_2/ejhu4aazxkn2xwavvfvvyyfcq6r0pz2x.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/b4d/1088_820_2/1kot1su7s10bzdhuq0p9z9ne003j7mrl.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/c77/1088_820_2/hz6iptdowhfrf5o2b1zmmci11sdjghxj.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/c77/1088_820_2/hz6iptdowhfrf5o2b1zmmci11sdjghxj.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/189762/",
   "houseSqm": 157,
@@ -406152,11 +406192,7 @@
   "image": "https://dom.com.cy/upload/resize_cache/uf/578/1088_820_2/b7e1g12gi2l2pt0sl8w1ttj4wxo40ahl.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/578/1088_820_2/b7e1g12gi2l2pt0sl8w1ttj4wxo40ahl.jpeg",
-   "https://dom.com.cy/upload/uf/4c7/srob023tpe5rrotzsp5cumleuxo22l2l.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/4c7/srob023tpe5rrotzsp5cumleuxo22l2l.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/187118/",
   "houseSqm": 468,
@@ -406299,7 +406335,11 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/ded/1088_820_2/cf7wwr6q1b2s2oep9adu3ch3vhm8z0u3.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/e9f/1088_820_2/oz94syicggmae0f1iqmf28hgsyxxcsmy.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/fe2/1088_820_2/2fljyesbvx7u8kijfz1883cca3hp3c8s.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/fe2/1088_820_2/2fljyesbvx7u8kijfz1883cca3hp3c8s.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/185715/",
   "houseSqm": 131,
@@ -406587,7 +406627,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/94d/1088_820_2/o6t07uh8gdqnjniwauvz5i90e0gvuhq3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/feb/1088_820_2/1v82hpcl331i7br1w4kz4gr3zv120b2k.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/86d/1088_820_2/xynuiahavgueo4c36uxdvr8t0dsicdbf.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/844/1088_820_2/wj53qx8n2pu5ct0rtkg7b2n5pn41wjmr.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/844/1088_820_2/wj53qx8n2pu5ct0rtkg7b2n5pn41wjmr.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/184306/",
   "houseSqm": 460,
@@ -406899,11 +406943,7 @@
    "https://dom.com.cy/upload/uf/570/epo0kju8qlsnzaqz0wgi56xq29xvsjyh.jpeg",
    "https://dom.com.cy/upload/uf/c85/0hyk4tx8w6nzo3wd1bz3du8otgoip4dc.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/033/1088_820_2/9e6eu1wh5jymzwbd2ob1htb3tfgrcnhx.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/49d/1088_820_2/8g3uh5a37bqob1m2epoep85lr35zjkr7.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/49d/1088_820_2/8g3uh5a37bqob1m2epoep85lr35zjkr7.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/183905/",
   "houseSqm": 250,
@@ -407527,11 +407567,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/8bb/1088_820_2/qgh0en5bzdaw0310qwek3qp2308ayuqr.jpg",
    "https://dom.com.cy/upload/uf/eb0/fwg8q28dqbi8j0i4rdcmxyp7v162gjej.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/2a6/1088_820_2/apltw5jfgmg47mgx6tb95y9ubcszy28z.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/4bc/1088_820_2/7equa19oov14jqdq1x6m2oagf0wvglrf.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/4bc/1088_820_2/7equa19oov14jqdq1x6m2oagf0wvglrf.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/180540/",
   "houseSqm": 894,
@@ -407819,7 +407855,11 @@
    "https://dom.com.cy/upload/iblock/d6a/6r1p0gnldwcubom3ahseydoxl1z179rc.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/2ac/1088_820_2/ap5rjneeo46751tbd1565h5pq7pnya9j.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/584/1088_820_2/kfbkgh97up6ux213bkx8d8sbd0qaaw73.jpeg",
-   "https://dom.com.cy/upload/resize_cache/iblock/adf/1088_820_2/a4w2yaof46wht7n6zo2urxvw5or279pa.jpeg"
+   "https://dom.com.cy/upload/resize_cache/iblock/adf/1088_820_2/a4w2yaof46wht7n6zo2urxvw5or279pa.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/180250/",
   "houseSqm": 185,
@@ -407867,11 +407907,7 @@
    "https://dom.com.cy/upload/resize_cache/iblock/ba8/1088_820_2/5wu9dg3y409wvrfk2zoni74cti6q7j6x.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/2ac/1088_820_2/ap5rjneeo46751tbd1565h5pq7pnya9j.jpeg",
    "https://dom.com.cy/upload/resize_cache/iblock/584/1088_820_2/kfbkgh97up6ux213bkx8d8sbd0qaaw73.jpeg",
-   "https://dom.com.cy/upload/resize_cache/iblock/adf/1088_820_2/a4w2yaof46wht7n6zo2urxvw5or279pa.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/iblock/adf/1088_820_2/a4w2yaof46wht7n6zo2urxvw5or279pa.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/180248/",
   "houseSqm": 185,
@@ -408279,7 +408315,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/e1e/1088_820_2/rm1w5ye7vmk326u89bxdcb321fw0oyg0.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/612/1088_820_2/l4p0qv7nh5iroikk64gs1k9rlmlulqyg.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/136/1088_820_2/zwhuj9dtrjnk7i7qq2fnj23tgak55kdj.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/bc2/1088_820_2/o2xfdgb1ejeryxz221ukqa99svzdn8re.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/bc2/1088_820_2/o2xfdgb1ejeryxz221ukqa99svzdn8re.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/179940/",
   "houseSqm": 285,
@@ -408447,7 +408487,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/77c/1088_820_2/yg1hbl6461kvzk1l0vcikoh7dg6gt5nz.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/11b/1088_820_2/dn1ul1i6h0vsnqpg9v0sfrjwasrh9gv4.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/769/1088_820_2/wl8flhftzrkqs9v2v7z3gbbmt5l8gv4h.JPG",
-   "https://dom.com.cy/upload/resize_cache/uf/8e0/1088_820_2/3ab2b31xdn2d4wl7zrqyi28xih19iyhp.JPG"
+   "https://dom.com.cy/upload/resize_cache/uf/8e0/1088_820_2/3ab2b31xdn2d4wl7zrqyi28xih19iyhp.JPG",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/178318/",
   "houseSqm": 280,
@@ -408878,7 +408922,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/95c/1088_820_2/2b4b23l5pxiwqrucz221y826nn8x5fow.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d01/1088_820_2/qvmzewa4bmosmymeo80wxq5ecntbt1ix.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9ba/1088_820_2/z2h8bvoy8x7qe1he3m652rpip9g14hei.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/7c6/1088_820_2/xgoukqywxi9jmyzhykkynx2k725grz9j.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/7c6/1088_820_2/xgoukqywxi9jmyzhykkynx2k725grz9j.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/176660/",
   "houseSqm": 620,
@@ -408998,7 +409046,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/d73/1088_820_2/1qtjg9ho8b82eax619bbj6g869pzouwu.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/fb4/1088_820_2/g262zuwr10nc81cld24xb8se3p4papc9.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/efd/1088_820_2/kg3eoir8kvfcgaybca16m5dvobvmyj89.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/635/1088_820_2/s68k9gayzedqzvlou03iw58hbq12ntkv.JPG"
+   "https://dom.com.cy/upload/resize_cache/uf/635/1088_820_2/s68k9gayzedqzvlou03iw58hbq12ntkv.JPG",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/175559/",
   "houseSqm": 369,
@@ -409334,7 +409386,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/2c6/1088_820_2/unoj2lhfl902l1vitre4uk7i5hh8b49g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/f86/1088_820_2/srcalt4gmon1f6kohtf9a5u4bro2ao3p.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/017/1088_820_2/7htk3qjra3x3tlll4in2qe2iibman0gt.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/755/1088_820_2/xhq6a6sm7u489g08wvalofksprrcjril.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/755/1088_820_2/xhq6a6sm7u489g08wvalofksprrcjril.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/173906/",
   "houseSqm": 420,
@@ -409790,7 +409846,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/127/1088_820_2/7fgdqia1hgbpo3c8llg19yimwqcxhcjo.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/778/1088_820_2/vqrgqvtqe3n84b4k5p439w8u213ncsas.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/3cf/1088_820_2/59jsgq5k2mjwgllgrjstm4e76vpdpnqi.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/b65/1088_820_2/6cihmgzz4l2z8bg74vrm86ty4qdxeore.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/b65/1088_820_2/6cihmgzz4l2z8bg74vrm86ty4qdxeore.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/172595/",
   "houseSqm": 271,
@@ -409838,11 +409898,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/b65/1088_820_2/6cihmgzz4l2z8bg74vrm86ty4qdxeore.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/1e9/1088_820_2/b0bjslzz0a11afn7aa5aw331enfj65ul.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/626/1088_820_2/ipf5m43hh449lu7yuaf2uzgflvwt7wma.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/127/1088_820_2/7fgdqia1hgbpo3c8llg19yimwqcxhcjo.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/127/1088_820_2/7fgdqia1hgbpo3c8llg19yimwqcxhcjo.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/172583/",
   "houseSqm": 282,
@@ -410178,7 +410234,11 @@
    "https://dom.com.cy/upload/uf/b93/1uus4vw888hgbnw76a3ax4x3751amuhp.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/963/1088_820_2/z79scg2es92wfwih6367m1025jw3leyt.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c48/1088_820_2/ze9nha6vkr5mukd2m2xv5zgt5xh2fqmb.jpg",
-   "https://dom.com.cy/upload/uf/0cf/ewyuhaim65k5d6grsvxe6hran18il6an.jpg"
+   "https://dom.com.cy/upload/uf/0cf/ewyuhaim65k5d6grsvxe6hran18il6an.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171917/",
   "houseSqm": 240,
@@ -410226,11 +410286,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/920/1088_820_2/ba1f623al6ylpkfqxpqpuqgmfyhmjt8o.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/abd/1088_820_2/7fpa82o85rotpou1f4qeun55q1k9ux2p.jpg",
    "https://dom.com.cy/upload/uf/12d/g9vji4c4i8age8y79zbnns0hstoxeqg4.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/963/1088_820_2/z79scg2es92wfwih6367m1025jw3leyt.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/963/1088_820_2/z79scg2es92wfwih6367m1025jw3leyt.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171903/",
   "houseSqm": 243,
@@ -410638,7 +410694,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/6c6/1088_820_2/evbsjx1bn0i75zwy627xebagh56lrbsb.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4d3/1088_820_2/ljy1t49qxlz54svolegaba4upkes596d.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/dca/1088_820_2/bfma6u838mzus41vulr1z1xqs9wqqu5w.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/5ab/1088_820_2/rfvzrh875kw2dumlg1ft3m0n51cr9aew.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/5ab/1088_820_2/rfvzrh875kw2dumlg1ft3m0n51cr9aew.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171879/",
   "houseSqm": 250,
@@ -410686,11 +410746,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/ac8/1088_820_2/h9128i1bkmae89cnhd0dxdo2v0bqtx5p.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4d3/1088_820_2/ljy1t49qxlz54svolegaba4upkes596d.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fbe/1088_820_2/m9do1ygjv29e71xro312ofm6fh46me2f.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/5ab/1088_820_2/rfvzrh875kw2dumlg1ft3m0n51cr9aew.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/5ab/1088_820_2/rfvzrh875kw2dumlg1ft3m0n51cr9aew.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171877/",
   "houseSqm": 240,
@@ -411026,7 +411082,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/405/1088_820_2/4f010i2mujumlf3ot01wd2etxjisy1n2.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a5d/1088_820_2/esyljdg3k5c2m2scolba0pc8lnncuq9g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/953/1088_820_2/cynhm4gcwewvoo7z7xzbeiby6p1jioji.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/4e5/1088_820_2/zkovxktz9m4tw5zehdkn3vtmy37yswap.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/4e5/1088_820_2/zkovxktz9m4tw5zehdkn3vtmy37yswap.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171838/",
   "houseSqm": 424,
@@ -411074,11 +411134,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/405/1088_820_2/4f010i2mujumlf3ot01wd2etxjisy1n2.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a5d/1088_820_2/esyljdg3k5c2m2scolba0pc8lnncuq9g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/953/1088_820_2/cynhm4gcwewvoo7z7xzbeiby6p1jioji.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/4e5/1088_820_2/zkovxktz9m4tw5zehdkn3vtmy37yswap.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/4e5/1088_820_2/zkovxktz9m4tw5zehdkn3vtmy37yswap.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171836/",
   "houseSqm": 243,
@@ -411438,7 +411494,11 @@
    "https://dom.com.cy/upload/uf/0da/d2f7ls9ovb955n1j0vvsfzcd8mb3shj4.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/omhme6nrindb1i9edxapnmsgvo94rhci.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ddb/1088_820_2/zn26fyalms9in7p14qkygva5qsl40z67.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/daq1xdwcbts79cdzx00rntdasye0rvw9.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/daq1xdwcbts79cdzx00rntdasye0rvw9.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171814/",
   "houseSqm": 240,
@@ -411486,11 +411546,7 @@
    "https://dom.com.cy/upload/uf/3e9/m2mjg3whcr2v67quq4ylfk6vvlgz93yp.jpg",
    "https://dom.com.cy/upload/uf/09b/g1hs8n61q12s4ehw9psp1ih7k7wphzm8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/daq1xdwcbts79cdzx00rntdasye0rvw9.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/8e9/1088_820_2/wgg2vt0lewnfl16hug6py55h3nqb3s6v.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/8e9/1088_820_2/wgg2vt0lewnfl16hug6py55h3nqb3s6v.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171812/",
   "houseSqm": 292,
@@ -411754,7 +411810,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/0a3/1088_820_2/z86gv9gtwbzjm73gcgqtql527trprx4n.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/48c/1088_820_2/2doymnjqixyxla17226xjp720w0lebqi.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fe0/1088_820_2/qe6ot57nyenye49ez8k333cc1yjnu8em.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/78e/1088_820_2/kpu095za1wq15gr0pfpso5i40fziznvn.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/78e/1088_820_2/kpu095za1wq15gr0pfpso5i40fziznvn.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171513/",
   "houseSqm": 351,
@@ -411802,11 +411862,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/0a3/1088_820_2/z86gv9gtwbzjm73gcgqtql527trprx4n.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/59e/1088_820_2/1jy8vu5sigvcz9y0jv1t6hgihe248fdw.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/fe0/1088_820_2/qe6ot57nyenye49ez8k333cc1yjnu8em.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/78e/1088_820_2/kpu095za1wq15gr0pfpso5i40fziznvn.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/78e/1088_820_2/kpu095za1wq15gr0pfpso5i40fziznvn.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/171511/",
   "houseSqm": 348,
@@ -412262,11 +412318,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/e21/1088_820_2/6clz7l7j1md22ml7zbr0lytzevu8c0sp.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/573/1088_820_2/ew5jd17b1fhqfsxkzby3kmk211nl4gj5.jpeg",
    "https://dom.com.cy/upload/uf/30b/e311aw8vyy7nj53suc3ya9u390zroomt.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/7d3/1088_820_2/qagofbvcjfvbl7c0gd3123d07hnqq6ck.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/7d3/1088_820_2/qagofbvcjfvbl7c0gd3123d07hnqq6ck.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/166011/",
   "houseSqm": 207,
@@ -412554,7 +412606,11 @@
    "https://dom.com.cy/upload/resize_cache/iblock/0a3/1088_820_2/qacx99yld4m03jea0z384b7s3dfnea75.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/317/1088_820_2/nuc280v6st33bum6atdkwecxuslhad5m.jpg",
    "https://dom.com.cy/upload/iblock/509/d3ddywk5sy7j8vo23n2enuf7zoghkufn.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/b68/1088_820_2/luidabsz4viwxw87os16q0ikiwvsu4jl.jpg"
+   "https://dom.com.cy/upload/resize_cache/iblock/b68/1088_820_2/luidabsz4viwxw87os16q0ikiwvsu4jl.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/165394/",
   "houseSqm": 317,
@@ -412602,11 +412658,7 @@
    "https://dom.com.cy/upload/resize_cache/iblock/c1b/1088_820_2/2ltnxqfiwd7rcvm5mtyjxl8pye89dkny.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/317/1088_820_2/nuc280v6st33bum6atdkwecxuslhad5m.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/0a3/1088_820_2/qacx99yld4m03jea0z384b7s3dfnea75.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/cbd/1088_820_2/69q3vu2p97dv6h1tqxj2nq0uiog4qz7d.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/iblock/cbd/1088_820_2/69q3vu2p97dv6h1tqxj2nq0uiog4qz7d.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/165390/",
   "houseSqm": 367,
@@ -412796,11 +412848,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/242/1088_820_2/ihn5wun1y1v7hoemtr2oe5z9hkch8fh9.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ecd/1088_820_2/wojbpgbv6zetznkz0at8r6oj2fckc5cv.jpg",
    "https://dom.com.cy/upload/uf/9c7/m7wzn3ck8jplst2yf5ce2bc3b02g52tq.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/ead/1088_820_2/vfjcfpi0g6oirq88n3nt66zhp3yjz8mv.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/ead/1088_820_2/vfjcfpi0g6oirq88n3nt66zhp3yjz8mv.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/164823/",
   "houseSqm": 275,
@@ -413203,11 +413251,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/44b/1088_820_2/qr18t7x658oolo54uam0sddwixf0q1px.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/35c/1088_820_2/lmzc3mfdc580jsfl65obajj4g1de1ukx.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/0d4/1088_820_2/4syks4s73q038luo1z9ndxun26a283rl.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/ba1/1088_820_2/m6mgli92wfas0pn45fe6ril45xz2wl9e.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/ba1/1088_820_2/m6mgli92wfas0pn45fe6ril45xz2wl9e.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/164715/",
   "houseSqm": 205,
@@ -413637,7 +413681,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/9ae/1088_820_2/qecmpn1cbw3s5sqct40nwyqgbm3o834i.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/d04/1088_820_2/mvs2sh2ogvls009kybegw71qv847qr5w.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c9b/1088_820_2/1g1auz4d1orpn1yaj4bg6sjkzrzoypfh.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f9f/1088_820_2/62jy0asp0qhgnaycza6ihyuylfxzdxlz.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/f9f/1088_820_2/62jy0asp0qhgnaycza6ihyuylfxzdxlz.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/164643/",
   "houseSqm": 447,
@@ -413685,11 +413733,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/d04/1088_820_2/mvs2sh2ogvls009kybegw71qv847qr5w.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c9b/1088_820_2/1g1auz4d1orpn1yaj4bg6sjkzrzoypfh.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9ae/1088_820_2/qecmpn1cbw3s5sqct40nwyqgbm3o834i.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f9f/1088_820_2/62jy0asp0qhgnaycza6ihyuylfxzdxlz.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/f9f/1088_820_2/62jy0asp0qhgnaycza6ihyuylfxzdxlz.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/164640/",
   "houseSqm": 447,
@@ -413977,7 +414021,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/b65/1088_820_2/d1h7r7bae5d4fa3xa2yu1z5vja3t18p0.jpeg",
    "https://dom.com.cy/upload/uf/0d2/tmh8v2yxlm34w9it2ul4zjkwspgveooe.jpeg",
    "https://dom.com.cy/upload/uf/c6e/gjwdm37y2h0vwzh1gdzyhqprl2yvxhqo.jpeg",
-   "https://dom.com.cy/upload/uf/572/nzf3ntyl7wzlyva0bh7vlsdnr1ex3np2.jpeg"
+   "https://dom.com.cy/upload/uf/572/nzf3ntyl7wzlyva0bh7vlsdnr1ex3np2.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/163839/",
   "houseSqm": 297,
@@ -414001,11 +414049,7 @@
    "https://dom.com.cy/upload/uf/997/dtfcf9tbla3com3wec1icpdnz77zibvw.jpeg",
    "https://dom.com.cy/upload/uf/765/yrg7vpsq2m2dui1nr6d9mgs50moqmitn.jpeg",
    "https://dom.com.cy/upload/uf/1b5/nyljqwt8naj261tgjv309xk02zi1h26t.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/7b9/1088_820_2/ux9sj3oh28dpawj0l2e3b8rm3c5zono1.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/7b9/1088_820_2/ux9sj3oh28dpawj0l2e3b8rm3c5zono1.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/163837/",
   "houseSqm": 122,
@@ -414341,7 +414385,11 @@
    "https://dom.com.cy/upload/resize_cache/iblock/22b/1088_820_2/axndfhsyk23hjc4vj7m8xdzcm93ca3ad.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/19f/1088_820_2/dur6wpmn0yxs65lo4b4yys6dg2z7iogm.jpg",
    "https://dom.com.cy/upload/resize_cache/iblock/456/1088_820_2/jz2e3shrghfpdv5eh4w5zopy3t2o1zhn.jpg",
-   "https://dom.com.cy/upload/resize_cache/iblock/9c9/1088_820_2/7rxqt0jtvf11glbocdu729ki0ww02m80.jpg"
+   "https://dom.com.cy/upload/resize_cache/iblock/9c9/1088_820_2/7rxqt0jtvf11glbocdu729ki0ww02m80.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/162570/",
   "houseSqm": 380,
@@ -414574,7 +414622,11 @@
   "image": "https://dom.com.cy/upload/resize_cache/uf/bad/1088_820_2/pjl905f5vm05z8pze8lyuqnnjgd9rhqj.jpeg",
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/bad/1088_820_2/pjl905f5vm05z8pze8lyuqnnjgd9rhqj.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/568/1088_820_2/70d4r43swwv7n6b68cf9yxxqkrsm0qip.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/568/1088_820_2/70d4r43swwv7n6b68cf9yxxqkrsm0qip.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/162536/",
   "houseSqm": 351,
@@ -414622,11 +414674,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/8aa/1088_820_2/s4il396pv9o061se2bfwobcjr7fwnsvp.jpeg",
    "https://dom.com.cy/upload/uf/046/ud71oggz4cvn4n1l8b7ehz2elmqve4g6.jpeg",
    "https://dom.com.cy/upload/uf/831/httcb0m0xvxyte2tvu22az0yjrh6j7oj.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/249/1088_820_2/637hxjd6pv2jk9t0h8bmlkugffkb4517.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/249/1088_820_2/637hxjd6pv2jk9t0h8bmlkugffkb4517.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/162534/",
   "houseSqm": 305,
@@ -415003,7 +415051,11 @@
   "images": [
    "https://dom.com.cy/upload/resize_cache/uf/96e/1088_820_2/1h0r82culhu554gotka4snhvalmvza4g.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/89f/1088_820_2/8w0hlkv4acvxyrbcb2dmm7gbql6278yi.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/48e/1088_820_2/e37epcllw2z3pri5qt6iki0ebla26lmu.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/48e/1088_820_2/e37epcllw2z3pri5qt6iki0ebla26lmu.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/162344/",
   "houseSqm": 185,
@@ -415051,11 +415103,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/728/1088_820_2/1r6xd0qv4xbkx4o3zgggtlrm7vocdi4s.jpeg",
    "https://dom.com.cy/upload/uf/880/94skum0hninhmjf3juubp2fwp5w46v91.jpeg",
    "https://dom.com.cy/upload/uf/556/xi0d1yvjnwu3bcxsg89k2a11m8h0hsdh.jpeg",
-   "https://dom.com.cy/upload/uf/2a4/3hcv64g5bxoafx5vt02sguht803xy863.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/2a4/3hcv64g5bxoafx5vt02sguht803xy863.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/162206/",
   "houseSqm": 359,
@@ -415367,11 +415415,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/066/1088_820_2/4401hudlcywkha8ldjurrbt8rutpiimp.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/732/1088_820_2/29frwmpxmet10iwso7p8is7w9pbgii5x.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/65b/1088_820_2/654a7q0see38am2kvkuzj9fsx7nsj81c.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/8c1/1088_820_2/5c5n9yhf8g6u8f3tl5iv93pfj56xzct8.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/8c1/1088_820_2/5c5n9yhf8g6u8f3tl5iv93pfj56xzct8.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/161574/",
   "houseSqm": 166,
@@ -415585,11 +415629,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/397/1088_820_2/2qh7kuo06osjj76szf6uw30gm1qq27d8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/89d/1088_820_2/jfg3bk4907v23ieokj14q6ajsk0pi4xm.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/bfe/1088_820_2/3zkhg4tamnvr9qxpdzpkzsc70jq7kdxu.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/2d1/1088_820_2/pb024ypbxvz874shdxnc3mdxjl4qqyip.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/2d1/1088_820_2/pb024ypbxvz874shdxnc3mdxjl4qqyip.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/160788/",
   "houseSqm": 198,
@@ -415997,7 +416037,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/b5b/1088_820_2/dzea1ww44v1e6zftictkgf1az4oaswtg.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/263/1088_820_2/u1q3hc81gfln0gg3wu7g1dbvxcxr6k37.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/82a/1088_820_2/ybv752o7ini3an0cz336ztlcg3oyu98l.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/d76/1088_820_2/em24ziybo4b4sbtv2qm1v5psz3sw2uxy.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/d76/1088_820_2/em24ziybo4b4sbtv2qm1v5psz3sw2uxy.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/160767/",
   "houseSqm": 247,
@@ -416357,11 +416401,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/9ce/1088_820_2/ive5r6hgwi1cm0fxm5lsf2fhhmk4coo7.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/887/1088_820_2/8t1bl2hta9uf9ittpws5avmelusutwsm.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/eaa/1088_820_2/lki6t0m4l7e096hb605vfphv6y48hcx1.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/065/1088_820_2/l0d6aer5e8js90r2pf1q0efdpvtzg3yw.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/065/1088_820_2/l0d6aer5e8js90r2pf1q0efdpvtzg3yw.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/160663/",
   "houseSqm": 298,
@@ -416745,7 +416785,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/626/1088_820_2/13uvb045r64r452k7gxl3jxza3xwqxfy.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/637/1088_820_2/74amwc7qf40x8jtioy8jsv24ffy32f7g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ca4/1088_820_2/22hu0c42myv0kn1npebyiwlg680lmdu5.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/e05/1088_820_2/nl4l02sjteru39ekdob6qrun3tjr68z4.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/e05/1088_820_2/nl4l02sjteru39ekdob6qrun3tjr68z4.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/160645/",
   "houseSqm": 348,
@@ -416769,11 +416813,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/637/1088_820_2/74amwc7qf40x8jtioy8jsv24ffy32f7g.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ca4/1088_820_2/22hu0c42myv0kn1npebyiwlg680lmdu5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e05/1088_820_2/nl4l02sjteru39ekdob6qrun3tjr68z4.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/2c9/1088_820_2/eeeag2tx5p2tbl33205k4s6e281zlhwx.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/2c9/1088_820_2/eeeag2tx5p2tbl33205k4s6e281zlhwx.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/160642/",
   "houseSqm": 348,
@@ -416965,7 +417005,11 @@
    "https://dom.com.cy/upload/iblock/27c/4ixu6txqprjv9ius1d9nyn7d4absu18o.jpg",
    "https://dom.com.cy/upload/iblock/6be/9sqsd61gv4oeccybso29lfqyqbkf6mt5.jpg",
    "https://dom.com.cy/upload/iblock/a21/c6a4pna3iv74rofiwi3ska5psgycztct.jpg",
-   "https://dom.com.cy/upload/iblock/284/qg02d8t3ovr32geiokbeuzkfs4pauv23.jpg"
+   "https://dom.com.cy/upload/iblock/284/qg02d8t3ovr32geiokbeuzkfs4pauv23.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/159926/",
   "houseSqm": 460,
@@ -417421,7 +417465,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/665/1088_820_2/bur7m00bb1igdf468n9j3fcdg3cuac4f.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/dad/1088_820_2/odxr5hc05u5i7u6p9fubure3cfhe07d3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/7c8/1088_820_2/s3fh071b2dl4lqfrwq1khsm3w7d2abcy.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/027/1088_820_2/qcrx4p9vkl9ifop1njxyhitxyeumwkau.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/027/1088_820_2/qcrx4p9vkl9ifop1njxyhitxyeumwkau.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/157447/",
   "houseSqm": 240,
@@ -417757,7 +417805,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/773/1088_820_2/u4ynf8xnr1jgid565kfnuwc6ecq531l4.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ca4/1088_820_2/mmf78v826klmggri95p6ejt63ij3hkz9.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/508/1088_820_2/m6uwyktlp39ed7j52q9djpihfa6d1ois.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/b24/1088_820_2/g4111pndz5e9qr11vw1vdzndt0lkog5k.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/b24/1088_820_2/g4111pndz5e9qr11vw1vdzndt0lkog5k.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/155680/",
   "houseSqm": 207,
@@ -417805,11 +417857,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/a12/1088_820_2/ehpyb1s33gtw2lbe1b2raosc0l3ea2q0.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/2d8/1088_820_2/b57z8wihewzj98daykg7zbbhb31unrgq.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/18a/1088_820_2/8e9tf6xh3x84evtoalffxphk24s0hoid.jpeg",
-   "https://dom.com.cy/upload/uf/98e/8z3dd9vl1bhbyxclz2ed6ym200xcz2aj.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/98e/8z3dd9vl1bhbyxclz2ed6ym200xcz2aj.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/155313/",
   "houseSqm": 320,
@@ -418145,11 +418193,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/d6a/1088_820_2/7sv91h0866p5zsaf53cburv3wicjtpbg.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e42/1088_820_2/foxrxbion9a06ew9r3rmihng9tvfgk7x.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b21/1088_820_2/vowqh3twevbaw5c3f23oh9naz8q11edx.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/0c1/1088_820_2/9fjrt0ry42h8rluk9032xtc2ybo135js.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/0c1/1088_820_2/9fjrt0ry42h8rluk9032xtc2ybo135js.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/152734/",
   "houseSqm": 183,
@@ -418483,7 +418527,11 @@
    "https://dom.com.cy/upload/uf/09b/g1hs8n61q12s4ehw9psp1ih7k7wphzm8.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/omhme6nrindb1i9edxapnmsgvo94rhci.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/ddb/1088_820_2/zn26fyalms9in7p14qkygva5qsl40z67.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/daq1xdwcbts79cdzx00rntdasye0rvw9.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/374/1088_820_2/daq1xdwcbts79cdzx00rntdasye0rvw9.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/150480/",
   "houseSqm": 250,
@@ -418674,11 +418722,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/6e5/1088_820_2/oda7usngqhxz5pnimije3qzyvpt5wvnw.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/8f5/1088_820_2/jjkf6fqdxkvh926k0978wxbcoqcs50mu.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/83d/1088_820_2/300yhjd2ahs2ndalo3ramacpaciojz0a.JPG",
-   "https://dom.com.cy/upload/resize_cache/uf/f3f/1088_820_2/7vfendmdcri0k4y6r4yxkkuwdo7ao3cd.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/f3f/1088_820_2/7vfendmdcri0k4y6r4yxkkuwdo7ao3cd.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/148266/",
   "houseSqm": 196,
@@ -418942,7 +418986,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/d3c/1088_820_2/0b1a6b4iaahi2qqvuw1510izlpmrw3wy.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/aa2/1088_820_2/ru8tk9ofybi0jne9d58oo129i2ifae6a.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9db/1088_820_2/02he2kz85cfp21vtec0wj9ptuu65t5qn.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/3b9/1088_820_2/y9pfdzpvb4y10fqszj9o3ien747cp8gi.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/3b9/1088_820_2/y9pfdzpvb4y10fqszj9o3ien747cp8gi.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/135731/",
   "houseSqm": 408,
@@ -418990,11 +419038,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/d90/1088_820_2/a6kukty6efor64vgrgu66lqueaxqh36o.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/789/1088_820_2/x4crp2x19xkm150h83djqc1g07tyt24k.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/9db/1088_820_2/02he2kz85cfp21vtec0wj9ptuu65t5qn.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/3b9/1088_820_2/y9pfdzpvb4y10fqszj9o3ien747cp8gi.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/3b9/1088_820_2/y9pfdzpvb4y10fqszj9o3ien747cp8gi.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/135729/",
   "houseSqm": 252,
@@ -419234,7 +419278,11 @@
    "https://dom.com.cy/upload/uf/c9f/i44xhtdl8m8jzah05izi6b1hykkrrwu5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/678/1088_820_2/k4jel90g3wnirkp0ycq8bbk7n1rf0wm2.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/a73/1088_820_2/5z73qz59j4e92gw373x8qukwzn8fpbui.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/63b/1088_820_2/7lndmkqjlqz8n4lbgam2swx9j2t8bcvv.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/63b/1088_820_2/7lndmkqjlqz8n4lbgam2swx9j2t8bcvv.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/134838/",
   "houseSqm": 690,
@@ -419473,7 +419521,11 @@
    "https://dom.com.cy/upload/uf/ab2/7fz0sb97pga0ua7hrbwjwtis7e09zhva.jpg",
    "https://dom.com.cy/upload/uf/879/emj6naavxvdr2h38qiqrhze0kc3n64ht.jpg",
    "https://dom.com.cy/upload/uf/3ac/twolq8f1xsnf9fpqid587yi6vnvyswf7.jpg",
-   "https://dom.com.cy/upload/uf/4a4/t7ahsn9qq6i5e3gss8lxm385t5vn8jhz.jpg"
+   "https://dom.com.cy/upload/uf/4a4/t7ahsn9qq6i5e3gss8lxm385t5vn8jhz.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/133327/",
   "houseSqm": 221,
@@ -419521,11 +419573,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/699/1088_820_2/68xul0uk0xl5t4efci36f2li6ys5o6jk.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/924/1088_820_2/gpal7riwlw5nr0nje3npxdarrptz1zd3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c50/1088_820_2/jludcw5mkrayzlu968ptnhzzytu8fnqo.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/0e1/1088_820_2/6wi3krsugg7fmrldifd2kojup4cy6thl.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/0e1/1088_820_2/6wi3krsugg7fmrldifd2kojup4cy6thl.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/132630/",
   "houseSqm": 450,
@@ -420670,7 +420718,11 @@
    "https://dom.com.cy/upload/uf/628/q7gln6e4pisd63o5jbnjujr8oo4d3v2a.jpeg",
    "https://dom.com.cy/upload/uf/5df/otw0l52d8fwvoigo74nhl51i80hkytnu.jpeg",
    "https://dom.com.cy/upload/uf/66d/59bgjpxvpysp2eesrwqrghudp0l89y01.jpeg",
-   "https://dom.com.cy/upload/uf/f76/ldwvywxi5gx35sx8ph07y16awvot986j.jpeg"
+   "https://dom.com.cy/upload/uf/f76/ldwvywxi5gx35sx8ph07y16awvot986j.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/118349/",
   "houseSqm": 950,
@@ -420982,7 +421034,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/d8d/1088_820_2/vll58nzglh9g1g7vjelgbcmntjowhev3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c3a/1088_820_2/kte3zjn3d1ogs6362oi2suofbrpntmsw.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/0d0/1088_820_2/fzpvtc7n3n3stixob7es3di3z3wln4ij.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/abd/1088_820_2/r7549r5k48u5e8hr980chbvt9jt13oqp.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/abd/1088_820_2/r7549r5k48u5e8hr980chbvt9jt13oqp.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/114925/",
   "houseSqm": 318,
@@ -421294,7 +421350,11 @@
    "https://dom.com.cy/upload/uf/224/xuz8waalwhz61br13iky4a0x7kj7h4rg.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/1bd/1088_820_2/nnmvuki4fmym62hi9c23pctg4qb0dz25.JPG",
    "https://dom.com.cy/upload/uf/064/9nhd66sw4hkj7eh1oza6zwrfqjnbci12.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/668/1088_820_2/akytxs6qikb396yg93734fqg50nxizq3.JPG"
+   "https://dom.com.cy/upload/resize_cache/uf/668/1088_820_2/akytxs6qikb396yg93734fqg50nxizq3.JPG",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/111869/",
   "houseSqm": 138,
@@ -421342,11 +421402,7 @@
    "https://dom.com.cy/upload/uf/224/xuz8waalwhz61br13iky4a0x7kj7h4rg.jpeg",
    "https://dom.com.cy/upload/uf/064/9nhd66sw4hkj7eh1oza6zwrfqjnbci12.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/1bd/1088_820_2/nnmvuki4fmym62hi9c23pctg4qb0dz25.JPG",
-   "https://dom.com.cy/upload/resize_cache/uf/668/1088_820_2/akytxs6qikb396yg93734fqg50nxizq3.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/668/1088_820_2/akytxs6qikb396yg93734fqg50nxizq3.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/111867/",
   "houseSqm": 138,
@@ -421585,11 +421641,7 @@
    "https://dom.com.cy/upload/uf/f99/lwjo6sx3j05qcdodgniw6iy6gi2frwsn.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/bb7/1088_820_2/oz8ohbm6fsk1avp6sqgug7cydxy13iz9.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e99/1088_820_2/w0e4nffd2ljo1s8me741ow5kob21rt9p.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/ca3/1088_820_2/xdomg8kazgitzrh8qgydn8e9scls1eod.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/ca3/1088_820_2/xdomg8kazgitzrh8qgydn8e9scls1eod.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/110969/",
   "houseSqm": 154,
@@ -421949,7 +422001,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/c2e/1088_820_2/rq6lqbmtrlul89qpmxz42aazu9mxviqy.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/174/1088_820_2/ittm5yeaihi31syk7lw6jicjrgtmzygm.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/933/1088_820_2/qbysrnmqlfmawv5t6yhl42j12eqoht9g.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/c46/1088_820_2/70wfq80fg6h0a72ig7xntr7gohomk9u3.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/c46/1088_820_2/70wfq80fg6h0a72ig7xntr7gohomk9u3.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/109651/",
   "houseSqm": 449,
@@ -422309,7 +422365,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/e81/1088_820_2/tdmza1tek9iyz321ulclfts8sbr8dx6l.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/0cc/1088_820_2/mclodocjbvb4bf1yvdki3ospp1gusp34.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/72c/1088_820_2/bgbx9r3rxoik9enw3z15sdpoeyvgienb.jpeg",
-   "https://dom.com.cy/upload/resize_cache/uf/35c/1088_820_2/fxat92unwudbax5ggijcd2b75mucx13g.jpeg"
+   "https://dom.com.cy/upload/resize_cache/uf/35c/1088_820_2/fxat92unwudbax5ggijcd2b75mucx13g.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/107624/",
   "houseSqm": 250,
@@ -422525,11 +422585,7 @@
    "https://dom.com.cy/upload/uf/271/sxecdjni1p9osl29lgp420osopvehrly.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/97e/1088_820_2/87sioqp4ot1gqnuw7fl2kgrtu09qd5s5.jpg",
    "https://dom.com.cy/upload/uf/d41/eqq2agydthu7v6jw37yjgo0swvc9gin1.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/44d/1088_820_2/tc19azr117h5fwx1wgxbqke3gunyovah.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/44d/1088_820_2/tc19azr117h5fwx1wgxbqke3gunyovah.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/100325/",
   "houseSqm": 900,
@@ -422841,7 +422897,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/66a/1088_820_2/uu7b6ikzn4ovxxho3f9sfse0yre8frfa.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/cd7/1088_820_2/9qgp33g6lgi8410jznoswrwgm3ukomig.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/b6d/1088_820_2/7swf24z4y0fntdn9ep46z6yjooe59m20.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f3b/1088_820_2/w1g8jyuf4oh836a82y5y6ky3tjest716.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/f3b/1088_820_2/w1g8jyuf4oh836a82y5y6ky3tjest716.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/99321/",
   "houseSqm": 570,
@@ -422865,11 +422925,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/b1a/1088_820_2/zhzvk23uzn2zo4i6xc9kpu8yd0j6n6w5.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/213/1088_820_2/ywseg4u0b3bazkn2pbo6m5c5povfgdq1.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/556/1088_820_2/sw024duhr8l6zilzf9jzc39cnfuj2p0j.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/172/1088_820_2/lu7x0ug7znfib15di50va5by3ky35wsj.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/172/1088_820_2/lu7x0ug7znfib15di50va5by3ky35wsj.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/98177/",
   "houseSqm": 540,
@@ -423157,11 +423213,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/370/1088_820_2/x7v6n8b4014fsuzbk5fqbqqquf05vlz0.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/e56/1088_820_2/xjenxaww7tb4a62qvjbnxou0dpr34c8r.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/5d7/1088_820_2/nak2qf13vdazhl53wxzgdikkj2pengda.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/1d9/1088_820_2/bt0c0j7tcdd443j3r5h6mko3v9ney1v9.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/1d9/1088_820_2/bt0c0j7tcdd443j3r5h6mko3v9ney1v9.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/95442/",
   "houseSqm": 500,
@@ -423281,7 +423333,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/54c/1088_820_2/w8x53i7f47udgfn72dawyyk53akbfjnp.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/389/1088_820_2/62y406m0s578ft0ucellwdvf77jsa5q7.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/2f4/1088_820_2/zz6jff66wauixi8qq9x9ztgdycgd3883.jpeg",
-   "https://dom.com.cy/upload/uf/fa0/7owb54si3c5v58cdxq46533tdxjdvazy.jpeg"
+   "https://dom.com.cy/upload/uf/fa0/7owb54si3c5v58cdxq46533tdxjdvazy.jpeg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/90337/",
   "houseSqm": 330,
@@ -423497,11 +423553,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/610/1088_820_2/oz998tmug961qh1ar33x2ulv38wt50ct.jpeg",
    "https://dom.com.cy/upload/resize_cache/uf/404/1088_820_2/klu9dgo9v33dup3zqxb9rjk2wletwiqs.jpeg",
    "https://dom.com.cy/upload/uf/583/do4ylpk7vj61ytu3864br9lrn51kx71p.jpg",
-   "https://dom.com.cy/upload/uf/f51/bqf28yrvubd8pmtsfq2kej43l2w5hbr0.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/f51/bqf28yrvubd8pmtsfq2kej43l2w5hbr0.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/84218/",
   "houseSqm": 460,
@@ -423882,7 +423934,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/dcc/1088_820_2/zuzhh8jhaj182n9er6ep7g9jgx2z1dvl.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/364/1088_820_2/tiyjkp7h0rcsy8risxz0kezgs6ndwze6.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/54c/1088_820_2/341f564z3y2kvesyhtsunjdcc00ilt0k.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/cc9/1088_820_2/w7kozmhdl5q2ckgoslupa0ql74wahj2p.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/cc9/1088_820_2/w7kozmhdl5q2ckgoslupa0ql74wahj2p.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/71003/",
   "houseSqm": 305,
@@ -424074,7 +424130,11 @@
    "https://dom.com.cy/upload/uf/8cf/her8i8zxfm2rnioljriuo0nqpug1p4pi.jpg",
    "https://dom.com.cy/upload/uf/7d1/65kswms1r2fuvdt3029ulgke1850kq58.jpg",
    "https://dom.com.cy/upload/uf/d1a/6w6m4il2jpzifufkhwzeuq09hup77j7z.jpg",
-   "https://dom.com.cy/upload/uf/8b5/6nxomupvbjdq8xvmf8jykcqb4193t3dw.jpg"
+   "https://dom.com.cy/upload/uf/8b5/6nxomupvbjdq8xvmf8jykcqb4193t3dw.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/68215/",
   "houseSqm": 500,
@@ -424122,11 +424182,7 @@
    "https://dom.com.cy/upload/resize_cache/uf/de6/1088_820_2/g18vem990y9mep1kkxwdp3n2jgbb5jdp.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/419/1088_820_2/bbygw7rxybubm83lhp1hn16sjlrt2gr2.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/4fd/1088_820_2/h1vlw9cwtex1trs53wfy9g4vjl2i10sm.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/f55/1088_820_2/e886amkre7i0c69ruxn62ve8amrrv34u.jpg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/f55/1088_820_2/e886amkre7i0c69ruxn62ve8amrrv34u.jpg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/68029/",
   "houseSqm": 800,
@@ -424414,7 +424470,11 @@
    "https://dom.com.cy/upload/resize_cache/uf/6c8/1088_820_2/xjaslnitpzzztcwb2ctfn1am8k1i1e7c.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/31b/1088_820_2/ld8hbh97tlxfgcce1ri2vplcux7dlfg0.JPG",
    "https://dom.com.cy/upload/resize_cache/uf/2da/1088_820_2/zhuvoayr2cyinerzomadwmx4p3e34c66.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/26a/1088_820_2/1an5onqme8s087t2b7u99r9np7cn1s4g.JPG"
+   "https://dom.com.cy/upload/resize_cache/uf/26a/1088_820_2/1an5onqme8s087t2b7u99r9np7cn1s4g.JPG",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/66731/",
   "houseSqm": 885,
@@ -424462,11 +424522,7 @@
    "https://dom.com.cy/upload/uf/f73/0uw539iaeewhe0gpk20ll4vxgko74zzj.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/55c/1088_820_2/o1okpergkg8cqncg478n14ut778dddwj.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/2da/1088_820_2/zhuvoayr2cyinerzomadwmx4p3e34c66.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/26a/1088_820_2/1an5onqme8s087t2b7u99r9np7cn1s4g.JPG",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/resize_cache/uf/26a/1088_820_2/1an5onqme8s087t2b7u99r9np7cn1s4g.JPG"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/66727/",
   "houseSqm": 895,
@@ -424750,7 +424806,11 @@
   "images": [
    "https://dom.com.cy/upload/uf/934/l2u9xdtay626cu2fyulfc0xxljsmczs3.jpg",
    "https://dom.com.cy/upload/resize_cache/uf/c73/1088_820_2/3wtzx9watd9gr5jus0zt1v8kwujssye9.jpg",
-   "https://dom.com.cy/upload/resize_cache/uf/b11/1088_820_2/7ol4ab0b9c2gaej3g2wcztdt88omn4lh.jpg"
+   "https://dom.com.cy/upload/resize_cache/uf/b11/1088_820_2/7ol4ab0b9c2gaej3g2wcztdt88omn4lh.jpg",
+   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
+   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
+   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
+   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/63247/",
   "houseSqm": 349,
@@ -424797,11 +424857,7 @@
    "https://dom.com.cy/upload/uf/7cd/nbh71bdc2lkp9ygvse2zi58anh9w64hw.jpeg",
    "https://dom.com.cy/upload/uf/335/i7ly4ot765qgj5o69dqh3cu9r944lh6l.jpeg",
    "https://dom.com.cy/upload/uf/fd1/tap8036g2hu7xxvkr2wa51z7bnuhngea.jpeg",
-   "https://dom.com.cy/upload/uf/5a7/ezx4z00glwal0ftlcm93627oukswd5ww.jpeg",
-   "https://dom.com.cy/upload/uf/f00/uc71om9rthg38230ny3nhrbfm0qf4w2o.png",
-   "https://dom.com.cy/upload/uf/5be/x5mzhgumdg2zjqkxdq5zn1w59puata3x.png",
-   "https://dom.com.cy/upload/uf/a4f/9g1i5dyfzyh0kj11nl2gpnm9rxbn3b0p.png",
-   "https://dom.com.cy/upload/uf/87b/17ml7sdjccg63qmxzhxp9kb30rm1rf6v.png"
+   "https://dom.com.cy/upload/uf/5a7/ezx4z00glwal0ftlcm93627oukswd5ww.jpeg"
   ],
   "link": "https://dom.com.cy/en/catalog/sale/62814/",
   "houseSqm": 245,
@@ -425826,40 +425882,6 @@
  },
  {
   "source": "Realting",
-  "title": "Villa 7 bedrooms",
-  "price": 950000,
-  "priceDisplay": "€950,000",
-  "location": "Souni–Zanatzia, Cyprus",
-  "district": "Limassol",
-  "image": "https://realting.com/uploads/thumbs/a89/34e4ee8785b2ec09654ef5ebe41a6.webp",
-  "link": "https://realting.com/cyprus/property/3870813",
-  "houseSqm": 0,
-  "plotSqm": null,
-  "beds": 7,
-  "baths": 4,
-  "posted": null,
-  "buildYear": 2020,
-  "ref": "3870813"
- },
- {
-  "source": "Realting",
-  "title": "Villa 4 bedrooms",
-  "price": 520000,
-  "priceDisplay": "€520,000",
-  "location": "Alassa, Cyprus",
-  "district": null,
-  "image": "https://realting.com/uploads/thumbs/748/744d69561098d75535396382b3a43.webp",
-  "link": "https://realting.com/cyprus/property/3873152",
-  "houseSqm": 150,
-  "plotSqm": null,
-  "beds": 4,
-  "baths": 3,
-  "posted": null,
-  "buildYear": 2011,
-  "ref": "3873152"
- },
- {
-  "source": "Realting",
   "title": "3 bedroom house",
   "price": 660000,
   "priceDisplay": "€660,000",
@@ -425877,37 +425899,20 @@
  },
  {
   "source": "Realting",
-  "title": "Villa 4 bedrooms",
-  "price": 665000,
-  "priceDisplay": "€665,000",
-  "location": "Paralimni, Cyprus",
-  "district": "Famagusta",
-  "image": "https://realting.com/uploads/thumbs/d50/aa7bc2d02ec6aee7de4d95963f7f3.webp",
-  "link": "https://realting.com/cyprus/property/3872299",
-  "houseSqm": 220,
+  "title": "Villa 7 bedrooms",
+  "price": 950000,
+  "priceDisplay": "€950,000",
+  "location": "Souni–Zanatzia, Cyprus",
+  "district": "Limassol",
+  "image": "https://realting.com/uploads/thumbs/a89/34e4ee8785b2ec09654ef5ebe41a6.webp",
+  "link": "https://realting.com/cyprus/property/3870813",
+  "houseSqm": 0,
   "plotSqm": null,
-  "beds": 4,
+  "beds": 7,
   "baths": 4,
   "posted": null,
-  "buildYear": null,
-  "ref": "3872299"
- },
- {
-  "source": "Realting",
-  "title": "3 bedroom house",
-  "price": 690000,
-  "priceDisplay": "€690,000",
-  "location": "Paralimni, Cyprus",
-  "district": "Famagusta",
-  "image": "https://realting.com/uploads/thumbs/403/8976349c9e2546d99b119e51fe01d.webp",
-  "link": "https://realting.com/cyprus/property/3872310",
-  "houseSqm": 242,
-  "plotSqm": null,
-  "beds": 3,
-  "baths": 4,
-  "posted": null,
-  "buildYear": null,
-  "ref": "3872310"
+  "buildYear": 2020,
+  "ref": "3870813"
  },
  {
   "source": "Realting",
@@ -425928,6 +425933,40 @@
  },
  {
   "source": "Realting",
+  "title": "Villa 4 bedrooms",
+  "price": 665000,
+  "priceDisplay": "€665,000",
+  "location": "Paralimni, Cyprus",
+  "district": "Famagusta",
+  "image": "https://realting.com/uploads/thumbs/d50/aa7bc2d02ec6aee7de4d95963f7f3.webp",
+  "link": "https://realting.com/cyprus/property/3872299",
+  "houseSqm": 220,
+  "plotSqm": null,
+  "beds": 4,
+  "baths": 4,
+  "posted": null,
+  "buildYear": null,
+  "ref": "3872299"
+ },
+ {
+  "source": "Realting",
+  "title": "Villa 4 bedrooms",
+  "price": 520000,
+  "priceDisplay": "€520,000",
+  "location": "Alassa, Cyprus",
+  "district": null,
+  "image": "https://realting.com/uploads/thumbs/748/744d69561098d75535396382b3a43.webp",
+  "link": "https://realting.com/cyprus/property/3873152",
+  "houseSqm": 150,
+  "plotSqm": null,
+  "beds": 4,
+  "baths": 3,
+  "posted": null,
+  "buildYear": 2011,
+  "ref": "3873152"
+ },
+ {
+  "source": "Realting",
   "title": "6 bedroom house",
   "price": 920000,
   "priceDisplay": "€920,000",
@@ -425942,6 +425981,23 @@
   "posted": null,
   "buildYear": 2009,
   "ref": "3870809"
+ },
+ {
+  "source": "Realting",
+  "title": "3 bedroom house",
+  "price": 690000,
+  "priceDisplay": "€690,000",
+  "location": "Paralimni, Cyprus",
+  "district": "Famagusta",
+  "image": "https://realting.com/uploads/thumbs/403/8976349c9e2546d99b119e51fe01d.webp",
+  "link": "https://realting.com/cyprus/property/3872310",
+  "houseSqm": 242,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 4,
+  "posted": null,
+  "buildYear": null,
+  "ref": "3872310"
  },
  {
   "source": "Realting",
@@ -429686,19 +429742,36 @@
  {
   "source": "A Place in the Sun",
   "title": "2 Bed Apartment for sale",
-  "price": 445000,
-  "priceDisplay": "€445,000",
-  "location": "Paphos, Universal",
-  "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267830/1-123582805_5-15182491814.jpeg?15082026172528",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4112882/2-bedroom-apartment-universal-paphos",
+  "price": 160000,
+  "priceDisplay": "€160,000",
+  "location": "Famagusta, Kapparis",
+  "district": "Famagusta",
+  "image": "https://www.aplaceinthesun.com/property/media/images/519321/AL4223282/1-121868085_5-blues-004382-p-w-62967cce.jpeg?15082026152513",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4229445/2-bed-apartment-for-sale-in-kapparis-famagusta-cyprus",
   "houseSqm": null,
   "plotSqm": null,
   "beds": 2,
-  "baths": 2,
+  "baths": 1,
   "posted": null,
   "buildYear": null,
-  "ref": "ap4112882"
+  "ref": "ap4229445"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Apartment for sale",
+  "price": 495000,
+  "priceDisplay": "€495,000",
+  "location": "Larnaca, Faneromeni",
+  "district": "Larnaca",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267830/1-123582805_5-15182491814.jpeg?15082026172528",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4223282/3-bed-apartment-for-sale-in-faneromeni-larnaca-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 3,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4223282"
  },
  {
   "source": "A Place in the Sun",
@@ -429707,7 +429780,7 @@
   "priceDisplay": "€125,000",
   "location": "Famagusta, Sotira",
   "district": "Famagusta",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267828/1-123582736_5-15211847602.jpeg?15082026172248",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267827/1-123582726_5-13367844595.jpeg?15082026172239",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267830/2-bed-apartment-for-sale-in-sotira-famagusta-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429724,7 +429797,7 @@
   "priceDisplay": "€330,000",
   "location": "Larnaca, Aradippou",
   "district": "Larnaca",
-  "image": "https://www.aplaceinthesun.com/property/media/images/519780/AL4005921/1-112059222_5-hd1080.jpeg?14042026194125",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267828/1-123582736_5-15211847602.jpeg?15082026172248",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267827/3-bed-apartment-for-sale-in-aradippou-larnaca-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429736,54 +429809,20 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "2 Bed Penthouse for sale",
-  "price": 430000,
-  "priceDisplay": "€430,000",
-  "location": "Larnaca",
+  "title": "2 Bed Property for sale",
+  "price": 310000,
+  "priceDisplay": "€310,000",
+  "location": "Larnaca, Larnaca",
   "district": "Larnaca",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267829/1-123582762_5-15211843856.jpeg?15082026172301",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4163772/2-bed-penthouse-for-sale-in-larnaca-cyprus?position=7",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521716/AL3974081/1-110717994_5-d055b58e-485b-4ee5-8481-c3a54348d012.jpeg?05082026062622",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4246964/2-bed-property-for-sale-in-larnaca-larnaca-cyprus?position=6",
   "houseSqm": null,
   "plotSqm": null,
   "beds": 2,
   "baths": 2,
   "posted": null,
   "buildYear": null,
-  "ref": "ap4163772"
- },
- {
-  "source": "A Place in the Sun",
-  "title": "1 Bed Apartment for sale",
-  "price": 910000,
-  "priceDisplay": "€910,000",
-  "location": "Limassol, Germasogeia",
-  "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267824/1-123582679_5-15234480294.jpeg?15082026172211",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4267822/1-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 1,
-  "baths": 1,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4267822"
- },
- {
-  "source": "A Place in the Sun",
-  "title": "1 Bed Apartment for sale",
-  "price": 899000,
-  "priceDisplay": "€899,000",
-  "location": "Limassol, Germasogeia",
-  "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267826/1-123582709_5-15234476747.jpeg?15082026172230",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4267824/1-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 1,
-  "baths": 1,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4267824"
+  "ref": "ap4246964"
  },
  {
   "source": "A Place in the Sun",
@@ -429809,7 +429848,7 @@
   "priceDisplay": "€930,000",
   "location": "Limassol, Germasogeia",
   "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267823/1-123582663_5-15234514164.jpeg?15082026172202",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267822/1-123582648_5-15234485484.jpeg?15082026172152",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267821/1-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429821,12 +429860,29 @@
  },
  {
   "source": "A Place in the Sun",
+  "title": "1 Bed Apartment for sale",
+  "price": 910000,
+  "priceDisplay": "€910,000",
+  "location": "Limassol, Germasogeia",
+  "district": "Limassol",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267823/1-123582663_5-15234514164.jpeg?15082026172202",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4267822/1-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 1,
+  "baths": 1,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4267822"
+ },
+ {
+  "source": "A Place in the Sun",
   "title": "2 Bed Apartment for sale",
   "price": 1940000,
   "priceDisplay": "€1,940,000",
   "location": "Limassol, Germasogeia",
   "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267825/1-123582694_5-15234485484.jpeg?15082026172221",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267824/1-123582679_5-15234480294.jpeg?15082026172211",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267823/2-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429835,6 +429891,23 @@
   "posted": null,
   "buildYear": null,
   "ref": "ap4267823"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "1 Bed Apartment for sale",
+  "price": 899000,
+  "priceDisplay": "€899,000",
+  "location": "Limassol, Germasogeia",
+  "district": "Limassol",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267825/1-123582694_5-15234485484.jpeg?15082026172221",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4267824/1-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 1,
+  "baths": 1,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4267824"
  },
  {
   "source": "A Place in the Sun",
@@ -429860,7 +429933,7 @@
   "priceDisplay": "€229,000",
   "location": "Limassol, Agios Tychonas",
   "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267816/1-123582560_5-15234573084.jpeg?15082026172056",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267815/1-123582545_5-15234580543.jpeg?15082026172050",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267814/1-bed-apartment-for-sale-in-agios-tychonas-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429877,7 +429950,7 @@
   "priceDisplay": "€2,150,000",
   "location": "Limassol, Germasogeia",
   "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267820/1-123582617_5-15234476747.jpeg?15082026172133",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267819/1-123582601_5-15234514164.jpeg?15082026172123",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267818/2-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429890,28 +429963,11 @@
  {
   "source": "A Place in the Sun",
   "title": "2 Bed Apartment for sale",
-  "price": 1995900,
-  "priceDisplay": "€1,995,900",
-  "location": "Limassol, Germasogeia",
-  "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267815/1-123582545_5-15234580543.jpeg?15082026172050",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4267820/2-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 2,
-  "baths": 2,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4267820"
- },
- {
-  "source": "A Place in the Sun",
-  "title": "2 Bed Apartment for sale",
   "price": 2192000,
   "priceDisplay": "€2,192,000",
   "location": "Limassol, Germasogeia",
   "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/520622/AL4267732/1-123580257_5-hd1080.jpeg?15082026150303",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4267820/1-123582617_5-15234476747.jpeg?15082026172133",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267819/2-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -429924,19 +429980,87 @@
  {
   "source": "A Place in the Sun",
   "title": "2 Bed Apartment for sale",
-  "price": 1310000,
-  "priceDisplay": "€1,310,000",
-  "location": "Larnaca, Leivadia",
-  "district": "Larnaca",
-  "image": "https://www.aplaceinthesun.com/property/media/images/519649/AL4267708/1-123576234_5-new-apartment-for-sale-paphos-cyprus-melanos.jpeg?15082026135149",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4128324/2-bed-apartment-for-sale-in-leivadia-larnaca-cyprus",
+  "price": 1995900,
+  "priceDisplay": "€1,995,900",
+  "location": "Limassol, Germasogeia",
+  "district": "Limassol",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521436/AL4251017/122905886_5.jpg?28072026160636",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4267820/2-bed-apartment-for-sale-in-germasogeia-limassol-cyprus",
   "houseSqm": null,
   "plotSqm": null,
   "beds": 2,
   "baths": 2,
   "posted": null,
   "buildYear": null,
-  "ref": "ap4128324"
+  "ref": "ap4267820"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Villa / Detached for sale",
+  "price": 325000,
+  "priceDisplay": "€325,000",
+  "location": "Paphos, Anavargos",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521436/AL4262161/123426703_5.jpg?12082026154047",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4251017/3-bed-villa-detached-for-sale-in-anavargos-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4251017"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Villa / Detached for sale",
+  "price": 365000,
+  "priceDisplay": "€365,000",
+  "location": "Paphos, Mandria",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/520622/AL4267732/1-123580257_5-hd1080.jpeg?15082026150303",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4262161/3-bed-villa-detached-for-sale-in-mandria-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4262161"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "2 Bed Villa for sale",
+  "price": 580000,
+  "priceDisplay": "€580,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521645/AL4218380/1-121694279_5-1-5.jpeg?15082026234006",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4158037/2-bed-villa-for-sale-in-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": 205,
+  "beds": 2,
+  "baths": 3,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4158037"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "1 Bed Property for sale",
+  "price": 312000,
+  "priceDisplay": "€312,000",
+  "location": "Paphos, Paphos",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/519649/AL4267708/1-123576234_5-new-apartment-for-sale-paphos-cyprus-melanos.jpeg?15082026135149",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4218380/1-bed-property-for-sale-in-paphos-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 1,
+  "baths": 1,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4218380"
  },
  {
   "source": "A Place in the Sun",
@@ -429945,7 +430069,7 @@
   "priceDisplay": "€130,050",
   "location": "Paphos, Choulou",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/519780/AL3729375/1-111953865_5-hd1080.jpeg?26052026142021",
+  "image": "https://www.aplaceinthesun.com/property/media/images/520341/AL3905046/1-108459283_5-9.jpeg?16082026125953",
   "link": "https://www.aplaceinthesun.com/property/details/ap4267705/2-bed-house-for-sale-in-choulou-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": 450,
@@ -429957,20 +430081,37 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "3 Bed Penthouse for sale",
-  "price": 760000,
-  "priceDisplay": "€760,000",
-  "location": "Paphos, Tala",
-  "district": "Paphos",
+  "title": "2 Bed Apartment for sale",
+  "price": 293000,
+  "priceDisplay": "€293,000",
+  "location": "Larnaca, Leivadia",
+  "district": "Larnaca",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521716/AL3877309/1-107065626_5-be6ca88d-5329-4823-8c4d-c47828a89bb0.jpeg?07072026145046",
+  "link": "https://www.aplaceinthesun.com/property/details/ap3905046/2-bed-apartment-for-sale-in-leivadia-larnaca-cyprus?position=6",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 2,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap3905046"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Apartment for sale",
+  "price": 1650000,
+  "priceDisplay": "€1,650,000",
+  "location": "Limassol, Neapolis",
+  "district": "Limassol",
   "image": "https://www.aplaceinthesun.com/property/media/images/521579/AL4267681/1-123574806_5-hd1080.jpeg?15082026133058",
-  "link": "https://www.aplaceinthesun.com/property/details/ap3801485/3-bedroom-penthouse-in-tala-paphos?position=7",
+  "link": "https://www.aplaceinthesun.com/property/details/ap3877309/3-bedroom-apartment-in-neapolis-limassol?position=7",
   "houseSqm": null,
   "plotSqm": null,
   "beds": 3,
-  "baths": 3,
+  "baths": 2,
   "posted": null,
   "buildYear": null,
-  "ref": "ap3801485"
+  "ref": "ap3877309"
  },
  {
   "source": "A Place in the Sun",
@@ -430297,37 +430438,37 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "2 Bed Apartment for sale",
-  "price": 270000,
-  "priceDisplay": "€270,000",
-  "location": "Paphos, Geroskipou",
-  "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/520341/AL4262145/1-123293513_5-19a.jpeg?15082026140629",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4034422/2-bed-apartment-for-sale-in-geroskipou-paphos-cyprus",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 2,
-  "baths": 2,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4034422"
- },
- {
-  "source": "A Place in the Sun",
   "title": "1 Bed Apartment for sale",
-  "price": 125000,
-  "priceDisplay": "€125,000",
-  "location": "Famagusta, Xylophaghou",
-  "district": "Famagusta",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4266359/123504363_5.jpg?14082026151446",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4262145/1-bed-apartment-for-sale-in-xylophaghou-famagusta-cyprus",
+  "price": 272000,
+  "priceDisplay": "€272,000",
+  "location": "Paphos, Pano Panagia",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/518498/AL4191648/1-120497203_5-penthouse-for-sale-in-larnaka---kamares.jpeg?30052026052604",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4238643/apartment-for-sale-in-pano-paphos-up-town",
   "houseSqm": null,
   "plotSqm": null,
   "beds": 1,
   "baths": 1,
   "posted": null,
   "buildYear": null,
-  "ref": "ap4262145"
+  "ref": "ap4238643"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "1 Bed Apartment for sale",
+  "price": 150000,
+  "priceDisplay": "€150,000",
+  "location": "Larnaca",
+  "district": "Larnaca",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4266359/123504363_5.jpg?14082026151446",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4191648/one-bedroom-on-the-first-floor-flat-102",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 1,
+  "baths": 1,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4191648"
  },
  {
   "source": "A Place in the Sun",
@@ -430353,7 +430494,7 @@
   "priceDisplay": "€1,000,000",
   "location": "Paphos, Kouklia",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/519780/AL3730106/1-120335199_5-hd1080.jpeg?06072026193050",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4215413/1-121593264_5-15210867112.jpeg?24062026151145",
   "link": "https://www.aplaceinthesun.com/property/details/ap4266258/property-for-sale-in-kouklia-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": 17392,
@@ -430362,23 +430503,6 @@
   "posted": null,
   "buildYear": null,
   "ref": "ap4266258"
- },
- {
-  "source": "A Place in the Sun",
-  "title": "4 Bed Apartment for sale",
-  "price": 10500000,
-  "priceDisplay": "€10,500,000",
-  "location": "Limassol, Neapolis",
-  "district": "Limassol",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4266259/1-123501609_5-15233925244.jpeg?14082026125238",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4007155/4-bed-apartment-for-sale-in-neapolis-limassol-cyprus?position=7",
-  "houseSqm": null,
-  "plotSqm": 478,
-  "beds": 4,
-  "baths": 4,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4007155"
  },
  {
   "source": "A Place in the Sun",
@@ -430688,20 +430812,37 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "4 Bed Apartment for sale",
-  "price": 1200000,
-  "priceDisplay": "€1,200,000",
-  "location": "Larnaca, Mckenzie",
+  "title": "3 Bed Villa for sale",
+  "price": 350000,
+  "priceDisplay": "€350,000",
+  "location": "Larnaca, Kiti",
   "district": "Larnaca",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL3642565/95950350_5.jpg?16082024175741",
-  "link": "https://www.aplaceinthesun.com/property/details/ap3977360/4-bed-apartment-for-sale-in-mckenzie-larnaca-cyprus",
+  "image": "https://www.aplaceinthesun.com/property/media/images/518498/AL3900774/1-121840425_5-apartment-for-sale-in-ayios-athanasios.jpeg?17072026124419",
+  "link": "https://www.aplaceinthesun.com/property/details/ap3933620/3-bed-villa-for-sale-in-kiti-larnaca-cyprus",
   "houseSqm": null,
   "plotSqm": null,
-  "beds": 4,
-  "baths": 4,
+  "beds": 3,
+  "baths": 3,
   "posted": null,
   "buildYear": null,
-  "ref": "ap3977360"
+  "ref": "ap3933620"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "1 Bed Apartment for sale",
+  "price": 229000,
+  "priceDisplay": "€229,000",
+  "location": "Limassol, Agios Athanasios",
+  "district": "Limassol",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4266244/1-123501353_5-13528235501.jpeg?14082026125049",
+  "link": "https://www.aplaceinthesun.com/property/details/ap3900774/emeralda-three-101",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 1,
+  "baths": 1,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap3900774"
  },
  {
   "source": "A Place in the Sun",
@@ -430744,7 +430885,7 @@
   "priceDisplay": "€440,000",
   "location": "Paphos, Geroskipou",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/520341/AL3628899/1-101328600_5-pt2146d0037.jpeg?15082026134922",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516822/AL2160672/1-30991230_5-1502-1.jpeg?29072026130539",
   "link": "https://www.aplaceinthesun.com/property/details/ap4266246/2-bed-property-for-sale-in-geroskipou-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -430756,37 +430897,37 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "2 Bed Apartment for sale",
-  "price": 270000,
-  "priceDisplay": "€270,000",
-  "location": "Larnaca, Larnaca Town Centre",
+  "title": "4 Bed Villa / Detached for sale",
+  "price": 450000,
+  "priceDisplay": "€450,000",
+  "location": "Larnaca, Xylofagou",
   "district": "Larnaca",
-  "image": "https://www.aplaceinthesun.com/property/media/images/521716/AL3934654/1-122125499_5-1b52dca7-fd4e-412a-9d4e-0b01d151dc7d.jpeg?30072026164223",
-  "link": "https://www.aplaceinthesun.com/property/details/ap3628899/2-bed-apartment-for-sale-in-larnaca-town-centre-larnaca-cyprus?position=6",
+  "image": "https://www.aplaceinthesun.com/property/media/images/519960/AL4225638/1-121922398_5-6b1bf7ff-d8df-463d-b496-fd6930209155.png?02072026032321",
+  "link": "https://www.aplaceinthesun.com/property/details/ap2160672/46-dimitri-liperti?position=6",
   "houseSqm": null,
   "plotSqm": null,
-  "beds": 2,
+  "beds": 4,
   "baths": 2,
   "posted": null,
   "buildYear": null,
-  "ref": "ap3628899"
+  "ref": "ap2160672"
  },
  {
   "source": "A Place in the Sun",
-  "title": "3 Bed House for sale",
-  "price": 490000,
-  "priceDisplay": "€490,000",
-  "location": "Limassol, Ypsonas",
-  "district": "Limassol",
+  "title": "5 Bed House for sale",
+  "price": 850000,
+  "priceDisplay": "€850,000",
+  "location": "Larnaca, Oroklini",
+  "district": "Larnaca",
   "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4266247/1-123501411_5-15186075517.jpeg?14082026125111",
-  "link": "https://www.aplaceinthesun.com/property/details/ap3934654/3-bedroom-villa-in-ypsonas-limassol?position=7",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4225638/5-bedroom-luxury-home-in-oroklini-larnaca?position=7",
   "houseSqm": null,
   "plotSqm": null,
-  "beds": 3,
-  "baths": 3,
+  "beds": 5,
+  "baths": 2,
   "posted": null,
   "buildYear": null,
-  "ref": "ap3934654"
+  "ref": "ap4225638"
  },
  {
   "source": "A Place in the Sun",
@@ -431271,7 +431412,7 @@
   "priceDisplay": "€500,000",
   "location": "Paphos, Kissonerga",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4262467/1-123306319_5-15231022802.jpeg?09082026014316",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4263481/1-123358161_5-15232915401.jpeg?11082026042755",
   "link": "https://www.aplaceinthesun.com/property/details/ap4261572/3-bed-villa-for-sale-in-kissonerga-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": 195,
@@ -431284,28 +431425,11 @@
  {
   "source": "A Place in the Sun",
   "title": "3 Bed Villa for sale",
-  "price": 560000,
-  "priceDisplay": "€560,000",
-  "location": "Paphos, Kamares",
-  "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4263481/1-123358161_5-15232915401.jpeg?11082026042755",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4262467/3-bed-villa-for-sale-in-kamares-paphos-cyprus",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 3,
-  "baths": 2,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4262467"
- },
- {
-  "source": "A Place in the Sun",
-  "title": "3 Bed Villa for sale",
   "price": 545000,
   "priceDisplay": "€545,000",
   "location": "Paphos, Paphos",
   "district": "Paphos",
-  "image": null,
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4263485/1-123358347_5-14749237602.jpeg?11082026042944",
   "link": "https://www.aplaceinthesun.com/property/details/ap4263481/3-bed-villa-for-sale-in-paphos-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": 330,
@@ -431322,7 +431446,7 @@
   "priceDisplay": "€666,846",
   "location": "Paphos, Geroskipou",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4263508/1-123359200_5-14974951149.jpeg?11082026043717",
+  "image": null,
   "link": "https://www.aplaceinthesun.com/property/details/ap4263485/3-bed-apartment-for-sale-in-geroskipou-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -431424,7 +431548,7 @@
   "priceDisplay": "€165,000",
   "location": "Paphos, Peyia",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4265346/1-123445965_5-15233255301.jpeg?13082026103807",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4262467/1-123306319_5-15231022802.jpeg?09082026014316",
   "link": "https://www.aplaceinthesun.com/property/details/ap4265328/1-bed-apartment-for-sale-in-peyia-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -431433,6 +431557,23 @@
   "posted": null,
   "buildYear": null,
   "ref": "ap4265328"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Villa for sale",
+  "price": 560000,
+  "priceDisplay": "€560,000",
+  "location": "Paphos, Kamares",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4265346/1-123445965_5-15233255301.jpeg?13082026103807",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4262467/3-bed-villa-for-sale-in-kamares-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4262467"
  },
  {
   "source": "A Place in the Sun",
@@ -431934,7 +432075,7 @@
   "priceDisplay": "€515,000",
   "location": "Paphos, Paphos",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/521874/AL4262228/1-123297003_5-detached-villa-for-sale-in-peyia.jpeg?08082026165554",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521874/AL4263359/1-123353349_5-apartment-for-sale-in-chlorakas.jpeg?11082026003300",
   "link": "https://www.aplaceinthesun.com/property/details/ap4265162/3-bed-villa-for-sale-in-paphos-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": null,
@@ -431946,29 +432087,12 @@
  },
  {
   "source": "A Place in the Sun",
-  "title": "3 Bed Villa for sale",
-  "price": 549000,
-  "priceDisplay": "€549,000",
-  "location": "Paphos, Paphos",
-  "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/521874/AL4263359/1-123353349_5-apartment-for-sale-in-chlorakas.jpeg?11082026003300",
-  "link": "https://www.aplaceinthesun.com/property/details/ap4262228/peyia-paphos-detached-villa-for-sale-dt5301",
-  "houseSqm": null,
-  "plotSqm": null,
-  "beds": 3,
-  "baths": 2,
-  "posted": null,
-  "buildYear": null,
-  "ref": "ap4262228"
- },
- {
-  "source": "A Place in the Sun",
   "title": "2 Bed Apartment for sale",
   "price": 249000,
   "priceDisplay": "€249,000",
   "location": "Paphos, Paphos",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4062518/1-114875718_5-14257842312.jpeg?22042026111547",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521874/AL4262228/1-123297003_5-detached-villa-for-sale-in-peyia.jpeg?08082026165554",
   "link": "https://www.aplaceinthesun.com/property/details/ap4263359/chlorakas-paphos-apartment-for-sale-dt5308",
   "houseSqm": null,
   "plotSqm": null,
@@ -431977,6 +432101,23 @@
   "posted": null,
   "buildYear": null,
   "ref": "ap4263359"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "3 Bed Villa for sale",
+  "price": 549000,
+  "priceDisplay": "€549,000",
+  "location": "Paphos, Paphos",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/516882/AL4062518/1-114875718_5-14257842312.jpeg?22042026111547",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4262228/peyia-paphos-detached-villa-for-sale-dt5301",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 3,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4262228"
  },
  {
   "source": "A Place in the Sun",
@@ -432606,6 +432747,23 @@
   "posted": null,
   "buildYear": null,
   "ref": "ap3990104"
+ },
+ {
+  "source": "A Place in the Sun",
+  "title": "2 Bed Apartment for sale",
+  "price": 270000,
+  "priceDisplay": "€270,000",
+  "location": "Paphos, Geroskipou",
+  "district": "Paphos",
+  "image": "https://www.aplaceinthesun.com/property/media/images/521373/AL4188516/120349946_5.jpg?26052026090733",
+  "link": "https://www.aplaceinthesun.com/property/details/ap4034422/2-bed-apartment-for-sale-in-geroskipou-paphos-cyprus",
+  "houseSqm": null,
+  "plotSqm": null,
+  "beds": 2,
+  "baths": 2,
+  "posted": null,
+  "buildYear": null,
+  "ref": "ap4034422"
  },
  {
   "source": "A Place in the Sun",
@@ -433345,7 +433503,7 @@
   "priceDisplay": "€159,000",
   "location": "Paphos, Empa",
   "district": "Paphos",
-  "image": "https://www.aplaceinthesun.com/property/media/images/520341/AL4263802/1-123370999_5-lounge.jpeg?15082026140628",
+  "image": "https://www.aplaceinthesun.com/property/media/images/520341/AL4263802/1-123370999_5-lounge.jpeg?16082026131538",
   "link": "https://www.aplaceinthesun.com/property/details/ap4263807/1-bed-apartment-for-sale-in-empa-paphos-cyprus",
   "houseSqm": null,
   "plotSqm": null,
