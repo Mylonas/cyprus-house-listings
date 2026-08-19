@@ -212712,16 +212712,16 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Field, Kallepeia, Paphos",
+  "title": "Agricultural Field in Kallepeia, Paphos",
   "price": 20000,
   "priceDisplay": "€20,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23209/6a699ac7939d5.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/23209/6a85de23b8fd4.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/23209/6a699ac7939d5.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/23209/6a85de23b8fd4.jpg/thumb"
   ],
-  "link": "https://kazo.com.cy/properties/field-kallepeia-paphos-23209",
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-kallepeia-paphos-23209",
   "beds": null,
   "baths": null,
   "posted": null,
@@ -215621,9 +215621,9 @@
   "priceDisplay": "€90,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/22475/6a7306bc7f7f4.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22475/6a85de21267ea.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22475/6a7306bc7f7f4.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22475/6a85de21267ea.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/residential-field-with-planning-permit-for-division-into-6-plots-palaiometocho-nicosia-22475",
   "beds": null,
@@ -215645,9 +215645,9 @@
   "priceDisplay": "€90,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/22415/69a2ab1c97a27.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22415/6a85de209ba9d.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22415/69a2ab1c97a27.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22415/6a85de209ba9d.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/commercial-residential-field-in-geri-nicosia-22415",
   "beds": null,
@@ -215659,30 +215659,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 1227,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "(Share) Residential Field in Dali, Nicosia",
-  "price": 94000,
-  "priceDisplay": "€94,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/22975/6a7f232c9e48b.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/22975/6a7f232c9e48b.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/(share)-residential-field-in-dali-nicosia-22975",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "22975",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5259,
   "plotType": "Residential",
   "zone": null
  },
@@ -215880,16 +215856,16 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Residential field located in Agioi Trimithias, Nicosia",
+  "title": "Residential field in Agioi Trimithias, Nicosia",
   "price": 100000,
   "priceDisplay": "€100,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/23440/6a5162391443f.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/23440/6a85de24f04cf.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/23440/6a5162391443f.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/23440/6a85de24f04cf.jpg/thumb"
   ],
-  "link": "https://kazo.com.cy/properties/residential-field-located-in-agioi-trimithias-nicosia-23440",
+  "link": "https://kazo.com.cy/properties/residential-field-in-agioi-trimithias-nicosia-23440",
   "beds": null,
   "baths": null,
   "posted": null,
