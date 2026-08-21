@@ -215282,9 +215282,9 @@
   "priceDisplay": "€70,000",
   "location": "Famagusta",
   "district": "Famagusta",
-  "image": "https://estbd.io/1:0e5c2d14/32191/6a87366be076e.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/32191/6a87366bdb21f.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/32191/6a87366be076e.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/32191/6a87366bdb21f.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-in-deryneia-ammochostos-32191",
   "beds": null,
@@ -220337,30 +220337,6 @@
   "houseSqm": null,
   "plotSqm": 17086,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large Development Land in Agios Antonios",
-  "price": 8000000,
-  "priceDisplay": "€8,000,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/32121/6a87e915dc24b.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/32121/6a87e915dc24b.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/large-development-land-in-agios-antonios-32121",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32121",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5106,
-  "plotType": null,
   "zone": null
  },
  {
