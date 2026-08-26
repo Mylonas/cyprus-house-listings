@@ -222665,30 +222665,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Pera, Nicosia",
-  "price": 83000,
-  "priceDisplay": "€83,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/41287/69f20b90503bd.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/41287/69f20b90503bd.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/41287",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "41287",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "60% Building Density Residential Field in Livadia, Larnaca",
   "price": 235000,
   "priceDisplay": "€235,000",
