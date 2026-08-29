@@ -144,7 +144,7 @@ export async function scrapeCyprusRealEstate() {
 }
 
 import { pathToFileURL } from 'node:url';
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const data = await scrapeCyprusRealEstate();
   console.log(JSON.stringify(data, null, 1));
   console.error(`Scraped ${data.length} Cyprus-Real.Estate listings.`);
