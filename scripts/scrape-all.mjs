@@ -29,6 +29,7 @@ import { scrapeCyprusPropertiesHouses } from './scrape-cyprusproperties.mjs';
 import { scrapeDom } from './scrape-dom.mjs';
 import { scrapePafilia } from './scrape-pafilia.mjs';
 import { scrapeGiovani } from './scrape-giovani.mjs';
+import { scrapeCyprusRealEstate } from './scrape-cyprusrealestate.mjs';
 import { resolveDistrict } from './lib/districts.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -54,6 +55,7 @@ const sources = [
   ['DOM real estate', scrapeDom],
   ['Pafilia', scrapePafilia],
   ['Giovani Homes', scrapeGiovani],
+  ['Cyprus-Real.Estate', scrapeCyprusRealEstate],
 ];
 
 // ---------------------------------------------------------------------------
@@ -77,7 +79,7 @@ const SOURCE_PRIORITY = [
   'eAuction', 'BidX1', 'Kadis Estates', 'Pafilia', 'Giovani Homes',
   'Kazo Real Estate', 'Cyprus Properties', 'NCH Real Estate', 'DOM real estate',
   'home.cy', 'FOX Realty', 'BuySellCyprus', 'Realting',
-  'A Place in the Sun',
+  'A Place in the Sun', 'Cyprus-Real.Estate',
 ];
 
 function normalizeDistrict(listing) {
