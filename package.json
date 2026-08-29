@@ -2,7 +2,7 @@
   "name": "cyprus-house-listings",
   "version": "2.3.0",
   "private": true,
-  "description": "Internal reference page tracking Cyprus house-for-sale listings across Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, Kadis Estates, Kazo Real Estate, Cyprus Properties, NCH Real Estate, DOM real estate, Pafilia, and Giovani Homes, with cross-source deduplication.",
+  "description": "Internal reference page tracking Cyprus house-for-sale listings across Altamira Real Estate, Bazaraki, eAuction Cyprus, Zyprus, BidX1, BuySellCyprus.com, home.cy, FOX Realty, Realting, A Place in the Sun, Kadis Estates, Kazo Real Estate, Cyprus Properties, NCH Real Estate, DOM real estate, Pafilia, Giovani Homes, and Cyprus-Real.Estate, with cross-source deduplication.",
   "type": "module",
   "scripts": {
     "scrape": "node scripts/scrape-all.mjs",
@@ -25,6 +25,7 @@
     "scrape:dom": "node scripts/scrape-dom.mjs",
     "scrape:pafilia": "node scripts/scrape-pafilia.mjs",
     "scrape:giovani": "node scripts/scrape-giovani.mjs",
+    "scrape:cyprusrealestate": "node scripts/scrape-cyprusrealestate.mjs",
     "harvest:eauction": "node scripts/harvest-eauction.mjs",
     "refresh:local": "node scripts/refresh-local.mjs",
     "snapshot": "node scripts/snapshot-history.mjs",
