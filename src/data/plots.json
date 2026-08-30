@@ -220233,30 +220233,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Stroumpi, Paphos",
-  "price": 45000,
-  "priceDisplay": "€45,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/42696/6a6b1d39d2cd7.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/42696/6a6b1d39d2cd7.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/42696",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "42696",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 17727,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "38,797 m\\u00b2 Agricultural Field in Choirokitia",
   "price": 80000,
   "priceDisplay": "€80,000",
