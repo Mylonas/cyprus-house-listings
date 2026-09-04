@@ -199989,6 +199989,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Land in Kato Pyrgos",
+  "price": 385000,
+  "priceDisplay": "€385,000",
+  "location": "Nicosia, Kato Pyrgos",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/20013/6a44ddcc7803e.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20013/6a44ddcc7803e.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-20013/residential-land-in-kato-pyrgos",
+  "houseSqm": null,
+  "plotSqm": 14383,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20013"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Limassol, Katholiki area",
   "price": 850000,
   "priceDisplay": "€850,000",
@@ -210546,31 +210570,6 @@
   "ref": "10847"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "For Sale Residential land in Fasoula Village, Limassol",
-  "price": 400000,
-  "priceDisplay": "€400,000",
-  "location": "Limassol, Fasoula",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:3cc426e5/10888/67d2806728016.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10888/67d2806728016.jpg/thumb",
-   "https://estbd.io/1:3cc426e5/10888/67d280672f881.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-10888/for-sale-residential-land-in-fasoula-village-limassol",
-  "houseSqm": null,
-  "plotSqm": 5017,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10888"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -217456,6 +217455,30 @@
   "houseSqm": null,
   "plotSqm": 2435,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Residential Field Next to Limassol General Hospital (Landlocked)",
+  "price": 400000,
+  "priceDisplay": "€400,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/25581/681f1fe7bb0fa.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/25581/681f1fe7bb0fa.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-field-next-to-limassol-general-hospital-(landlocked)-25581",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "25581",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 5128,
+  "plotType": "Residential",
   "zone": null
  },
  {
