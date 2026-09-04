@@ -211295,30 +211295,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural Field in Gerakies, Nicosia",
-  "price": 10000,
-  "priceDisplay": "€10,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/30770/6a5008bb3ddc8.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/30770/6a5008bb3ddc8.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-in-gerakies-nicosia-30770",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30770",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 2676,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large 2342 m2 Field for Sale in Lofou (Landlocked)",
   "price": 10000,
   "priceDisplay": "€10,000",
@@ -212927,30 +212903,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Agricultural field, Pelathousa, Paphos",
-  "price": 30000,
-  "priceDisplay": "€30,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23516/6a602f1c2ba24.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23516/6a602f1c2ba24.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-pelathousa-paphos-23516",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23516",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8529,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "(Share) Field, Makounta, Paphos",
   "price": 30000,
   "priceDisplay": "€30,000",
@@ -213018,6 +212970,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 36000,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Agricultural Field in Agios Theodoros, Larnaca",
+  "price": 31500,
+  "priceDisplay": "€31,500",
+  "location": "Larnaca",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:0e5c2d14/22581/6a9a0dce59a35.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/22581/6a9a0dce59a35.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-field-in-agios-theodoros-larnaca-22581",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22581",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 16723,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -213283,6 +213259,30 @@
   "houseSqm": null,
   "plotSqm": 56800,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Residential field in Pano Pyrgos, NIcosia",
+  "price": 39000,
+  "priceDisplay": "€39,000",
+  "location": "NIcosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/22510/6a9a0dd5ce557.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/22510/6a9a0dd5ce557.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-field-in-pano-pyrgos-nicosia-22510",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22510",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2174,
+  "plotType": "Residential",
   "zone": null
  },
  {
@@ -215164,9 +215164,9 @@
   "priceDisplay": "€89,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/23826/6a745ef1e8003.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/23826/6a9a0dd60b468.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/23826/6a745ef1e8003.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/23826/6a9a0dd60b468.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/mixed-zone-field-agios-amvrosios-limassol-23826",
   "beds": null,
@@ -216580,9 +216580,9 @@
   "priceDisplay": "€190,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/25369/6a292b7d66ac3.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/25369/6a9a0dd62b352.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/25369/6a292b7d66ac3.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/25369/6a9a0dd62b352.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/(share)-residential-field-anogyra-limassol-25369",
   "beds": null,
@@ -233829,30 +233829,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Agricultural field, Pelathousa, Paphos",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/32475/664edc225fd4a.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/32475/664edc225fd4a.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/32475",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32475",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8529,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Two Adjacent fields in Kakopetria, Nicosia",
   "price": 130000,
   "priceDisplay": "€130,000",
@@ -234833,30 +234809,6 @@
   "houseSqm": null,
   "plotSqm": 3299,
   "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Residential field in Choirokoitia, Larnaca",
-  "price": 200000,
-  "priceDisplay": "€200,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/31373/65a0dddc67bde.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/31373/65a0dddc67bde.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/31373",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "31373",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8696,
-  "plotType": "Residential",
   "zone": null
  },
  {
@@ -236993,30 +236945,6 @@
   "houseSqm": null,
   "plotSqm": 13044,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Special protection field in Choirokoitia, Larnaca",
-  "price": 57000,
-  "priceDisplay": "€57,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/27927/65bf478c24852.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/27927/65bf478c24852.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/27927",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "27927",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 32108,
-  "plotType": null,
   "zone": null
  },
  {
