@@ -212928,9 +212928,9 @@
   "priceDisplay": "€31,500",
   "location": "Larnaca",
   "district": "Larnaca",
-  "image": "https://estbd.io/1:0e5c2d14/22581/6a9a0dce59a35.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22581/6a9b6651a77bd.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22581/6a9a0dce59a35.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22581/6a9b6651a77bd.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/agricultural-field-in-agios-theodoros-larnaca-22581",
   "beds": null,
@@ -215102,30 +215102,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3011,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Mixed Zone Field, Agios Amvrosios, Limassol",
-  "price": 89000,
-  "priceDisplay": "€89,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/23826/6a9a0dd60b468.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23826/6a9a0dd60b468.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/mixed-zone-field-agios-amvrosios-limassol-23826",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23826",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 6355,
   "plotType": "Agricultural",
   "zone": null
  },
