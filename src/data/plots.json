@@ -212211,6 +212211,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Residential Field in Gerakies Village (Landlocked)",
+  "price": 25000,
+  "priceDisplay": "€25,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/28399/68f933cde24f0.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/28399/68f933cde24f0.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/large-residential-field-in-gerakies-village-(landlocked)-28399",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28399",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3512,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large 10034 m2 Field for Sale in Pelendri (Landlocked)",
   "price": 25000,
   "priceDisplay": "€25,000",
@@ -212471,30 +212495,6 @@
   "houseSqm": null,
   "plotSqm": 12394,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large Residential Field in Gerakies Village (Landlocked)",
-  "price": 29000,
-  "priceDisplay": "€29,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/28399/68f933cde24f0.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/28399/68f933cde24f0.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/large-residential-field-in-gerakies-village-(landlocked)-28399",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28399",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3512,
-  "plotType": "Residential",
   "zone": null
  },
  {
@@ -213215,30 +213215,6 @@
   "houseSqm": null,
   "plotSqm": 2007,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large 3066 m2 Field for Sale in Kalopanayiotis (Landlocked)",
-  "price": 48000,
-  "priceDisplay": "€48,000",
-  "location": "Nicosia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/28398/68f92f462ad44.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/28398/68f92f462ad44.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/large-3066-m2-field-for-sale-in-kalopanayiotis-(landlocked)-28398",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28398",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3066,
-  "plotType": "Agricultural",
   "zone": null
  },
  {
@@ -219263,6 +219239,30 @@
   "houseSqm": null,
   "plotSqm": 109031,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Sea-View Development Land in Pegeia",
+  "price": 6500000,
+  "priceDisplay": "€6,500,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/32873/6aa2b20b7dbd2.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/32873/6aa2b20b7dbd2.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/sea-view-development-land-in-pegeia-32873",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32873",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 16900,
+  "plotType": null,
   "zone": null
  },
  {
