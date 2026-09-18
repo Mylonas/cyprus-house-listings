@@ -204841,6 +204841,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential/Commercial Sea Front Plot in Chrysopolitissa",
+  "price": 1850000,
+  "priceDisplay": "€1,850,000",
+  "location": "Larnaca, Chrysopolitissa",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:3cc426e5/21635/6aabb605c848f.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/21635/6aabb605c848f.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-21635/residentialcommercial-sea-front-plot-in-chrysopolitissa",
+  "houseSqm": null,
+  "plotSqm": 521,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "21635"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land with permits and plans for 2 Houses in Moni, Limassol",
   "price": 220000,
   "priceDisplay": "€220,000",
@@ -214889,30 +214913,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "11075"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Agricultural Land in Paliometocho",
-  "price": 113000,
-  "priceDisplay": "€113,000",
-  "location": "Nicosia, Paliometocho",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11036/67dad739f0a4e.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11036/67dad739f0a4e.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-11036/agricultural-land-in-paliometocho",
-  "houseSqm": null,
-  "plotSqm": 13358,
-  "plotType": "Agricultural",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11036"
  },
  {
   "source": "Kazo Real Estate",
