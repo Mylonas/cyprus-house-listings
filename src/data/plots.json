@@ -223152,30 +223152,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Tsada, Paphos",
-  "price": 65000,
-  "priceDisplay": "€65,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/43203/6aabd2e6235ae.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43203/6aabd2e6235ae.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43203",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43203",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3228,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Field - Lythrodontas, Nicosia",
   "price": 41000,
   "priceDisplay": "€41,000",
