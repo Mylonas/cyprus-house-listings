@@ -219591,6 +219591,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Expansive Agricultural Field in Apesia",
+  "price": 115000,
+  "priceDisplay": "€115,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/32968/6ab27d1f28c0b.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/32968/6ab27d1f28c0b.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/expansive-agricultural-field-in-apesia-32968",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32968",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 17052,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Solar Investment Opportunity in Pano Deftera, Nicosia",
   "price": 115000,
   "priceDisplay": "€115,000",
@@ -246661,6 +246685,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Plot For Sale in Deftera, Nicosia",
+  "price": 59000,
+  "priceDisplay": "€59,000",
+  "location": "Nicosia, Deftera Kato",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/58475/6a2bc762f41ee.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/58475/6a2bc762f41ee.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-59099/residential-plot-for-sale-in-geri-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "59099",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 315,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Residential plot for sale in a prime location in Strovolos",
   "price": 350000,
   "priceDisplay": "€350,000",
@@ -246709,30 +246757,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Residential plot for sale in GSP, Nicosia-Cyprus",
-  "price": 225000,
-  "priceDisplay": "€225,000",
-  "location": "Nicosia, Strovolos - Apostolou Varnava & Ag. Makariou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/58969/6a97d8bc6f70f.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/58969/6a97d8bc6f70f.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-58967/corner-plot-for-sale-in-lakatamia-nicosia",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "58967",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 638,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Plot For Sale in Strovolos- Chryseleousa, Nicosia",
   "price": 330000,
   "priceDisplay": "€330,000",
@@ -246776,30 +246800,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 11707,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Subdivision Plots For Sale For Eight Villas In Tala, Paphos",
-  "price": 1500000,
-  "priceDisplay": "€1,500,000",
-  "location": "Paphos, Tala",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:1e4b4ca5/58653/6a54abb06c79f.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/58653/6a54abb06c79f.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-58632/plot-for-sale-in-agios-tychonas-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "58632",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 4905,
   "plotType": null,
   "zone": null
  },
@@ -246992,6 +246992,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 536,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Agricultural Fields For Sale in Choirokoitia, Limassol",
+  "price": 2000000,
+  "priceDisplay": "€2,000,000",
+  "location": "Larnaca, Choirokoitia",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:1e4b4ca5/54099/6724c95122579.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/54099/6724c95122579.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-58207/plot-for-sale-in-souni-limassol",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "58207",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 298431,
   "plotType": null,
   "zone": null
  },
@@ -247501,30 +247525,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Plot for Sale in Mesa Chorio, Paphos",
-  "price": 210000,
-  "priceDisplay": "€210,000",
-  "location": "Paphos, Mesa Chorio",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:1e4b4ca5/55385/681b424f012dc.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/55385/681b424f012dc.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-55364/plot-for-sale-in-paliometocho",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "55364",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 780,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Building Plot For Sale in Souni-Zanatzia, Limassol",
   "price": 1500000,
   "priceDisplay": "€1,500,000",
@@ -247664,6 +247664,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 555,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Residential plot for sale in Pyrga, Larnaca-Cyprus",
+  "price": 90000,
+  "priceDisplay": "€90,000",
+  "location": "Larnaca, Pyrga",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:1e4b4ca5/54735/67a354eedca99.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/54735/67a354eedca99.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-54719/residential-plot-for-sale-in-kallithea-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "54719",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 605,
   "plotType": null,
   "zone": null
  },
@@ -248036,30 +248060,6 @@
   "images": [
    "https://estbd.io/1:1e4b4ca5/51306/65cb291e3da2b.jpg/thumb"
   ],
-  "link": "https://nchrealestate.com/property-51284/land-for-sale-in-parekklisia-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "51284",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1273,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Land For Sale in Parekklisia, Limassol",
-  "price": 850000,
-  "priceDisplay": "€850,000",
-  "location": "Limassol, Parekklisia",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/51284/65c623bc4523b.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/51284/65c623bc4523b.jpg/thumb"
-  ],
   "link": "https://nchrealestate.com/property-51063/residential-plot-for-sale-in-palodia-limassol",
   "beds": null,
   "baths": null,
@@ -248069,7 +248069,7 @@
   "ref": "51063",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 7451,
+  "plotSqm": 1273,
   "plotType": null,
   "zone": null
  },
