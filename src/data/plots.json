@@ -205374,6 +205374,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot in Anthoupoli",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Lakatameia, Lakatameia - Archaggelos",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/21338/6ab67c129f459.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:3cc426e5/21338/6ab67c129f459.jpg/thumb"
+  ],
+  "link": "https://kadis.com.cy/property-21338/residential-plot-in-anthoupoli",
+  "houseSqm": null,
+  "plotSqm": 566,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "21338"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Industrial Land in Dali, Nicosia",
   "price": 450000,
   "priceDisplay": "€450,000",
@@ -215328,30 +215352,6 @@
   "ref": "11285"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Land in Sia",
-  "price": 380000,
-  "priceDisplay": "€380,000",
-  "location": "Nicosia, Sia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/8244/67efa8144987f.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:3cc426e5/8244/67efa8144987f.jpg/thumb"
-  ],
-  "link": "https://kadis.com.cy/property-8244/residential-land-in-sia",
-  "houseSqm": null,
-  "plotSqm": 5686,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "8244"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -224757,6 +224757,30 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "6% Building Density Agricultural Field in Aradippou, Larnaca",
+  "price": 138000,
+  "priceDisplay": "€138,000",
+  "location": "Cyprus",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:8ff481ee/43291/6ab67d3d348d8.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43291/6ab67d3d348d8.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43291",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43291",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4056,
+  "plotType": "Agricultural",
   "zone": null
  },
  {
@@ -241147,30 +241171,6 @@
   "houseSqm": null,
   "plotSqm": 145030,
   "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "10% Building Density Agricultural Field in Anglisides, Larnaca",
-  "price": 86000,
-  "priceDisplay": "€86,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/30308/67af52f3eae6f.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/30308/67af52f3eae6f.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/30308",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "30308",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 12375,
-  "plotType": "Agricultural",
   "zone": null
  },
  {
