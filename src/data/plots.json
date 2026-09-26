@@ -225002,30 +225002,6 @@
  {
   "source": "Cyprus Properties",
   "title": "Plot in Tsada, Paphos",
-  "price": 90000,
-  "priceDisplay": "€90,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/43133/6aa51a4590220.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43133/6aa51a4590220.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43133",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43133",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1489,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Plot in Tsada, Paphos",
   "price": 88000,
   "priceDisplay": "€88,000",
   "location": "Cyprus",
