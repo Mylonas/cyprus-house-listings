@@ -224761,6 +224761,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Farming Land in Ergates",
+  "price": 40000,
+  "priceDisplay": "€40,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/43292/6ab76a9462a17.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43292/6ab76a9462a17.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43292",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43292",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6968,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "6% Building Density Agricultural Field in Aradippou, Larnaca",
   "price": 138000,
   "priceDisplay": "€138,000",
