@@ -215986,9 +215986,9 @@
   "priceDisplay": "€6,000",
   "location": "Paphos",
   "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22813/6a6c4c2c7f3aa.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/22813/6abd0bac083b4.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/22813/6a6c4c2c7f3aa.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/22813/6abd0bac083b4.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/field-in-statos-agios-fotios-paphos-22813",
   "beds": null,
@@ -216048,30 +216048,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 2676,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Agricultural Field in Statos–Agios Photios, Paphos",
-  "price": 7000,
-  "priceDisplay": "€7,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/23270/6a7dcabc41f1a.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23270/6a7dcabc41f1a.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-field-in-statos%E2%80%93agios-photios-paphos-23270",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23270",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 13044,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -218194,9 +218170,9 @@
   "priceDisplay": "€32,000",
   "location": "Nicosia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:0e5c2d14/23181/6a7f232e9751f.jpg/thumb",
+  "image": "https://estbd.io/1:0e5c2d14/23181/6abd0bac1ee6f.jpg/thumb",
   "images": [
-   "https://estbd.io/1:0e5c2d14/23181/6a7f232e9751f.jpg/thumb"
+   "https://estbd.io/1:0e5c2d14/23181/6abd0bac1ee6f.jpg/thumb"
   ],
   "link": "https://kazo.com.cy/properties/(share)-residential-field-in-potamia-nicosia-23181",
   "beds": null,
@@ -225293,30 +225269,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Xylofagou, Larnaca",
-  "price": 100000,
-  "priceDisplay": "€100,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/43259/6ab3e628ba8ae.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43259/6ab3e628ba8ae.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43259",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43259",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 2866,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Field - Akaki, Nicosia",
   "price": 112000,
   "priceDisplay": "€112,000",
@@ -225333,30 +225285,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "43262",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Xylofagou, Larnaca",
-  "price": 135000,
-  "priceDisplay": "€135,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/43264/6ab3e637089b5.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43264/6ab3e637089b5.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43264",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43264",
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": null,
@@ -225528,30 +225456,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 623,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Koili, Paphos",
-  "price": 25000,
-  "priceDisplay": "€25,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/43065/6aa10e9f0733b.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43065/6aa10e9f0733b.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43065",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43065",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5686,
   "plotType": null,
   "zone": null
  },
@@ -227832,30 +227736,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 17540,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - \\u0391gios Theodoros, Larnaca",
-  "price": 46000,
-  "priceDisplay": "€46,000",
-  "location": "Cyprus",
-  "district": "Larnaca",
-  "image": "https://estbd.io/1:8ff481ee/38968/68f8da73243f5.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/38968/68f8da73243f5.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/38968",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "38968",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
   "plotType": null,
   "zone": null
  },
@@ -234958,30 +234838,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 726,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field (Share) - Pano Deftera, Nicosia",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/37097/6800033442e9c.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/37097/6800033442e9c.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/37097",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "37097",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 7581,
   "plotType": null,
   "zone": null
  },
@@ -248883,30 +248739,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Residential Plot For Sale in Kalithea",
-  "price": 143000,
-  "priceDisplay": "€143,000",
-  "location": "Nicosia, Kalithea",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/55458/6825b61e484a8.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/55458/6825b61e484a8.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-55385/plot-for-sale-in-mesa-chorio-paphos",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "55385",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 579,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Plot for Sale in Mesa Chorio, Paphos",
   "price": 210000,
   "priceDisplay": "€210,000",
@@ -249046,6 +248878,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 522,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Corner Plot for Sale in Tseri, Nicosia",
+  "price": 107000,
+  "priceDisplay": "€107,000",
+  "location": "Nicosia, Tseri",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/54764/67a604e04e1af.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/54764/67a604e04e1af.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-54763/plot-for-sale-in-tseri-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "54763",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 555,
   "plotType": null,
   "zone": null
  },
@@ -249529,6 +249385,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Residential field in Pera Orinis village in Nicosia District",
+  "price": 203000,
+  "priceDisplay": "€203,000",
+  "location": "Nicosia, Pera Oreinis",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/50476/65c144236b91d.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/50476/65c144236b91d.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-50195/excellent-residential-plot-for-sale-in-a-prime-location-in-agios-dimitrios-in-strovolos",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "50195",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 11966,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Excellent Commercial plot for sale in a prime location in Agios Dometios in Nicosia",
   "price": 585000,
   "priceDisplay": "€585,000",
@@ -249817,30 +249697,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Residential plot in for sale in Nea Ledras in Nicosia - Cyprus",
-  "price": 124000,
-  "priceDisplay": "€124,000",
-  "location": "Nicosia, Nea Ledra",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/47606/65c136130890a.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/47606/65c136130890a.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-47587/residential-plot-in-for-sale-in-lakatamia-in-nicosia-cyprus",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "47587",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 570,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Residential plot in for sale in Lakatamia in Nicosia - Cyprus.",
   "price": 145000,
   "priceDisplay": "€145,000",
@@ -250004,30 +249860,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3668,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Residential plot for sale in Kalithea, Nicosia.",
-  "price": 130000,
-  "priceDisplay": "€130,000",
-  "location": "Nicosia, Dali",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/44063/65c12acada22d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/44063/65c12acada22d.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-43957/field-for-sale-in-ypsonas-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43957",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 506,
   "plotType": null,
   "zone": null
  },
