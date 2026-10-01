@@ -218549,30 +218549,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "(Share) Residential field located in Sotira, Ammochostos",
-  "price": 40000,
-  "priceDisplay": "€40,000",
-  "location": "Famagusta",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:0e5c2d14/23515/6a7dcabfd4b6a.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23515/6a7dcabfd4b6a.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/(share)-residential-field-located-in-sotira-ammochostos-23515",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23515",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 4101,
-  "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Agricultural field in Klirou, Nicosia",
   "price": 40000,
   "priceDisplay": "€40,000",
@@ -220009,6 +219985,54 @@
   "houseSqm": null,
   "plotSqm": 3679,
   "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Residential field in Trimiklini, Limassol",
+  "price": 80000,
+  "priceDisplay": "€80,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33052/6abe642d40a68.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33052/6abe642d40a68.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-field-in-trimiklini-limassol-33052",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33052",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 883,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "(Share) Two Residential Fields in Kato Platres, Limassol",
+  "price": 80000,
+  "priceDisplay": "€80,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33046/6abe642b0d441.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33046/6abe642b0d441.jpg/thumb"
+  ],
+  "link": "https://kazo.com.cy/properties/(share)-two-residential-fields-in-kato-platres-limassol-33046",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33046",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2881,
+  "plotType": "Residential",
   "zone": null
  },
  {
@@ -222361,30 +222385,6 @@
   "houseSqm": null,
   "plotSqm": 14716,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Shared Primarily Commercial Zoned Field, New Port Area, Limassol",
-  "price": 299000,
-  "priceDisplay": "€299,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/23568/6970cadc9725c.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/23568/6970cadc9725c.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/shared-primarily-commercial-zoned-field-new-port-area-limassol-23568",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "23568",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 12166,
-  "plotType": "Commercial",
   "zone": null
  },
  {
@@ -237143,30 +237143,6 @@
   "houseSqm": null,
   "plotSqm": 143415,
   "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "A 25% share of a residential plot located in Sotira, Ammochostos",
-  "price": 84000,
-  "priceDisplay": "€84,000",
-  "location": "Cyprus",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:8ff481ee/32474/664edc1e081b1.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:8ff481ee/32474/664edc1e081b1.jpg/thumb"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/32474",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32474",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1025,
-  "plotType": "Residential",
   "zone": null
  },
  {
