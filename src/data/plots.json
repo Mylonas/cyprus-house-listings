@@ -215981,30 +215981,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Field in Statos-Agios Fotios, Paphos",
-  "price": 6000,
-  "priceDisplay": "€6,000",
-  "location": "Paphos",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:0e5c2d14/22813/6abd0bac083b4.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/22813/6abd0bac083b4.jpg/thumb"
-  ],
-  "link": "https://kazo.com.cy/properties/field-in-statos-agios-fotios-paphos-22813",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "22813",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8027,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Field, Agios Theodoros, Limassol",
   "price": 6000,
   "priceDisplay": "€6,000",
