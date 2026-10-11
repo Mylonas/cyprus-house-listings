@@ -195260,13 +195260,15 @@
   "priceDisplay": "€59,850 (reserve price)",
   "location": "Ormidia, Larnaca",
   "district": "Larnaca",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=amZ%2bhG%2b21i0%3d&fileId=xi7CbAWn2aE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=amZ%2bhG%2b21i0%3d&fileId=xi7CbAWn2aE%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/4k0c6d3k76c_40002fd5_j42bga_13d4",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 523,
   "plotType": "Plot",
-  "zone": null,
+  "zone": "Η3",
   "beds": null,
   "baths": null,
   "posted": "21/09/2026",
@@ -195278,9 +195280,9 @@
   "ref": "MKWWSZZ958",
   "auctionDate": "06/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/4782",
+  "address": "ΓΕΡΟΣΥΤΖΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -195354,7 +195356,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/df0dc2aj11ca0ibgabbg5b40bccc3c45",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 522,
   "plotType": "Plot",
   "zone": null,
   "beds": null,
@@ -195368,9 +195370,9 @@
   "ref": "JITY4MITLD-003",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "267/800",
+  "registration": "0/11490",
+  "address": "ΤΟΥΡΚΙΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -195416,7 +195418,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/d206a4361b3f66b23ia30527573fd41h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 424,
   "plotType": "Plot",
   "zone": null,
   "beds": null,
@@ -195430,9 +195432,9 @@
   "ref": "BUDF6JSCHM",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "4/4873",
+  "address": "ΚΩΝΣΤΑΝΤΙΝΟΥ ΚΑΤΕΡΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -195442,11 +195444,13 @@
   "priceDisplay": "€16,800 (reserve price)",
   "location": "Ormidia, Larnaca",
   "district": "Larnaca",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=lD1%2fHu6ip60%3d&fileId=cJi2%2bhX%2fPqo%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=lD1%2fHu6ip60%3d&fileId=cJi2%2bhX%2fPqo%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0j5157d66db405_21e_e04_14g6eck0b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 563,
   "plotType": "Plot",
   "zone": null,
   "beds": null,
@@ -195460,9 +195464,9 @@
   "ref": "F3Y9QJXJXR",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/3267",
+  "address": "ΛΑΚΚΟΣ ΓΛΥΚΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -196954,10 +196958,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/1i5i7a4i5d6k6c26adaca61b6e7dac7e",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 384,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 1,
   "baths": null,
   "posted": "23/09/2026",
   "postedTs": 1790121600000,
@@ -196968,9 +196972,9 @@
   "ref": "645YMUGWY1",
   "auctionDate": "10/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "10/1890",
+  "address": "ΖΩΔΙΑΣ 32"
  },
  {
   "source": "eAuction Cyprus",
@@ -197176,10 +197180,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/3hahad0e2i10bh46bg53bf26c12ccc45",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 567,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "21/09/2026",
   "postedTs": 1789948800000,
@@ -197190,9 +197194,9 @@
   "ref": "WSDWGE4ID4",
   "auctionDate": "12/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/25585*",
+  "address": "ΜΟΝΟΒΟ -ΛΙΚΟΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197296,10 +197300,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5c5k3eajaiaec_d5a77b13c40742_433",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 151,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 1,
   "baths": null,
   "posted": "23/09/2026",
   "postedTs": 1790121600000,
@@ -197310,9 +197314,9 @@
   "ref": "JUYEFILMDS",
   "auctionDate": "12/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/5792",
+  "address": "ΠΑΛΛΟΥΡΟΚΑΜΠΟΣ ΑΝΑΓΕΝΝΗΣΕΩΣ 25"
  },
  {
   "source": "eAuction Cyprus",
@@ -197472,27 +197476,29 @@
   "priceDisplay": "€802,000 (reserve price)",
   "location": "Pafou, Pafos - Agios Theodoros, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=xzq8B3RxzfI%3d&fileId=i78QijJ5ooo%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=xzq8B3RxzfI%3d&fileId=i78QijJ5ooo%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/76_631073h33cgd606442k_ka3356j66",
-  "houseSqm": null,
-  "plotSqm": null,
+  "houseSqm": 385,
+  "plotSqm": 381,
   "plotType": "Plot with building",
-  "zone": null,
+  "zone": "Πα6",
   "beds": null,
   "baths": null,
   "posted": "08/10/2026",
   "postedTs": 1791417600000,
-  "buildYear": null,
+  "buildYear": 1995,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "O2CGJ2IW4S",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/29936",
+  "address": "ΠΑΝΩ ΠΕΡΒΟΛΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197534,8 +197540,10 @@
   "priceDisplay": "€672,500 (reserve price)",
   "location": "Palodia, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=In6blglLEYM%3d&fileId=fH8jCT%2fn3Y4%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=In6blglLEYM%3d&fileId=fH8jCT%2fn3Y4%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/bk_k67606g_3ch6b3a01266462_c123a",
   "houseSqm": null,
   "plotSqm": null,
@@ -197553,8 +197561,8 @@
   "auctionDate": "16/11/2026",
   "status": "Posted",
   "share": null,
-  "registration": null,
-  "address": null
+  "registration": "0/7686, 0/7687,0/7689",
+  "address": "Κάμπος,Κοντά στο χωριό"
  },
  {
   "source": "eAuction Cyprus",
@@ -197654,27 +197662,29 @@
   "priceDisplay": "€406,500 (reserve price)",
   "location": "Lemesou, Lemessos - Agia Fylaxis, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oMLgVgzkKKw%3d&fileId=M5G2rvEWlGY%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oMLgVgzkKKw%3d&fileId=M5G2rvEWlGY%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/a40i3kc16b_c1j7gbeab2g0h6a_4_5c2",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 579,
   "plotType": "Plot with building",
-  "zone": null,
-  "beds": null,
-  "baths": null,
+  "zone": "Κα6",
+  "beds": 4,
+  "baths": 1,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
-  "buildYear": null,
+  "buildYear": 1986,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "2RY4CJQ3U0",
   "auctionDate": "19/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/27042",
+  "address": "ΑΓΚΑΘΙΘΚΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197718,7 +197728,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/d66c21dg506c3070_23_4g1b26da5k3i",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 296,
   "plotType": "Plot with building",
   "zone": null,
   "beds": null,
@@ -197732,9 +197742,9 @@
   "ref": "NOIZ2QYYAN-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "3/3068*",
+  "address": "ΑΡΧΑΓΓΕΛΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197808,10 +197818,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/de2h202d_j5d33a_313eaj_h3_1h5125",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 806,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 2,
   "baths": null,
   "posted": "07/10/2026",
   "postedTs": 1791331200000,
@@ -197822,9 +197832,9 @@
   "ref": "DHPTB0YGLD-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "**0/12601",
+  "address": "ΜΟΣΦΙΛΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197834,14 +197844,16 @@
   "priceDisplay": "€135,150 (reserve price)",
   "location": "Paralimniou-Derynias,Paralimni, Famagusta",
   "district": "Famagusta",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/fb0730fec311.jpg",
+  "images": [
+   "/eauction-photos/fb0730fec311.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/24a2bk2_4i_12_ag4d4_ajb5c7ak2d3b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 341,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "07/10/2026",
   "postedTs": 1791331200000,
@@ -197852,9 +197864,9 @@
   "ref": "AXUE2RY2B4-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/13792*",
+  "address": "ΛΑΞΙΔΙ ΠΑΝΩ ΛΑΚΚΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197864,14 +197876,16 @@
   "priceDisplay": "€263,150 (reserve price)",
   "location": "Agias Napas,Agia Napa, Famagusta",
   "district": "Famagusta",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/fb0730fec311.jpg",
+  "images": [
+   "/eauction-photos/fb0730fec311.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/7c4h7h0f0dag2g1336b5cg67aj_a2e42",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1886,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "07/10/2026",
   "postedTs": 1791331200000,
@@ -197882,9 +197896,9 @@
   "ref": "AXUE2RY2B4-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/6",
+  "registration": "1/417**",
+  "address": "ΚΑΤΑΛΥΜΑΤΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197928,10 +197942,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5c0abhda3b7c5f4d6kbh320e5cd7ba2k",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 201,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "06/10/2026",
   "postedTs": 1791244800000,
@@ -197942,9 +197956,9 @@
   "ref": "JX6NH8GR0H",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7865*",
+  "address": "ΚΥΒΕΡΝΗΤΙΚΟΣ ΟΙΚΙΣΜΟΣ \"ΤΣΙΑΚΚΙΛΕΡΟ\" ΚΑΤΩ ΒΑΡΩΣΙΩΝ, 52"
  },
  {
   "source": "eAuction Cyprus",
@@ -197958,10 +197972,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/4db5502116_h0432biaca02556dg6d53",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 353,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "06/10/2026",
   "postedTs": 1791244800000,
@@ -197972,9 +197986,9 @@
   "ref": "XE4WVE51BP",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/4173*",
+  "address": "ΑΜΠΕΛΟΥΔΙ"
  },
  {
   "source": "eAuction Cyprus",
@@ -197988,10 +198002,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/3e167k_2c05a404_166e3c_15hd34j6c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 536,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "06/10/2026",
   "postedTs": 1791244800000,
@@ -198002,8 +198016,8 @@
   "ref": "JROVBQ3EB7",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
+  "share": "1/1",
+  "registration": "3/27*",
   "address": null
  },
  {
@@ -198074,11 +198088,13 @@
   "priceDisplay": "€217,175 (reserve price)",
   "location": "Agros, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/6c39e04b6454.jpg",
+  "images": [
+   "/eauction-photos/6c39e04b6454.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/c1c4534c6a3g7d3e0_44044i41af2c66",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 915,
   "plotType": "Plot with building",
   "zone": null,
   "beds": null,
@@ -198092,9 +198108,9 @@
   "ref": "IC3CXTPEQ0",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "0/14744",
+  "address": "ΑΓΙΟΣ ΙΩΝΑΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198108,7 +198124,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/_j4cch0cb42d6c376kcj5_5fdb07ddah",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 480,
   "plotType": "Plot with building",
   "zone": null,
   "beds": null,
@@ -198122,9 +198138,9 @@
   "ref": "13NQSJ0OJI",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "2/48939*",
+  "address": "ΧΑΛΚΟΥΤΣΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198134,27 +198150,29 @@
   "priceDisplay": "€452,500 (reserve price)",
   "location": "Larnakas, Larnaka - Agios Nikolaos, Larnaca",
   "district": "Larnaca",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=fb2HlMAabOc%3d&fileId=XpdyMnHwXnM%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=fb2HlMAabOc%3d&fileId=XpdyMnHwXnM%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/5a_04dbh3fd_aj_j0d5j62dg005j7c7f",
-  "houseSqm": null,
-  "plotSqm": null,
+  "houseSqm": 245,
+  "plotSqm": 525,
   "plotType": "Plot with building",
-  "zone": null,
+  "zone": "Κα4",
   "beds": null,
   "baths": null,
   "posted": "09/10/2026",
   "postedTs": 1791504000000,
-  "buildYear": null,
+  "buildYear": 1998,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "L4AGE3VT6O",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "1/275",
+  "address": "ΠΕΡΒΟΛΙ ΤΟΥ ΤΖΙΑΠΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198428,7 +198446,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7faeakc2_k5dajcddb_b026i6h6f5dd3",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 546,
   "plotType": "Plot with building",
   "zone": null,
   "beds": null,
@@ -198442,9 +198460,9 @@
   "ref": "38J13343FX",
   "auctionDate": "01/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8459*",
+  "address": "ΚΟΚΚΙΝΟΓΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198458,10 +198476,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/bf0kc762bi4d121ed40f5677c4ab16d1",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1051,
   "plotType": "Plot with building",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "05/10/2026",
   "postedTs": 1791158400000,
@@ -198472,9 +198490,9 @@
   "ref": "VC748HW2JZ",
   "auctionDate": "04/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "266/1051",
+  "registration": "0/6916",
+  "address": "ΛΑΚΚΟΣ ΤΟΥ ΚΑΛΟΓΗΡΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198488,10 +198506,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7i102g53ah415a044b2i1i_0b2_kc52b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 551,
   "plotType": "Plot with building",
-  "zone": null,
-  "beds": null,
+  "zone": "Κα5",
+  "beds": 3,
   "baths": null,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
@@ -198502,9 +198520,9 @@
   "ref": "C5IYO9OTIW",
   "auctionDate": "08/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/4",
+  "registration": "4/235",
+  "address": "ΠΗΓΑΣΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -198795,10 +198813,8 @@
   "priceDisplay": "€2,500 (reserve price)",
   "location": "Salamiou, Paphos",
   "district": "Paphos",
-  "image": "/eauction-photos/798aaebff94c.jpg",
-  "images": [
-   "/eauction-photos/798aaebff94c.jpg"
-  ],
+  "image": null,
+  "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/51de61_5136k15dd4hdd6bajb3343ddf",
   "houseSqm": null,
   "plotSqm": 2676,
@@ -200733,13 +200749,15 @@
   "priceDisplay": "€27,600 (reserve price)",
   "location": "Kokkinotrimithia, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=SXWaHEojJ9A%3d&fileId=7Kg3yVK8ixo%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=SXWaHEojJ9A%3d&fileId=7Kg3yVK8ixo%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/55a35h067h6727ch406da_2jb4b0406j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2277,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Η2",
   "beds": null,
   "baths": null,
   "posted": "22/09/2026",
@@ -200751,9 +200769,9 @@
   "ref": "22MON0SHVY",
   "auctionDate": "09/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "0/13730",
+  "address": "ΠΕΤΡΑΚΟΥΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -200795,11 +200813,13 @@
   "priceDisplay": "€15,300 (reserve price)",
   "location": "Evrychou, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=84Vh%2bbur4EU%3d&fileId=xemRzBKjXf8%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=84Vh%2bbur4EU%3d&fileId=xemRzBKjXf8%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/6dbe_27hc_4c616k604cdca32jc31k2i",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1292,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -200813,9 +200833,9 @@
   "ref": "F8FJAHVOA0-002",
   "auctionDate": "09/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8100",
+  "address": "ΚΑΡΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -200982,13 +201002,15 @@
   "priceDisplay": "€18,800 (reserve price)",
   "location": "Pano Deftera, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=F9txniAxkkc%3d&fileId=PiMi%2fgOBa4o%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=F9txniAxkkc%3d&fileId=PiMi%2fgOBa4o%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/da0ab42e4f014bab0g141a0_cj4c643k",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9504,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γα3",
   "beds": null,
   "baths": null,
   "posted": "22/09/2026",
@@ -201000,9 +201022,9 @@
   "ref": "WEUUN2Y42P",
   "auctionDate": "10/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "4/97",
+  "address": "ΠΟΣΤΑΝΝΙΚΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201044,13 +201066,15 @@
   "priceDisplay": "€3,000 (reserve price)",
   "location": "Agia Varvara, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Si3TjKVregE%3d&fileId=Jn2w5tsa3uM%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Si3TjKVregE%3d&fileId=Jn2w5tsa3uM%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/2g23cc_13hdd4jbha43i4ccj1gab1_5j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 455,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γα4",
   "beds": null,
   "baths": null,
   "posted": "22/09/2026",
@@ -201062,9 +201086,9 @@
   "ref": "Z0SGCQFBGD",
   "auctionDate": "10/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/14187",
+  "address": "ΑΘΚΙΑΤΖΙΕΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201232,13 +201256,16 @@
   "priceDisplay": "€7,400 (reserve price)",
   "location": "Kannavia, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=iJV6IOgRAkY%3d&fileId=FdyHip3RY58%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=iJV6IOgRAkY%3d&fileId=FdyHip3RY58%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=iJV6IOgRAkY%3d&fileId=g9g6M3w7GIg%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/ahcg0fafcbdf5j1j3k7_a24f1cd6cj1c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9700,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ3",
   "beds": null,
   "baths": null,
   "posted": "22/09/2026",
@@ -201250,9 +201277,9 @@
   "ref": "LUTHZUIE34-002",
   "auctionDate": "11/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/3574",
+  "address": "ΑΛΩΝΙ ΤΟΥ ΛΕΥΤΕΡΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201294,11 +201321,13 @@
   "priceDisplay": "€22,300 (reserve price)",
   "location": "Ergates, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=8hJyckNF4ZM%3d&fileId=xK9aWAAziFw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=8hJyckNF4ZM%3d&fileId=xK9aWAAziFw%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/2013416g73c24c7jbj1ic31i1abb6_54",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 6875,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -201312,9 +201341,9 @@
   "ref": "UGKXMA2WT0",
   "auctionDate": "11/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "5/608",
+  "address": "ΞΥΛΟΓΙΟΦΥΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201481,13 +201510,18 @@
   "priceDisplay": "€25,200 (reserve price)",
   "location": "Kato Koutrafas, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=zXn75i7bYwc%3d&fileId=0T9g4TzLjQc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=zXn75i7bYwc%3d&fileId=0T9g4TzLjQc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=zXn75i7bYwc%3d&fileId=9NLni9LYMRI%3d&thumb=false",
+   "/eauction-photos/d870cf7a17ef.jpg",
+   "/eauction-photos/637bbe572ebb.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0f4_5i6c73a0de35a_aj52a3c2ajad_e",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 13713,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "23/09/2026",
@@ -201499,9 +201533,9 @@
   "ref": "GMB4GAUF7O-002",
   "auctionDate": "12/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6072",
+  "address": "ΠΟΚΟΥΤΣΙΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201543,13 +201577,15 @@
   "priceDisplay": "€1,400 (reserve price)",
   "location": "Agios Georgios Kafkallou, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=ad1KDbEWH8A%3d&fileId=NrrWNa7C4hE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=ad1KDbEWH8A%3d&fileId=NrrWNa7C4hE%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0bak126031_1bb_062_d7fd12ec24d3h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1400,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "23/09/2026",
@@ -201561,9 +201597,9 @@
   "ref": "LQUYVGCKPG-002",
   "auctionDate": "12/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/5021",
+  "address": "ΛΥΤΖΙΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201697,13 +201733,20 @@
   "priceDisplay": "€14,100 (reserve price)",
   "location": "Tsakistra, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=XPaBvX3IcKc%3d&fileId=zlosR4gN4Qc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=XPaBvX3IcKc%3d&fileId=zlosR4gN4Qc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=XPaBvX3IcKc%3d&fileId=tZt0foD67hw%3d&thumb=false",
+   "/eauction-photos/69bf4195af04.jpg",
+   "/eauction-photos/e9183757ca76.jpg",
+   "/eauction-photos/8b0fe531dd82.jpg",
+   "/eauction-photos/6a5b2c80a794.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/3g3j1bcf2k73417274257_da7g4b364c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5500,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
@@ -201715,9 +201758,9 @@
   "ref": "R5NG25J06C-001",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/1211",
+  "address": "ΒΡΥΣΙ ΤΟΥ ΒΑΤΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201727,13 +201770,20 @@
   "priceDisplay": "€8,400 (reserve price)",
   "location": "Tsakistra, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=9HsAFOB7o%2fw%3d&fileId=zlosR4gN4Qc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=9HsAFOB7o%2fw%3d&fileId=zlosR4gN4Qc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=9HsAFOB7o%2fw%3d&fileId=tZt0foD67hw%3d&thumb=false",
+   "/eauction-photos/69bf4195af04.jpg",
+   "/eauction-photos/e9183757ca76.jpg",
+   "/eauction-photos/8b0fe531dd82.jpg",
+   "/eauction-photos/6a5b2c80a794.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/be013__bajbbbb07_b5767abd5_ac612",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5500,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
@@ -201745,9 +201795,9 @@
   "ref": "R5NG25J06C-002",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/1842",
+  "address": "ΜΕΣΑ ΣΤΟ ΧΩΡΙΟ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201817,13 +201867,19 @@
   "priceDisplay": "€31,300 (reserve price)",
   "location": "Kato Koutrafas, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=pIv%2fRwzM%2bKA%3d&fileId=KD3ZKydDWaY%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=pIv%2fRwzM%2bKA%3d&fileId=KD3ZKydDWaY%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=pIv%2fRwzM%2bKA%3d&fileId=IMF80%2bb%2f%2bTw%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=pIv%2fRwzM%2bKA%3d&fileId=CF5dokT114E%3d&thumb=false",
+   "/eauction-photos/f33b08150999.jpg",
+   "/eauction-photos/9385b7950073.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/dg3iba45537c4j3g7f07261h7gca0b75",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 21405,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
@@ -201835,9 +201891,9 @@
   "ref": "5DTJCREE8H-003",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/5682",
+  "address": "ΚΛΗΝΙΤΣΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201847,13 +201903,15 @@
   "priceDisplay": "€1,000 (reserve price)",
   "location": "Alona, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=CtxE8SsuDWc%3d&fileId=Wy8ivxO3%2bI8%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=CtxE8SsuDWc%3d&fileId=Wy8ivxO3%2bI8%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/7__77c05404h_f5c7b3jbf3e437113b_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 24,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Η3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
@@ -201865,9 +201923,9 @@
   "ref": "60JV96CZ38",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/12107",
+  "address": "ΡΙΝΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201937,13 +201995,15 @@
   "priceDisplay": "€28,500 (reserve price)",
   "location": "Arsos Lemesou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=JzDwk32yapc%3d&fileId=kiZ5M9RG34w%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=JzDwk32yapc%3d&fileId=kiZ5M9RG34w%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/15abcca4dd_72j0j7h5_4512b2721ba4",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 29449,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "29/09/2026",
@@ -201955,9 +202015,9 @@
   "ref": "SZCOU8AOBW",
   "auctionDate": "16/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "4/124",
+  "address": "ΛΕΛΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -201967,13 +202027,16 @@
   "priceDisplay": "€14,300 (reserve price)",
   "location": "Asgata, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=vfEWkkCcSSg%3d&fileId=q7t2MBlA8vQ%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=vfEWkkCcSSg%3d&fileId=q7t2MBlA8vQ%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=vfEWkkCcSSg%3d&fileId=v6qOvd6ce44%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/7b1bai12ck775a1645272g3i_65b3i1h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 15051,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "29/09/2026",
@@ -201985,9 +202048,9 @@
   "ref": "LNQ7W4VSYK-001",
   "auctionDate": "16/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11849",
+  "address": "ΠΕΖΟΥΛΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202061,7 +202124,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/057k53df0f1h5d5c__5j56dg7e661h3_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 6693,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -202075,9 +202138,9 @@
   "ref": "R4QLWHI8N3",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/14521*",
+  "address": "ΛΕΥΚΟΜΥΘΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202091,10 +202154,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/cabi5gcj20760h3cba1g_b_i1c3f2a56",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 762,
   "plotType": "Land",
   "zone": null,
-  "beds": null,
+  "beds": 3,
   "baths": null,
   "posted": "29/09/2026",
   "postedTs": 1790640000000,
@@ -202105,9 +202168,9 @@
   "ref": "1KXXPTQWP3-002",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "6/572",
+  "address": "ΤΟΡΝΑΡΙΔΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202121,7 +202184,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/335hc7360713423fcj653kbb_1_c4k2f",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9700,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -202135,9 +202198,9 @@
   "ref": "FXW5BNINBX-001",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/7548*",
+  "address": "ΕΞΩΒΟΥΝΟ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202207,13 +202270,17 @@
   "priceDisplay": "€1,800 (reserve price)",
   "location": "Vassa Kilaniou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=C7RUpPCJGQo%3d&fileId=t0bh3%2f1twrw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=C7RUpPCJGQo%3d&fileId=t0bh3%2f1twrw%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=C7RUpPCJGQo%3d&fileId=kmbC58gqDP4%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=C7RUpPCJGQo%3d&fileId=zr78qJjyL%2fY%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/6b1e0k2k1ebk6ca3ca0f503e_f6j104c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2676,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "29/09/2026",
@@ -202225,9 +202292,9 @@
   "ref": "X1TBEG3067-001",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6899",
+  "address": "AETOΦΟΥΛΙΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202237,13 +202304,17 @@
   "priceDisplay": "€3,000 (reserve price)",
   "location": "Vassa Kilaniou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6MuS6plQD%2bo%3d&fileId=t0bh3%2f1twrw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6MuS6plQD%2bo%3d&fileId=t0bh3%2f1twrw%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6MuS6plQD%2bo%3d&fileId=kmbC58gqDP4%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6MuS6plQD%2bo%3d&fileId=zr78qJjyL%2fY%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/7b4g703f0j336h4ga2ck1e3_1a4_1a_j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2676,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "29/09/2026",
@@ -202255,9 +202326,9 @@
   "ref": "X1TBEG3067-002",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6900",
+  "address": "ΑΤΟΦΟΥΛΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202327,13 +202398,15 @@
   "priceDisplay": "€24,000 (reserve price)",
   "location": "Prodromos, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6HBUoZSs3Zo%3d&fileId=hn6ow67TsYw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=6HBUoZSs3Zo%3d&fileId=hn6ow67TsYw%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/6jd27h126h6hcdbb_3a4424c_c5j1fca",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1134,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Η5",
   "beds": null,
   "baths": null,
   "posted": "29/09/2026",
@@ -202345,9 +202418,9 @@
   "ref": "1G8XZMOHCN",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/4361",
+  "address": "ΚΑΛΙΑΝΟΤΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202357,11 +202430,13 @@
   "priceDisplay": "€11,400 (reserve price)",
   "location": "Prastio Kellakiou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=%2b3PvPOQIR4M%3d&fileId=M%2bEX0GQfG7Q%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=%2b3PvPOQIR4M%3d&fileId=M%2bEX0GQfG7Q%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/52d3_aaka6_a52_b1a_b2f0fcb032g1g",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 292,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -202375,9 +202450,9 @@
   "ref": "ZE546PX175",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/2762",
+  "address": "ΜΕΣΑ ΣΤΟ ΧΩΡΙΟ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202447,13 +202522,16 @@
   "priceDisplay": "€1,000 (reserve price)",
   "location": "Agios Therapon, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=39Iyjf9t%2bjA%3d&fileId=xnz7XYPcslM%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=39Iyjf9t%2bjA%3d&fileId=xnz7XYPcslM%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=39Iyjf9t%2bjA%3d&fileId=3%2bUZjOq9TmI%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/bj2604b545_idd043ga6d571c545da0a",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4348,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202465,9 +202543,9 @@
   "ref": "7LICP91SIG-002",
   "auctionDate": "18/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/9443",
+  "address": "ΑΜΟΛΑΔΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202477,13 +202555,16 @@
   "priceDisplay": "€1,800 (reserve price)",
   "location": "Agios Therapon, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oZ8VM2FDZgQ%3d&fileId=xnz7XYPcslM%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oZ8VM2FDZgQ%3d&fileId=xnz7XYPcslM%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oZ8VM2FDZgQ%3d&fileId=3%2bUZjOq9TmI%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0d__df5a5c7k03cc0k003b0dbg7_6c_7",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4348,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202495,9 +202576,9 @@
   "ref": "7LICP91SIG-003",
   "auctionDate": "18/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/10798",
+  "address": "ΑΜΟΛΑΔΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202567,13 +202648,15 @@
   "priceDisplay": "€13,800 (reserve price)",
   "location": "Agios Amvrossios Lemesou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=SmimY%2fpJvsw%3d&fileId=0Xer3YTfDrQ%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=SmimY%2fpJvsw%3d&fileId=0Xer3YTfDrQ%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0gdgc00g2fc35i2dakc__i_236551740",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 8362,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202585,9 +202668,9 @@
   "ref": "UEZ4E6MDI6",
   "auctionDate": "18/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7650",
+  "address": "ΚΑΒΑΚΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202597,13 +202680,15 @@
   "priceDisplay": "€5,000 (reserve price)",
   "location": "Vouni, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=kVHLGcX7itk%3d&fileId=PFbqL%2bxkyXw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=kVHLGcX7itk%3d&fileId=PFbqL%2bxkyXw%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/2i4707bid1dfb41cd47ida2e0c4a3f5d",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 23746,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202615,9 +202700,9 @@
   "ref": "GPSNV5ZR44",
   "auctionDate": "18/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "0/13091",
+  "address": "ΒΑΘΥΝ ΑΡΚΑΤΖΙΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202759,13 +202844,15 @@
   "priceDisplay": "€15,900 (reserve price)",
   "location": "Agios Therapon, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=vgfJq%2bmkiFI%3d&fileId=QIIqgRqyw0E%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=vgfJq%2bmkiFI%3d&fileId=QIIqgRqyw0E%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/bgccd520b134_h4b4h16afcjaace7_3j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 19399,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202777,9 +202864,9 @@
   "ref": "RCO6X84FU1",
   "auctionDate": "19/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8696",
+  "address": "ΧΟΙΡΟΜΑΝΤΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202789,13 +202876,15 @@
   "priceDisplay": "€2,800 (reserve price)",
   "location": "Dora, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Ke3jM0OWsAY%3d&fileId=Z2YX0fbEHfE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Ke3jM0OWsAY%3d&fileId=Z2YX0fbEHfE%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/b4df_0_d1edade65b7644g64bg0d7acf",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7693,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ1",
   "beds": null,
   "baths": null,
   "posted": "30/09/2026",
@@ -202807,9 +202896,9 @@
   "ref": "JE7FKEDAHM",
   "auctionDate": "19/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/10071",
+  "address": "ΓΕΡΑΚΑΡΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -202996,13 +203085,17 @@
   "priceDisplay": "€14,500 (reserve price)",
   "location": "Amathountas,Akrounta, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=iZG06jqLcWM%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=iZG06jqLcWM%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+   "/eauction-photos/f8404e5d74de.jpg",
+   "/eauction-photos/cfec796037ba.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/b61h_30cd2cia73220077k061b5kd635",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7024,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203014,9 +203107,9 @@
   "ref": "425WSX9WR4-001",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6925",
+  "address": "ΤΕΡΑΤΣΩΤΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203026,13 +203119,17 @@
   "priceDisplay": "€13,000 (reserve price)",
   "location": "Amathountas,Akrounta, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=jcK7lW7UAl8%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=jcK7lW7UAl8%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+   "/eauction-photos/f8404e5d74de.jpg",
+   "/eauction-photos/cfec796037ba.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/6aba732c6_5j1d37bj43315cdfaf65bj",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7024,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203044,9 +203141,9 @@
   "ref": "425WSX9WR4-002",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7065",
+  "address": "ΠΕΤΡΟΒΟΥΝΑΡΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203116,13 +203213,17 @@
   "priceDisplay": "€6,000 (reserve price)",
   "location": "Amathountas,Akrounta, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Icnd4fJ1NQA%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=Icnd4fJ1NQA%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+   "/eauction-photos/f8404e5d74de.jpg",
+   "/eauction-photos/cfec796037ba.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/_j713j2a5d2b3a2bb0b204_fb2b45j3g",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7024,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203134,9 +203235,9 @@
   "ref": "425WSX9WR4-005",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8102",
+  "address": "ΤΕΡΑΤΣΟΤΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203146,11 +203247,13 @@
   "priceDisplay": "€13,000 (reserve price)",
   "location": "Amathountas,Akrounta, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=dO%2bkv%2bOKibk%3d&fileId=Q9DWI0z81kE%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=dO%2bkv%2bOKibk%3d&fileId=Q9DWI0z81kE%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/1cdbce322h220bc15k517aaa1c5h62ca",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4683,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203164,9 +203267,9 @@
   "ref": "425WSX9WR4-006",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8280",
+  "address": "ΠΕΤΡΟΒΟΥΝΑΡΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203236,13 +203339,21 @@
   "priceDisplay": "€3,300 (reserve price)",
   "location": "Agios Konstantinos, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qEl2HzTHaeM%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qEl2HzTHaeM%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qEl2HzTHaeM%3d&fileId=YCsZ3np0qh4%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qEl2HzTHaeM%3d&fileId=zG9ullNaJ3E%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=qEl2HzTHaeM%3d&fileId=jHtbEVHicRw%3d&thumb=false",
+   "/eauction-photos/e2dcc4eda6a6.jpg",
+   "/eauction-photos/9d34d70339ea.jpg",
+   "/eauction-photos/ad22b147f78d.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/bi2j4k5_6i40_6345c1kcj0c6i3dbaaj",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7639,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203254,9 +203365,9 @@
   "ref": "6ZGPI4ZSLB-001",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/1540",
+  "address": "ΦΤΕΡΙΤΖΙΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203266,11 +203377,16 @@
   "priceDisplay": "€5,400 (reserve price)",
   "location": "Agios Konstantinos, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=viAJVTvOUgc%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=viAJVTvOUgc%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=viAJVTvOUgc%3d&fileId=YCsZ3np0qh4%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=viAJVTvOUgc%3d&fileId=zG9ullNaJ3E%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=viAJVTvOUgc%3d&fileId=jHtbEVHicRw%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/ag4k0ha5_ca7aeaf7f0_4kc2bd5b53ck",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 13379,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203284,9 +203400,9 @@
   "ref": "6ZGPI4ZSLB-002",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/1541",
+  "address": "ΦΤΕΡΙΤΖΙΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203356,13 +203472,21 @@
   "priceDisplay": "€14,400 (reserve price)",
   "location": "Dora, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=YeECddmxsNY%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=YeECddmxsNY%3d&fileId=faF3TlNoQRc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=YeECddmxsNY%3d&fileId=YCsZ3np0qh4%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=YeECddmxsNY%3d&fileId=zG9ullNaJ3E%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=YeECddmxsNY%3d&fileId=jHtbEVHicRw%3d&thumb=false",
+   "/eauction-photos/e2dcc4eda6a6.jpg",
+   "/eauction-photos/9d34d70339ea.jpg",
+   "/eauction-photos/ad22b147f78d.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/ddbh1f435d4ca07k564416a131_a4i5b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7639,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203374,9 +203498,9 @@
   "ref": "6ZGPI4ZSLB-005",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7712",
+  "address": "ΚΑΘΚΙΑΔΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203386,13 +203510,15 @@
   "priceDisplay": "€8,500 (reserve price)",
   "location": "Pachna, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=adcUyy9STRA%3d&fileId=WIImqeaL6bI%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=adcUyy9STRA%3d&fileId=WIImqeaL6bI%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/5ad1ab6060bb6hd54_04ca4661d1260j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 8362,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203404,9 +203530,9 @@
   "ref": "LTTC5JFZ1G",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/18780",
+  "address": "ΚΑΛΥΒΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203476,13 +203602,17 @@
   "priceDisplay": "€2,600 (reserve price)",
   "location": "Kilani, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=0%2bYC6nBhv1g%3d&fileId=S2bE%2byUT7t8%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=0%2bYC6nBhv1g%3d&fileId=S2bE%2byUT7t8%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=0%2bYC6nBhv1g%3d&fileId=9upPz6U0%2bfw%3d&thumb=false",
+   "/eauction-photos/2f7a4ad4ceaa.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/d57kadded2ag5k53c0163h2b602_17cf",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3011,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Ζ3",
   "beds": null,
   "baths": null,
   "posted": "05/10/2026",
@@ -203494,9 +203624,9 @@
   "ref": "8I8OAKJXBS-003",
   "auctionDate": "20/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/17921",
+  "address": "ΛΕΙΒΑΔΕΡΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203540,7 +203670,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/40c7a0_e407kd30c36c127677f4e3iai",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1394,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203554,9 +203684,9 @@
   "ref": "E1VA2TIGCN-001",
   "auctionDate": "23/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "2/1031",
+  "address": "ΣΥΚΑΜΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203686,13 +203816,15 @@
   "priceDisplay": "€10,200 (reserve price)",
   "location": "Polis Chryssochous,Kritou Tera, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=8tAUP4CmkA0%3d&fileId=k6SccRuwWo0%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=8tAUP4CmkA0%3d&fileId=k6SccRuwWo0%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/b347464d732j0i7hai_h0465bi2g3i13",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7358,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "06/10/2026",
@@ -203704,9 +203836,9 @@
   "ref": "H0VJ60B5DU",
   "auctionDate": "23/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/13244",
+  "address": "ΚΑΛΟΥΛΙΤΖΙ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203716,11 +203848,13 @@
   "priceDisplay": "€11,100 (reserve price)",
   "location": "Lyssos, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=PYAAw4TrxZk%3d&fileId=DyjiI7gmhvc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=PYAAw4TrxZk%3d&fileId=DyjiI7gmhvc%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/d7cbd_770e_j0_1265cdbe17_a0d_33_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9700,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203734,9 +203868,9 @@
   "ref": "AB9H67QZB5",
   "auctionDate": "23/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/10127",
+  "address": "ΜΑΝΤΡΑ ΤΟΥ ΚΑΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203877,7 +204011,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/27c6630k463_4j3g656f4f_611461b_0",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4976,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203891,9 +204025,9 @@
   "ref": "JFUI1MACBO-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11173*",
+  "address": "ΜΑΖΟΥΤΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203907,7 +204041,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/_e744kajdg6_cc6k07404d7ca4a_3b1b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2044,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -203921,9 +204055,9 @@
   "ref": "JFUI1MACBO-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11174",
+  "address": "ΜΑΖΟΥΤΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -203937,10 +204071,10 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/1abd36_c0bbfdf1bc471324k_05041a_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 6689,
   "plotType": "Land",
   "zone": null,
-  "beds": null,
+  "beds": 2,
   "baths": null,
   "posted": "07/10/2026",
   "postedTs": 1791331200000,
@@ -203951,9 +204085,9 @@
   "ref": "DHPTB0YGLD-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "*0/8991",
+  "address": "ΣΠΗΛΙΟΣ ΤΟΥ ΜΑΥΡΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204023,13 +204157,15 @@
   "priceDisplay": "€26,700 (reserve price)",
   "location": "Anarita, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=NxJEdgByDzs%3d&fileId=hI7AFzC0gOc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=NxJEdgByDzs%3d&fileId=hI7AFzC0gOc%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/dec76bad0e4aa21b6j1ad0ci32bb7_d0",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9755,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Δ1",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -204041,9 +204177,9 @@
   "ref": "FPR9LF3ZWC-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "2/58",
+  "address": "ΔΙΠΛΟΧΑΤΟΥΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204053,13 +204189,15 @@
   "priceDisplay": "€26,700 (reserve price)",
   "location": "Anarita, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=U3p7pJwpczE%3d&fileId=hI7AFzC0gOc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=U3p7pJwpczE%3d&fileId=hI7AFzC0gOc%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/_a7bdfb1d6ch_h0i40be3ac_2j737icg",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 9755,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Δ1",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -204071,9 +204209,9 @@
   "ref": "FPR9LF3ZWC-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "2/59",
+  "address": "ΔΙΠΛΟΧΑΤΟΥΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204143,13 +204281,16 @@
   "priceDisplay": "€6,800 (reserve price)",
   "location": "Kallepia, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oHE%2fRpeiUws%3d&fileId=RkMA8lhWcPc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oHE%2fRpeiUws%3d&fileId=RkMA8lhWcPc%3d&thumb=false",
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=oHE%2fRpeiUws%3d&fileId=%2bN%2f%2fJBsl%2bSk%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/45ce0d2c_22265dg40d0111g524k7aa0",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 6355,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ32",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -204161,9 +204302,9 @@
   "ref": "DDWJE16GZ6-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7441",
+  "address": "ΚΑΚΟΣΚΑΛΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204173,11 +204314,13 @@
   "priceDisplay": "€17,100 (reserve price)",
   "location": "Tsada, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=CdZSmGD3dN8%3d&fileId=rLHGokw5fnw%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=CdZSmGD3dN8%3d&fileId=rLHGokw5fnw%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/5k0h732f771b41db_e1531a5c35d_f35",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2007,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204191,9 +204334,9 @@
   "ref": "DQMXLH1RET-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "2833/10000",
+  "registration": "0/13180",
+  "address": "ΚΟΥΡΚΑ – ΤΕΡΑΤΣΟΥΔΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204263,13 +204406,15 @@
   "priceDisplay": "€58,000 (reserve price)",
   "location": "Stroumpi, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=0rEcwe%2bDyt8%3d&fileId=6nom1X25TKA%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=0rEcwe%2bDyt8%3d&fileId=6nom1X25TKA%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/a60a56d4773iaed62ebj4a4h4c0g47ca",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7358,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "09/10/2026",
@@ -204281,9 +204426,9 @@
   "ref": "G8JK6N6X2B",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/9106",
+  "address": "ΚΟΥΚΟΛΙΤΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204293,11 +204438,14 @@
   "priceDisplay": "€8,400 (reserve price)",
   "location": "Malounta, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/c5cdc7f663e5.jpg",
+  "images": [
+   "/eauction-photos/c5cdc7f663e5.jpg",
+   "/eauction-photos/e05447d9285d.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/47155k50c375_c4773b41i363bbk_0a0",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3800,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204311,9 +204459,9 @@
   "ref": "ED0GCVADK8-001",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6839",
+  "address": "ΑΥΡΟΣΙΕΛΛΕΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204327,7 +204475,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5h7h1fa12g4dd40_dcd_ai630kcd5d4c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 744,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204341,9 +204489,9 @@
   "ref": "ED0GCVADK8-002",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6879",
+  "address": "ΤΖΙΛΑΡΟΚΚΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204383,11 +204531,14 @@
   "priceDisplay": "€33,200 (reserve price)",
   "location": "Malounta, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/c5cdc7f663e5.jpg",
+  "images": [
+   "/eauction-photos/c5cdc7f663e5.jpg",
+   "/eauction-photos/e05447d9285d.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/bb6b_g0fda_702a5bg2g2312d5045h72",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3082,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204401,9 +204552,9 @@
   "ref": "ED0GCVADK8-004",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/6909*",
+  "address": "ΚΟΡΤΕΣΙΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204417,7 +204568,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5a_g40076d_d002h71407b5_b53bb2bc",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5920,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204431,9 +204582,9 @@
   "ref": "ZLEPILN5QP",
   "auctionDate": "25/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "5/216",
+  "registration": "0/7422",
+  "address": "ΚΑΘΑΡΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204447,7 +204598,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/2da177db131cd1dbaed1ck_h11b3ci4_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1840,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204461,9 +204612,9 @@
   "ref": "2B1YHCGSQA",
   "auctionDate": "25/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11946",
+  "address": "ΤΣΙΛΑΝΙΟΤΙΣΣΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204533,13 +204684,15 @@
   "priceDisplay": "€4,800 (reserve price)",
   "location": "Akama,Inia, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=KLnotCaOZ1g%3d&fileId=GLi0TqCoJIo%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=KLnotCaOZ1g%3d&fileId=GLi0TqCoJIo%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/__036g0d264a225f0k02c2c713a10j2c",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 11372,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Δα2",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -204551,9 +204704,9 @@
   "ref": "HUMFBQF84H",
   "auctionDate": "25/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/10178",
+  "address": "ΑΒΔΕΛΛΕΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204563,13 +204716,15 @@
   "priceDisplay": "€11,500 (reserve price)",
   "location": "Nata, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=AlS1Ohyb0VE%3d&fileId=A9NDDNsoElc%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=AlS1Ohyb0VE%3d&fileId=A9NDDNsoElc%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/_g7hcb4cb55d60d13ab64b5ic7c01b7h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 7024,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -204581,9 +204736,9 @@
   "ref": "KEL76DQLD7",
   "auctionDate": "25/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/5309",
+  "address": "ΚΑΛΛΙΤΖΙΝΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204657,7 +204812,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7i3h10a333_70d6f40aj5a3f0f5b1b3k",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3819,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204671,9 +204826,9 @@
   "ref": "JL9YAPCX3D-001",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "0/8823",
+  "address": "ΡΟΤΣΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204687,7 +204842,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/156744c625a6ci_h6b56d36j3j2ecc6h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1069,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204701,9 +204856,9 @@
   "ref": "JL9YAPCX3D-002",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8822",
+  "address": "ΠΛΑΤΑΝΟΥΔΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204717,7 +204872,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/1gc_4__a253a0cah74_g26a45a5c40_g",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4188,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204731,9 +204886,9 @@
   "ref": "R8CLKYSL7H",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/3440",
+  "address": "ΣΤΟΙΧΕΙΩΤΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204821,9 +204976,9 @@
   "ref": "ZJ9QRZK815-004",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8189",
+  "address": "ΜΕΣΑ ΣΤΟ ΧΩΡΙΟ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204837,7 +204992,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/6d5ja13e7f125600c_5fae0435164gbb",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 27420,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204851,9 +205006,9 @@
   "ref": "VOXJJGCG5Z",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/90",
+  "registration": "0/5391",
+  "address": "ΑΓ. ΓΕΩΡΓΙΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204867,7 +205022,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/64aj_j666075453ic05_5g_4b0373i7b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 13409,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204881,9 +205036,9 @@
   "ref": "GY1Q0JLAGZ-001",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/10",
+  "registration": "*0/13134",
+  "address": "ΛΑΞΙΔΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204897,7 +205052,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5b30c3b242dd354cda7i0baicj431k7i",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2676,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204911,9 +205066,9 @@
   "ref": "GY1Q0JLAGZ-002",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "**0/1877",
+  "address": "ΛΑΞΙΑ ΟΡΝΙΘΑΡΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204957,7 +205112,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/2j_5d0bg435jbk01641b7f7h7gaidfc_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2342,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -204971,9 +205126,9 @@
   "ref": "GY1Q0JLAGZ-004",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/3603",
+  "address": "ΚΟΛΥΜΠΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -204987,7 +205142,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7k4i7e_4441d47731501c_3_12d6_i33",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4014,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205001,9 +205156,9 @@
   "ref": "GY1Q0JLAGZ-005",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8793",
+  "address": "ΜΟΥΤΤΕΣ ΤΟΥΣ ΑΤΟΥΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205017,7 +205172,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/2j734c0751b71bd14336_b7jb2a14i61",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1162,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205031,9 +205186,9 @@
   "ref": "GY1Q0JLAGZ-006",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/1684",
+  "address": "ΤΡΑΧΩΝΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205047,7 +205202,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/21_e4f5j2c7a1ib2333d3e4e5255aea_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1673,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205061,9 +205216,9 @@
   "ref": "GY1Q0JLAGZ-007",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/3602",
+  "address": "ΚΟΛΥΜΠΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205077,7 +205232,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/1ede3c03a43hc4a215bb4_112bd50h54",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 12710,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205091,9 +205246,9 @@
   "ref": "GY1Q0JLAGZ-008",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "****0/1676",
+  "address": "ΚΟΛΥΜΠΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205107,7 +205262,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/3c__1d13dc2f6277050066c03h3j6i1g",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 957,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205121,9 +205276,9 @@
   "ref": "GY1Q0JLAGZ-009",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "*****0/1411",
+  "address": "ΜΕΡΙΚΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205137,7 +205292,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/_i5g0d_e4j_cah32_b446i3jb47_c326",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 762,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205151,9 +205306,9 @@
   "ref": "GY1Q0JLAGZ-010",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "******0/1412",
+  "address": "ΜΕΡΙΚΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205227,7 +205382,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/a00_6i7k0f614i010b4iaf14_21k1b7i",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 90,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205241,9 +205396,9 @@
   "ref": "66ZMQ06P1K-002",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/10859",
+  "address": "ΠΛΕΥΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205253,11 +205408,13 @@
   "priceDisplay": "€57,200 (reserve price)",
   "location": "Agias Napas,Sotira, Famagusta",
   "district": "Famagusta",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/c72754f66990.jpg",
+  "images": [
+   "/eauction-photos/c72754f66990.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/3fc72gc475a1622_36bf6da45fa05615",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 11815,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205271,9 +205428,9 @@
   "ref": "OUCJHW4IWL-002",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "**0/6493",
+  "address": "ΠΕΡΝΕΡΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205283,11 +205440,13 @@
   "priceDisplay": "€11,300 (reserve price)",
   "location": "Ormidia, Larnaca",
   "district": "Larnaca",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=N8O6SkyDyyc%3d&fileId=YYGNFEVPV5Y%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=N8O6SkyDyyc%3d&fileId=YYGNFEVPV5Y%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/dd0i7_26db0fceb4_ja1d2650_53116f",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2299,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205301,9 +205460,9 @@
   "ref": "B575OMKFKT",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/3",
+  "registration": "0/2840",
+  "address": "ΠΙΤΣΙΛΛΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205373,13 +205532,15 @@
   "priceDisplay": "€1,000 (reserve price)",
   "location": "Mazotos, Larnaca",
   "district": "Larnaca",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=yh5KNPsmUjs%3d&fileId=rpdZKqFK6eA%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=yh5KNPsmUjs%3d&fileId=rpdZKqFK6eA%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/b76b2f0_d2c34734bk74b6b_100i2gb_",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 24,
   "plotType": "Land",
-  "zone": null,
+  "zone": "H4",
   "beds": null,
   "baths": null,
   "posted": "07/10/2026",
@@ -205391,9 +205552,9 @@
   "ref": "NFFZ48A9NO",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/7961",
+  "address": "ΑΓΙΟΣ ΞΟΡΙΝΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205403,11 +205564,13 @@
   "priceDisplay": "€10,000 (reserve price)",
   "location": "Vassa Kilaniou, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/aba25041ceab.jpg",
+  "images": [
+   "/eauction-photos/aba25041ceab.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/0j1h6g411d0a66a427505b21d1_ed_aj",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 8362,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205421,9 +205584,9 @@
   "ref": "F1S06C19R9-001",
   "auctionDate": "26/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8114",
+  "address": "ΚΟΙΛΙΑΡΟΥΕΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205497,7 +205660,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/13_a2c1d1f5gd4d36hd0d15057624i7b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 21405,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205511,9 +205674,9 @@
   "ref": "RJSSN7UPJ8",
   "auctionDate": "30/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/18983",
+  "address": "ΜΑΝΤΡΑ ΤΟΥ ΜΕΤΤΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205593,7 +205756,7 @@
   "image": null,
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/7g_i27175_b6bk7f430_6b212d0faicg",
-  "houseSqm": null,
+  "houseSqm": 56,
   "plotSqm": null,
   "plotType": "Land",
   "zone": null,
@@ -205608,9 +205771,9 @@
   "ref": "LE9MAPN6UJ-002",
   "auctionDate": "02/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/10",
+  "registration": "0/20946",
+  "address": "ΤΖΟΙΛΑΟΣ ΤΟΥ ΣΤΕΦΑΝΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205653,27 +205816,38 @@
   "priceDisplay": "€760 (reserve price)",
   "location": "Pelendri, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/5089c69a3988.jpg",
+  "images": [
+   "/eauction-photos/5089c69a3988.jpg",
+   "/eauction-photos/5af9afba260b.jpg",
+   "/eauction-photos/2c7bf446ee43.jpg",
+   "/eauction-photos/b79e36220117.jpg",
+   "/eauction-photos/188200a1e39f.jpg",
+   "/eauction-photos/76882e111bcd.jpg",
+   "/eauction-photos/6f1670060404.jpg",
+   "/eauction-photos/e0cbbd5aaeb3.jpg",
+   "/eauction-photos/7f315a2eb7a9.jpg",
+   "/eauction-photos/99b9a0fd9cf1.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/b67iab6e1i0c4e_d0244505d_76d1524",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 351,
   "plotType": "Land",
   "zone": null,
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
-  "buildYear": null,
+  "buildYear": 1936,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "4ZA34A1P7N-001",
   "auctionDate": "07/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "3/8",
+  "registration": "0/11792",
+  "address": "ΕΓΚΛΙΣΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205743,27 +205917,40 @@
   "priceDisplay": "€3,060 (reserve price)",
   "location": "Pelendri, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/5089c69a3988.jpg",
+  "images": [
+   "/eauction-photos/5089c69a3988.jpg",
+   "/eauction-photos/5af9afba260b.jpg",
+   "/eauction-photos/2c7bf446ee43.jpg",
+   "/eauction-photos/b79e36220117.jpg",
+   "/eauction-photos/188200a1e39f.jpg",
+   "/eauction-photos/76882e111bcd.jpg",
+   "/eauction-photos/6f1670060404.jpg",
+   "/eauction-photos/e0cbbd5aaeb3.jpg",
+   "/eauction-photos/7f315a2eb7a9.jpg",
+   "/eauction-photos/99b9a0fd9cf1.jpg",
+   "/eauction-photos/7147edc87c5e.jpg",
+   "/eauction-photos/2bf6873eda2c.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/_7b2de770fajb0ba734j42bb712da714",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4348,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
-  "buildYear": null,
+  "buildYear": 1936,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "4ZA34A1P7N-005",
   "auctionDate": "07/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/4",
+  "registration": "0/11857",
+  "address": "ΚΟΥΤΣΟΥΛΛΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205773,27 +205960,38 @@
   "priceDisplay": "€3,060 (reserve price)",
   "location": "Pelendri, Limassol",
   "district": "Limassol",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/5089c69a3988.jpg",
+  "images": [
+   "/eauction-photos/5089c69a3988.jpg",
+   "/eauction-photos/5af9afba260b.jpg",
+   "/eauction-photos/2c7bf446ee43.jpg",
+   "/eauction-photos/b79e36220117.jpg",
+   "/eauction-photos/188200a1e39f.jpg",
+   "/eauction-photos/76882e111bcd.jpg",
+   "/eauction-photos/6f1670060404.jpg",
+   "/eauction-photos/e0cbbd5aaeb3.jpg",
+   "/eauction-photos/7f315a2eb7a9.jpg",
+   "/eauction-photos/99b9a0fd9cf1.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/ae6275714e67221haabk0fag0ec_0gd0",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 4348,
   "plotType": "Land",
   "zone": null,
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
-  "buildYear": null,
+  "buildYear": 1936,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "4ZA34A1P7N-006",
   "auctionDate": "07/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/4",
+  "registration": "0/11856",
+  "address": "ΚΟΥΡΚΟΥΤΑΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205893,11 +206091,14 @@
   "priceDisplay": "€5,250 (reserve price)",
   "location": "Palechori Morfou, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/79d1796afbb2.jpg",
+  "images": [
+   "/eauction-photos/79d1796afbb2.jpg",
+   "/eauction-photos/ec7ea7ab1b01.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/afc12g0ddf6_3eb0c017022g74cb350f",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5352,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205911,9 +206112,9 @@
   "ref": "I2WFLLKRKB-001",
   "auctionDate": "11/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/6794",
+  "address": "ΑΠΠΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -205923,11 +206124,14 @@
   "priceDisplay": "€2,150 (reserve price)",
   "location": "Palechori Morfou, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "/eauction-photos/79d1796afbb2.jpg",
+  "images": [
+   "/eauction-photos/79d1796afbb2.jpg",
+   "/eauction-photos/ec7ea7ab1b01.jpg"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/a565_f321gd1_2310hck7b_67_21cc_b",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2267,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -205941,9 +206145,9 @@
   "ref": "I2WFLLKRKB-002",
   "auctionDate": "11/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8191",
+  "address": "ΑΠΠΗΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -206023,7 +206227,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/bf44bj6d4a34cf707f2g14141c4hda6h",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1283,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -206037,9 +206241,9 @@
   "ref": "I2WFLLKRKB-005",
   "auctionDate": "11/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11456",
+  "address": "ΠΛΑΤΑΝΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -206113,9 +206317,9 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/147d046c0f6_6f7g4d1f_1c65j1dde11",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5017,
   "plotType": "Land",
-  "zone": null,
+  "zone": "Γ3",
   "beds": null,
   "baths": null,
   "posted": "28/09/2026",
@@ -206127,9 +206331,9 @@
   "ref": "MEAJF2D709",
   "auctionDate": "14/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/2",
+  "registration": "0/13487",
+  "address": "ΛΙΜΝΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -206205,7 +206409,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/_gcf5_3f_5dd1jc11bdea35_2_7ab56f",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 10368,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -206219,9 +206423,9 @@
   "ref": "6EAS9KL9FY-001",
   "auctionDate": "21/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/5531",
+  "address": "ΣΥΜΙΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -206295,7 +206499,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/1h517k5b76541e_h1f_3206220b525a6",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 5352,
   "plotType": "Land",
   "zone": null,
   "beds": null,
@@ -206309,9 +206513,9 @@
   "ref": "MCVY9N5TP0",
   "auctionDate": "29/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/4",
+  "registration": "0/3081",
+  "address": "ΒΟΥΛΟΤΗ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207053,27 +207257,29 @@
   "priceDisplay": "€290,700 (reserve price)",
   "location": "Agias Napas,Agia Napa, Famagusta",
   "district": "Famagusta",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=TmFiVrdLiA8%3d&fileId=cLvJDy%2bodPI%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=TmFiVrdLiA8%3d&fileId=cLvJDy%2bodPI%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/772j07d44a055a4hdfac1b72b_107a67",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 528,
   "plotType": "Land with building",
-  "zone": null,
-  "beds": null,
+  "zone": "ΚΓΥ1",
+  "beds": 1,
   "baths": null,
   "posted": "28/09/2026",
   "postedTs": 1790553600000,
-  "buildYear": null,
+  "buildYear": 1981,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "PFUKCNUZUG",
   "auctionDate": "13/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "1/286",
+  "address": "ΑΡΚΑΜΠΕΛΟ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207147,7 +207353,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/af5g354j07170g6e75ckcd671e56ci7j",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3679,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207161,9 +207367,9 @@
   "ref": "TJCKABOILT",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/6",
+  "registration": "0/30584",
+  "address": "ΑΥΛΑΚΙΝ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207177,7 +207383,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/_53a1_7g14c66636_bb6ai2f167kch63",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1080,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207191,9 +207397,9 @@
   "ref": "TA2JCVSU83",
   "auctionDate": "17/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "34/175",
+  "registration": "33/142",
+  "address": "ΑΓΙΑΣ ΛΑΥΡΑΣ 5"
  },
  {
   "source": "eAuction Cyprus",
@@ -207239,11 +207445,13 @@
   "priceDisplay": "€21,500 (reserve price)",
   "location": "Akama,Pegia, Paphos",
   "district": "Paphos",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=OTIi%2b6%2feoE4%3d&fileId=phN%2fNhlnEZM%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=OTIi%2b6%2feoE4%3d&fileId=phN%2fNhlnEZM%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/_10cd134c7261g__0jbkbdd_d2d_d0d3",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 2455,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207257,9 +207465,9 @@
   "ref": "64BOH3055B",
   "auctionDate": "23/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/28",
+  "registration": "0/47704",
+  "address": "ΚΟΤΣΙΗΝΟΓΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207407,7 +207615,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/0_1c75102d666d4d_j4a125d066e47ae",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3499,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207421,9 +207629,9 @@
   "ref": "PQC3H63WIK",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "3/14",
+  "registration": "0/13845",
+  "address": "ΣΠΗΛΙΟΣ ΔΙΑΚΟΥ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207437,7 +207645,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/dd_c1d666iak1b736573d07i5b7b1fd2",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 539,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207451,9 +207659,9 @@
   "ref": "4V8KY4I5PO",
   "auctionDate": "24/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/8665",
+  "address": "ΚΑΥΚΑΛΛΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207463,14 +207671,16 @@
   "priceDisplay": "€259,200 (reserve price)",
   "location": "Evrychou, Nicosia",
   "district": "Nicosia",
-  "image": null,
-  "images": null,
+  "image": "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=dQdifTQ3frU%3d&fileId=mhweJPFmu6c%3d&thumb=false",
+  "images": [
+   "https://www.eauction-cy.com/Auction/GetAuctionImage?auctionId=dQdifTQ3frU%3d&fileId=mhweJPFmu6c%3d&thumb=false"
+  ],
   "link": "https://www.eauction-cy.com/en/Auction/Details/11__3fd_a35jciba3f_3ah6a340f5j4j",
-  "houseSqm": null,
-  "plotSqm": null,
+  "houseSqm": 461,
+  "plotSqm": 1087,
   "plotType": "Land with building",
-  "zone": null,
-  "beds": null,
+  "zone": "Γ3",
+  "beds": 4,
   "baths": null,
   "posted": "09/10/2026",
   "postedTs": 1791504000000,
@@ -207481,9 +207691,9 @@
   "ref": "QDLPQM2EYW",
   "auctionDate": "25/11/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/9971",
+  "address": "ΑΡΑΚΛΑΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207557,7 +207767,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/5i5h654122c2ak7k41_61g411i265_ch",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 1571,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207571,9 +207781,9 @@
   "ref": "HGTT10G06Z",
   "auctionDate": "03/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "13/441*",
+  "address": "ΚΑΚΟΣΚΑΛΙΑ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207587,7 +207797,7 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/3acb_g4kaf0f5427c00h44a65h_0bhc1",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 3679,
   "plotType": "Land with building",
   "zone": null,
   "beds": null,
@@ -207601,9 +207811,9 @@
   "ref": "ODFZPC71H0-002",
   "auctionDate": "11/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/10286",
+  "address": "ΚΑΜΠΟΣ"
  },
  {
   "source": "eAuction Cyprus",
@@ -207617,23 +207827,23 @@
   "images": null,
   "link": "https://www.eauction-cy.com/en/Auction/Details/0036ad2kck2j45af76a1a70a373_b356",
   "houseSqm": null,
-  "plotSqm": null,
+  "plotSqm": 428,
   "plotType": "Land with building",
   "zone": null,
-  "beds": null,
-  "baths": null,
+  "beds": 3,
+  "baths": 1,
   "posted": "08/10/2026",
   "postedTs": 1791417600000,
-  "buildYear": null,
+  "buildYear": 1986,
   "lat": null,
   "lng": null,
   "geoZoom": null,
   "ref": "BN84QCDV6N",
   "auctionDate": "14/12/2026",
   "status": "Posted",
-  "share": null,
-  "registration": null,
-  "address": null
+  "share": "1/1",
+  "registration": "0/11115",
+  "address": "ΚΟΝΤΑ ΣΤΟ ΧΩΡΙΟ"
  },
  {
   "source": "eAuction Cyprus",
