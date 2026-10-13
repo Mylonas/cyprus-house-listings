@@ -244600,6 +244600,30 @@
  },
  {
   "source": "Cyprus Properties",
+  "title": "Field in Latsia, Nicosia",
+  "price": 800000,
+  "priceDisplay": "€800,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/28226/65bf48d76980f.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:8ff481ee/28226/65bf48d76980f.jpg/thumb"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/28226",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28226",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1600,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
   "title": "10% Building Density Agricultural Field in Skarinou, Larnaca",
   "price": 150000,
   "priceDisplay": "€150,000",
