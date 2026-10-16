@@ -253256,29 +253256,5 @@
   "plotSqm": 506,
   "plotType": null,
   "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Field For Sale in Ypsonas, Limassol",
-  "price": 5000000,
-  "priceDisplay": "€5,000,000",
-  "location": "Limassol, Zakaki",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/43957/65c12a6930468.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/43957/65c12a6930468.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-43549/shared-residential-field-in-tsada-paphos",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43549",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 100000,
-  "plotType": null,
-  "zone": null
  }
 ]
