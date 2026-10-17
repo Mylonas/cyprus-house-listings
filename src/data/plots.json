@@ -253363,30 +253363,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Corner Plot for Sale in Tseri, Nicosia",
-  "price": 107000,
-  "priceDisplay": "€107,000",
-  "location": "Nicosia, Tseri",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/54764/67a604e04e1af.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/54764/67a604e04e1af.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-54763/plot-for-sale-in-tseri-nicosia",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "54763",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 555,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Residential plot for sale in Pyrga, Larnaca-Cyprus",
   "price": 90000,
   "priceDisplay": "€90,000",
@@ -253841,25 +253817,25 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Residential field in Pera Orinis village in Nicosia District",
-  "price": 203000,
-  "priceDisplay": "€203,000",
-  "location": "Nicosia, Pera Oreinis",
+  "title": "Residential Field in a quiet residential area in Analiontas village in the District of Nicosia",
+  "price": 176000,
+  "priceDisplay": "€176,000",
+  "location": "Nicosia, Analiontas",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/50476/65c144236b91d.jpg/thumb",
+  "image": "https://estbd.io/1:1e4b4ca5/50521/65c14468b2de8.jpg/thumb",
   "images": [
-   "https://estbd.io/1:1e4b4ca5/50476/65c144236b91d.jpg/thumb"
+   "https://estbd.io/1:1e4b4ca5/50521/65c14468b2de8.jpg/thumb"
   ],
-  "link": "https://nchrealestate.com/property-50195/excellent-residential-plot-for-sale-in-a-prime-location-in-agios-dimitrios-in-strovolos",
+  "link": "https://nchrealestate.com/property-50476/residential-field-in-pera-orinis-village-in-nicosia-district",
   "beds": null,
   "baths": null,
   "posted": null,
   "postedTs": null,
   "buildYear": null,
-  "ref": "50195",
+  "ref": "50476",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 11966,
+  "plotSqm": 7024,
   "plotType": null,
   "zone": null
  },
@@ -254129,6 +254105,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Residential Plot for sale in Parissinos, Egkomi-Nicosia",
+  "price": 450000,
+  "priceDisplay": "€450,000",
+  "location": "Nicosia, Engomi",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/47873/65c13770c4f35.jpg/thumb",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/47873/65c13770c4f35.jpg/thumb"
+  ],
+  "link": "https://nchrealestate.com/property-47607/residential-plot-in-for-sale-in-nea-ledras-in-nicosia-cyprus",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "47607",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 667,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Residential plot in for sale in Nea Ledras in Nicosia - Cyprus",
   "price": 124000,
   "priceDisplay": "€124,000",
@@ -254292,30 +254292,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 3668,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Residential plot for sale in Kalithea, Nicosia.",
-  "price": 130000,
-  "priceDisplay": "€130,000",
-  "location": "Nicosia, Dali",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/44063/65c12acada22d.jpg/thumb",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/44063/65c12acada22d.jpg/thumb"
-  ],
-  "link": "https://nchrealestate.com/property-43957/field-for-sale-in-ypsonas-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43957",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 506,
   "plotType": null,
   "zone": null
  }
