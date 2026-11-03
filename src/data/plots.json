@@ -214125,18 +214125,18 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Under Division Residential Plot in Pano Deftera",
-  "price": null,
-  "priceDisplay": null,
+  "title": "Residential Plot in Pano Deftera, Nicosia",
+  "price": 114400,
+  "priceDisplay": "€114,400",
   "location": "Nicosia, Deftera Pano",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/17567/thumb/69b3e0e0c9d2c.jpg",
+  "image": "https://estbd.io/1:3cc426e5/17567/thumb/6ae9f685e5da8.jpg",
   "images": [
-   "https://estbd.io/1:3cc426e5/17567/thumb/69b3e0e0c9d2c.jpg"
+   "https://estbd.io/1:3cc426e5/17567/thumb/6ae9f685e5da8.jpg"
   ],
-  "link": "https://kadis.com.cy/property-17567/under-division-residential-plot-in-pano-deftera",
+  "link": "https://kadis.com.cy/property-17567/residential-plot-in-pano-deftera-nicosia",
   "houseSqm": null,
-  "plotSqm": 566,
+  "plotSqm": 572,
   "plotType": "Residential",
   "zone": null,
   "beds": null,
@@ -232832,8 +232832,8 @@
  {
   "source": "Cyprus Properties",
   "title": "Residential plot 276sq.m for sale in Agios Dometios",
-  "price": 100000,
-  "priceDisplay": "€100,000",
+  "price": 95000,
+  "priceDisplay": "€95,000",
   "location": "Cyprus",
   "district": null,
   "image": "https://estbd.io/1:8ff481ee/41786/thumb/6a1edbce95904.jpg",
