@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Land in Dali, Nicosia",
+  "price": 495000,
+  "priceDisplay": "€495,000",
+  "location": "Nicosia, Dali",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/22701/thumb/6ae9c2477f77b.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22701/thumb/6ae9c2477f77b.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22701/residential-land-in-dali-nicosia",
+  "houseSqm": null,
+  "plotSqm": 7321,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22701"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Pano Deftera, Nicosia",
   "price": 112000,
   "priceDisplay": "€112,000",
