@@ -212974,30 +212974,6 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Commercial Land in Alambra close to OSEA",
-  "price": 100000,
-  "priceDisplay": "€100,000",
-  "location": "Nicosia, Alampra",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/19175/thumb/6a141ab03e096.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/19175/thumb/6a141ab03e096.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-19175/commercial-land-in-alambra-close-to-osea",
-  "houseSqm": null,
-  "plotSqm": 434,
-  "plotType": "Commercial",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "19175"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
   "title": "Residential Plot in Stavrou, Strovolos",
   "price": null,
   "priceDisplay": null,
@@ -220085,6 +220061,30 @@
   "ref": "10898"
  },
  {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Land in Ypsonas, Limassol",
+  "price": 1200000,
+  "priceDisplay": "€1,200,000",
+  "location": "Limassol, Ypsonas",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/10828/thumb/67d3ee790626a.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/10828/thumb/67d3ee790626a.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-10828/residential-land-in-ypsonas-limassol",
+  "houseSqm": null,
+  "plotSqm": 3589,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "10828"
+ },
+ {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -227094,6 +227094,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Agricultural Field in Foinikaria",
+  "price": 380000,
+  "priceDisplay": "€380,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33356/thumb/6aec6173061fe.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33356/thumb/6aec6173061fe.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-agricultural-field-in-foinikaria-33356",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33356",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6355,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Investment Land for Sale in Kato Polemidia Area (Landlocked)",
   "price": 380000,
   "priceDisplay": "€380,000",
@@ -229706,6 +229730,30 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Two Adjacent Agricultural Fields in Evrychou",
+  "price": 150000,
+  "priceDisplay": "€150,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/43725/thumb/6aec5a77c39dd.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43725/thumb/6aec5a77c39dd.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43725",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43725",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6542,
+  "plotType": "Agricultural",
   "zone": null
  },
  {
@@ -254762,30 +254810,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Plot For Sale in Mouttagiaka, Limassol",
-  "price": 2500000,
-  "priceDisplay": "€2,500,000",
-  "location": "Limassol, Mouttagiaka",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/51162/thumb/668be054964b6.jpg",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/51162/thumb/668be054964b6.jpg"
-  ],
-  "link": "https://nchrealestate.com/property-52870/a-residential-plot-with-a-total-area-of-653-sqm-in-stovolos-nicosia",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "52870",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5815,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "A residential plot with a total area of 653 sqm in Stovolos, Nicosia",
   "price": 262000,
   "priceDisplay": "€262,000",
@@ -255267,24 +255291,24 @@
  {
   "source": "NCH Real Estate",
   "title": "Plot For Sale in Agios Theodoros, Larnaka",
-  "price": 350000,
-  "priceDisplay": "€350,000",
+  "price": 325000,
+  "priceDisplay": "€325,000",
   "location": "Larnaca, Agios Theodoros",
   "district": "Larnaca",
-  "image": "https://estbd.io/1:1e4b4ca5/48263/thumb/65c13a2f2ff29.jpg",
+  "image": "https://estbd.io/1:1e4b4ca5/48262/thumb/65c13a2ee4a47.jpg",
   "images": [
-   "https://estbd.io/1:1e4b4ca5/48263/thumb/65c13a2f2ff29.jpg"
+   "https://estbd.io/1:1e4b4ca5/48262/thumb/65c13a2ee4a47.jpg"
   ],
-  "link": "https://nchrealestate.com/property-48188/plot-for-sale-in-carolina-park-nicosia",
+  "link": "https://nchrealestate.com/property-48263/plot-for-sale-in-agios-theodoros-larnaka",
   "beds": null,
   "baths": null,
   "posted": null,
   "postedTs": null,
   "buildYear": null,
-  "ref": "48188",
+  "ref": "48263",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 1219,
+  "plotSqm": 1059,
   "plotType": null,
   "zone": null
  },
@@ -255410,25 +255434,25 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Agricultural field for sale in Lympia, Nicosia.",
-  "price": 26000,
-  "priceDisplay": "€26,000",
-  "location": "Nicosia, Lympia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/44478/thumb/65c12c1308b7d.jpg",
+  "title": "Residential Land in Mesogi, Paphos-Cyprus",
+  "price": 2000000,
+  "priceDisplay": "€2,000,000",
+  "location": "Paphos, Mesogi",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:1e4b4ca5/44511/thumb/65c12c32aded8.jpg",
   "images": [
-   "https://estbd.io/1:1e4b4ca5/44478/thumb/65c12c1308b7d.jpg"
+   "https://estbd.io/1:1e4b4ca5/44511/thumb/65c12c32aded8.jpg"
   ],
-  "link": "https://nchrealestate.com/property-44380/residential-field-for-sale-in-palaiometocho-nicosia",
+  "link": "https://nchrealestate.com/property-44478/agricultural-field-for-sale-in-lympia-nicosia",
   "beds": null,
   "baths": null,
   "posted": null,
   "postedTs": null,
   "buildYear": null,
-  "ref": "44380",
+  "ref": "44478",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 13044,
+  "plotSqm": 16890,
   "plotType": null,
   "zone": null
  },
