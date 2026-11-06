@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot In Dali-Kallithea",
+  "price": 63000,
+  "priceDisplay": "€63,000",
+  "location": "Nicosia, Kalithea / Carlsberg",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/1071/thumb/65c234090cc79.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/1071/thumb/65c234090cc79.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-1071/residential-plot-in-dali-kallithea",
+  "houseSqm": null,
+  "plotSqm": 257,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "1071"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land in Dali, Nicosia",
   "price": 495000,
   "priceDisplay": "€495,000",
@@ -220061,30 +220085,6 @@
   "ref": "10898"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Land in Ypsonas, Limassol",
-  "price": 1200000,
-  "priceDisplay": "€1,200,000",
-  "location": "Limassol, Ypsonas",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:3cc426e5/10828/thumb/67d3ee790626a.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10828/thumb/67d3ee790626a.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-10828/residential-land-in-ypsonas-limassol",
-  "houseSqm": null,
-  "plotSqm": 3589,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10828"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -228846,6 +228846,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Development Land for Sale in Polemidia Kato",
+  "price": 2500000,
+  "priceDisplay": "€2,500,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/27788/thumb/68beec29c8667.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/27788/thumb/68beec29c8667.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-polemidia-kato-27788",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "27788",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8400,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Development Land for Sale in Agios Ioannis",
   "price": 2000,
   "priceDisplay": "€2,000",
@@ -229729,6 +229753,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 55854,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "60% Building Density Residential Building Plot in Pyla, Larnaca",
+  "price": 300000,
+  "priceDisplay": "€300,000",
+  "location": "Cyprus",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:8ff481ee/43732/thumb/6aed7a79212b9.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43732/thumb/6aed7a79212b9.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43732",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43732",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1445,
   "plotType": "Residential",
   "zone": null
  },
