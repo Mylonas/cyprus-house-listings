@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Commercial Plot in Lakatamia",
+  "price": 285000,
+  "priceDisplay": "€285,000",
+  "location": "Lakatameia, Lakatameia - Agia Paraskevi",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/22761/thumb/6af1abd95f865.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22761/thumb/6af1abd95f865.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22761/commercial-plot-in-lakatamia",
+  "houseSqm": null,
+  "plotSqm": 251,
+  "plotType": "Commercial",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22761"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot In Dali-Kallithea",
   "price": 63000,
   "priceDisplay": "€63,000",
@@ -220035,54 +220059,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "10071"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Land in Lakatamia, Nicosia",
-  "price": null,
-  "priceDisplay": null,
-  "location": "Lakatameia, Lakatameia - Agia Paraskevi",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10675/thumb/67c1cdeb2c8dd.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10675/thumb/67c1cdeb2c8dd.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-10675/residential-land-in-lakatamia-nicosia",
-  "houseSqm": null,
-  "plotSqm": 3679,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10675"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Land in Nisou",
-  "price": 175000,
-  "priceDisplay": "€175,000",
-  "location": "Nicosia, Pera Chorio / Nisou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10898/thumb/67d2aca484e7a.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10898/thumb/67d2aca484e7a.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-10898/land-in-nisou",
-  "houseSqm": null,
-  "plotSqm": 5918,
-  "plotType": null,
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10898"
  },
  {
   "source": "Kazo Real Estate",
