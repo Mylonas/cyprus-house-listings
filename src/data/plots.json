@@ -220061,6 +220061,30 @@
   "ref": "10071"
  },
  {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Land in Lakatamia, Nicosia",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Lakatameia, Lakatameia - Agia Paraskevi",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/10675/thumb/67c1cdeb2c8dd.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/10675/thumb/67c1cdeb2c8dd.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-10675/residential-land-in-lakatamia-nicosia",
+  "houseSqm": null,
+  "plotSqm": 3679,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "10675"
+ },
+ {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
