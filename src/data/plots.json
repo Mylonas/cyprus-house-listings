@@ -224791,6 +224791,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Expansive Agricultural Field in Apesia",
+  "price": 95000,
+  "priceDisplay": "€95,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/expansive-agricultural-field-in-apesia-32968",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32968",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 17052,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Two Adjacent fields in Kakopetria, Nicosia",
   "price": 95000,
   "priceDisplay": "€95,000",
@@ -225170,30 +225194,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 13639,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Expansive Agricultural Field in Apesia",
-  "price": 115000,
-  "priceDisplay": "€115,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/expansive-agricultural-field-in-apesia-32968",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32968",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 17052,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -229754,6 +229754,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 55854,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Residential & Commercial Property with Development Potential in Tseri",
+  "price": 960000,
+  "priceDisplay": "€960,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/43765/thumb/6af486ce61974.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43765/thumb/6af486ce61974.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43765",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43765",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3429,
   "plotType": "Residential",
   "zone": null
  },
@@ -236448,30 +236472,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 25754,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Frenaros, Famagusta",
-  "price": 141000,
-  "priceDisplay": "€141,000",
-  "location": "Cyprus",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:8ff481ee/39772/thumb/694c752469f7c.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/39772/thumb/694c752469f7c.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/39772",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "39772",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 5676,
   "plotType": null,
   "zone": null
  },
