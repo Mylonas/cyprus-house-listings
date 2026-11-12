@@ -210084,9 +210084,33 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot in Dali/Potamia",
+  "price": 85000,
+  "priceDisplay": "€85,000",
+  "location": "Nicosia, Dali / Potamia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/22860/thumb/6af57848a50b6.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22860/thumb/6af57848a50b6.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22860/residential-plot-in-dalipotamia",
+  "houseSqm": null,
+  "plotSqm": 753,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22860"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Dali, Nicosia",
-  "price": 225000,
-  "priceDisplay": "€225,000",
+  "price": null,
+  "priceDisplay": null,
   "location": "Nicosia, Dali",
   "district": "Nicosia",
   "image": "https://estbd.io/1:3cc426e5/22851/thumb/6af44cf095548.jpg",
@@ -212851,6 +212875,34 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "19579"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot with plans for house in Souni-Zanakia, Limassol",
+  "price": 195000,
+  "priceDisplay": "€195,000",
+  "location": "Limassol, Souni-Zanakia",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/19536/thumb/6a29109e01b46.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/19536/thumb/6a29109e01b46.jpg",
+   "https://estbd.io/1:3cc426e5/19536/thumb/6a2910dbbe04c.jpg",
+   "https://estbd.io/1:3cc426e5/19536/thumb/6a2910dbcc6b0.jpg",
+   "https://estbd.io/1:3cc426e5/19536/thumb/6a2910dbc728d.jpg",
+   "https://estbd.io/1:3cc426e5/19536/thumb/6a2910dbc9ac1.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-19536/residential-plot-with-plans-for-house-in-souni-zanakia-limassol",
+  "houseSqm": null,
+  "plotSqm": 754,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "19536"
  },
  {
   "source": "Kadis Estates",
@@ -220060,54 +220112,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "11075"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Agricultural Land in Paliometocho",
-  "price": 113000,
-  "priceDisplay": "€113,000",
-  "location": "Nicosia, Paliometocho",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11036/thumb/67dad739f0a4e.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11036/thumb/67dad739f0a4e.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11036/agricultural-land-in-paliometocho",
-  "houseSqm": null,
-  "plotSqm": 13358,
-  "plotType": "Agricultural",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11036"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Field in Tseri, Nicosia",
-  "price": 235000,
-  "priceDisplay": "€235,000",
-  "location": "Nicosia, Tseri",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/10071/thumb/67c073c5b4154.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/10071/thumb/67c073c5b4154.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-10071/residential-field-in-tseri-nicosia",
-  "houseSqm": null,
-  "plotSqm": 1989,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "10071"
  },
  {
   "source": "Kazo Real Estate",
@@ -228679,30 +228683,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "3,897 m² Field in Ypsonas with City Views",
-  "price": 2000000,
-  "priceDisplay": "€2,000,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/32080/thumb/6a7b807438c02.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/32080/thumb/6a7b807438c02.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/3897-m%C2%B2-field-in-ypsonas-with-city-views-32080",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32080",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3897,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large Field for Sale in Agia Fyla Lefkothea (Landlocked)",
   "price": 2000000,
   "priceDisplay": "€2,000,000",
@@ -228915,6 +228895,30 @@
   "houseSqm": null,
   "plotSqm": 55185,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Development Land for Sale in Agia Zoni",
+  "price": 2800000,
+  "priceDisplay": "€2,800,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/28061/thumb/6af57213d41bc.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/28061/thumb/6af57213d41bc.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-agia-zoni-28061",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28061",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 898,
+  "plotType": null,
   "zone": null
  },
  {
@@ -229251,30 +229255,6 @@
   "houseSqm": null,
   "plotSqm": 11706,
   "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "8,000 m² Development Land in Ypsonas",
-  "price": 3800000,
-  "priceDisplay": "€3,800,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/32762/thumb/6a902c258db66.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/32762/thumb/6a902c258db66.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/8000-m%C2%B2-development-land-in-ypsonas-32762",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "32762",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 8000,
-  "plotType": null,
   "zone": null
  },
  {
@@ -229755,6 +229735,30 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Field - Geri, Nicosia",
+  "price": 60000,
+  "priceDisplay": "€60,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/43775/thumb/6af4a2b9f3745.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43775/thumb/6af4a2b9f3745.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43775",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43775",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4051,
+  "plotType": null,
   "zone": null
  },
  {
@@ -254184,6 +254188,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 14047,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Plot For Sale in Lakatamia, Nicosia",
+  "price": 145000,
+  "priceDisplay": "€145,000",
+  "location": "Nicosia, Lakatamia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/57180/thumb/693012f89dd62.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/57180/thumb/693012f89dd62.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-57171/half-plot-for-sale-in-american-heart-hospital-strovolos-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "57171",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 700,
   "plotType": null,
   "zone": null
  },
