@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Industrial Land in Dali, Nicosia",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Nicosia, Dali",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/22868/thumb/6af5902eb261c.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22868/thumb/6af5902eb261c.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22868/industrial-land-in-dali-nicosia",
+  "houseSqm": null,
+  "plotSqm": 4896,
+  "plotType": "Industrial",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22868"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Dali/Potamia",
   "price": 85000,
   "priceDisplay": "€85,000",
@@ -216158,30 +216182,6 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Residential Land in Pera Chorio/Nisou",
-  "price": 145000,
-  "priceDisplay": "€145,000",
-  "location": "Nicosia, Pera Chorio / Nisou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/12255/thumb/683ea8421e6d1.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/12255/thumb/683ea8421e6d1.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-12255/residential-land-in-pera-chorionisou",
-  "houseSqm": null,
-  "plotSqm": 1468,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "12255"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
   "title": "Residential Plot in Carlsberg-Kallithea",
   "price": 137000,
   "priceDisplay": "€137,000",
@@ -220088,30 +220088,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "11074"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Land in Dali",
-  "price": 148000,
-  "priceDisplay": "€148,000",
-  "location": "Nicosia, Dali",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11075/thumb/67dd127540644.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11075/thumb/67dd127540644.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11075/residential-land-in-dali",
-  "houseSqm": null,
-  "plotSqm": 2509,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11075"
  },
  {
   "source": "Kazo Real Estate",
@@ -228683,6 +228659,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "3,897 m² Field in Ypsonas with City Views",
+  "price": 2000000,
+  "priceDisplay": "€2,000,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/32080/thumb/6a7b807438c02.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/32080/thumb/6a7b807438c02.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/3897-m%C2%B2-field-in-ypsonas-with-city-views-32080",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32080",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3897,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Field for Sale in Agia Fyla Lefkothea (Landlocked)",
   "price": 2000000,
   "priceDisplay": "€2,000,000",
@@ -229259,6 +229259,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "8,000 m² Development Land in Ypsonas",
+  "price": 3800000,
+  "priceDisplay": "€3,800,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/32762/thumb/6a902c258db66.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/32762/thumb/6a902c258db66.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/8000-m%C2%B2-development-land-in-ypsonas-32762",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "32762",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8000,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "For Sale Large Sea View Plot in Mesa Geitonia",
   "price": 3800000,
   "priceDisplay": "€3,800,000",
@@ -229331,30 +229355,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Large City Center Plot with Sea View for Sale",
-  "price": 4000000,
-  "priceDisplay": "€4,000,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/29037/thumb/69e25a6116c1a.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/29037/thumb/69e25a6116c1a.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/large-city-center-plot-with-sea-view-for-sale-29037",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "29037",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 1433,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Large 87627m2 Field for Sale in Palodeia (Landlocked)",
   "price": 4350000,
   "priceDisplay": "€4,350,000",
@@ -229423,6 +229423,30 @@
   "houseSqm": null,
   "plotSqm": 109031,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Panoramic Panthea Residential Field with Stunning Views",
+  "price": 5900000,
+  "priceDisplay": "€5,900,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33427/thumb/6af6b860ecd85.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33427/thumb/6af6b860ecd85.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/panoramic-panthea-residential-field-with-stunning-views-33427",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33427",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 33675,
+  "plotType": "Residential",
   "zone": null
  },
  {
@@ -234679,54 +234703,6 @@
   "houseSqm": null,
   "plotSqm": 960,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Large Field For Sale in Scenic Agios Theodoros",
-  "price": 337000,
-  "priceDisplay": "€337,000",
-  "location": "Cyprus",
-  "district": null,
-  "image": "https://estbd.io/1:8ff481ee/40669/thumb/69ba6277858c3.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/40669/thumb/69ba6277858c3.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/40669",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "40669",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 24532,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Large Field For Sale in Scenic Agios Theodoros",
-  "price": 140000,
-  "priceDisplay": "€140,000",
-  "location": "Cyprus",
-  "district": null,
-  "image": "https://estbd.io/1:8ff481ee/40668/thumb/69ba61e4c1fcf.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/40668/thumb/69ba61e4c1fcf.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/40668",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "40668",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 9374,
-  "plotType": null,
   "zone": null
  },
  {
