@@ -230200,30 +230200,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Two fields - Foini, Limassol",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Cyprus",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:8ff481ee/43294/thumb/6ab7ef9f163fa.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43294/thumb/6ab7ef9f163fa.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43294",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43294",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 14717,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Field - Agios Theodoros (Soleas), Nicosia",
   "price": 37000,
   "priceDisplay": "€37,000",
