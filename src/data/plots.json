@@ -210084,6 +210084,58 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Industrial Land for Long-Term Rent in Pissouri, Limassol",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Limassol, Pissouri",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/22948/thumb/6afc0b97f2db1.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22948/thumb/6afc0b97f2db1.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22948/industrial-land-for-long-term-rent-in-pissouri-limassol",
+  "houseSqm": null,
+  "plotSqm": 17057,
+  "plotType": "Industrial",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22948"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot with Approved Development Project of 7 flats in Mesa Geitonia, Limassol",
+  "price": 980000,
+  "priceDisplay": "€980,000",
+  "location": "Limassol, Mesa Geitonia",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a73d112.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a73d112.jpg",
+   "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a729007.jpg",
+   "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a72d8e0.jpg",
+   "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a743459.jpg",
+   "https://estbd.io/1:3cc426e5/22954/thumb/6afc31a7205b9.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22954/residential-plot-with-approved-development-project-of-7-flats-in-mesa-geitonia-limassol",
+  "houseSqm": null,
+  "plotSqm": 525,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22954"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Agricultural Land in Kato Koutrafas, Nicosia",
   "price": 35000,
   "priceDisplay": "€35,000",
@@ -210185,8 +210237,9 @@
   "priceDisplay": "€3,200,000",
   "location": "Nicosia, Strovolos",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/22839/thumb/6af42eeaec20c.jpg",
+  "image": "https://estbd.io/1:3cc426e5/22839/thumb/6afc03f92a7bc.jpg",
   "images": [
+   "https://estbd.io/1:3cc426e5/22839/thumb/6afc03f92a7bc.jpg",
    "https://estbd.io/1:3cc426e5/22839/thumb/6af42eeaec20c.jpg"
   ],
   "link": "https://kadis.com.cy/property-22839/development-land-in-strovolos-along-pedieos-linear-park",
@@ -220045,30 +220098,6 @@
   "ref": "11250"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot of 667m2 in Parissinos area",
-  "price": 400000,
-  "priceDisplay": "€400,000",
-  "location": "Egkomi, Egkomi Parissinos",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11412/thumb/67f79c481f10f.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11412/thumb/67f79c481f10f.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11412/residential-plot-of-667m2-in-parissinos-area",
-  "houseSqm": null,
-  "plotSqm": 667,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11412"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -223546,6 +223575,30 @@
   "houseSqm": null,
   "plotSqm": 9700,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Land in Pachna",
+  "price": 65000,
+  "priceDisplay": "€65,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33475/thumb/6afadf75d3c77.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33475/thumb/6afadf75d3c77.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/land-in-pachna-33475",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33475",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4683,
+  "plotType": null,
   "zone": null
  },
  {
@@ -228854,30 +228907,6 @@
  },
  {
   "source": "Kazo Real Estate",
-  "title": "Large Development Land for Sale in Agia Zoni",
-  "price": 2800000,
-  "priceDisplay": "€2,800,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/28061/thumb/6af57213d41bc.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/28061/thumb/6af57213d41bc.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-agia-zoni-28061",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28061",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 898,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
   "title": "Expansive Industrial Development Land in Kato Polemidia",
   "price": 2900000,
   "priceDisplay": "€2,900,000",
@@ -229066,6 +229095,30 @@
   "houseSqm": null,
   "plotSqm": 21777,
   "plotType": "Industrial",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Prime Land in Pegeia",
+  "price": 3450000,
+  "priceDisplay": "€3,450,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/33467/thumb/6afacc5b1741e.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33467/thumb/6afacc5b1741e.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/prime-land-in-pegeia-33467",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33467",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 17000,
+  "plotType": null,
   "zone": null
  },
  {
