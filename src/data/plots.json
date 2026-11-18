@@ -224808,9 +224808,9 @@
   "priceDisplay": "€95,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg",
+  "image": "https://estbd.io/1:0e5c2d14/32968/thumb/6afd4d68de58e.jpg",
   "images": [
-   "https://estbd.io/1:0e5c2d14/32968/thumb/6ab27d1f28c0b.jpg"
+   "https://estbd.io/1:0e5c2d14/32968/thumb/6afd4d68de58e.jpg"
   ],
   "link": "https://kazo.com.cy/properties/expansive-agricultural-field-in-apesia-32968",
   "beds": null,
@@ -235361,7 +235361,7 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "PRIME HOTEL DEVELOPMENT PLOT \\u2013 LARNACA CITY CENTRE (St. Lazarus Area)",
+  "title": "READY LICENSED  HOTEL DEVELOPMENT PLOT \\u2013 LARNACA CITY CENTRE (St. Lazarus Area)",
   "price": 1500000,
   "priceDisplay": "€1,500,000",
   "location": "Cyprus",
@@ -252781,30 +252781,6 @@
   "houseSqm": null,
   "plotSqm": 73059,
   "plotType": "Tourist",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "140% Building Density Residential Building Plot in Nicosia - Agios Antonios, Nicosia",
-  "price": 780000,
-  "priceDisplay": "€780,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/2016/thumb/65bf260247be6.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/2016/thumb/65bf260247be6.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/2016",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "2016",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 704,
-  "plotType": "Residential",
   "zone": null
  },
  {
