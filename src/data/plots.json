@@ -227184,9 +227184,9 @@
   "priceDisplay": "€390,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/33197/thumb/6ad619a8d478d.jpg",
+  "image": "https://estbd.io/1:0e5c2d14/33197/thumb/6afdc58e99eac.jpg",
   "images": [
-   "https://estbd.io/1:0e5c2d14/33197/thumb/6ad619a8d478d.jpg"
+   "https://estbd.io/1:0e5c2d14/33197/thumb/6afdc58e99eac.jpg"
   ],
   "link": "https://kazo.com.cy/properties/spacious-residential-land-in-pyrgos-limassol-33197",
   "beds": null,
@@ -229339,6 +229339,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Development Land for Sale in Zakaki District",
+  "price": 4000000,
+  "priceDisplay": "€4,000,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/30258/thumb/69b3e12e28bdb.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/30258/thumb/69b3e12e28bdb.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-zakaki-district-30258",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "30258",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 4700,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large 87627m2 Field for Sale in Palodeia (Landlocked)",
   "price": 4350000,
   "priceDisplay": "€4,350,000",
@@ -229862,30 +229886,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 1477,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Geri, Nicosia",
-  "price": 60000,
-  "priceDisplay": "€60,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/43775/thumb/6af4a2b9f3745.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43775/thumb/6af4a2b9f3745.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43775",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43775",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 4051,
   "plotType": null,
   "zone": null
  },
@@ -231302,30 +231302,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 13379,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Akaki, Nicosia",
-  "price": 112000,
-  "priceDisplay": "€112,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/43262/thumb/6ab3e6309f04e.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43262/thumb/6ab3e6309f04e.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43262",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43262",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
   "plotType": null,
   "zone": null
  },
@@ -240324,30 +240300,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 8528,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field (Share) - Dali, Nicosia",
-  "price": 14000,
-  "priceDisplay": "€14,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/38135/thumb/68810c0796cf2.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/38135/thumb/68810c0796cf2.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/38135",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "38135",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3464,
   "plotType": null,
   "zone": null
  },
