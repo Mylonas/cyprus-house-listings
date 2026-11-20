@@ -210288,7 +210288,7 @@
   "image": "https://estbd.io/1:3cc426e5/22839/thumb/6afc03f92a7bc.jpg",
   "images": [
    "https://estbd.io/1:3cc426e5/22839/thumb/6afc03f92a7bc.jpg",
-   "https://estbd.io/1:3cc426e5/22839/thumb/6af42eeaec20c.jpg"
+   "https://estbd.io/1:3cc426e5/22839/thumb/6b000ed848d52.jpg"
   ],
   "link": "https://kadis.com.cy/property-22839/development-land-in-strovolos-along-pedieos-linear-park",
   "houseSqm": null,
@@ -210305,16 +210305,17 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Residential Plot in Strovolos along Pedieos Linear Park",
+  "title": "Residential Plot 563m2 in Strovolos along Pedieos Linear Park",
   "price": 425000,
   "priceDisplay": "€425,000",
   "location": "Nicosia, Strovolos",
   "district": "Nicosia",
   "image": "https://estbd.io/1:3cc426e5/22836/thumb/6af42d8cb53d7.jpg",
   "images": [
-   "https://estbd.io/1:3cc426e5/22836/thumb/6af42d8cb53d7.jpg"
+   "https://estbd.io/1:3cc426e5/22836/thumb/6af42d8cb53d7.jpg",
+   "https://estbd.io/1:3cc426e5/22836/thumb/6b001702883fe.jpg"
   ],
-  "link": "https://kadis.com.cy/property-22836/residential-plot-in-strovolos-along-pedieos-linear-park",
+  "link": "https://kadis.com.cy/property-22836/residential-plot-563m2-in-strovolos-along-pedieos-linear-park",
   "houseSqm": null,
   "plotSqm": 563,
   "plotType": "Residential",
@@ -210329,16 +210330,17 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Residential Plot in Strovolos along Pedieos Linear Park",
+  "title": "Residential Plot 547m2 in Strovolos along Pedieos Linear Park",
   "price": 415000,
   "priceDisplay": "€415,000",
   "location": "Nicosia, Strovolos",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/22831/thumb/6af42d7a771be.jpg",
+  "image": "https://estbd.io/1:3cc426e5/22831/thumb/6b0016fa135ac.jpg",
   "images": [
+   "https://estbd.io/1:3cc426e5/22831/thumb/6b0016fa135ac.jpg",
    "https://estbd.io/1:3cc426e5/22831/thumb/6af42d7a771be.jpg"
   ],
-  "link": "https://kadis.com.cy/property-22831/residential-plot-in-strovolos-along-pedieos-linear-park",
+  "link": "https://kadis.com.cy/property-22831/residential-plot-547m2-in-strovolos-along-pedieos-linear-park",
   "houseSqm": null,
   "plotSqm": 547,
   "plotType": "Residential",
@@ -223795,6 +223797,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Expansive Protection Zone Field in Dierona",
+  "price": 67000,
+  "priceDisplay": "€67,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33619/thumb/6b00397f42887.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33619/thumb/6b00397f42887.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/expansive-protection-zone-field-in-dierona-33619",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33619",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8027,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Residential Field in Skarinou, Larnaca",
   "price": 69000,
   "priceDisplay": "€69,000",
@@ -226118,6 +226144,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 15720,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Residential Land for Sale in Eptagoneia",
+  "price": 180000,
+  "priceDisplay": "€180,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/5565/thumb/6b0035c3169a4.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/5565/thumb/6b0035c3169a4.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-land-for-sale-in-eptagoneia-sl13741",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "5565",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 7840,
   "plotType": "Residential",
   "zone": null
  },
@@ -228619,6 +228669,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Expansive Agricultural Field with Sea Views in Prastio Avdimou",
+  "price": 1900000,
+  "priceDisplay": "€1,900,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33613/thumb/6b001e4959184.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33613/thumb/6b001e4959184.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/expansive-agricultural-field-with-sea-views-in-prastio-avdimou-33613",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33613",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 23060,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Mandria Field for Sale 19064 m2 (Landlocked)",
   "price": 1900000,
   "priceDisplay": "€1,900,000",
@@ -229791,6 +229865,54 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Residential Land in Kato Pyrgos",
+  "price": 475000,
+  "priceDisplay": "€475,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/43879/thumb/6b000cc165820.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43879/thumb/6b000cc165820.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43879",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43879",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 5198,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Field - Vasa Kellakiou, Limassol",
+  "price": 41000,
+  "priceDisplay": "€41,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/43847/thumb/6afe0e7a89ebd.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43847/thumb/6afe0e7a89ebd.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43847",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43847",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": null,
+  "plotType": null,
   "zone": null
  },
  {
@@ -253193,6 +253315,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Building Plot For Sale in Ayios Athanasios , Limassol.",
+  "price": 565000,
+  "priceDisplay": "€565,000",
+  "location": "Limassol, Agios Athanasios",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:1e4b4ca5/59388/thumb/6af420883a994.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/59388/thumb/6af420883a994.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-59425/plot-for-sale-in-laiki-sporting-in-latsia-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "59425",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 786,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Plot For Sale in Laiki Sporting in Latsia Nicosia.",
   "price": 220000,
   "priceDisplay": "€220,000",
@@ -253202,13 +253348,13 @@
   "images": [
    "https://estbd.io/1:1e4b4ca5/59425/thumb/6afeaf8dc5884.jpg"
   ],
-  "link": "https://nchrealestate.com/property-59427/under-division-corner-plot-for-sale-in-latsia-nicosia",
+  "link": "https://nchrealestate.com/property-59416/under-division-plots-for-sale-in-latsia",
   "beds": null,
   "baths": null,
   "posted": null,
   "postedTs": null,
   "buildYear": null,
-  "ref": "59427",
+  "ref": "59416",
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 940,
