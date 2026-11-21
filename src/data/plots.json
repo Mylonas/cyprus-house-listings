@@ -228309,6 +228309,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Development Land in Pyrgos",
+  "price": 1200000,
+  "priceDisplay": "€1,200,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/33622/thumb/6b020ebd7d393.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33622/thumb/6b020ebd7d393.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/development-land-in-pyrgos-33622",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33622",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 10535,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Agricultural Land Parcel in Pareklissia",
   "price": 1200000,
   "priceDisplay": "€1,200,000",
