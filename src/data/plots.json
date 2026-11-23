@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Land in Analiontas, Nicosia",
+  "price": 185000,
+  "priceDisplay": "€185,000",
+  "location": "Nicosia, Analiontas",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/14479/thumb/68ecf28c95a2f.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/14479/thumb/68ecf28c95a2f.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-14479/residential-land-in-analiontas-nicosia",
+  "houseSqm": null,
+  "plotSqm": 3345,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "14479"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Germasogeia, Limassol",
   "price": 440000,
   "priceDisplay": "€440,000",
@@ -211463,6 +211487,30 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "22109"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot in Perivolia, Larnaca",
+  "price": 125000,
+  "priceDisplay": "€125,000",
+  "location": "Larnaca, Perivolia",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:3cc426e5/22066/thumb/6ac48fee6096e.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22066/thumb/6ac48fee6096e.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22066/residential-plot-in-perivolia-larnaca",
+  "houseSqm": null,
+  "plotSqm": 551,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22066"
  },
  {
   "source": "Kadis Estates",
@@ -214498,30 +214546,6 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Residential Plot next to Green Area in Protaras close to Marina",
-  "price": 885000,
-  "priceDisplay": "€885,000",
-  "location": "Famagusta, Protaras",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:3cc426e5/17891/thumb/69c6363991a89.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/17891/thumb/69c6363991a89.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-17891/residential-plot-next-to-green-area-in-protaras-close-to-marina",
-  "houseSqm": null,
-  "plotSqm": 2264,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "17891"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
   "title": "Building Plot in Agia Fyla with Seaview",
   "price": null,
   "priceDisplay": null,
@@ -214542,30 +214566,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "17841"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Plot next to Green Area in Protaras close to Marina",
-  "price": 2380000,
-  "priceDisplay": "€2,380,000",
-  "location": "Famagusta, Protaras",
-  "district": "Famagusta",
-  "image": "https://estbd.io/1:3cc426e5/17824/thumb/69c13876a314d.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/17824/thumb/69c13876a314d.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-17824/residential-plot-next-to-green-area-in-protaras-close-to-marina",
-  "houseSqm": null,
-  "plotSqm": 5992,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "17824"
  },
  {
   "source": "Kadis Estates",
@@ -220098,6 +220098,30 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "11363"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Building Plot in Pera Chorio",
+  "price": 105000,
+  "priceDisplay": "€105,000",
+  "location": "Nicosia, Pera Chorio / Nisou",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/11360/thumb/67f787046ac0f.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/11360/thumb/67f787046ac0f.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-11360/residential-building-plot-in-pera-chorio",
+  "houseSqm": null,
+  "plotSqm": 482,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "11360"
  },
  {
   "source": "Kazo Real Estate",
@@ -228981,6 +229005,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Seafront Plot in Zygi with plans for 2 Villas and division submitted for planning permit",
+  "price": 2700000,
+  "priceDisplay": "€2,700,000",
+  "location": "Larnaca",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:0e5c2d14/27340/thumb/6892fd72787f5.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/27340/thumb/6892fd72787f5.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-seafront-plot-in-zygi-with-plans-for-2-villas-and-division-submitted-for-planning-permit-27340",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "27340",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2888,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large 55185 m2 Field for Sale in Palodeia (Landlocked)",
   "price": 2750000,
   "priceDisplay": "€2,750,000",
@@ -229797,6 +229845,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large Zakaki Development Land Plot for Sale",
+  "price": 11000000,
+  "priceDisplay": "€11,000,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/5503/thumb/68cacd6573193.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/5503/thumb/68cacd6573193.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-zakaki-development-land-plot-for-sale-sl15778",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "5503",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8000,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Large Seafront Development Land For Sale Pyla",
   "price": 15300000,
   "priceDisplay": "€15,300,000",
@@ -229888,6 +229960,54 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 55854,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Agricultural Land in Tseri",
+  "price": 145000,
+  "priceDisplay": "€145,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/43888/thumb/6b040119cb0ea.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43888/thumb/6b040119cb0ea.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43888",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43888",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 9839,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Residential Land with Commercial Building in Platanistassa",
+  "price": 140000,
+  "priceDisplay": "€140,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/43886/thumb/6b03fba150fa3.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43886/thumb/6b03fba150fa3.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43886",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43886",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1524,
   "plotType": "Residential",
   "zone": null
  },
@@ -254155,30 +254275,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Development Land For Sale in Ayios Tychonas , Limassol",
-  "price": 2500000,
-  "priceDisplay": "€2,500,000",
-  "location": "Limassol, Agios Tychonas",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/57955/thumb/69b7e74fdcf98.jpg",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/57955/thumb/69b7e74fdcf98.jpg"
-  ],
-  "link": "https://nchrealestate.com/property-57948/development-plot-for-sale-in-zakaki-limassol",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "57948",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3386,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Mixed Use Land For Sale In Latsia, Nicosia",
   "price": 1500000,
   "priceDisplay": "€1,500,000",
@@ -254318,30 +254414,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 14047,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
-  "title": "Plot For Sale in Lakatamia, Nicosia",
-  "price": 145000,
-  "priceDisplay": "€145,000",
-  "location": "Nicosia, Lakatamia",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/57180/thumb/693012f89dd62.jpg",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/57180/thumb/693012f89dd62.jpg"
-  ],
-  "link": "https://nchrealestate.com/property-57171/half-plot-for-sale-in-american-heart-hospital-strovolos-nicosia",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "57171",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 700,
   "plotType": null,
   "zone": null
  },
@@ -254582,6 +254654,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 353,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Residential Plot For Sale in Athienou, Larnaca",
+  "price": 69500,
+  "priceDisplay": "€69,500",
+  "location": "Larnaca, Athienou",
+  "district": "Larnaca",
+  "image": "https://estbd.io/1:1e4b4ca5/55632/thumb/6839aca86a27e.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/55632/thumb/6839aca86a27e.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-55584/residential-plot-for-sale-in-geri-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "55584",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 525,
   "plotType": null,
   "zone": null
  },
@@ -254868,6 +254964,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 912,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Commercial Plot For Sale in Agios Ioannis, Limassol",
+  "price": 1090000,
+  "priceDisplay": "€1,090,000",
+  "location": "Limassol, Agios Ioannis",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:1e4b4ca5/54096/thumb/6724953fd0ee2.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/54096/thumb/6724953fd0ee2.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-54373/land-for-sale-in-souni-zanatzia-limassol",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "54373",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 536,
   "plotType": null,
   "zone": null
  },
@@ -255161,6 +255281,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Residential plot for sale in Sia, Nicosia.",
+  "price": 2000000,
+  "priceDisplay": "€2,000,000",
+  "location": "Nicosia, Sia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/51003/thumb/65afb5840e3f2.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/51003/thumb/65afb5840e3f2.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-50932/plot-for-sale-in-agia-varvara-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "50932",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 28429,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Residential Field in a quiet residential area in Analiontas village in the District of Nicosia",
   "price": 176000,
   "priceDisplay": "€176,000",
@@ -255401,30 +255545,6 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Residential Plot For Sale in Trimiklini, Limassol",
-  "price": 105000,
-  "priceDisplay": "€105,000",
-  "location": "Limassol, Trimiklini",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:1e4b4ca5/48669/thumb/65c13bb29f44a.jpg",
-  "images": [
-   "https://estbd.io/1:1e4b4ca5/48669/thumb/65c13bb29f44a.jpg"
-  ],
-  "link": "https://nchrealestate.com/property-48262/plot-for-sale-in-agios-theodoros-larnaka",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "48262",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 700,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "NCH Real Estate",
   "title": "Plot For Sale in Agios Theodoros, Larnaka",
   "price": 325000,
   "priceDisplay": "€325,000",
@@ -255564,6 +255684,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 530,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Residential plot for sale in Platy Aglantzia, Nicosia",
+  "price": 460000,
+  "priceDisplay": "€460,000",
+  "location": "Nicosia, Aglantzia - Platy",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/44813/thumb/65c12d0e8144c.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/44813/thumb/65c12d0e8144c.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-44611/fields-and-a-farm-in-analiontas-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "44611",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 741,
   "plotType": null,
   "zone": null
  },
