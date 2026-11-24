@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Residential Plot in Panagia/Pallouriotissa",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Nicosia, Palouriotissa / Panagia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/21691/thumb/6ab0de5b55f44.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/21691/thumb/6ab0de5b55f44.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-21691/residential-plot-in-panagiapallouriotissa",
+  "houseSqm": null,
+  "plotSqm": 595,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "21691"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Land in Analiontas, Nicosia",
   "price": 185000,
   "priceDisplay": "€185,000",
@@ -220100,30 +220124,6 @@
   "ref": "11363"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Building Plot in Pera Chorio",
-  "price": 105000,
-  "priceDisplay": "€105,000",
-  "location": "Nicosia, Pera Chorio / Nisou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11360/thumb/67f787046ac0f.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11360/thumb/67f787046ac0f.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11360/residential-building-plot-in-pera-chorio",
-  "houseSqm": null,
-  "plotSqm": 482,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11360"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -229893,6 +229893,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Prime Commercial Development Land in Trypiotis, Nicosia",
+  "price": 16250000,
+  "priceDisplay": "€16,250,000",
+  "location": "Nicosia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:0e5c2d14/33634/thumb/6b05799cd6ff8.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/33634/thumb/6b05799cd6ff8.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/prime-commercial-development-land-in-trypiotis-nicosia-33634",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "33634",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2350,
+  "plotType": "Commercial",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Sea View Touristc Housing Development Project Field for Sale in Pissouri",
   "price": 18000000,
   "priceDisplay": "€18,000,000",
@@ -229960,6 +229984,54 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 55854,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Agricultural Field with Road Access in Gourri",
+  "price": 25000,
+  "priceDisplay": "€25,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/43896/thumb/6b053fd002f7c.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43896/thumb/6b053fd002f7c.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43896",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43896",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2000,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Residential Land in Gourri",
+  "price": 55000,
+  "priceDisplay": "€55,000",
+  "location": "Cyprus",
+  "district": null,
+  "image": "https://estbd.io/1:8ff481ee/43893/thumb/6b053e0e6b985.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43893/thumb/6b053e0e6b985.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43893",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43893",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2639,
   "plotType": "Residential",
   "zone": null
  },
