@@ -210084,6 +210084,30 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
+  "title": "Commercial Plot in Agios Antonios, Nicosia",
+  "price": null,
+  "priceDisplay": null,
+  "location": "Nicosia, Agios Antonios",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/22955/thumb/6afc334f1c4c0.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/22955/thumb/6afc334f1c4c0.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-22955/commercial-plot-in-agios-antonios-nicosia",
+  "houseSqm": null,
+  "plotSqm": 650,
+  "plotType": "Commercial",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "22955"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
   "title": "Residential Plot in Panagia/Pallouriotissa",
   "price": null,
   "priceDisplay": null,
@@ -223365,6 +223389,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large 6689m2 Field for Sale in Apsiou Village",
+  "price": 55000,
+  "priceDisplay": "€55,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/5571/thumb/69a7f0382dad0.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/5571/thumb/69a7f0382dad0.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-6689m2-field-for-sale-in-apsiou-village-sl13783",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "5571",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6689,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Residential field in Pera, Nicosia",
   "price": 57000,
   "priceDisplay": "€57,000",
@@ -223768,30 +223816,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 4348,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large 6689m2 Field for Sale in Apsiou Village",
-  "price": 65000,
-  "priceDisplay": "€65,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/5571/thumb/69a7f0382dad0.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/5571/thumb/69a7f0382dad0.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/large-6689m2-field-for-sale-in-apsiou-village-sl13783",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "5571",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 6689,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -226702,13 +226726,13 @@
  {
   "source": "Kazo Real Estate",
   "title": "Large 6355m2 Field for Sale in Apesia Village (Landlocked)",
-  "price": 270000,
-  "priceDisplay": "€270,000",
+  "price": 260000,
+  "priceDisplay": "€260,000",
   "location": "Limassol",
   "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/5566/thumb/69452e67806e3.jpg",
+  "image": "https://estbd.io/1:0e5c2d14/5566/thumb/69452e6771d40.jpg",
   "images": [
-   "https://estbd.io/1:0e5c2d14/5566/thumb/69452e67806e3.jpg"
+   "https://estbd.io/1:0e5c2d14/5566/thumb/69452e6771d40.jpg"
   ],
   "link": "https://kazo.com.cy/properties/large-6355m2-field-for-sale-in-apesia-village-(landlocked)-sl13771",
   "beds": null,
@@ -226721,6 +226745,30 @@
   "houseSqm": null,
   "plotSqm": 6355,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Development Plot for Sale in Nea Dimmata",
+  "price": 275000,
+  "priceDisplay": "€275,000",
+  "location": "Paphos",
+  "district": "Paphos",
+  "image": "https://estbd.io/1:0e5c2d14/29585/thumb/697732cd4a294.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/29585/thumb/697732cd4a294.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-plot-for-sale-in-nea-dimmata-29585",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "29585",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1824,
+  "plotType": null,
   "zone": null
  },
  {
@@ -227493,6 +227541,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Residential Land in Agia Fyla, Limassol, Cyprus",
+  "price": 470000,
+  "priceDisplay": "€470,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/21472/thumb/67fca5955839a.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/21472/thumb/67fca5955839a.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/residential-land-in-agia-fyla-limassol-cyprus-21472",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "21472",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 2342,
+  "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Residential Land for Sale in Laneia Village",
   "price": 470000,
   "priceDisplay": "€470,000",
@@ -227801,6 +227873,30 @@
   "houseSqm": null,
   "plotSqm": 17040,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Industrial Development Land in Ypsonas, Agios Sylas",
+  "price": 590000,
+  "priceDisplay": "€590,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/5634/thumb/6a8414c85fddb.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/5634/thumb/6a8414c85fddb.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/industrial-development-land-in-ypsonas-agios-sylas-sl14770",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "5634",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3390,
+  "plotType": "Industrial",
   "zone": null
  },
  {
@@ -230086,8 +230182,8 @@
  {
   "source": "Cyprus Properties",
   "title": "Residential Land in Kato Pyrgos",
-  "price": 475000,
-  "priceDisplay": "€475,000",
+  "price": 500000,
+  "priceDisplay": "€500,000",
   "location": "Cyprus",
   "district": "Limassol",
   "image": "https://estbd.io/1:8ff481ee/43879/thumb/6b000cc165820.jpg",
@@ -230103,7 +230199,7 @@
   "ref": "43879",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 5198,
+  "plotSqm": 6913,
   "plotType": "Residential",
   "zone": null
  },
@@ -233897,6 +233993,30 @@
   "houseSqm": null,
   "plotSqm": 537,
   "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Prime Industrial Property with Highway Exposure in Latsia, Nicosia",
+  "price": 1200000,
+  "priceDisplay": "€1,200,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/41542/thumb/6a0b0e225b7d4.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/41542/thumb/6a0b0e225b7d4.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/41542",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "41542",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 6894,
+  "plotType": "Industrial",
   "zone": null
  },
  {
