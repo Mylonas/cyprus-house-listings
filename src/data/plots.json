@@ -230205,30 +230205,6 @@
  },
  {
   "source": "Cyprus Properties",
-  "title": "Field - Vasa Kellakiou, Limassol",
-  "price": 41000,
-  "priceDisplay": "€41,000",
-  "location": "Cyprus",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:8ff481ee/43847/thumb/6afe0e7a89ebd.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43847/thumb/6afe0e7a89ebd.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43847",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43847",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
-  "plotType": null,
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
   "title": "Two Commercial-Zoned Parcels in Latsia, Nicosia",
   "price": 250000,
   "priceDisplay": "€250,000",
@@ -231929,30 +231905,6 @@
   "houseSqm": null,
   "plotSqm": 7693,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field \\u2013 Pedoulas, Nicosia",
-  "price": 30000,
-  "priceDisplay": "€30,000",
-  "location": "Cyprus",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:8ff481ee/43062/thumb/6aa10e95e5a45.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/43062/thumb/6aa10e95e5a45.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/43062",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "43062",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 623,
-  "plotType": null,
   "zone": null
  },
  {
@@ -235983,30 +235935,6 @@
   "houseSqm": null,
   "plotSqm": 4032,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Cyprus Properties",
-  "title": "Field - Ineia, Paphos",
-  "price": 110000,
-  "priceDisplay": "€110,000",
-  "location": "Cyprus",
-  "district": "Paphos",
-  "image": "https://estbd.io/1:8ff481ee/40118/thumb/697fbb5f6373f.jpg",
-  "images": [
-   "https://estbd.io/1:8ff481ee/40118/thumb/697fbb5f6373f.jpg"
-  ],
-  "link": "https://www.cyprusproperties.com.cy/property/40118",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "40118",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": null,
-  "plotType": null,
   "zone": null
  },
  {
