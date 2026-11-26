@@ -210084,7 +210084,55 @@
  {
   "source": "Kadis Estates",
   "kind": "plot",
-  "title": "Commercial Plot in Agios Antonios, Nicosia",
+  "title": "Half Residential Land in Parekklisia, Limassol",
+  "price": 375000,
+  "priceDisplay": "€375,000",
+  "location": "Limassol, Pareklissia",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:3cc426e5/20083/thumb/6ab1280213164.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/20083/thumb/6ab1280213164.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-20083/half-residential-land-in-parekklisia-limassol",
+  "houseSqm": null,
+  "plotSqm": 3344,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20083"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Residential Plot in Lakatamia, Nicosia",
+  "price": 230000,
+  "priceDisplay": "€230,000",
+  "location": "Nicosia, Lakatameia",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:3cc426e5/23156/thumb/6b07fdb7e1cc1.jpg",
+  "images": [
+   "https://estbd.io/1:3cc426e5/23156/thumb/6b07fdb7e1cc1.jpg"
+  ],
+  "link": "https://kadis.com.cy/property-23156/residential-plot-in-lakatamia-nicosia",
+  "houseSqm": null,
+  "plotSqm": 837,
+  "plotType": "Residential",
+  "zone": null,
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "23156"
+ },
+ {
+  "source": "Kadis Estates",
+  "kind": "plot",
+  "title": "Commercial Plot in Agios Antonios close to Pindarou, Nicosia",
   "price": null,
   "priceDisplay": null,
   "location": "Nicosia, Agios Antonios",
@@ -210093,7 +210141,7 @@
   "images": [
    "https://estbd.io/1:3cc426e5/22955/thumb/6afc334f1c4c0.jpg"
   ],
-  "link": "https://kadis.com.cy/property-22955/commercial-plot-in-agios-antonios-nicosia",
+  "link": "https://kadis.com.cy/property-22955/commercial-plot-in-agios-antonios-close-to-pindarou-nicosia",
   "houseSqm": null,
   "plotSqm": 650,
   "plotType": "Commercial",
@@ -212861,30 +212909,6 @@
   "postedTs": null,
   "buildYear": null,
   "ref": "20135"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Half Residential Land in Parekklisia, Limassol",
-  "price": 375000,
-  "priceDisplay": "€375,000",
-  "location": "Limassol, Pareklissia",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:3cc426e5/20083/thumb/6ab1280213164.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/20083/thumb/6ab1280213164.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-20083/half-residential-land-in-parekklisia-limassol",
-  "houseSqm": null,
-  "plotSqm": 3344,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "20083"
  },
  {
   "source": "Kadis Estates",
@@ -220100,54 +220124,6 @@
   "ref": "11118"
  },
  {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Building Plot in Kaimakli",
-  "price": 115000,
-  "priceDisplay": "€115,000",
-  "location": "Nicosia, Kaimakli",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11265/thumb/6972327279c4b.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11265/thumb/6972327279c4b.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11265/residential-building-plot-in-kaimakli",
-  "houseSqm": null,
-  "plotSqm": 284,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11265"
- },
- {
-  "source": "Kadis Estates",
-  "kind": "plot",
-  "title": "Residential Building Plot in Pera Chorio",
-  "price": 115000,
-  "priceDisplay": "€115,000",
-  "location": "Nicosia, Pera Chorio / Nisou",
-  "district": "Nicosia",
-  "image": "https://estbd.io/1:3cc426e5/11363/thumb/67f7818f99c69.jpg",
-  "images": [
-   "https://estbd.io/1:3cc426e5/11363/thumb/67f7818f99c69.jpg"
-  ],
-  "link": "https://kadis.com.cy/property-11363/residential-building-plot-in-pera-chorio",
-  "houseSqm": null,
-  "plotSqm": 521,
-  "plotType": "Residential",
-  "zone": null,
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "11363"
- },
- {
   "source": "Kazo Real Estate",
   "title": "(Share) Agricultural Field in Vavatsinia, Larnaca",
   "price": 2000,
@@ -224541,6 +224517,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Agricultural Land Parcel for Sale in Foinikaria Village (Landlocked)",
+  "price": 80000,
+  "priceDisplay": "€80,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/20697/thumb/6b07ec44a94da.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/20697/thumb/6b07ec44a94da.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/agricultural-land-parcel-for-sale-in-foinikaria-village-(landlocked)-sl20697",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "20697",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3679,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Two Agricultural Parcels for Sale in Kallepia, Paphos",
   "price": 85000,
   "priceDisplay": "€85,000",
@@ -225065,30 +225065,6 @@
   "houseSqm": null,
   "plotSqm": 31101,
   "plotType": "Residential",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Agricultural Land Parcel for Sale in Foinikaria Village (Landlocked)",
-  "price": 100000,
-  "priceDisplay": "€100,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/20697/thumb/65f441ed28115.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/20697/thumb/65f441ed28115.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/agricultural-land-parcel-for-sale-in-foinikaria-village-(landlocked)-sl20697",
-  "beds": null,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "20697",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 3679,
-  "plotType": "Agricultural",
   "zone": null
  },
  {
@@ -225737,6 +225713,30 @@
   "houseSqm": null,
   "plotSqm": 7024,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Development Land for Sale in Kellaki Village",
+  "price": 135000,
+  "priceDisplay": "€135,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/28135/thumb/68dfd3e3e25c7.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/28135/thumb/68dfd3e3e25c7.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-for-sale-in-kellaki-village-28135",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28135",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 1831,
+  "plotType": null,
   "zone": null
  },
  {
@@ -226989,6 +226989,30 @@
  },
  {
   "source": "Kazo Real Estate",
+  "title": "Large 19660m2 Field with 300 Trees and 2 Bedroom House in Green Arakapas",
+  "price": 310000,
+  "priceDisplay": "€310,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/28136/thumb/68dfd522d757d.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/28136/thumb/68dfd522d757d.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-19660m2-field-with-300-trees-and-2-bedroom-house-in-green-arakapas-28136",
+  "beds": 2,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28136",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 19660,
+  "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
   "title": "Residential Land for Sale in Fasoula, Limassol (Landlocked)",
   "price": 315000,
   "priceDisplay": "€315,000",
@@ -227200,30 +227224,6 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 1250,
-  "plotType": "Agricultural",
-  "zone": null
- },
- {
-  "source": "Kazo Real Estate",
-  "title": "Large 19660m2 Field with 300 Trees and 2 Bedroom House in Green Arakapas",
-  "price": 350000,
-  "priceDisplay": "€350,000",
-  "location": "Limassol",
-  "district": "Limassol",
-  "image": "https://estbd.io/1:0e5c2d14/28136/thumb/68dfd522d757d.jpg",
-  "images": [
-   "https://estbd.io/1:0e5c2d14/28136/thumb/68dfd522d757d.jpg"
-  ],
-  "link": "https://kazo.com.cy/properties/large-19660m2-field-with-300-trees-and-2-bedroom-house-in-green-arakapas-28136",
-  "beds": 2,
-  "baths": null,
-  "posted": null,
-  "postedTs": null,
-  "buildYear": null,
-  "ref": "28136",
-  "kind": "plot",
-  "houseSqm": null,
-  "plotSqm": 19660,
   "plotType": "Agricultural",
   "zone": null
  },
@@ -228401,6 +228401,30 @@
   "houseSqm": null,
   "plotSqm": 20402,
   "plotType": "Agricultural",
+  "zone": null
+ },
+ {
+  "source": "Kazo Real Estate",
+  "title": "Large Development Land Plot for Sale in Pissouri",
+  "price": 1100000,
+  "priceDisplay": "€1,100,000",
+  "location": "Limassol",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:0e5c2d14/28134/thumb/68dfd298e9b50.jpg",
+  "images": [
+   "https://estbd.io/1:0e5c2d14/28134/thumb/68dfd298e9b50.jpg"
+  ],
+  "link": "https://kazo.com.cy/properties/large-development-land-plot-for-sale-in-pissouri-28134",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "28134",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 8362,
+  "plotType": null,
   "zone": null
  },
  {
@@ -230081,6 +230105,78 @@
   "houseSqm": null,
   "plotSqm": 55854,
   "plotType": "Residential",
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Field - Vasa Koilaniou, Limassol",
+  "price": 10000,
+  "priceDisplay": "€10,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/43915/thumb/6b077a1adabfc.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43915/thumb/6b077a1adabfc.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43915",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43915",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 3679,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Field - Vasa Koilaniou, Limassol",
+  "price": 20000,
+  "priceDisplay": "€20,000",
+  "location": "Cyprus",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:8ff481ee/43916/thumb/6b077a233121a.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43916/thumb/6b077a233121a.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43916",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43916",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 5352,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "Cyprus Properties",
+  "title": "Field - Palaiometocho, Nicosia",
+  "price": 45000,
+  "priceDisplay": "€45,000",
+  "location": "Cyprus",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:8ff481ee/43918/thumb/6b077a29d8f3a.jpg",
+  "images": [
+   "https://estbd.io/1:8ff481ee/43918/thumb/6b077a29d8f3a.jpg"
+  ],
+  "link": "https://www.cyprusproperties.com.cy/property/43918",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "43918",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 7814,
+  "plotType": null,
   "zone": null
  },
  {
@@ -253555,6 +253651,30 @@
  },
  {
   "source": "NCH Real Estate",
+  "title": "Residential Plot For Sale In Neapolis, Limassol",
+  "price": 850000,
+  "priceDisplay": "€850,000",
+  "location": "Limassol, Neapolis",
+  "district": "Limassol",
+  "image": "https://estbd.io/1:1e4b4ca5/59492/thumb/6b081008bfbfd.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/59492/thumb/6b081008bfbfd.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-59388/building-plot-for-sale-in-ayios-athanasios-limassol",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "59388",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 313,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
   "title": "Building Plot For Sale in Ayios Athanasios , Limassol.",
   "price": 565000,
   "priceDisplay": "€565,000",
@@ -253771,25 +253891,25 @@
  },
  {
   "source": "NCH Real Estate",
-  "title": "Building Plot For Sale in Dali, Nicosia",
-  "price": 110000,
-  "priceDisplay": "€110,000",
-  "location": "Nicosia, Dali",
+  "title": "Development Land For Sale in Lympia, Nicosia",
+  "price": 95000,
+  "priceDisplay": "€95,000",
+  "location": "Nicosia, Lympia",
   "district": "Nicosia",
-  "image": "https://estbd.io/1:1e4b4ca5/59280/thumb/6ad5e911ea74e.jpg",
+  "image": "https://estbd.io/1:1e4b4ca5/59261/thumb/6ace1df93491a.jpg",
   "images": [
-   "https://estbd.io/1:1e4b4ca5/59280/thumb/6ad5e911ea74e.jpg"
+   "https://estbd.io/1:1e4b4ca5/59261/thumb/6ace1df93491a.jpg"
   ],
-  "link": "https://nchrealestate.com/property-59261/development-land-for-sale-in-lympia-nicosia",
+  "link": "https://nchrealestate.com/property-59260/development-land-for-sale-in-dali-nicosia",
   "beds": null,
   "baths": null,
   "posted": null,
   "postedTs": null,
   "buildYear": null,
-  "ref": "59261",
+  "ref": "59260",
   "kind": "plot",
   "houseSqm": null,
-  "plotSqm": 482,
+  "plotSqm": 3852,
   "plotType": null,
   "zone": null
  },
@@ -254222,6 +254342,30 @@
   "kind": "plot",
   "houseSqm": null,
   "plotSqm": 2680,
+  "plotType": null,
+  "zone": null
+ },
+ {
+  "source": "NCH Real Estate",
+  "title": "Field For Sale in Politiko, Nicosia",
+  "price": 2000,
+  "priceDisplay": "€2,000",
+  "location": "Nicosia, Politiko",
+  "district": "Nicosia",
+  "image": "https://estbd.io/1:1e4b4ca5/58472/thumb/6a2bc26ed4b83.jpg",
+  "images": [
+   "https://estbd.io/1:1e4b4ca5/58472/thumb/6a2bc26ed4b83.jpg"
+  ],
+  "link": "https://nchrealestate.com/property-58471/field-for-sale-in-politiko-nicosia",
+  "beds": null,
+  "baths": null,
+  "posted": null,
+  "postedTs": null,
+  "buildYear": null,
+  "ref": "58471",
+  "kind": "plot",
+  "houseSqm": null,
+  "plotSqm": 440,
   "plotType": null,
   "zone": null
  },
